@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="9" passed="8" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[[2022-10-20 14:58:39,662] Pre-Condition: Step 1: Click on Login link
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2022-10-20 14:58:40,994] Pre-Condition: Step 2: Input to Email textbox with: claretta.bahringer@hotmail.com
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2022-10-20 14:58:41,200] Pre-Condition: Step 3: Input to Email textbox with: %n%gwpzCM
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2022-10-20 14:58:41,394] Pre-Condition: Step 4: Click on Login button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2022-10-20 14:58:42,696] Pre-Condition: Step 5: Verify My Account link display after Login successfull
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2022-10-20 14:58:42,987] Step 1: Click on Search link at footer
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2022-10-20 14:58:43,729] Step 2: Click on Search link at footer
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2022-10-20 14:58:44,209] Step 3: Click on Search link at footer
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2022-10-20 14:58:44,285] Step 1: Click on Search link at footer
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2022-10-20 14:58:44,740] Step 1: Input to Search textbox with data: Macbook Pro 2050
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2022-10-20 14:58:44,930] Step 3: Click on Search link at footer
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2022-10-20 14:58:45,358] Step 4: Verify the message 'No products were found that matched your criteria.' display
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2022-10-20 14:58:45,429] Step 1: Click on Search link at footer
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2022-10-20 14:58:45,865] Step 1: Input to Search textbox with data: Lenovo
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2022-10-20 14:58:46,029] Step 3: Click on Search link at footer
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2022-10-20 14:58:46,548] Step 4: Verify 2 products display
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2022-10-20 14:58:46,675] Step 1: Click on Search link at footer
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2022-10-20 14:58:47,121] Step 1: Input to Search textbox with data: Thinkpad X1 Carbon
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2022-10-20 14:58:47,298] Step 3: Click on Search link at footer
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2022-10-20 14:58:47,767] Step 4: Verify 'Lenovo Thinkpad X1 Carbon Laptop' products display
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2022-10-20 14:58:47,806] Step 1: Click on Search link at footer
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2022-10-20 14:58:48,231] Step 2: Input to Search textbox with data: Apple MacBook Pro
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2022-10-20 14:58:48,406] Step 3: Input to Search textbox with data: Apple MacBook Pro
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2022-10-20 14:58:48,523] Step 4: Select 'Computers' item in category
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2022-10-20 14:58:48,673] Step 5: Click on Search button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2022-10-20 14:58:49,129] Step 6: Verify the message 'No products were found that matched your criteria.' display
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2022-10-20 14:58:49,196] Step 1: Click on Search link at footer
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2022-10-20 14:58:49,662] Step 2: Input to Search textbox with data: Apple MacBook Pro
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2022-10-20 14:58:49,812] Step 3: Click on Advance checkbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2022-10-20 14:58:49,935] Step 4: Select 'Computers' item in category
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2022-10-20 14:58:50,104] Step 5: Click on 'Automatically search sub categories' checkbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2022-10-20 14:58:50,230] Step 6: Click on Search button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2022-10-20 14:58:50,690] Step 7: Verify 'Apple MacBook Pro 13-inch' products display
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2022-10-20 14:58:50,737] Step 1: Click on Search link at footer
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2022-10-20 14:58:51,171] Step 2: Input to Search textbox with data: Apple MacBook Pro
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2022-10-20 14:58:51,345] Step 3: Click on Advance checkbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2022-10-20 14:58:51,464] Step 4: Select 'Computers' item in category
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2022-10-20 14:58:51,647] Step 5: Click on 'Automatically search sub categories' checkbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2022-10-20 14:58:51,768] Step 6: Select 'HP' item in Manufacturer
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2022-10-20 14:58:51,905] Step 7: Click on Search button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2022-10-20 14:58:52,353] Step 8: Verify the message 'No products were found that matched your criteria.' display
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2022-10-20 14:58:52,418] Step 1: Click on Search link at footer
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2022-10-20 14:58:52,854] Step 2: Input to Search textbox with data: Apple MacBook Pro
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2022-10-20 14:58:53,027] Step 3: Click on Advance checkbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2022-10-20 14:58:53,161] Step 4: Select 'Computers' item in category
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2022-10-20 14:58:53,299] Step 5: Click on 'Automatically search sub categories' checkbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2022-10-20 14:58:53,413] Step 6: Select 'HP' item in Manufacturer
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2022-10-20 14:58:53,580] Step 7: Click on Search button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2022-10-20 14:58:54,045] Step 8: Verify 'Apple MacBook Pro 13-inch' products display
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2022-10-20 14:58:54,094] OS name = windows 10
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2022-10-20 14:58:54,094] Driver instance name = chromedriver: chrome on windows (50c195aed0255d130374cb2d70103e7f)
+<br>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-10-20T07:58:26Z" name="NopCommerce" finished-at="2022-10-20T07:58:54Z" duration-ms="28319">
+    <groups>
+    </groups>
+    <test started-at="2022-10-20T07:58:26Z" name="Run on Chorme" finished-at="2022-10-20T07:58:54Z" duration-ms="28319">
+      <class name="hybrid.nopcommerce.commons.Register_Commons">
+        <test-method is-config="true" signature="initBeforeSuite()[pri:0, instance:hybrid.nopcommerce.commons.Register_Commons@31fa1761]" started-at="2022-10-20T07:58:26Z" name="initBeforeSuite" finished-at="2022-10-20T07:58:26Z" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBeforeSuite -->
+        <test-method is-config="true" signature="beforeTest(java.lang.String, java.lang.String)[pri:0, instance:hybrid.nopcommerce.commons.Register_Commons@31fa1761]" started-at="2022-10-20T07:58:26Z" name="beforeTest" finished-at="2022-10-20T07:58:37Z" duration-ms="10474" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[staging]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:hybrid.nopcommerce.commons.Register_Commons@31fa1761]" started-at="2022-10-20T07:58:54Z" name="afterTest" finished-at="2022-10-20T07:58:54Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- hybrid.nopcommerce.commons.Register_Commons -->
+      <class name="hybrid.nopcommerce.user.NopCommerce_Search">
+        <test-method is-config="true" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:hybrid.nopcommerce.user.NopCommerce_Search@957e06]" started-at="2022-10-20T07:58:37Z" name="beforeClass" finished-at="2022-10-20T07:58:42Z" duration-ms="5684" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[staging]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[2022-10-20 14:58:39,662] Pre-Condition: Step 1: Click on Login link
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2022-10-20 14:58:40,994] Pre-Condition: Step 2: Input to Email textbox with: claretta.bahringer@hotmail.com
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2022-10-20 14:58:41,200] Pre-Condition: Step 3: Input to Email textbox with: %n%gwpzCM
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2022-10-20 14:58:41,394] Pre-Condition: Step 4: Click on Login button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2022-10-20 14:58:42,696] Pre-Condition: Step 5: Verify My Account link display after Login successfull
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="TC_01_Search_Empty_Data(java.lang.reflect.Method)[pri:0, instance:hybrid.nopcommerce.user.NopCommerce_Search@957e06]" started-at="2022-10-20T07:58:42Z" name="TC_01_Search_Empty_Data" finished-at="2022-10-20T07:58:44Z" duration-ms="1498" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void hybrid.nopcommerce.user.NopCommerce_Search.TC_01_Search_Empty_Data(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[2022-10-20 14:58:42,987] Step 1: Click on Search link at footer
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2022-10-20 14:58:43,729] Step 2: Click on Search link at footer
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2022-10-20 14:58:44,209] Step 3: Click on Search link at footer
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_01_Search_Empty_Data -->
+        <test-method signature="TC_02_Search_With_Data_Not_Exsit(java.lang.reflect.Method)[pri:0, instance:hybrid.nopcommerce.user.NopCommerce_Search@957e06]" started-at="2022-10-20T07:58:44Z" name="TC_02_Search_With_Data_Not_Exsit" finished-at="2022-10-20T07:58:45Z" duration-ms="1143" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void hybrid.nopcommerce.user.NopCommerce_Search.TC_02_Search_With_Data_Not_Exsit(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[2022-10-20 14:58:44,285] Step 1: Click on Search link at footer
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2022-10-20 14:58:44,740] Step 1: Input to Search textbox with data: Macbook Pro 2050
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2022-10-20 14:58:44,930] Step 3: Click on Search link at footer
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2022-10-20 14:58:45,358] Step 4: Verify the message 'No products were found that matched your criteria.' display
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_02_Search_With_Data_Not_Exsit -->
+        <test-method signature="TC_03_Search_With_Product_Name(java.lang.reflect.Method)[pri:0, instance:hybrid.nopcommerce.user.NopCommerce_Search@957e06]" started-at="2022-10-20T07:58:45Z" name="TC_03_Search_With_Product_Name" finished-at="2022-10-20T07:58:46Z" duration-ms="1244" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void hybrid.nopcommerce.user.NopCommerce_Search.TC_03_Search_With_Product_Name(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[2022-10-20 14:58:45,429] Step 1: Click on Search link at footer
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2022-10-20 14:58:45,865] Step 1: Input to Search textbox with data: Lenovo
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2022-10-20 14:58:46,029] Step 3: Click on Search link at footer
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2022-10-20 14:58:46,548] Step 4: Verify 2 products display
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_03_Search_With_Product_Name -->
+        <test-method signature="TC_04_Search_With_Product_Name(java.lang.reflect.Method)[pri:0, instance:hybrid.nopcommerce.user.NopCommerce_Search@957e06]" started-at="2022-10-20T07:58:46Z" name="TC_04_Search_With_Product_Name" finished-at="2022-10-20T07:58:47Z" duration-ms="1132" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void hybrid.nopcommerce.user.NopCommerce_Search.TC_04_Search_With_Product_Name(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[2022-10-20 14:58:46,675] Step 1: Click on Search link at footer
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2022-10-20 14:58:47,121] Step 1: Input to Search textbox with data: Thinkpad X1 Carbon
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2022-10-20 14:58:47,298] Step 3: Click on Search link at footer
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2022-10-20 14:58:47,767] Step 4: Verify 'Lenovo Thinkpad X1 Carbon Laptop' products display
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_04_Search_With_Product_Name -->
+        <test-method signature="TC_05_Advance_Search_With_Parent_Category(java.lang.reflect.Method)[pri:0, instance:hybrid.nopcommerce.user.NopCommerce_Search@957e06]" started-at="2022-10-20T07:58:47Z" name="TC_05_Advance_Search_With_Parent_Category" finished-at="2022-10-20T07:58:49Z" duration-ms="1389" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void hybrid.nopcommerce.user.NopCommerce_Search.TC_05_Advance_Search_With_Parent_Category(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[2022-10-20 14:58:47,806] Step 1: Click on Search link at footer
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2022-10-20 14:58:48,231] Step 2: Input to Search textbox with data: Apple MacBook Pro
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2022-10-20 14:58:48,406] Step 3: Input to Search textbox with data: Apple MacBook Pro
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2022-10-20 14:58:48,523] Step 4: Select 'Computers' item in category
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2022-10-20 14:58:48,673] Step 5: Click on Search button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2022-10-20 14:58:49,129] Step 6: Verify the message 'No products were found that matched your criteria.' display
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_05_Advance_Search_With_Parent_Category -->
+        <test-method signature="TC_06_Advance_Search_With_Sub_Category(java.lang.reflect.Method)[pri:0, instance:hybrid.nopcommerce.user.NopCommerce_Search@957e06]" started-at="2022-10-20T07:58:49Z" name="TC_06_Advance_Search_With_Sub_Category" finished-at="2022-10-20T07:58:50Z" duration-ms="1540" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void hybrid.nopcommerce.user.NopCommerce_Search.TC_06_Advance_Search_With_Sub_Category(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[2022-10-20 14:58:49,196] Step 1: Click on Search link at footer
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2022-10-20 14:58:49,662] Step 2: Input to Search textbox with data: Apple MacBook Pro
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2022-10-20 14:58:49,812] Step 3: Click on Advance checkbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2022-10-20 14:58:49,935] Step 4: Select 'Computers' item in category
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2022-10-20 14:58:50,104] Step 5: Click on 'Automatically search sub categories' checkbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2022-10-20 14:58:50,230] Step 6: Click on Search button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2022-10-20 14:58:50,690] Step 7: Verify 'Apple MacBook Pro 13-inch' products display
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_06_Advance_Search_With_Sub_Category -->
+        <test-method signature="TC_07_Advance_Search_With_Incorrect_Manufacturer(java.lang.reflect.Method)[pri:0, instance:hybrid.nopcommerce.user.NopCommerce_Search@957e06]" started-at="2022-10-20T07:58:50Z" name="TC_07_Advance_Search_With_Incorrect_Manufacturer" finished-at="2022-10-20T07:58:52Z" duration-ms="1680" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void hybrid.nopcommerce.user.NopCommerce_Search.TC_07_Advance_Search_With_Incorrect_Manufacturer(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[2022-10-20 14:58:50,737] Step 1: Click on Search link at footer
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2022-10-20 14:58:51,171] Step 2: Input to Search textbox with data: Apple MacBook Pro
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2022-10-20 14:58:51,345] Step 3: Click on Advance checkbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2022-10-20 14:58:51,464] Step 4: Select 'Computers' item in category
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2022-10-20 14:58:51,647] Step 5: Click on 'Automatically search sub categories' checkbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2022-10-20 14:58:51,768] Step 6: Select 'HP' item in Manufacturer
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2022-10-20 14:58:51,905] Step 7: Click on Search button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2022-10-20 14:58:52,353] Step 8: Verify the message 'No products were found that matched your criteria.' display
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_07_Advance_Search_With_Incorrect_Manufacturer -->
+        <test-method signature="TC_08_Advands_Search_With_Parent_Category(java.lang.reflect.Method)[pri:0, instance:hybrid.nopcommerce.user.NopCommerce_Search@957e06]" started-at="2022-10-20T07:58:52Z" name="TC_08_Advands_Search_With_Parent_Category" finished-at="2022-10-20T07:58:54Z" duration-ms="1675" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void hybrid.nopcommerce.user.NopCommerce_Search.TC_08_Advands_Search_With_Parent_Category(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[2022-10-20 14:58:52,418] Step 1: Click on Search link at footer
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2022-10-20 14:58:52,854] Step 2: Input to Search textbox with data: Apple MacBook Pro
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2022-10-20 14:58:53,027] Step 3: Click on Advance checkbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2022-10-20 14:58:53,161] Step 4: Select 'Computers' item in category
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2022-10-20 14:58:53,299] Step 5: Click on 'Automatically search sub categories' checkbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2022-10-20 14:58:53,413] Step 6: Select 'HP' item in Manufacturer
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2022-10-20 14:58:53,580] Step 7: Click on Search button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2022-10-20 14:58:54,045] Step 8: Verify 'Apple MacBook Pro 13-inch' products display
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_08_Advands_Search_With_Parent_Category -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:hybrid.nopcommerce.user.NopCommerce_Search@957e06]" started-at="2022-10-20T07:58:54Z" name="afterClass" finished-at="2022-10-20T07:58:54Z" duration-ms="840" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[2022-10-20 14:58:54,094] OS name = windows 10
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2022-10-20 14:58:54,094] Driver instance name = chromedriver: chrome on windows (50c195aed0255d130374cb2d70103e7f)
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- hybrid.nopcommerce.user.NopCommerce_Search -->
+    </test> <!-- Run on Chorme -->
+  </suite> <!-- NopCommerce -->
+</testng-results>

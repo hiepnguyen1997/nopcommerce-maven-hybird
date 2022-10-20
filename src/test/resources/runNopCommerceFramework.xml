@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="NopCommerce">
+
+	<listeners>
+		<listener class-name="commons.MethodListener" />
+		<listener class-name="reportConfig.ExtentTestListener" />
+	</listeners>
+	<parameter name="environment" value="staging" />
+	<test name="Run on Chorme">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="hybrid.nopcommerce.commons.Register_Commons" />
+			<!-- <class name="hybrid.nopcommerce.user.NopCommerce_Login" /> -->
+			<!-- <class name="hybrid.nopcommerce.user.NopCommerce_Register" /> -->
+			<!--<class name="hybrid.nopcommerce.user.NopCommerce_MyAccount" />-->
+			<class name="hybrid.nopcommerce.user.NopCommerce_Search" />
+		</classes>
+	</test>
+</suite>
