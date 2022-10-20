@@ -1,51 +1,6 @@
-[2022-10-20 15:00:18,878] Pre-Condition: Step 1: Click on Login link
-[2022-10-20 15:00:20,639] Pre-Condition: Step 2: Input to Email textbox with: angelo.mertz@gmail.com
-[2022-10-20 15:00:20,821] Pre-Condition: Step 3: Input to Email textbox with: &&64t4%C6
-[2022-10-20 15:00:21,006] Pre-Condition: Step 4: Click on Login button
-[2022-10-20 15:00:21,916] Pre-Condition: Step 5: Verify My Account link display after Login successfull
-[2022-10-20 15:00:22,321] Step 1: Click on Search link at footer
-[2022-10-20 15:00:23,307] Step 2: Click on Search link at footer
-[2022-10-20 15:00:23,801] Step 3: Click on Search link at footer
-[2022-10-20 15:00:23,888] Step 1: Click on Search link at footer
-[2022-10-20 15:00:24,382] Step 1: Input to Search textbox with data: Macbook Pro 2050
-[2022-10-20 15:00:24,703] Step 3: Click on Search link at footer
-[2022-10-20 15:00:25,160] Step 4: Verify the message 'No products were found that matched your criteria.' display
-[2022-10-20 15:00:25,234] Step 1: Click on Search link at footer
-[2022-10-20 15:00:25,685] Step 1: Input to Search textbox with data: Lenovo
-[2022-10-20 15:00:25,850] Step 3: Click on Search link at footer
-[2022-10-20 15:00:26,423] Step 4: Verify 2 products display
-[2022-10-20 15:00:26,545] Step 1: Click on Search link at footer
-[2022-10-20 15:00:27,034] Step 1: Input to Search textbox with data: Thinkpad X1 Carbon
-[2022-10-20 15:00:27,214] Step 3: Click on Search link at footer
-[2022-10-20 15:00:27,696] Step 4: Verify 'Lenovo Thinkpad X1 Carbon Laptop' products display
-[2022-10-20 15:00:27,744] Step 1: Click on Search link at footer
-[2022-10-20 15:00:28,229] Step 2: Input to Search textbox with data: Apple MacBook Pro
-[2022-10-20 15:00:28,410] Step 3: Input to Search textbox with data: Apple MacBook Pro
-[2022-10-20 15:00:28,547] Step 4: Select 'Computers' item in category
-[2022-10-20 15:00:28,722] Step 5: Click on Search button
-[2022-10-20 15:00:29,204] Step 6: Verify the message 'No products were found that matched your criteria.' display
-[2022-10-20 15:00:29,270] Step 1: Click on Search link at footer
-[2022-10-20 15:00:29,747] Step 2: Input to Search textbox with data: Apple MacBook Pro
-[2022-10-20 15:00:29,932] Step 3: Click on Advance checkbox
-[2022-10-20 15:00:30,052] Step 4: Select 'Computers' item in category
-[2022-10-20 15:00:30,215] Step 5: Click on 'Automatically search sub categories' checkbox
-[2022-10-20 15:00:30,344] Step 6: Click on Search button
-[2022-10-20 15:00:30,839] Step 7: Verify 'Apple MacBook Pro 13-inch' products display
-[2022-10-20 15:00:30,883] Step 1: Click on Search link at footer
-[2022-10-20 15:00:31,361] Step 2: Input to Search textbox with data: Apple MacBook Pro
-[2022-10-20 15:00:31,529] Step 3: Click on Advance checkbox
-[2022-10-20 15:00:31,657] Step 4: Select 'Computers' item in category
-[2022-10-20 15:00:31,800] Step 5: Click on 'Automatically search sub categories' checkbox
-[2022-10-20 15:00:31,914] Step 6: Select 'HP' item in Manufacturer
-[2022-10-20 15:00:32,056] Step 7: Click on Search button
-[2022-10-20 15:00:32,559] Step 8: Verify the message 'No products were found that matched your criteria.' display
-[2022-10-20 15:00:32,623] Step 1: Click on Search link at footer
-[2022-10-20 15:00:33,086] Step 2: Input to Search textbox with data: Apple MacBook Pro
-[2022-10-20 15:00:33,282] Step 3: Click on Advance checkbox
-[2022-10-20 15:00:33,412] Step 4: Select 'Computers' item in category
-[2022-10-20 15:00:33,572] Step 5: Click on 'Automatically search sub categories' checkbox
-[2022-10-20 15:00:33,682] Step 6: Select 'HP' item in Manufacturer
-[2022-10-20 15:00:33,832] Step 7: Click on Search button
-[2022-10-20 15:00:34,383] Step 8: Verify 'Apple MacBook Pro 13-inch' products display
-[2022-10-20 15:00:34,437] OS name = windows 10
-[2022-10-20 15:00:34,437] Driver instance name = chromedriver: chrome on windows (c262dfcd48fd9bc7bc7f9674e0b1556e)
+[2022-10-20 16:55:12,258] Step 01: Navigate to Computer/NoteBooks Page
+[2022-10-20 16:55:14,249] Step 02: Select Name: A To Z
+[2022-10-20 16:55:14,411] Step 03: Verify the product name sort correctly
+[2022-10-20 16:55:14,526] Step 01: Navigate to Computer/NoteBooks Page
+[2022-10-20 16:55:15,186] Step 02: Select Name: A To Z
+[2022-10-20 16:55:15,345] Step 03: Verify the product name sort correctly

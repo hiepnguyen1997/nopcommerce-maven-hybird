@@ -517,11 +517,6 @@ public class BasePage {
 		sleepInSecond(3);
 	}
 
-	public void openPageAtMyAccountByPageName(WebDriver driver, String pageName) {
-		waitForElementClickabled(driver, BasePageUINopCommerce.DYNAMIC_PAGE_AT_MY_ACCOUNT_AREA, pageName);
-		clickToElement(driver, BasePageUINopCommerce.DYNAMIC_PAGE_AT_MY_ACCOUNT_AREA, pageName);
-	}
-
 	public UserHomePageObject clickOnLougoutLinkUserPage(WebDriver driver) {
 		waitForElementVisible(driver, BasePageUINopCommerce.LOGOUT_LINK_USER);
 		clickToElement(driver, BasePageUINopCommerce.LOGOUT_LINK_USER);

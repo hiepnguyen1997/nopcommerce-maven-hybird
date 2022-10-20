@@ -11289,3 +11289,28 @@ Driver info: driver.version: RemoteWebDriver
 [2022-10-20 15:00:34,383] Step 8: Verify 'Apple MacBook Pro 13-inch' products display
 [2022-10-20 15:00:34,437] OS name = windows 10
 [2022-10-20 15:00:34,437] Driver instance name = chromedriver: chrome on windows (c262dfcd48fd9bc7bc7f9674e0b1556e)
+[2022-10-20 15:59:01,874] OS name = windows 10
+[2022-10-20 15:59:01,958] Driver instance name = chromedriver: chrome on windows (0f5531025ca71c943980d89c367f6687)
+[2022-10-20 16:00:38,139] OS name = windows 10
+[2022-10-20 16:00:38,140] Driver instance name = chromedriver: chrome on windows (b64f5f242c53de60314b1cdfee4f558c)
+[2022-10-20 16:02:51,384] OS name = windows 10
+[2022-10-20 16:02:51,385] Driver instance name = chromedriver: chrome on windows (1e9ee91ff1aa724161b7eb6e5abce700)
+[2022-10-20 16:13:03,037] Step 01: Navigate to Computer/NoteBooks Page
+[2022-10-20 16:13:03,039] Step 01: Navigate to Computer/NoteBooks Page
+[2022-10-20 16:13:03,039] Step 01: Navigate to Computer/NoteBooks Page
+[2022-10-20 16:13:03,039] Step 01: Navigate to Computer/NoteBooks Page
+[2022-10-20 16:13:03,039] Step 01: Navigate to Computer/NoteBooks Page
+[2022-10-20 16:13:03,039] Step 01: Navigate to Computer/NoteBooks Page
+[2022-10-20 16:13:03,039] Step 01: Navigate to Computer/NoteBooks Page
+[2022-10-20 16:13:03,040] Step 01: Navigate to Computer/NoteBooks Page
+[2022-10-20 16:13:03,040] Step 01: Navigate to Computer/NoteBooks Page
+[2022-10-20 16:13:03,040] Step 01: Navigate to Computer/NoteBooks Page
+[2022-10-20 16:52:41,725] Step 01: Navigate to Computer/NoteBooks Page
+[2022-10-20 16:52:43,237] Step 02: Select Name: A To Z
+[2022-10-20 16:52:43,415] Step 03: Verify the product name sort correctly
+[2022-10-20 16:55:12,258] Step 01: Navigate to Computer/NoteBooks Page
+[2022-10-20 16:55:14,249] Step 02: Select Name: A To Z
+[2022-10-20 16:55:14,411] Step 03: Verify the product name sort correctly
+[2022-10-20 16:55:14,526] Step 01: Navigate to Computer/NoteBooks Page
+[2022-10-20 16:55:15,186] Step 02: Select Name: A To Z
+[2022-10-20 16:55:15,345] Step 03: Verify the product name sort correctly

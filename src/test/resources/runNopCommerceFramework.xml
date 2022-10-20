@@ -3,7 +3,7 @@
 
 	<listeners>
 		<listener class-name="commons.MethodListener" />
-		<listener class-name="reportConfig.ExtentTestListener" />
+		<!--<listener class-name="reportConfig.ExtentTestListener" />-->
 	</listeners>
 	<parameter name="environment" value="staging" />
 	<test name="Run on Chorme">
@@ -13,7 +13,8 @@
 			<!-- <class name="hybrid.nopcommerce.user.NopCommerce_Login" /> -->
 			<!-- <class name="hybrid.nopcommerce.user.NopCommerce_Register" /> -->
 			<!--<class name="hybrid.nopcommerce.user.NopCommerce_MyAccount" />-->
-			<class name="hybrid.nopcommerce.user.NopCommerce_Search" />
+			<!--<class name="hybrid.nopcommerce.user.NopCommerce_Search" />-->
+			<class name="hybrid.nopcommerce.user.NopCommerce_Sort" />
 		</classes>
 	</test>
 </suite>
