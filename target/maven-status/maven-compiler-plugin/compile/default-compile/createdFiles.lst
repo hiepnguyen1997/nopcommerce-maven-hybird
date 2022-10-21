@@ -1,8 +1,8 @@
 pageUIs\nopCommerce\user\AddressPageUI.class
 pageUIs\nopCommerce\user\SearchPageUI.class
+pageUIs\nopCommerce\user\NoteBookPageUI.class
 commons\BasePageFactory$1.class
 pageObjects\nopCommerce\portal\UserLoginPageObject.class
-reportConfig\ReportNGListener.class
 commons\BaseTest.class
 commons\FooterListMenuPage.class
 commons\TestNGAppender.class
@@ -43,6 +43,5 @@ pageUIs\nopCommerce\user\MyProductReviewPageUI.class
 pageUIs\nopCommerce\user\DesktopsPageUI.class
 reportConfig\ExtentTestManager.class
 pageUIs\nopCommerce\user\ProductPageUI.class
-reportConfig\AllureReport.class
 pageObjects\nopCommerce\portal\ProductPreviewPageObject.class
 commons\BasePageFactory$2.class

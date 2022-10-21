@@ -1,8 +1,8 @@
-D:\Automation\NopCommerce-Maven Hybrid Framework\src\test\java\com\nopcommerce\data\NopCommerceTestData.java
-D:\Automation\NopCommerce-Maven Hybrid Framework\src\test\java\hybrid\nopcommerce\user\NopCommerce_MyAccount.java
-D:\Automation\NopCommerce-Maven Hybrid Framework\src\test\java\hybrid\nopcommerce\user\NopCommerce_Search.java
-D:\Automation\NopCommerce-Maven Hybrid Framework\src\test\java\com\nopcommerce\data\UserDataMapper.java
-D:\Automation\NopCommerce-Maven Hybrid Framework\src\test\java\hybrid\nopcommerce\commons\Register_Commons.java
-D:\Automation\NopCommerce-Maven Hybrid Framework\src\test\java\hybrid\nopcommerce\user\NopCommerce_Register.java
-D:\Automation\NopCommerce-Maven Hybrid Framework\src\test\java\hybrid\nopcommerce\user\NopCommerce_Login.java
-D:\Automation\NopCommerce-Maven Hybrid Framework\src\test\java\hybrid\nopcommerce\user\NopCommerce_Sort.java
+D:\Automation\IntelliJ Project\nopcommerce-maven-hybird\src\test\java\com\nopcommerce\data\NopCommerceTestData.java
+D:\Automation\IntelliJ Project\nopcommerce-maven-hybird\src\test\java\hybrid\nopcommerce\commons\Register_Commons.java
+D:\Automation\IntelliJ Project\nopcommerce-maven-hybird\src\test\java\hybrid\nopcommerce\user\NopCommerce_Register.java
+D:\Automation\IntelliJ Project\nopcommerce-maven-hybird\src\test\java\hybrid\nopcommerce\user\NopCommerce_Search.java
+D:\Automation\IntelliJ Project\nopcommerce-maven-hybird\src\test\java\hybrid\nopcommerce\user\NopCommerce_MyAccount.java
+D:\Automation\IntelliJ Project\nopcommerce-maven-hybird\src\test\java\hybrid\nopcommerce\user\NopCommerce_Login.java
+D:\Automation\IntelliJ Project\nopcommerce-maven-hybird\src\test\java\com\nopcommerce\data\UserDataMapper.java
+D:\Automation\IntelliJ Project\nopcommerce-maven-hybird\src\test\java\hybrid\nopcommerce\user\NopCommerce_Sort.java

@@ -1,12 +1,12 @@
-[2022-10-20 21:46:32,445] Step 01: Navigate to Computer/NoteBooks Page
-[2022-10-20 21:46:34,550] Step 02: Select Name: A To Z
-[2022-10-20 21:46:37,743] Step 03: Verify the product name sort correctly
-[2022-10-20 21:46:37,868] Step 01: Navigate to Computer/NoteBooks Page
-[2022-10-20 21:46:38,569] Step 02: Select Name:  Z to A
-[2022-10-20 21:46:41,731] Step 03: Verify the product name sort correctly
-[2022-10-20 21:46:41,849] Step 01: Navigate to Computer/NoteBooks Page
-[2022-10-20 21:46:42,522] Step 02: Select Price: Low to High
-[2022-10-20 21:46:45,720] Step 03: Verify the product name sort correctly
-[2022-10-20 21:46:45,901] Step 01: Navigate to Computer/NoteBooks Page
-[2022-10-20 21:46:46,597] Step 02: Select Price: High to Low
-[2022-10-20 21:46:49,756] Step 03: Verify the product name sort correctly
+[2022-10-21 12:11:22,777] Step 01: Navigate to Computer/NoteBooks Page
+[2022-10-21 12:11:24,666] Step 02: Select Name: A To Z
+[2022-10-21 12:11:27,867] Step 03: Verify the product name sort correctly
+[2022-10-21 12:11:27,988] Step 01: Navigate to Computer/NoteBooks Page
+[2022-10-21 12:11:28,625] Step 02: Select Name:  Z to A
+[2022-10-21 12:11:31,798] Step 03: Verify the product name sort correctly
+[2022-10-21 12:11:32,227] Step 01: Navigate to Computer/NoteBooks Page
+[2022-10-21 12:11:32,950] Step 02: Select Price: Low to High
+[2022-10-21 12:11:36,137] Step 03: Verify the product name sort correctly
+[2022-10-21 12:11:36,318] Step 01: Navigate to Computer/NoteBooks Page
+[2022-10-21 12:11:36,974] Step 02: Select Price: High to Low
+[2022-10-21 12:11:40,137] Step 03: Verify the product name sort correctly

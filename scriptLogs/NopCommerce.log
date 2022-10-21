@@ -11356,3 +11356,38 @@ Driver info: driver.version: RemoteWebDriver
 [2022-10-20 21:46:45,901] Step 01: Navigate to Computer/NoteBooks Page
 [2022-10-20 21:46:46,597] Step 02: Select Price: High to Low
 [2022-10-20 21:46:49,756] Step 03: Verify the product name sort correctly
+[2022-10-21 11:51:56,194] Step 01: Navigate to Computer/NoteBooks Page
+[2022-10-21 11:51:58,679] Step 02: Select Name: A To Z
+[2022-10-21 11:52:02,737] Step 03: Verify the product name sort correctly
+[2022-10-21 11:52:03,054] Step 01: Navigate to Computer/NoteBooks Page
+[2022-10-21 11:52:04,292] Step 02: Select Name:  Z to A
+[2022-10-21 11:52:07,452] Step 03: Verify the product name sort correctly
+[2022-10-21 11:52:07,598] Step 01: Navigate to Computer/NoteBooks Page
+[2022-10-21 11:52:08,324] Step 02: Select Price: Low to High
+[2022-10-21 11:52:11,477] Step 03: Verify the product name sort correctly
+[2022-10-21 11:52:11,653] Step 01: Navigate to Computer/NoteBooks Page
+[2022-10-21 11:52:12,371] Step 02: Select Price: High to Low
+[2022-10-21 11:52:15,544] Step 03: Verify the product name sort correctly
+[2022-10-21 12:09:23,161] Step 01: Navigate to Computer/NoteBooks Page
+[2022-10-21 12:09:25,384] Step 02: Select Name: A To Z
+[2022-10-21 12:09:28,573] Step 03: Verify the product name sort correctly
+[2022-10-21 12:09:28,698] Step 01: Navigate to Computer/NoteBooks Page
+[2022-10-21 12:09:29,384] Step 02: Select Name:  Z to A
+[2022-10-21 12:09:32,558] Step 03: Verify the product name sort correctly
+[2022-10-21 12:09:33,084] Step 01: Navigate to Computer/NoteBooks Page
+[2022-10-21 12:09:33,770] Step 02: Select Price: Low to High
+[2022-10-21 12:09:36,935] Step 03: Verify the product name sort correctly
+[2022-10-21 12:09:37,118] Step 01: Navigate to Computer/NoteBooks Page
+[2022-10-21 12:11:09,888] Step 01: Navigate to Computer/NoteBooks Page
+[2022-10-21 12:11:22,777] Step 01: Navigate to Computer/NoteBooks Page
+[2022-10-21 12:11:24,666] Step 02: Select Name: A To Z
+[2022-10-21 12:11:27,867] Step 03: Verify the product name sort correctly
+[2022-10-21 12:11:27,988] Step 01: Navigate to Computer/NoteBooks Page
+[2022-10-21 12:11:28,625] Step 02: Select Name:  Z to A
+[2022-10-21 12:11:31,798] Step 03: Verify the product name sort correctly
+[2022-10-21 12:11:32,227] Step 01: Navigate to Computer/NoteBooks Page
+[2022-10-21 12:11:32,950] Step 02: Select Price: Low to High
+[2022-10-21 12:11:36,137] Step 03: Verify the product name sort correctly
+[2022-10-21 12:11:36,318] Step 01: Navigate to Computer/NoteBooks Page
+[2022-10-21 12:11:36,974] Step 02: Select Price: High to Low
+[2022-10-21 12:11:40,137] Step 03: Verify the product name sort correctly
