@@ -1,7 +1,6 @@
 package pageObjects.nopCommerce.portal;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
@@ -22,6 +21,7 @@ public class NotebooksPageObject extends ListPageAtTopMenu{
 	public void selectItemInSortByDropdown(String textItem) {
 		waitForElementClickabled(driver, NoteBookPageUI.SORT_BY_DROPDOWN);
 		selectItemInDefaultDropdown(driver, NoteBookPageUI.SORT_BY_DROPDOWN, textItem);
+		sleepInSecond(3);
 	}
 
 	public boolean isProductNameSortAtoZ() {
@@ -51,6 +51,43 @@ public class NotebooksPageObject extends ListPageAtTopMenu{
 		Collections.sort(productNameSort);
 		Collections.reverse(productNameSort);
 		return productNameUI.equals(productNameSort);
+	}
+
+	public boolean isProductNamePriceLowToHigh() {
+		ArrayList<Float> productPriceUI = new ArrayList<Float>();
+		List<WebElement> productsPrice = getListWebElement(driver, NoteBookPageUI.PRODUCT_PRICE);
+		for(WebElement item : productsPrice) {
+			System.out.println("UI: " + item.getText().trim().replace("$", "").replace(",", ""));
+			productPriceUI.add(Float.parseFloat(item.getText().trim().replace("$", "").replace(",", "")));
+		}
+		ArrayList<Float> productPriceSort = new ArrayList<Float>();
+		for(Float price : productPriceUI) {
+			productPriceSort.add(price);
+		}
+		Collections.sort(productPriceSort);
+		for(Float it : productPriceSort) {
+			System.out.println("sort: " + it);
+		}
+		return productPriceUI.equals(productPriceSort);
+	}
+
+	public boolean isProductNamePriceHighToLow() {
+		ArrayList<Float> productPriceUI = new ArrayList<Float>();
+		List<WebElement> productsPrice = getListWebElement(driver, NoteBookPageUI.PRODUCT_PRICE);
+		for(WebElement item : productsPrice) {
+			System.out.println("UI: " + item.getText().trim().replace("$", "").replace(",", ""));
+			productPriceUI.add(Float.parseFloat(item.getText().trim().replace("$", "").replace(",", "")));
+		}
+		ArrayList<Float> productPriceSort = new ArrayList<Float>();
+		for(Float price : productPriceUI) {
+			productPriceSort.add(price);
+		}
+		Collections.sort(productPriceSort);
+		Collections.reverse(productPriceSort);
+		for(Float it : productPriceSort) {
+			System.out.println("sort: " + it);
+		}
+		return productPriceUI.equals(productPriceSort);
 	}
 
 }

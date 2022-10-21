@@ -9,7 +9,7 @@
 	<test name="Run on Chorme">
 		<parameter name="browser" value="chrome" />
 		<classes>
-			<class name="hybrid.nopcommerce.commons.Register_Commons" />
+			<!--<class name="hybrid.nopcommerce.commons.Register_Commons" />-->
 			<!-- <class name="hybrid.nopcommerce.user.NopCommerce_Login" /> -->
 			<!-- <class name="hybrid.nopcommerce.user.NopCommerce_Register" /> -->
 			<!--<class name="hybrid.nopcommerce.user.NopCommerce_MyAccount" />-->
