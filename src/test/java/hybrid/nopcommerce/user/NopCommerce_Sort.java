@@ -98,6 +98,9 @@ public class NopCommerce_Sort extends BaseTest {
 
     @Test
     public void TC_05_Display_3_Product_In_Page(Method method) {
+        ExtentTestManager.startTest(method.getName(), "TC 05: Verify display 3 product when select paing is 3");
+        ExtentTestManager.getTest().log(Status.INFO, "Step 01: ");
+        log.info("Step 01: ");
 
     }
 
