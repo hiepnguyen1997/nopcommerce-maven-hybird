@@ -93,7 +93,12 @@ public class BaseTest {
 		} else if (browserList == BrowserList.CHROME) {
 			WebDriverManager.chromedriver().setup();
 			ChromeOptions options = new ChromeOptions();
-			options.setAcceptInsecureCerts(true);
+			HashMap<String, Object> prefs = new HashMap<String, Object>();
+			prefs.put("profile.default_content_settings.popups", 0);
+			prefs.put("download.default_directory", GlobalConstants.DOWNLOAD_FILE_PATH);
+			options.addArguments("--incognito");
+			System.setProperty("webdriver.chrome.args", "--disable-logging");
+			System.setProperty("webdriver.chrome.silentOutput", "true");
 			driver = new ChromeDriver(options);
 		} else if (browserList == BrowserList.H_CHROME) {
 			WebDriverManager.chromedriver().setup();

@@ -1,5 +1,4 @@
 package pageObjects.nopCommerce.portal;
-
 import java.util.ArrayList;
 import java.util.List;
 

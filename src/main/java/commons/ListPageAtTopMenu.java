@@ -2,12 +2,14 @@ package commons;
 
 import org.openqa.selenium.WebDriver;
 
+import pageObjects.nopCommerce.portal.ListProductPage;
 import pageUIs.nopCommerce.user.BasePageUINopCommerce;
 
-public class ListPageAtTopMenu extends BasePage{
+public class ListPageAtTopMenu extends ListProductPage{
 	private WebDriver driver;
 	
 	public ListPageAtTopMenu(WebDriver driver) {
+		super(driver);
 		this.driver = driver;
 	}
 	

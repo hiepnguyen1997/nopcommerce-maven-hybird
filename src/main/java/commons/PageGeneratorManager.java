@@ -4,7 +4,7 @@ import org.openqa.selenium.WebDriver;
 
 import pageObjects.nopCommerce.portal.DesktopsPageObject;
 import pageObjects.nopCommerce.portal.NotebooksPageObject;
-import pageObjects.nopCommerce.portal.ProductPageObject;
+import pageObjects.nopCommerce.portal.ProductDetailPageObject;
 import pageObjects.nopCommerce.portal.ProductPreviewPageObject;
 import pageObjects.nopCommerce.portal.UserAddressPageObject;
 import pageObjects.nopCommerce.portal.UserChangePasswordPageObject;
@@ -14,6 +14,8 @@ import pageObjects.nopCommerce.portal.UserLoginPageObject;
 import pageObjects.nopCommerce.portal.UserMyProductReviewPageObject;
 import pageObjects.nopCommerce.portal.UserRegisterPageObject;
 import pageObjects.nopCommerce.portal.UserSearchPageObject;
+import pageObjects.nopCommerce.portal.WishlistPageObject;
+import pageObjects.nopCommerce.portal.WishlistShareLinkPageObject;
 
 public class PageGeneratorManager {
 	
@@ -53,8 +55,8 @@ public class PageGeneratorManager {
 		return new NotebooksPageObject(driver);
 	}
 	
-	public static ProductPageObject getProductPage(WebDriver driver) {
-		return new ProductPageObject(driver);
+	public static ProductDetailPageObject getProductPage(WebDriver driver) {
+		return new ProductDetailPageObject(driver);
 	}
 	
 	public static ProductPreviewPageObject getProductReviewPage(WebDriver driver) {
@@ -63,5 +65,13 @@ public class PageGeneratorManager {
 	
 	public static UserSearchPageObject getSearchPageObjet(WebDriver driver) {
 		return new UserSearchPageObject(driver);
+	}
+	
+	public static WishlistPageObject getWishlistPage(WebDriver driver) {
+		return new WishlistPageObject(driver);
+	}
+	
+	public static WishlistShareLinkPageObject getWishlistShareLinkPage(WebDriver driver) {
+		return new WishlistShareLinkPageObject(driver);
 	}
 }

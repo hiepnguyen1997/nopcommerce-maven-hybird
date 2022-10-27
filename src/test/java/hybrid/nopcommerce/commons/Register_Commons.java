@@ -1,5 +1,6 @@
 package hybrid.nopcommerce.commons;
 
+import org.aeonbits.owner.ConfigFactory;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
@@ -11,24 +12,25 @@ import commons.PageGeneratorManager;
 import exception.BrowserNotSupport;
 import pageObjects.nopCommerce.portal.UserHomePageObject;
 import pageObjects.nopCommerce.portal.UserRegisterPageObject;
+import utilities.EnvironmentConfig;
 import utilities.FakeDataHelper;
 
 public class Register_Commons extends BaseTest{
 	private WebDriver driver;
-	private int randomNumber;
 	private String dayOfBirth, monthOfBirth, yearOfBirth;
 	public static String firstName, lastName, emailAddress, password;
 	UserRegisterPageObject registerPage;
 	UserHomePageObject homePage;
 	FakeDataHelper fakeDataHelper;
+	EnvironmentConfig environmentConfig;
 	
 	@Parameters({"browser", "environment"})
 	@BeforeTest
 	public void beforeTest(String browserName, String environmentName) throws BrowserNotSupport {
-		driver = getBrowserDriver(browserName);
-		driver.get(getEnvironmentName(environmentName));
+		ConfigFactory.setProperty("evn", environmentName);
+		environmentConfig = ConfigFactory.create(EnvironmentConfig.class);
+		driver = getBrowserDriver(browserName, environmentConfig.getWebURL());
 		fakeDataHelper = FakeDataHelper.getFakeDataHelper();
-		randomNumber = generatorNumber();
 		firstName = fakeDataHelper.getFirstName();
 		lastName = fakeDataHelper.getLastName();
 		password = fakeDataHelper.getPassword();
@@ -76,6 +78,5 @@ public class Register_Commons extends BaseTest{
 	
 	@AfterTest()
 	public void afterTest() {
-		
 	}
 }

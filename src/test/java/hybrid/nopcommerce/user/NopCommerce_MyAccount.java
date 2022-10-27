@@ -17,7 +17,7 @@ import commons.PageGeneratorManager;
 import exception.BrowserNotSupport;
 import hybrid.nopcommerce.commons.Register_Commons;
 import pageObjects.nopCommerce.portal.DesktopsPageObject;
-import pageObjects.nopCommerce.portal.ProductPageObject;
+import pageObjects.nopCommerce.portal.ProductDetailPageObject;
 import pageObjects.nopCommerce.portal.ProductPreviewPageObject;
 import pageObjects.nopCommerce.portal.UserAddressPageObject;
 import pageObjects.nopCommerce.portal.UserChangePasswordPageObject;
@@ -45,7 +45,7 @@ public class NopCommerce_MyAccount extends BaseTest {
 	UserAddressPageObject addressPage;
 	UserChangePasswordPageObject changePasswordPage;
 	DesktopsPageObject desktopPage;
-	ProductPageObject productPage;
+	ProductDetailPageObject productPage;
 	ProductPreviewPageObject productReviewPage;
 	UserMyProductReviewPageObject myProductReViewPage;
 	FakeDataHelper dataHelper;

@@ -2,6 +2,7 @@ com\nopcommerce\data\NopCommerceTestData.class
 hybrid\nopcommerce\user\NopCommerce_Register.class
 hybrid\nopcommerce\user\NopCommerce_Sort.class
 com\nopcommerce\data\NopCommerceTestData$SearchData.class
+hybrid\nopcommerce\user\NopCommerce_Wishlist_Compare_RecentReview.class
 hybrid\nopcommerce\user\NopCommerce_Login.class
 com\nopcommerce\data\UserDataMapper.class
 hybrid\nopcommerce\user\NopCommerce_MyAccount.class

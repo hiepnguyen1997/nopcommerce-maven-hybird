@@ -120,6 +120,13 @@
 			<artifactId>javafaker</artifactId>
 			<version>${faker.version}</version>
 		</dependency>
+
+		<dependency>
+			<groupId>org.aeonbits.owner</groupId>
+			<artifactId>owner</artifactId>
+			<version>1.0.12</version>
+		</dependency>
+
 	</dependencies>
 
 	<!-- Compiler/ Run Test -->

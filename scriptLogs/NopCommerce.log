@@ -11391,3 +11391,208 @@ Driver info: driver.version: RemoteWebDriver
 [2022-10-21 12:11:36,318] Step 01: Navigate to Computer/NoteBooks Page
 [2022-10-21 12:11:36,974] Step 02: Select Price: High to Low
 [2022-10-21 12:11:40,137] Step 03: Verify the product name sort correctly
+[2022-10-21 14:58:39,641] Step 01: Navigate to Computer/NoteBooks Page
+[2022-10-21 14:58:43,425] Step 02: Paging display is 3
+[2022-10-21 14:58:46,610] Step 03: Verify the product name sort correctly
+[2022-10-21 14:58:46,668] Step 04: Verify Next icon display and click on it
+[2022-10-21 14:58:46,829] Step 05: Verify Previous icon display and click on it
+[2022-10-21 14:59:55,023] Step 01: Navigate to Computer/NoteBooks Page
+[2022-10-21 14:59:57,160] Step 02: Paging display is 3
+[2022-10-21 15:00:00,365] Step 03: Verify the product name sort correctly
+[2022-10-21 15:00:00,407] Step 04: Verify Next icon display and click on it
+[2022-10-21 15:00:02,578] Step 05: Verify Previous icon display and click on it
+[2022-10-21 15:07:31,781] Step 01: Navigate to Computer/NoteBooks Page
+[2022-10-21 15:07:33,930] Step 02: Paging display is 3
+[2022-10-21 15:07:37,133] Step 03: Verify the product name sort correctly
+[2022-10-21 15:07:37,189] Step 04: Verify Next icon display and click on it
+[2022-10-21 15:07:39,392] Step 05: Verify Previous icon display and click on it
+[2022-10-21 15:07:41,639] Step 01: Navigate to Computer/NoteBooks Page
+[2022-10-21 15:07:42,325] Step 02: Select Paging display is 6
+[2022-10-21 15:07:45,440] Step 03: Verify the product name sort correctly
+[2022-10-21 15:07:45,479] Step 04: Verify Next icon display and click on it
+[2022-10-21 15:08:15,845] Step 01: Navigate to Computer/NoteBooks Page
+[2022-10-21 15:08:17,057] Step 02: Select Paging display is 9
+[2022-10-21 15:08:20,228] Step 03: Verify the product name sort correctly
+[2022-10-21 15:08:20,284] Step 04: Verify Next icon display and click on it
+[2022-10-21 15:12:32,681] Step 01: Navigate to Computer/NoteBooks Page
+[2022-10-21 15:12:34,155] Step 02: Paging display is 3
+[2022-10-21 15:12:37,365] Step 03: Verify the product name sort correctly
+[2022-10-21 15:12:37,421] Step 04: Verify Next icon display and click on it
+[2022-10-21 15:12:37,761] Step 01: Navigate to Computer/NoteBooks Page
+[2022-10-21 15:12:38,445] Step 02: Select Paging display is 6
+[2022-10-21 15:12:41,628] Step 03: Verify the product name sort correctly
+[2022-10-21 15:12:41,665] Step 04: Verify Next icon display and click on it
+[2022-10-21 15:12:47,059] Step 01: Navigate to Computer/NoteBooks Page
+[2022-10-21 15:12:47,769] Step 02: Select Paging display is 9
+[2022-10-21 15:12:50,962] Step 03: Verify the product name sort correctly
+[2022-10-21 15:12:51,000] Step 04: Verify Next icon display and click on it
+[2022-10-21 15:14:24,850] Step 01: Navigate to Computer/NoteBooks Page
+[2022-10-21 15:14:26,081] Step 02: Select Name: A To Z
+[2022-10-21 15:14:29,272] Step 03: Verify the product name sort correctly
+[2022-10-21 15:14:29,403] Step 01: Navigate to Computer/NoteBooks Page
+[2022-10-21 15:14:30,134] Step 02: Select Name:  Z to A
+[2022-10-21 15:14:33,304] Step 03: Verify the product name sort correctly
+[2022-10-21 15:14:33,671] Step 01: Navigate to Computer/NoteBooks Page
+[2022-10-21 15:14:34,340] Step 02: Select Price: Low to High
+[2022-10-21 15:14:37,502] Step 03: Verify the product name sort correctly
+[2022-10-21 15:14:37,684] Step 01: Navigate to Computer/NoteBooks Page
+[2022-10-21 15:14:38,321] Step 02: Select Price: High to Low
+[2022-10-21 15:14:41,492] Step 03: Verify the product name sort correctly
+[2022-10-21 15:14:41,673] Step 01: Navigate to Computer/NoteBooks Page
+[2022-10-21 15:14:42,523] Step 02: Paging display is 3
+[2022-10-21 15:14:45,697] Step 03: Verify the product name sort correctly
+[2022-10-21 15:14:45,735] Step 04: Verify Next icon display and click on it
+[2022-10-21 15:14:46,022] Step 01: Navigate to Computer/NoteBooks Page
+[2022-10-21 15:14:46,795] Step 02: Select Paging display is 6
+[2022-10-21 15:14:49,937] Step 03: Verify the product name sort correctly
+[2022-10-21 15:14:49,976] Step 04: Verify Next icon display and click on it
+[2022-10-21 15:14:55,059] Step 01: Navigate to Computer/NoteBooks Page
+[2022-10-21 15:14:55,694] Step 02: Select Paging display is 9
+[2022-10-21 15:14:58,874] Step 03: Verify the product name sort correctly
+[2022-10-21 15:14:58,914] Step 04: Verify Next icon display and click on it
+[2022-10-21 15:15:03,994] OS name = windows 10
+[2022-10-21 15:15:03,995] Driver instance name = chromedriver: chrome on windows (cd20c0c6d7d996f867483ab386ee8954)
+[2022-10-21 15:17:14,037] Step 01: Navigate to Computer/NoteBooks Page
+[2022-10-21 15:17:15,296] Step 02: Select Name: A To Z
+[2022-10-21 15:17:18,491] Step 03: Verify the product name sort correctly
+[2022-10-21 15:17:18,634] Step 01: Navigate to Computer/NoteBooks Page
+[2022-10-21 15:17:19,427] Step 02: Select Name:  Z to A
+[2022-10-21 15:17:22,622] Step 03: Verify the product name sort correctly
+[2022-10-21 15:17:23,006] Step 01: Navigate to Computer/NoteBooks Page
+[2022-10-21 15:17:23,704] Step 02: Select Price: Low to High
+[2022-10-21 15:17:26,874] Step 03: Verify the product name sort correctly
+[2022-10-21 15:17:27,053] Step 01: Navigate to Computer/NoteBooks Page
+[2022-10-21 15:17:27,694] Step 02: Select Price: High to Low
+[2022-10-21 15:17:30,862] Step 03: Verify the product name sort correctly
+[2022-10-21 15:17:31,033] Step 01: Navigate to Computer/NoteBooks Page
+[2022-10-21 15:17:31,808] Step 02: Paging display is 3
+[2022-10-21 15:17:34,990] Step 03: Verify the product name sort correctly
+[2022-10-21 15:17:35,043] Step 04: Verify Next icon display and click on it
+[2022-10-21 15:17:37,271] Step 05: Verify Previous icon display and click on it
+[2022-10-21 15:17:39,511] Step 01: Navigate to Computer/NoteBooks Page
+[2022-10-21 15:17:40,336] Step 02: Select Paging display is 6
+[2022-10-21 15:17:43,468] Step 03: Verify the product name sort correctly
+[2022-10-21 15:17:43,522] Step 04: Verify Next icon display and click on it
+[2022-10-21 15:17:48,618] Step 01: Navigate to Computer/NoteBooks Page
+[2022-10-21 15:17:49,256] Step 02: Select Paging display is 9
+[2022-10-21 15:17:52,425] Step 03: Verify the product name sort correctly
+[2022-10-21 15:17:52,465] Step 04: Verify Next icon display and click on it
+[2022-10-21 15:17:57,558] OS name = windows 10
+[2022-10-21 15:17:57,558] Driver instance name = chromedriver: chrome on windows (711dd4cf79ed83ac9f036540735ddb69)
+[2022-10-21 16:47:35,630] Pre Conditions: Step 01 - Click on Login link
+[2022-10-21 16:47:37,328] Pre Conditions: Step 02 - Input to email by: null
+[2022-10-21 16:47:38,009] OS name = windows 10
+[2022-10-21 16:47:38,010] Driver instance name = chromedriver: chrome on windows (7de4dfdf78cd14db900c716e18c70feb)
+[2022-10-21 16:48:44,874] Pre Conditions: Step 01 - Click on Login link
+[2022-10-21 16:48:46,212] Pre Conditions: Step 02 - Input to email by: damian.swaniawski@gmail.com
+[2022-10-21 16:48:46,459] Pre Conditions: Step 03 - Input to password by: V2gq$T@1
+[2022-10-21 16:48:46,652] Pre Conditions: Step 04 - Click on Login button
+[2022-10-21 16:48:47,428] Pre Conditions: Step 05 - Verify login successfull
+[2022-10-21 16:48:48,119] OS name = windows 10
+[2022-10-21 16:48:48,119] Driver instance name = chromedriver: chrome on windows (7272347461b1f9f4c01e74be63142b24)
+[2022-10-21 16:51:51,134] Pre Conditions: Step 01 - Click on Login link
+[2022-10-21 16:51:52,464] Pre Conditions: Step 02 - Input to email by: wilton.corwin@yahoo.com
+[2022-10-21 16:51:52,671] Pre Conditions: Step 03 - Input to password by: *pG$&5O!B
+[2022-10-21 16:51:52,927] Pre Conditions: Step 04 - Click on Login button
+[2022-10-21 16:51:53,696] Pre Conditions: Step 05 - Verify login successfull
+[2022-10-21 16:51:54,023] OS name = windows 10
+[2022-10-21 16:51:54,023] Driver instance name = chromedriver: chrome on windows (97190de152ce4aacc9925cfc59b92cbf)
+[2022-10-21 16:53:07,663] Pre Conditions: Step 01 - Click on Login link
+[2022-10-21 16:53:09,195] Pre Conditions: Step 02 - Input to email by: scot.conn@yahoo.com
+[2022-10-21 16:53:09,385] Pre Conditions: Step 03 - Input to password by: %@K8$w4u
+[2022-10-21 16:53:09,561] Pre Conditions: Step 04 - Click on Login button
+[2022-10-21 16:53:10,350] Pre Conditions: Step 05 - Verify login successfull
+[2022-10-23 12:14:43,813] Step 01: Navigate to Computer/NoteBooks Page
+[2022-10-23 12:14:46,671] Step 02: Select Name: A To Z
+[2022-10-23 12:14:49,898] Step 03: Verify the product name sort correctly
+[2022-10-23 12:14:50,062] Step 01: Navigate to Computer/NoteBooks Page
+[2022-10-23 12:14:50,699] Step 02: Select Name:  Z to A
+[2022-10-23 12:14:53,868] Step 03: Verify the product name sort correctly
+[2022-10-23 12:14:54,262] Step 01: Navigate to Computer/NoteBooks Page
+[2022-10-23 12:14:54,876] Step 02: Select Price: Low to High
+[2022-10-23 12:14:58,028] Step 03: Verify the product name sort correctly
+[2022-10-23 12:14:58,202] Step 01: Navigate to Computer/NoteBooks Page
+[2022-10-23 12:14:58,826] Step 02: Select Price: High to Low
+[2022-10-23 12:15:01,983] Step 03: Verify the product name sort correctly
+[2022-10-23 12:15:02,148] Step 01: Navigate to Computer/NoteBooks Page
+[2022-10-23 12:15:02,739] Step 02: Paging display is 3
+[2022-10-23 12:15:05,930] Step 03: Verify the product name sort correctly
+[2022-10-23 12:15:05,969] Step 04: Verify Next icon display and click on it
+[2022-10-23 12:15:08,234] Step 05: Verify Previous icon display and click on it
+[2022-10-23 12:15:10,482] Step 01: Navigate to Computer/NoteBooks Page
+[2022-10-23 12:15:11,225] Step 02: Select Paging display is 6
+[2022-10-23 12:15:14,356] Step 03: Verify the product name sort correctly
+[2022-10-23 12:15:14,395] Step 04: Verify Next icon display and click on it
+[2022-10-23 12:15:19,454] Step 01: Navigate to Computer/NoteBooks Page
+[2022-10-23 12:15:20,039] Step 02: Select Paging display is 9
+[2022-10-23 12:15:23,209] Step 03: Verify the product name sort correctly
+[2022-10-23 12:15:23,250] Step 04: Verify Next icon display and click on it
+[2022-10-23 12:15:28,309] OS name = windows 10
+[2022-10-23 12:15:28,309] Driver instance name = chromedriver: chrome on windows (92a13df50a5b30f2e5dbbabb287d3fcf)
+[2022-10-24 21:43:48,288] Pre Conditions: Step 01 - Click on Login link
+[2022-10-24 21:43:49,907] Pre Conditions: Step 02 - Input to email by: null
+[2022-10-24 21:55:44,407] Pre Conditions: Step 01 - Click on Login link
+[2022-10-24 22:04:21,003] Pre Conditions: Step 01 - Click on Login link
+[2022-10-24 22:04:22,433] Pre Conditions: Step 02 - Input to email by: null
+[2022-10-24 22:15:49,043] Pre Conditions: Step 01 - Click on Login link
+[2022-10-24 22:15:50,727] Pre Conditions: Step 02 - Input to email by: stephen.jerde@hotmail.com
+[2022-10-24 22:15:50,945] Pre Conditions: Step 03 - Input to password by: v!&6!Fhhf
+[2022-10-24 22:15:51,124] Pre Conditions: Step 04 - Click on Login button
+[2022-10-24 22:15:51,896] Pre Conditions: Step 05 - Verify login successfull
+[2022-10-27 15:58:45,843] Pre Conditions: Step 01 - Click on Login link
+[2022-10-27 15:58:47,270] Pre Conditions: Step 02 - Input to email by: roselyn.kiehn@yahoo.com
+[2022-10-27 15:58:47,465] Pre Conditions: Step 03 - Input to password by: S4o^%*t3v
+[2022-10-27 15:58:47,643] Pre Conditions: Step 04 - Click on Login button
+[2022-10-27 15:58:48,340] Pre Conditions: Step 05 - Verify login successfull
+[2022-10-27 15:58:48,701] Step 01: Open Notebooks page
+[2022-10-27 15:58:48,702] Step 02: Click on product name
+[2022-10-27 15:58:48,702] Step 03: Click on Add to wishlist
+[2022-10-27 15:58:48,702] Step 04: Verify the message add to wishlist successfull
+[2022-10-27 15:58:48,702] Step 05: Click on Wishlist link
+[2022-10-27 15:58:48,703] Step 01: Open Notebooks page
+[2022-10-27 15:58:48,703] Step 01: Open Notebooks page
+[2022-10-27 15:58:48,703] Step 01: Open Notebooks page
+[2022-10-27 15:58:48,703] Step 01: Open Notebooks page
+[2022-10-27 15:58:48,703] Step 01: Open Notebooks page
+[2022-10-27 15:58:48,703] Step 01: Open Notebooks page
+[2022-10-27 15:58:48,704] Step 01: Open Notebooks page
+[2022-10-27 22:35:14,949] Pre Conditions: Step 01 - Click on Login link
+[2022-10-27 22:35:16,557] Pre Conditions: Step 02 - Input to email by: null
+[2022-10-27 22:36:25,735] Pre Conditions: Step 01 - Click on Login link
+[2022-10-27 22:36:26,763] Pre Conditions: Step 02 - Input to email by: cristine.barrows@yahoo.com
+[2022-10-27 22:36:26,971] Pre Conditions: Step 03 - Input to password by: CE&&#H*!
+[2022-10-27 22:36:27,157] Pre Conditions: Step 04 - Click on Login button
+[2022-10-27 22:36:27,922] Pre Conditions: Step 05 - Verify login successfull
+[2022-10-27 22:36:28,281] Step 01: Open Notebooks page
+[2022-10-27 22:36:28,282] Step 02: Click on product name
+[2022-10-27 22:39:06,478] Pre Conditions: Step 01 - Click on Login link
+[2022-10-27 22:39:39,912] Pre Conditions: Step 01 - Click on Login link
+[2022-10-27 22:39:41,553] Pre Conditions: Step 02 - Input to email by: cyndy.kohler@hotmail.com
+[2022-10-27 22:39:41,758] Pre Conditions: Step 03 - Input to password by: ax@k34XKR
+[2022-10-27 22:39:41,945] Pre Conditions: Step 04 - Click on Login button
+[2022-10-27 22:39:43,272] Pre Conditions: Step 05 - Verify login successfull
+[2022-10-27 22:39:43,616] Step 01: Open Notebooks page
+[2022-10-27 22:39:46,262] Step 02: Click on product name
+[2022-10-27 22:39:48,963] Step 03: Click on Add to wishlist
+[2022-10-27 22:39:49,102] Step 04: Verify the message add to wishlist successfull display
+[2022-10-27 22:39:49,567] Step 05: Click on Wishlist link
+[2022-10-27 22:39:52,590] Step 06: Verify product:  added to Wishlist
+[2022-10-27 22:39:52,657] Step 07: Verify the share wishlist link display
+[2022-10-27 22:39:52,736] Step 08: Click on share wishlist link
+[2022-10-27 22:39:53,163] Step 09: Verify the wishlist of AlmedaKemmer is display
+[2022-10-27 22:41:43,760] Pre Conditions: Step 01 - Click on Login link
+[2022-10-27 22:41:45,252] Pre Conditions: Step 02 - Input to email by: tod.schinner@gmail.com
+[2022-10-27 22:41:45,445] Pre Conditions: Step 03 - Input to password by: SO0$4n8c#
+[2022-10-27 22:41:45,636] Pre Conditions: Step 04 - Click on Login button
+[2022-10-27 22:41:46,455] Pre Conditions: Step 05 - Verify login successfull
+[2022-10-27 22:41:46,725] Step 01: Open Notebooks page
+[2022-10-27 22:41:47,897] Step 02: Click on product name
+[2022-10-27 22:41:52,488] Step 03: Click on Add to wishlist
+[2022-10-27 22:41:52,619] Step 04: Verify the message add to wishlist successfull display
+[2022-10-27 22:41:53,114] Step 05: Click on Wishlist link
+[2022-10-27 22:41:54,906] Step 06: Verify product:  added to Wishlist
+[2022-10-27 22:41:54,977] Step 07: Verify the share wishlist link display
+[2022-10-27 22:41:55,070] Step 08: Click on share wishlist link
+[2022-10-27 22:41:55,561] Step 09: Verify the wishlist of Victor Schuster is display
+[2022-10-27 22:41:55,643] OS name = windows 10
+[2022-10-27 22:41:55,643] Driver instance name = chromedriver: chrome on windows (9ca28f7e471f274a77ae6509f56150f4)

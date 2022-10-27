@@ -1,43 +1,50 @@
-D:\Automation\IntelliJ Project\nopcommerce-maven-hybird\src\main\java\pageUIs\nopCommerce\user\BasePageUINopCommerce.java
-D:\Automation\IntelliJ Project\nopcommerce-maven-hybird\src\main\java\pageObjects\nopCommerce\portal\UserCustomerInforPageObject.java
-D:\Automation\IntelliJ Project\nopcommerce-maven-hybird\src\main\java\pageUIs\nopCommerce\user\AddressPageUI.java
-D:\Automation\IntelliJ Project\nopcommerce-maven-hybird\src\main\java\exception\BrowserNotSupport.java
-D:\Automation\IntelliJ Project\nopcommerce-maven-hybird\src\main\java\pageObjects\nopCommerce\portal\ProductPageObject.java
-D:\Automation\IntelliJ Project\nopcommerce-maven-hybird\src\main\java\commons\VerificationFailures.java
-D:\Automation\IntelliJ Project\nopcommerce-maven-hybird\src\main\java\pageObjects\nopCommerce\portal\UserAddressPageObject.java
-D:\Automation\IntelliJ Project\nopcommerce-maven-hybird\src\main\java\reportConfig\ExtentManager.java
-D:\Automation\IntelliJ Project\nopcommerce-maven-hybird\src\main\java\pageObjects\nopCommerce\portal\UserHomePageObject.java
-D:\Automation\IntelliJ Project\nopcommerce-maven-hybird\src\main\java\pageUIs\nopCommerce\user\LoginPageUI.java
-D:\Automation\IntelliJ Project\nopcommerce-maven-hybird\src\main\java\pageUIs\nopCommerce\user\CustomerInforPageUI.java
-D:\Automation\IntelliJ Project\nopcommerce-maven-hybird\src\main\java\pageUIs\nopCommerce\user\DesktopsPageUI.java
-D:\Automation\IntelliJ Project\nopcommerce-maven-hybird\src\main\java\utilities\FakeDataHelper.java
-D:\Automation\IntelliJ Project\nopcommerce-maven-hybird\src\main\java\pageUIs\nopCommerce\user\ProductPageUI.java
-D:\Automation\IntelliJ Project\nopcommerce-maven-hybird\src\main\java\commons\BasePageFactory.java
-D:\Automation\IntelliJ Project\nopcommerce-maven-hybird\src\main\java\pageUIs\nopCommerce\user\NoteBookPageUI.java
-D:\Automation\IntelliJ Project\nopcommerce-maven-hybird\src\main\java\pageUIs\nopCommerce\user\ProductPreviewPageUI.java
-D:\Automation\IntelliJ Project\nopcommerce-maven-hybird\src\main\java\commons\ListPageAtTopMenu.java
-D:\Automation\IntelliJ Project\nopcommerce-maven-hybird\src\main\java\commons\PageGeneratorManager.java
-D:\Automation\IntelliJ Project\nopcommerce-maven-hybird\src\main\java\commons\BaseTest.java
-D:\Automation\IntelliJ Project\nopcommerce-maven-hybird\src\main\java\pageUIs\nopCommerce\user\RegisterPageUI.java
-D:\Automation\IntelliJ Project\nopcommerce-maven-hybird\src\main\java\commons\FooterListMenuPage.java
-D:\Automation\IntelliJ Project\nopcommerce-maven-hybird\src\main\java\commons\GlobalConstants.java
-D:\Automation\IntelliJ Project\nopcommerce-maven-hybird\src\main\java\commons\TestNGAppender.java
-D:\Automation\IntelliJ Project\nopcommerce-maven-hybird\src\main\java\pageObjects\nopCommerce\portal\UserMyProductReviewPageObject.java
-D:\Automation\IntelliJ Project\nopcommerce-maven-hybird\src\main\java\pageUIs\nopCommerce\user\SearchPageUI.java
-D:\Automation\IntelliJ Project\nopcommerce-maven-hybird\src\main\java\commons\MethodListener.java
-D:\Automation\IntelliJ Project\nopcommerce-maven-hybird\src\main\java\pageObjects\nopCommerce\portal\UserSearchPageObject.java
-D:\Automation\IntelliJ Project\nopcommerce-maven-hybird\src\main\java\pageObjects\nopCommerce\portal\DesktopsPageObject.java
-D:\Automation\IntelliJ Project\nopcommerce-maven-hybird\src\main\java\commons\BrowserList.java
-D:\Automation\IntelliJ Project\nopcommerce-maven-hybird\src\main\java\commons\SubMenuAtMyAccountPage.java
-D:\Automation\IntelliJ Project\nopcommerce-maven-hybird\src\main\java\pageObjects\nopCommerce\portal\ProductPreviewPageObject.java
-D:\Automation\IntelliJ Project\nopcommerce-maven-hybird\src\main\java\pageObjects\nopCommerce\portal\UserChangePasswordPageObject.java
-D:\Automation\IntelliJ Project\nopcommerce-maven-hybird\src\main\java\pageUIs\nopCommerce\user\ChangePasswordUI.java
-D:\Automation\IntelliJ Project\nopcommerce-maven-hybird\src\main\java\pageObjects\nopCommerce\portal\NotebooksPageObject.java
-D:\Automation\IntelliJ Project\nopcommerce-maven-hybird\src\main\java\pageUIs\nopCommerce\user\HomePageUI.java
-D:\Automation\IntelliJ Project\nopcommerce-maven-hybird\src\main\java\commons\EnvironmentList.java
-D:\Automation\IntelliJ Project\nopcommerce-maven-hybird\src\main\java\pageObjects\nopCommerce\portal\UserRegisterPageObject.java
-D:\Automation\IntelliJ Project\nopcommerce-maven-hybird\src\main\java\reportConfig\ExtentTestManager.java
-D:\Automation\IntelliJ Project\nopcommerce-maven-hybird\src\main\java\commons\BasePage.java
-D:\Automation\IntelliJ Project\nopcommerce-maven-hybird\src\main\java\reportConfig\ExtentTestListener.java
-D:\Automation\IntelliJ Project\nopcommerce-maven-hybird\src\main\java\pageObjects\nopCommerce\portal\UserLoginPageObject.java
-D:\Automation\IntelliJ Project\nopcommerce-maven-hybird\src\main\java\pageUIs\nopCommerce\user\MyProductReviewPageUI.java
+D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\commons\SubMenuAtMyAccountPage.java
+D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\commons\TestNGAppender.java
+D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\pageObjects\nopCommerce\portal\UserLoginPageObject.java
+D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\pageUIs\nopCommerce\user\WishlistPageUI.java
+D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\pageObjects\nopCommerce\portal\ListProductPage.java
+D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\pageObjects\nopCommerce\portal\WishlistShareLinkPageObject.java
+D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\commons\EnvironmentList.java
+D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\commons\GlobalConstants.java
+D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\exception\BrowserNotSupport.java
+D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\pageUIs\nopCommerce\user\DesktopsPageUI.java
+D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\pageObjects\nopCommerce\portal\WishlistPageObject.java
+D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\commons\BasePageFactory.java
+D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\pageObjects\nopCommerce\portal\UserHomePageObject.java
+D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\commons\FooterListMenuPage.java
+D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\reportConfig\ExtentManager.java
+D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\pageObjects\nopCommerce\portal\UserMyProductReviewPageObject.java
+D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\pageObjects\nopCommerce\portal\NotebooksPageObject.java
+D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\pageUIs\nopCommerce\user\SearchPageUI.java
+D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\pageObjects\nopCommerce\portal\UserChangePasswordPageObject.java
+D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\commons\VerificationFailures.java
+D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\pageUIs\nopCommerce\user\ListProductPageUI.java
+D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\pageUIs\nopCommerce\user\ProductDetailPageUI.java
+D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\commons\BasePage.java
+D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\pageObjects\nopCommerce\portal\UserRegisterPageObject.java
+D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\pageUIs\nopCommerce\user\ProductPreviewPageUI.java
+D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\pageUIs\nopCommerce\user\CustomerInforPageUI.java
+D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\pageUIs\nopCommerce\user\HomePageUI.java
+D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\commons\MethodListener.java
+D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\reportConfig\ExtentTestManager.java
+D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\pageObjects\nopCommerce\portal\ProductPreviewPageObject.java
+D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\commons\PageGeneratorManager.java
+D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\commons\ListPageAtTopMenu.java
+D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\reportConfig\ExtentTestListener.java
+D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\commons\BrowserList.java
+D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\pageObjects\nopCommerce\portal\DesktopsPageObject.java
+D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\utilities\EnvironmentConfig.java
+D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\commons\BaseTest.java
+D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\pageObjects\nopCommerce\portal\ProductDetailPageObject.java
+D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\pageObjects\nopCommerce\portal\UserCustomerInforPageObject.java
+D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\pageUIs\nopCommerce\user\ChangePasswordUI.java
+D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\pageObjects\nopCommerce\portal\UserAddressPageObject.java
+D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\pageUIs\nopCommerce\user\RegisterPageUI.java
+D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\utilities\FakeDataHelper.java
+D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\pageObjects\nopCommerce\portal\UserSearchPageObject.java
+D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\pageUIs\nopCommerce\user\AddressPageUI.java
+D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\pageUIs\nopCommerce\user\BasePageUINopCommerce.java
+D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\pageUIs\nopCommerce\user\LoginPageUI.java
+D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\pageUIs\nopCommerce\user\MyProductReviewPageUI.java
+D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\pageUIs\nopCommerce\user\WishlistShareLinkPageUI.java
+D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\pageUIs\nopCommerce\user\NoteBookPageUI.java

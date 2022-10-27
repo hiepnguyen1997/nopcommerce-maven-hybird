@@ -20,7 +20,9 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import bsh.commands.dir;
 import pageObjects.nopCommerce.portal.UserHomePageObject;
+import pageObjects.nopCommerce.portal.WishlistPageObject;
 import pageUIs.nopCommerce.user.BasePageUINopCommerce;
 
 public class BasePage {
@@ -456,6 +458,11 @@ public class BasePage {
 		WebDriverWait explicitWait = new WebDriverWait(driver, longTimeout);
 		explicitWait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(getByLocator(locatorType)));
 	}
+	
+	protected void waitForAllElementPresent(WebDriver driver, String locatorType) {
+		WebDriverWait explicitWait = new WebDriverWait(driver, longTimeout);
+		explicitWait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(getByLocator(locatorType)));
+	}
 
 	protected void waitForAllElementsVisible(WebDriver driver, String locatorType, String... params) {
 		WebDriverWait explicitWait = new WebDriverWait(driver, longTimeout);
@@ -612,6 +619,12 @@ public class BasePage {
 	 */
 	public FooterListMenuPage getFooterListMenu(WebDriver driver) {
 		return new FooterListMenuPage(driver);
+	}
+	
+	public WishlistPageObject clickOnWishlistLink(WebDriver driver) {
+		waitForElementVisible(driver, BasePageUINopCommerce.WISHLIST_LINK);
+		clickToElement(driver, BasePageUINopCommerce.WISHLIST_LINK);
+		return PageGeneratorManager.getWishlistPage(driver);
 	}
 
 	private long longTimeout = GlobalConstants.LONG_TIMEOUT;

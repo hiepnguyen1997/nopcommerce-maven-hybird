@@ -1,12 +1,16 @@
-[2022-10-21 12:11:22,777] Step 01: Navigate to Computer/NoteBooks Page
-[2022-10-21 12:11:24,666] Step 02: Select Name: A To Z
-[2022-10-21 12:11:27,867] Step 03: Verify the product name sort correctly
-[2022-10-21 12:11:27,988] Step 01: Navigate to Computer/NoteBooks Page
-[2022-10-21 12:11:28,625] Step 02: Select Name:  Z to A
-[2022-10-21 12:11:31,798] Step 03: Verify the product name sort correctly
-[2022-10-21 12:11:32,227] Step 01: Navigate to Computer/NoteBooks Page
-[2022-10-21 12:11:32,950] Step 02: Select Price: Low to High
-[2022-10-21 12:11:36,137] Step 03: Verify the product name sort correctly
-[2022-10-21 12:11:36,318] Step 01: Navigate to Computer/NoteBooks Page
-[2022-10-21 12:11:36,974] Step 02: Select Price: High to Low
-[2022-10-21 12:11:40,137] Step 03: Verify the product name sort correctly
+[2022-10-27 22:41:43,760] Pre Conditions: Step 01 - Click on Login link
+[2022-10-27 22:41:45,252] Pre Conditions: Step 02 - Input to email by: tod.schinner@gmail.com
+[2022-10-27 22:41:45,445] Pre Conditions: Step 03 - Input to password by: SO0$4n8c#
+[2022-10-27 22:41:45,636] Pre Conditions: Step 04 - Click on Login button
+[2022-10-27 22:41:46,455] Pre Conditions: Step 05 - Verify login successfull
+[2022-10-27 22:41:46,725] Step 01: Open Notebooks page
+[2022-10-27 22:41:47,897] Step 02: Click on product name
+[2022-10-27 22:41:52,488] Step 03: Click on Add to wishlist
+[2022-10-27 22:41:52,619] Step 04: Verify the message add to wishlist successfull display
+[2022-10-27 22:41:53,114] Step 05: Click on Wishlist link
+[2022-10-27 22:41:54,906] Step 06: Verify product:  added to Wishlist
+[2022-10-27 22:41:54,977] Step 07: Verify the share wishlist link display
+[2022-10-27 22:41:55,070] Step 08: Click on share wishlist link
+[2022-10-27 22:41:55,561] Step 09: Verify the wishlist of Victor Schuster is display
+[2022-10-27 22:41:55,643] OS name = windows 10
+[2022-10-27 22:41:55,643] Driver instance name = chromedriver: chrome on windows (9ca28f7e471f274a77ae6509f56150f4)
