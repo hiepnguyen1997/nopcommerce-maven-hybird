@@ -12,4 +12,5 @@ public class NotebooksPageObject extends ListPageAtTopMenu{
 		super(driver);
 		this.driver = driver;
 	}
+
 }

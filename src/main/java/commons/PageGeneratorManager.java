@@ -2,10 +2,12 @@ package commons;
 
 import org.openqa.selenium.WebDriver;
 
+import pageObjects.nopCommerce.portal.CompareListPageObject;
 import pageObjects.nopCommerce.portal.DesktopsPageObject;
 import pageObjects.nopCommerce.portal.NotebooksPageObject;
 import pageObjects.nopCommerce.portal.ProductDetailPageObject;
 import pageObjects.nopCommerce.portal.ProductPreviewPageObject;
+import pageObjects.nopCommerce.portal.ShoppingCardPageObject;
 import pageObjects.nopCommerce.portal.UserAddressPageObject;
 import pageObjects.nopCommerce.portal.UserChangePasswordPageObject;
 import pageObjects.nopCommerce.portal.UserCustomerInforPageObject;
@@ -73,5 +75,13 @@ public class PageGeneratorManager {
 	
 	public static WishlistShareLinkPageObject getWishlistShareLinkPage(WebDriver driver) {
 		return new WishlistShareLinkPageObject(driver);
+	}
+	
+	public static ShoppingCardPageObject getShoppingCardPage(WebDriver driver) {
+		return new ShoppingCardPageObject(driver);
+	}
+	
+	public static CompareListPageObject getCompareListPage(WebDriver driver) {
+		return new CompareListPageObject(driver);
 	}
 }

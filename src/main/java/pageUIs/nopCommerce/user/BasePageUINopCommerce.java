@@ -11,7 +11,9 @@ public class BasePageUINopCommerce {
 	public static final String LOGOUT_LINK_ADMIN = "XPATH=//a[text()='Logout']";
 	public static final String FOOTER_SEARCH_PAGE = "XPATH=//div[@class='footer']//a[text()='Search']";
 	public static final String PAGE_AT_FOOTER_BY_NAME = "XPATH=//div[@class='footer']//a[text()='%s']";
+	public static final String SHOPPING_CARD_LINK = "XPATH=//div[@class='header-links']//a[@class='ico-cart']";
 	public static final String WISHLIST_LINK = "XPATH=//div[@class='header-links']//a[@class='ico-wishlist']";
+	public static final String WISHLIST_QUANTITY = "XPATH=//a[@class='ico-wishlist']/span[@class='wishlist-qty']";
 	
 	//pattern object
 	

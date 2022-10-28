@@ -135,5 +135,27 @@ public class ListProductPage extends BasePage {
 	public boolean isPagingUnDisplay() {
 		return isElementUnDisplay(driver, ListProductPageUI.PRODUCT_PAGER);
 	}
+	
+	public String getProductPriceByProductName(String productName) {
+		waitForElementVisible(driver, ListProductPageUI.PRODUCT_PRICE_BY_NAME, productName);
+		return getElementText(driver, ListProductPageUI.PRODUCT_PRICE_BY_NAME, productName);
+	}
+
+	public void clickonAddToCompareListProductName(String productName) {
+		waitForElementVisible(driver, ListProductPageUI.ADD_COMPARE_LIST_BUTTON_BY_PRODUCT_NAME, productName);
+		clickToElement(driver, ListProductPageUI.ADD_COMPARE_LIST_BUTTON_BY_PRODUCT_NAME, productName);
+		
+	}
+
+	public String getCompareProductMessage() {
+		waitForElementVisible(driver, ListProductPageUI.ADD_COMPARE_LIST_MESSAGE);
+		return getElementText(driver, ListProductPageUI.ADD_COMPARE_LIST_MESSAGE);
+	}
+	
+	public void closeAddCompareListMessage() {
+		waitForElementVisible(driver, ListProductPageUI.CLOSE_ADD_COMPARE_LIST_MESSAGE);
+		clickToElement(driver, ListProductPageUI.CLOSE_ADD_COMPARE_LIST_MESSAGE);
+		sleepInSecond(2);
+	}
 
 }

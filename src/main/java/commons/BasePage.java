@@ -21,6 +21,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import bsh.commands.dir;
+import pageObjects.nopCommerce.portal.ShoppingCardPageObject;
 import pageObjects.nopCommerce.portal.UserHomePageObject;
 import pageObjects.nopCommerce.portal.WishlistPageObject;
 import pageUIs.nopCommerce.user.BasePageUINopCommerce;
@@ -626,7 +627,7 @@ public class BasePage {
 		clickToElement(driver, BasePageUINopCommerce.WISHLIST_LINK);
 		return PageGeneratorManager.getWishlistPage(driver);
 	}
-
+	
 	private long longTimeout = GlobalConstants.LONG_TIMEOUT;
 	private long shortTimeout = GlobalConstants.SHORT_TIMEOUT;
 
