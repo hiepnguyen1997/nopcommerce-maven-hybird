@@ -11596,3 +11596,291 @@ Driver info: driver.version: RemoteWebDriver
 [2022-10-27 22:41:55,561] Step 09: Verify the wishlist of Victor Schuster is display
 [2022-10-27 22:41:55,643] OS name = windows 10
 [2022-10-27 22:41:55,643] Driver instance name = chromedriver: chrome on windows (9ca28f7e471f274a77ae6509f56150f4)
+[2022-10-28 12:28:08,167] Pre Conditions: Step 01 - Click on Login link
+[2022-10-28 12:28:09,840] Pre Conditions: Step 02 - Input to email by: jann.littel@yahoo.com
+[2022-10-28 12:28:10,031] Pre Conditions: Step 03 - Input to password by: *2$@Tb$J
+[2022-10-28 12:28:10,228] Pre Conditions: Step 04 - Click on Login button
+[2022-10-28 12:28:10,964] Pre Conditions: Step 05 - Verify login successfull
+[2022-10-28 12:28:11,461] Step 01: Open Notebooks page
+[2022-10-28 12:28:12,815] Step 02: Click on product name
+[2022-10-28 12:28:14,892] Step 03: Click on Add to wishlist
+[2022-10-28 12:28:15,038] Step 04: Verify the message add to wishlist successfull display
+[2022-10-28 12:28:15,831] Step 05: Click on Wishlist link
+[2022-10-28 12:28:17,530] Step 06: Verify product:  added to Wishlist
+[2022-10-28 12:28:17,602] Step 07: Verify the share wishlist link display
+[2022-10-28 12:28:17,685] Step 08: Click on share wishlist link
+[2022-10-28 12:28:18,138] Step 09: Verify the wishlist of Dolores Nitzsche is display
+[2022-10-28 12:28:18,274] Step 01: Open Wishlist page
+[2022-10-28 12:28:18,598] Step 02: Click on checkbox of Asus N551JK-XO076H Laptop
+[2022-10-28 12:28:18,749] Step 03: Click on Add to cart button
+[2022-10-28 12:28:19,384] Step 04: Verify the product is removed from Wishlist page and add to card
+[2022-10-28 12:28:19,753] OS name = windows 10
+[2022-10-28 12:28:19,753] Driver instance name = chromedriver: chrome on windows (af68f97bc0b96750f7e5d8a2ab481802)
+[2022-10-28 12:30:20,425] Pre Conditions: Step 01 - Click on Login link
+[2022-10-28 12:30:21,596] Pre Conditions: Step 02 - Input to email by: mardell.reilly@gmail.com
+[2022-10-28 12:30:21,793] Pre Conditions: Step 03 - Input to password by: Jlvv^0CZ
+[2022-10-28 12:30:21,979] Pre Conditions: Step 04 - Click on Login button
+[2022-10-28 12:30:22,703] Pre Conditions: Step 05 - Verify login successfull
+[2022-10-28 12:30:23,008] Step 01: Open Notebooks page
+[2022-10-28 12:30:23,869] Step 02: Click on product name
+[2022-10-28 12:30:24,991] Step 03: Click on Add to wishlist
+[2022-10-28 12:30:25,125] Step 04: Verify the message add to wishlist successfull display
+[2022-10-28 12:30:25,852] Step 05: Click on Wishlist link
+[2022-10-28 12:30:27,591] Step 06: Verify product:  added to Wishlist
+[2022-10-28 12:30:27,658] Step 07: Verify the share wishlist link display
+[2022-10-28 12:30:27,740] Step 08: Click on share wishlist link
+[2022-10-28 12:30:28,185] Step 09: Verify the wishlist of Melynda Fahey is display
+[2022-10-28 12:30:28,272] Step 01: Open Wishlist page
+[2022-10-28 12:30:28,606] Step 02: Click on checkbox of Asus N551JK-XO076H Laptop
+[2022-10-28 12:30:28,744] Step 03: Click on Add to cart button
+[2022-10-28 12:30:31,334] Step 04: Verify the product is removed from Wishlist page and add to card
+[2022-10-28 12:32:08,795] Pre Conditions: Step 01 - Click on Login link
+[2022-10-28 12:32:10,884] Pre Conditions: Step 02 - Input to email by: dannie.hudson@hotmail.com
+[2022-10-28 12:32:11,089] Pre Conditions: Step 03 - Input to password by: VD&HZK%$u
+[2022-10-28 12:32:11,269] Pre Conditions: Step 04 - Click on Login button
+[2022-10-28 12:32:12,394] Pre Conditions: Step 05 - Verify login successfull
+[2022-10-28 12:32:12,667] Step 01: Open Notebooks page
+[2022-10-28 12:32:13,967] Step 02: Click on product name
+[2022-10-28 12:32:15,425] Step 03: Click on Add to wishlist
+[2022-10-28 12:32:15,566] Step 04: Verify the message add to wishlist successfull display
+[2022-10-28 12:32:16,015] Step 05: Click on Wishlist link
+[2022-10-28 12:32:17,735] Step 06: Verify product:  added to Wishlist
+[2022-10-28 12:32:17,801] Step 07: Verify the share wishlist link display
+[2022-10-28 12:32:17,882] Step 08: Click on share wishlist link
+[2022-10-28 12:32:18,339] Step 09: Verify the wishlist of Dwain Gerhold is display
+[2022-10-28 12:32:18,430] Step 01: Open Wishlist page
+[2022-10-28 12:32:18,780] Step 02: Click on checkbox of Asus N551JK-XO076H Laptop
+[2022-10-28 12:32:18,922] Step 03: Click on Add to cart button
+[2022-10-28 12:32:22,022] Step 04: Verify the product is removed from Wishlist page and add to card
+[2022-10-28 12:33:10,393] Pre Conditions: Step 01 - Click on Login link
+[2022-10-28 12:33:11,419] Pre Conditions: Step 02 - Input to email by: karlyn.hackett@gmail.com
+[2022-10-28 12:33:11,619] Pre Conditions: Step 03 - Input to password by: 5prW^$d9
+[2022-10-28 12:33:11,793] Pre Conditions: Step 04 - Click on Login button
+[2022-10-28 12:33:12,519] Pre Conditions: Step 05 - Verify login successfull
+[2022-10-28 12:33:12,816] Step 01: Open Notebooks page
+[2022-10-28 12:33:13,979] Step 02: Click on product name
+[2022-10-28 12:33:15,131] Step 03: Click on Add to wishlist
+[2022-10-28 12:33:15,267] Step 04: Verify the message add to wishlist successfull display
+[2022-10-28 12:33:15,708] Step 05: Click on Wishlist link
+[2022-10-28 12:33:17,300] Step 06: Verify product:  added to Wishlist
+[2022-10-28 12:33:17,356] Step 07: Verify the share wishlist link display
+[2022-10-28 12:33:17,435] Step 08: Click on share wishlist link
+[2022-10-28 12:33:17,888] Step 09: Verify the wishlist of Kurtis Kulas is display
+[2022-10-28 12:33:17,970] Step 01: Open Wishlist page
+[2022-10-28 12:33:18,297] Step 02: Click on checkbox of Asus N551JK-XO076H Laptop
+[2022-10-28 12:33:18,441] Step 03: Click on Add to cart button
+[2022-10-28 12:33:21,811] Step 04: Verify the product is removed from Wishlist page and add to card
+[2022-10-28 15:13:10,501] Pre Conditions: Step 01 - Click on Login link
+[2022-10-28 15:13:12,193] Pre Conditions: Step 02 - Input to email by: anna.kerluke@yahoo.com
+[2022-10-28 15:13:12,387] Pre Conditions: Step 03 - Input to password by: z!DtP5m6$
+[2022-10-28 15:13:12,565] Pre Conditions: Step 04 - Click on Login button
+[2022-10-28 15:13:13,301] Pre Conditions: Step 05 - Verify login successfull
+[2022-10-28 15:13:13,718] Step 01: Open Notebooks page
+[2022-10-28 15:13:14,810] Step 02: Click on product name
+[2022-10-28 15:13:16,278] Step 03: Click on Add to wishlist
+[2022-10-28 15:13:16,415] Step 04: Verify the message add to wishlist successfull display
+[2022-10-28 15:13:16,863] Step 05: Click on Wishlist link
+[2022-10-28 15:13:19,206] Step 06: Verify product:  added to Wishlist
+[2022-10-28 15:13:19,256] Step 07: Verify the share wishlist link display
+[2022-10-28 15:13:19,338] Step 08: Click on share wishlist link
+[2022-10-28 15:13:19,789] Step 09: Verify the wishlist of Stacy Hermann is display
+[2022-10-28 15:13:19,898] Step 01: Open Wishlist page
+[2022-10-28 15:13:20,227] Step 02: Click on checkbox of Asus N551JK-XO076H Laptop
+[2022-10-28 15:13:20,371] Step 03: Click on Add to cart button
+[2022-10-28 15:13:23,776] Step 04: Verify the product is removed from Wishlist page and add to card
+[2022-10-28 15:13:23,979] Step 01: Open Notebooks page
+[2022-10-28 15:13:25,258] Step 02: Click on product name
+[2022-10-28 15:13:26,137] Step 03: Click on Add to wishlist
+[2022-10-28 15:13:26,254] Step 04: Verify the message add to wishlist successfull display
+[2022-10-28 15:13:26,752] Step 05: Click on Wishlist link
+[2022-10-28 15:13:28,181] Step 06: Verify product: Asus N551JK-XO076H Laptop added to Wishlist
+[2022-10-28 15:13:28,229] Step 07: Click on remove button of product: Asus N551JK-XO076H Laptop
+[2022-10-28 15:13:28,654] Step 08: Verify the wishlist page empty message display
+[2022-10-28 16:17:03,992] Pre Conditions: Step 01 - Click on Login link
+[2022-10-28 16:17:05,508] Pre Conditions: Step 02 - Input to email by: celesta.olson@gmail.com
+[2022-10-28 16:17:05,700] Pre Conditions: Step 03 - Input to password by: a7sb62&*
+[2022-10-28 16:17:05,874] Pre Conditions: Step 04 - Click on Login button
+[2022-10-28 16:17:06,586] Pre Conditions: Step 05 - Verify login successfull
+[2022-10-28 16:17:06,868] Step 01: Open Notebooks page
+[2022-10-28 16:17:07,931] Step 02: Click on product name
+[2022-10-28 16:17:09,303] Step 03: Click on Add to wishlist
+[2022-10-28 16:17:09,442] Step 04: Verify the message add to wishlist successfull display
+[2022-10-28 16:17:10,131] Step 05: Click on Wishlist link
+[2022-10-28 16:17:11,484] Step 06: Verify product:  added to Wishlist
+[2022-10-28 16:17:11,536] Step 07: Verify the share wishlist link display
+[2022-10-28 16:17:11,617] Step 08: Click on share wishlist link
+[2022-10-28 16:17:12,052] Step 09: Verify the wishlist of Chance Conroy is display
+[2022-10-28 16:17:12,130] Step 01: Open Wishlist page
+[2022-10-28 16:17:12,460] Step 02: Click on checkbox of Asus N551JK-XO076H Laptop
+[2022-10-28 16:17:12,603] Step 03: Click on Add to cart button
+[2022-10-28 16:17:15,599] Step 04: Verify the product is removed from Wishlist page and add to card
+[2022-10-28 16:17:15,815] Step 01: Open Notebooks page
+[2022-10-28 16:17:17,069] Step 02: Click on product name
+[2022-10-28 16:17:18,049] Step 03: Click on Add to wishlist
+[2022-10-28 16:17:18,164] Step 04: Verify the message add to wishlist successfull display
+[2022-10-28 16:17:18,585] Step 05: Click on Wishlist link
+[2022-10-28 16:17:20,031] Step 06: Verify product: Asus N551JK-XO076H Laptop added to Wishlist
+[2022-10-28 16:17:20,082] Step 07: Click on remove button of product: Asus N551JK-XO076H Laptop
+[2022-10-28 16:17:20,514] Step 08: Verify the wishlist page empty message display
+[2022-10-28 16:17:20,618] Step 01: Open Notebooks page
+[2022-10-28 21:52:12,515] Pre Conditions: Step 01 - Click on Login link
+[2022-10-28 21:52:14,267] Pre Conditions: Step 02 - Input to email by: shannon.bashirian@hotmail.com
+[2022-10-28 21:52:14,474] Pre Conditions: Step 03 - Input to password by: 7jss387p
+[2022-10-28 21:52:14,642] Pre Conditions: Step 04 - Click on Login button
+[2022-10-28 21:52:15,408] Pre Conditions: Step 05 - Verify login successfull
+[2022-10-28 21:52:16,008] Step 01: Open Notebooks page
+[2022-10-28 21:52:18,420] Step 02: Click on Add to compare list for: Asus N551JK-XO076H Laptop
+[2022-10-28 21:52:19,028] Step 03: Click on Add to compare list for: Samsung Series 9 NP900X4C Premium Ultrabook
+[2022-10-28 21:52:19,374] Step 04: Click on Compare product list at footer page
+[2022-10-28 21:57:39,958] Pre Conditions: Step 01 - Click on Login link
+[2022-10-28 21:57:41,185] Pre Conditions: Step 02 - Input to email by: cleo.jakubowski@yahoo.com
+[2022-10-28 21:57:41,382] Pre Conditions: Step 03 - Input to password by: p^DE9H##Y
+[2022-10-28 21:57:41,574] Pre Conditions: Step 04 - Click on Login button
+[2022-10-28 21:57:42,306] Pre Conditions: Step 05 - Verify login successfull
+[2022-10-28 21:57:42,582] Step 01: Open Notebooks page
+[2022-10-28 21:57:44,847] Step 02: Click on Add to compare list for: Asus N551JK-XO076H Laptop
+[2022-10-28 21:57:47,462] Step 03: Click on Add to compare list for: Samsung Series 9 NP900X4C Premium Ultrabook
+[2022-10-28 21:57:50,052] Step 04: Click on Compare product list at footer page
+[2022-10-28 21:57:51,988] Step 05: Verify the product name Asus N551JK-XO076H Laptop and its price display
+[2022-10-28 22:00:28,246] Pre Conditions: Step 01 - Click on Login link
+[2022-10-28 22:00:29,815] Pre Conditions: Step 02 - Input to email by: julieann.hagenes@yahoo.com
+[2022-10-28 22:00:30,009] Pre Conditions: Step 03 - Input to password by: C8%3f4Eyl
+[2022-10-28 22:00:30,186] Pre Conditions: Step 04 - Click on Login button
+[2022-10-28 22:00:30,924] Pre Conditions: Step 05 - Verify login successfull
+[2022-10-28 22:00:31,209] Step 01: Open Notebooks page
+[2022-10-28 22:00:33,450] Step 02: Click on Add to compare list for: Asus N551JK-XO076H Laptop
+[2022-10-28 22:00:36,092] Step 03: Click on Add to compare list for: Samsung Series 9 NP900X4C Premium Ultrabook
+[2022-10-28 22:00:38,682] Step 04: Click on Compare product list at footer page
+[2022-10-28 22:00:40,876] Step 05: Verify the product name Asus N551JK-XO076H Laptop and its price display
+[2022-10-28 22:00:41,138] Step 05: Verify the product name Samsung Series 9 NP900X4C Premium Ultrabook and its price display
+[2022-10-28 22:02:44,781] Pre Conditions: Step 01 - Click on Login link
+[2022-10-28 22:02:45,825] Pre Conditions: Step 02 - Input to email by: tracy.schimmel@yahoo.com
+[2022-10-28 22:02:46,020] Pre Conditions: Step 03 - Input to password by: q3h0I#N$
+[2022-10-28 22:02:46,197] Pre Conditions: Step 04 - Click on Login button
+[2022-10-28 22:02:46,931] Pre Conditions: Step 05 - Verify login successfull
+[2022-10-28 22:02:47,214] Step 01: Open Notebooks page
+[2022-10-28 22:02:48,313] Step 02: Click on Add to compare list for: Asus N551JK-XO076H Laptop
+[2022-10-28 22:02:50,939] Step 03: Click on Add to compare list for: Samsung Series 9 NP900X4C Premium Ultrabook
+[2022-10-28 22:02:53,552] Step 04: Click on Compare product list at footer page
+[2022-10-28 22:02:54,263] Step 05: Verify the product name Asus N551JK-XO076H Laptop and its price display
+[2022-10-28 22:02:54,539] Step 05: Verify the product name Samsung Series 9 NP900X4C Premium Ultrabook and its price display
+[2022-10-29 20:39:48,235] Pre Conditions: Step 01 - Click on Login link
+[2022-10-29 20:39:49,746] Pre Conditions: Step 02 - Input to email by: odette.legros@gmail.com
+[2022-10-29 20:39:49,933] Pre Conditions: Step 03 - Input to password by: $yhM2^IM
+[2022-10-29 20:39:50,113] Pre Conditions: Step 04 - Click on Login button
+[2022-10-29 20:39:50,873] Pre Conditions: Step 05 - Verify login successfull
+[2022-10-29 20:39:51,382] Step 01: Open Notebooks page
+[2022-10-29 20:39:52,462] Step 02: Click on Add to compare list for: Asus N551JK-XO076H Laptop
+[2022-10-29 20:39:55,114] Step 03: Click on Add to compare list for: Samsung Series 9 NP900X4C Premium Ultrabook
+[2022-10-29 20:39:57,740] Step 04: Click on Compare product list at footer page
+[2022-10-29 20:39:58,596] Step 05: Verify the product name Asus N551JK-XO076H Laptop and its price display
+[2022-10-29 20:39:58,867] Step 06: Verify the product name Samsung Series 9 NP900X4C Premium Ultrabook and its price display
+[2022-10-29 20:39:59,138] Step 07: Click on Clear All button
+[2022-10-29 20:39:59,810] Step 08: Verify the message display
+[2022-10-29 20:44:17,746] Pre Conditions: Step 01 - Click on Login link
+[2022-10-29 20:44:18,752] Pre Conditions: Step 02 - Input to email by: ethelene.rempel@hotmail.com
+[2022-10-29 20:44:18,949] Pre Conditions: Step 03 - Input to password by: x&c^7#tf
+[2022-10-29 20:44:19,135] Pre Conditions: Step 04 - Click on Login button
+[2022-10-29 20:44:19,895] Pre Conditions: Step 05 - Verify login successfull
+[2022-10-29 20:44:20,189] Step 01: Open Notebooks page
+[2022-10-29 20:44:21,279] Step 02: Click on product name
+[2022-10-29 20:44:22,912] Step 03: Click on Add to wishlist
+[2022-10-29 20:44:23,046] Step 04: Verify the message add to wishlist successfull display
+[2022-10-29 20:44:23,539] Step 05: Click on Wishlist link
+[2022-10-29 20:44:27,348] Step 06: Verify product:  added to Wishlist
+[2022-10-29 20:44:27,398] Step 07: Verify the share wishlist link display
+[2022-10-29 20:44:27,483] Step 08: Click on share wishlist link
+[2022-10-29 20:44:27,911] Step 09: Verify the wishlist of Lori Beier is display
+[2022-10-29 20:44:27,994] Step 01: Open Wishlist page
+[2022-10-29 20:44:28,365] Step 02: Click on checkbox of HP Envy 6-1180ca 15.6-Inch Sleekbook
+[2022-10-29 20:44:28,506] Step 03: Click on Add to cart button
+[2022-10-29 20:44:31,969] Step 04: Verify the product is removed from Wishlist page and add to card
+[2022-10-29 20:44:32,188] Step 01: Open Notebooks page
+[2022-10-29 20:44:33,522] Step 02: Click on product name
+[2022-10-29 20:44:42,401] Step 03: Click on Add to wishlist
+[2022-10-29 20:44:42,509] Step 04: Verify the message add to wishlist successfull display
+[2022-10-29 20:44:42,931] Step 05: Click on Wishlist link
+[2022-10-29 20:44:44,448] Step 06: Verify product: HP Envy 6-1180ca 15.6-Inch Sleekbook added to Wishlist
+[2022-10-29 20:44:44,498] Step 07: Click on remove button of product: HP Envy 6-1180ca 15.6-Inch Sleekbook
+[2022-10-29 20:44:45,017] Step 08: Verify the wishlist page empty message display
+[2022-10-29 20:44:45,107] Step 01: Open Notebooks page
+[2022-10-29 20:44:45,803] Step 02: Click on Add to compare list for: HP Envy 6-1180ca 15.6-Inch Sleekbook
+[2022-10-29 20:44:48,447] Step 03: Click on Add to compare list for: Lenovo Thinkpad X1 Carbon Laptop
+[2022-10-29 20:44:51,073] Step 04: Click on Compare product list at footer page
+[2022-10-29 20:44:51,823] Step 05: Verify the product name HP Envy 6-1180ca 15.6-Inch Sleekbook and its price display
+[2022-10-29 20:44:52,119] Step 06: Verify the product name Lenovo Thinkpad X1 Carbon Laptop and its price display
+[2022-10-29 20:44:52,406] Step 07: Click on Clear All button
+[2022-10-29 20:44:53,129] Step 08: Verify the message 'You have no items to compare.' display
+[2022-10-30 16:04:07,095] Pre Conditions: Step 01 - Click on Login link
+[2022-10-30 16:04:08,655] Pre Conditions: Step 02 - Input to email by: kathyrn.glover@hotmail.com
+[2022-10-30 16:04:08,860] Pre Conditions: Step 03 - Input to password by: 6JE$!@Zg!
+[2022-10-30 16:04:09,036] Pre Conditions: Step 04 - Click on Login button
+[2022-10-30 16:04:09,763] Pre Conditions: Step 05 - Verify login successfull
+[2022-10-30 16:04:12,363] Step 01: Open Notebooks page
+[2022-10-30 16:04:13,953] Step 02: Click on product: HP Envy 6-1180ca 15.6-Inch Sleekbook
+[2022-10-30 16:04:16,662] Step 03: Open Notebooks page again
+[2022-10-30 16:04:17,948] Step 04: Click on product: Lenovo Thinkpad X1 Carbon Laptop
+[2022-10-30 16:04:18,935] Step 05: Open Notebooks page again
+[2022-10-30 16:04:19,643] Step 06: Click on product: Apple MacBook Pro 13-inch
+[2022-10-30 16:04:21,139] Step 07: Open Notebooks page again
+[2022-10-30 16:04:22,426] Step 08: Click on product: Asus N551JK-XO076H Laptop
+[2022-10-30 16:04:23,570] Step 09: Open Notebooks page again
+[2022-10-30 16:04:24,866] Step 10: Click on product: HP Spectre XT Pro UltraBook
+[2022-10-30 16:04:25,813] Step 11: Open Recently views product page
+[2022-10-30 16:05:16,517] Pre Conditions: Step 01 - Click on Login link
+[2022-10-30 16:05:17,780] Pre Conditions: Step 02 - Input to email by: barrett.vandervort@hotmail.com
+[2022-10-30 16:05:17,988] Pre Conditions: Step 03 - Input to password by: 6gx6BYI6G
+[2022-10-30 16:05:18,167] Pre Conditions: Step 04 - Click on Login button
+[2022-10-30 16:05:18,900] Pre Conditions: Step 05 - Verify login successfull
+[2022-10-30 16:05:19,194] Step 01: Open Notebooks page
+[2022-10-30 16:05:20,544] Step 02: Click on product: HP Envy 6-1180ca 15.6-Inch Sleekbook
+[2022-10-30 16:05:23,604] Step 03: Open Notebooks page again
+[2022-10-30 16:05:24,407] Step 04: Click on product: Lenovo Thinkpad X1 Carbon Laptop
+[2022-10-30 16:05:25,554] Step 05: Open Notebooks page again
+[2022-10-30 16:05:26,835] Step 06: Click on product: Apple MacBook Pro 13-inch
+[2022-10-30 16:05:27,961] Step 07: Open Notebooks page again
+[2022-10-30 16:05:29,229] Step 08: Click on product: Asus N551JK-XO076H Laptop
+[2022-10-30 16:05:30,340] Step 09: Open Notebooks page again
+[2022-10-30 16:05:31,645] Step 10: Click on product: HP Spectre XT Pro UltraBook
+[2022-10-30 16:05:32,952] Step 11: Open Recently views product page
+[2022-10-30 16:07:09,856] Pre Conditions: Step 01 - Click on Login link
+[2022-10-30 16:07:11,355] Pre Conditions: Step 02 - Input to email by: divina.harvey@gmail.com
+[2022-10-30 16:07:11,551] Pre Conditions: Step 03 - Input to password by: u@Rm^g0T#
+[2022-10-30 16:07:11,703] Pre Conditions: Step 04 - Click on Login button
+[2022-10-30 16:07:12,439] Pre Conditions: Step 05 - Verify login successfull
+[2022-10-30 16:07:12,731] Step 01: Open Notebooks page
+[2022-10-30 16:07:13,732] Step 02: Click on product: HP Envy 6-1180ca 15.6-Inch Sleekbook
+[2022-10-30 16:07:14,751] Step 03: Open Notebooks page again
+[2022-10-30 16:07:15,415] Step 04: Click on product: Lenovo Thinkpad X1 Carbon Laptop
+[2022-10-30 16:07:16,532] Step 05: Open Notebooks page again
+[2022-10-30 16:07:17,835] Step 06: Click on product: Apple MacBook Pro 13-inch
+[2022-10-30 16:07:18,664] Step 07: Open Notebooks page again
+[2022-10-30 16:07:19,948] Step 08: Click on product: Asus N551JK-XO076H Laptop
+[2022-10-30 16:07:20,726] Step 09: Open Notebooks page again
+[2022-10-30 16:07:21,382] Step 10: Click on product: HP Spectre XT Pro UltraBook
+[2022-10-30 16:07:22,645] Step 11: Open Recently views product page
+[2022-10-30 16:07:23,970] Step 12: Verify the last3products displayed
+[2022-10-30 16:09:08,840] Pre Conditions: Step 01 - Click on Login link
+[2022-10-30 16:09:10,102] Pre Conditions: Step 02 - Input to email by: george.dibbert@yahoo.com
+[2022-10-30 16:09:10,290] Pre Conditions: Step 03 - Input to password by: 3RhepT7AA
+[2022-10-30 16:09:10,482] Pre Conditions: Step 04 - Click on Login button
+[2022-10-30 16:09:11,244] Pre Conditions: Step 05 - Verify login successfull
+[2022-10-30 16:09:11,547] Step 01: Open Notebooks page
+[2022-10-30 16:09:12,842] Step 06: Click on product: Apple MacBook Pro 13-inch
+[2022-10-30 16:09:14,427] Step 07: Open Notebooks page again
+[2022-10-30 16:09:15,121] Step 08: Click on product: Asus N551JK-XO076H Laptop
+[2022-10-30 16:09:16,099] Step 09: Open Notebooks page again
+[2022-10-30 16:09:16,774] Step 10: Click on product: HP Spectre XT Pro UltraBook
+[2022-10-30 16:09:17,788] Step 11: Open Recently views product page
+[2022-10-30 16:09:18,825] Step 12: Verify the last3products displayed
+[2022-10-30 16:10:12,143] Pre Conditions: Step 01 - Click on Login link
+[2022-10-30 16:10:13,642] Pre Conditions: Step 02 - Input to email by: benton.kuhn@gmail.com
+[2022-10-30 16:10:13,839] Pre Conditions: Step 03 - Input to password by: 3O$zGnH0
+[2022-10-30 16:10:14,014] Pre Conditions: Step 04 - Click on Login button
+[2022-10-30 16:10:14,762] Pre Conditions: Step 05 - Verify login successfull
+[2022-10-30 16:10:15,043] Step 01: Open Notebooks page
+[2022-10-30 16:10:16,109] Step 08: Click on product: Asus N551JK-XO076H Laptop
+[2022-10-30 16:10:21,126] Step 09: Open Notebooks page again
+[2022-10-30 16:10:21,792] Step 10: Click on product: HP Spectre XT Pro UltraBook
+[2022-10-30 16:10:22,735] Step 11: Open Recently views product page
+[2022-10-30 16:10:23,541] Step 12: Verify the last2products displayed

@@ -19,6 +19,7 @@ import hybrid.nopcommerce.commons.Register_Commons;
 import pageObjects.nopCommerce.portal.CompareListPageObject;
 import pageObjects.nopCommerce.portal.NotebooksPageObject;
 import pageObjects.nopCommerce.portal.ProductDetailPageObject;
+import pageObjects.nopCommerce.portal.RecentlyViewProductPageObject;
 import pageObjects.nopCommerce.portal.ShoppingCardPageObject;
 import pageObjects.nopCommerce.portal.UserHomePageObject;
 import pageObjects.nopCommerce.portal.UserLoginPageObject;
@@ -30,7 +31,8 @@ import utilities.EnvironmentConfig;
 public class NopCommerce_Wishlist_Compare_RecentReview extends BaseTest{
 	private WebDriver driver;
 	private String emailAddress, password, firstName, lastName, fullName;
-	private String productName1, productName2, wishlistPageUrl;
+	private String wishlistPageUrl;
+	private String productName1, productName2, productName3, productName4, productName5;
 	UserHomePageObject homePage;
 	UserLoginPageObject loginPage;
 	EnvironmentConfig environmentConfig;
@@ -40,6 +42,7 @@ public class NopCommerce_Wishlist_Compare_RecentReview extends BaseTest{
 	WishlistShareLinkPageObject wishlistShareLinkPage;
 	ShoppingCardPageObject shoppingCardPage;
 	CompareListPageObject comparelistPage;
+	RecentlyViewProductPageObject recentlyViewsPage;
 	
 	@Parameters({"browser", "environment"})
 	@BeforeClass
@@ -50,9 +53,11 @@ public class NopCommerce_Wishlist_Compare_RecentReview extends BaseTest{
 		emailAddress = Register_Commons.emailAddress;
 		password = Register_Commons.password;
 		fullName = Register_Commons.firstName + " " + Register_Commons.lastName;
-		productName1 = "Asus N551JK-XO076H Laptop";
-		productName2 = "Samsung Series 9 NP900X4C Premium Ultrabook";
-		
+		productName1 = "HP Envy 6-1180ca 15.6-Inch Sleekbook";
+		productName2 = "Lenovo Thinkpad X1 Carbon Laptop";
+		productName3 = "Apple MacBook Pro 13-inch";
+		productName4 = "Asus N551JK-XO076H Laptop";
+		productName5 = "HP Spectre XT Pro UltraBook";
 		homePage = PageGeneratorManager.getUserHomePage(driver);
 		log.info("Pre Conditions: Step 01 - Click on Login link");
 		loginPage = homePage.clickOnLoginLink();
@@ -170,11 +175,9 @@ public class NopCommerce_Wishlist_Compare_RecentReview extends BaseTest{
 		ExtentTestManager.getTest().log(Status.INFO, "Step 08: Verify the wishlist page empty message display");
 		log.info("Step 08: Verify the wishlist page empty message display");
 		Assert.assertTrue(wishlistPage.isPageEmptyMessageDisplay());
-		
 	}
-	
 
-	@Test
+	//@Test
 	public void TC_04_Add_product_to_compare(Method method) {
 		ExtentTestManager.startTest(method.getName(), "TC 04: Add product to compare");
 		ExtentTestManager.getTest().log(Status.INFO, "Step 01: Open Notebooks page");
@@ -206,10 +209,75 @@ public class NopCommerce_Wishlist_Compare_RecentReview extends BaseTest{
 		Assert.assertEquals(comparelistPage.getValueAtRowNameByProductNameDisplay("Price",productName1), priceProduct1);
 		
 		ExtentTestManager.getTest().log(Status.INFO, "Step 05: Verify the product name " + productName2 + " and its price display");
-		log.info("Step 05: Verify the product name " + productName2 + " and its price display");
+		log.info("Step 06: Verify the product name " + productName2 + " and its price display");
 		Assert.assertTrue(comparelistPage.removeButtonForProductByNameDisplay(productName2));
 		Assert.assertTrue(comparelistPage.isProductByNameDisplay(productName2));
 		Assert.assertEquals(comparelistPage.getValueAtRowNameByProductNameDisplay("Price",productName2), priceProduct2);
+		
+		ExtentTestManager.getTest().log(Status.INFO, "Step 05: Verify the product name " + productName2 + " and its price display");
+		log.info("Step 07: Click on Clear All button");
+		comparelistPage.clickOnClearListButton();
+		
+		ExtentTestManager.getTest().log(Status.INFO, "Step 05: Verify the product name " + productName2 + " and its price display");
+		log.info("Step 08: Verify the message 'You have no items to compare.' display");
+		Assert.assertTrue(comparelistPage.isNoProductInComparePageMessageDisplay());
+	}
+	
+	@Test
+	public void TC_05_Recently_view_product(Method method) {
+		ExtentTestManager.startTest(method.getName(), "TC 05: Recently views product");
+		ExtentTestManager.getTest().log(Status.INFO, "Step 01: Open Notebooks page");
+		log.info("Step 01: Open Notebooks page");
+		notebooksPage = (NotebooksPageObject) homePage.getListPage(driver).openPageAtTopMenuByPageName("Computers", "Notebooks");
+		
+		ExtentTestManager.getTest().log(Status.INFO, "Step 02: Click on product: " + productName1);
+		log.info("Step 02: Click on product: " + productName1);
+		productDetailPage =  notebooksPage.clickOnProductByName(productName1);
+		
+		ExtentTestManager.getTest().log(Status.INFO, "Step 03: Open Notebooks page again");
+		log.info("Step 03: Open Notebooks page again");
+		notebooksPage = (NotebooksPageObject) homePage.getListPage(driver).openPageAtTopMenuByPageName("Computers", "Notebooks");
+		
+		ExtentTestManager.getTest().log(Status.INFO, "Step 04: Click on product: " + productName2);
+		log.info("Step 04: Click on product: " + productName2);
+		productDetailPage =  notebooksPage.clickOnProductByName(productName2);
+		
+		ExtentTestManager.getTest().log(Status.INFO, "Step 05: Open Notebooks page again");
+		log.info("Step 05: Open Notebooks page again");
+		notebooksPage = (NotebooksPageObject) homePage.getListPage(driver).openPageAtTopMenuByPageName("Computers", "Notebooks");
+		
+		ExtentTestManager.getTest().log(Status.INFO, "Step 06: Click on product: " + productName3);
+		log.info("Step 06: Click on product: " + productName3);
+		productDetailPage =  notebooksPage.clickOnProductByName(productName3);
+		
+		ExtentTestManager.getTest().log(Status.INFO, "Step 07: Open Notebooks page again");
+		log.info("Step 07: Open Notebooks page again");
+		notebooksPage = (NotebooksPageObject) homePage.getListPage(driver).openPageAtTopMenuByPageName("Computers", "Notebooks");
+		
+		ExtentTestManager.getTest().log(Status.INFO, "Step 08: Click on product: " + productName4);
+		log.info("Step 08: Click on product: " + productName4);
+		productDetailPage =  notebooksPage.clickOnProductByName(productName4);
+		
+		ExtentTestManager.getTest().log(Status.INFO, "Step 09: Open Notebooks page again");
+		log.info("Step 09: Open Notebooks page again");
+		notebooksPage = (NotebooksPageObject) homePage.getListPage(driver).openPageAtTopMenuByPageName("Computers", "Notebooks");
+		
+		ExtentTestManager.getTest().log(Status.INFO, "Step 10: Click on product: " + productName5);
+		log.info("Step 10: Click on product: " + productName5);
+		productDetailPage =  notebooksPage.clickOnProductByName(productName5);
+		
+		ExtentTestManager.getTest().log(Status.INFO, "Step 11: Open Recently views product page");
+		log.info("Step 11: Open Recently views product page");
+		recentlyViewsPage = (RecentlyViewProductPageObject) productDetailPage.getFooterListMenu(driver).openPageAtFooterByPageName("Recently viewed products");
+		
+		ExtentTestManager.getTest().log(Status.INFO, "Step 12: Verify the last" + recentlyViewsPage.getProductSizeDisplay() +"products displayed");
+		log.info("Step 12: Verify the last" + recentlyViewsPage.getProductSizeDisplay() +"products displayed");
+		String [] listProductName = {productName3, productName4, productName5};
+		Assert.assertEquals(recentlyViewsPage.getProductSizeDisplay(), 3);
+		Assert.assertTrue(recentlyViewsPage.isLast3ProducstDisplayedFromListProduct(listProductName));
+		
+		
+	
 	}
 	
 //	@AfterClass(alwaysRun = true)

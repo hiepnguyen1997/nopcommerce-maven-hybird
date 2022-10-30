@@ -32,4 +32,14 @@ public class CompareListPageObject extends FooterListMenuPage{
 		return getElementText(driver, CompareListPageUI.VALUE_OF_PRODUCT_BY_NAME_AT_ROW_NAME, String.valueOf(rowIndex), String.valueOf(columnProductIndex));
 	}
 
+	public void clickOnClearListButton() {
+		waitForAllElementsVisible(driver, CompareListPageUI.CLEAR_LIST);
+		clickToElement(driver, CompareListPageUI.CLEAR_LIST);
+	}
+
+	public boolean isNoProductInComparePageMessageDisplay() {
+		waitForAllElementsVisible(driver, CompareListPageUI.NO_IEM_MESSAGE_IN_COMPARE_PAGE);
+		return isElementDisplayed(driver, CompareListPageUI.NO_IEM_MESSAGE_IN_COMPARE_PAGE);
+	}
+
 }
