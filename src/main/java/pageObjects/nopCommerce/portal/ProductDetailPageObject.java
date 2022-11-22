@@ -28,14 +28,70 @@ public class ProductDetailPageObject extends BasePage{
 	}
 
 	public String getAddWishlistMessageDisplay() {
-		waitForElementVisible(driver, ProductDetailPageUI.ADD_TO_WISHLIST_MESSAGE);
-		return getElementText(driver, ProductDetailPageUI.ADD_TO_WISHLIST_MESSAGE);
+		waitForElementVisible(driver, ProductDetailPageUI.BAR_NOITIFICATION);
+		return getElementText(driver, ProductDetailPageUI.BAR_NOITIFICATION);
 	}
 
-	public void closeAddWishlistMessage() {
-		waitForElementClickabled(driver, ProductDetailPageUI.CLOSE_ADD_TO_WISHLIST_MESSAGE);
-		clickToElement(driver, ProductDetailPageUI.CLOSE_ADD_TO_WISHLIST_MESSAGE);
+	public void closeNoitificationMessage() {
+		waitForElementClickabled(driver, ProductDetailPageUI.CLOSE_BAR_NOITIFICATION);
+		clickToElement(driver, ProductDetailPageUI.CLOSE_BAR_NOITIFICATION);
+		sleepInSecond(2);
 		
+	}
+
+	public void seclectItemInProcesserDropdown(String processer) {
+		waitForElementVisible(driver, ProductDetailPageUI.PROCESSER_DROPDOWN_LIST);
+		waitForElementClickabled(driver, ProductDetailPageUI.PROCESSER_DROPDOWN_LIST);
+		selectItemInDefaultDropdown(driver, ProductDetailPageUI.PROCESSER_DROPDOWN_LIST, processer);
+		
+	}
+
+	public void seclectItemInRAMDropdown(String RAM) {
+		waitForElementVisible(driver, ProductDetailPageUI.RAM_DROPDOWN_LIST);
+		waitForElementClickabled(driver, ProductDetailPageUI.RAM_DROPDOWN_LIST);
+		selectItemInDefaultDropdown(driver, ProductDetailPageUI.RAM_DROPDOWN_LIST, RAM);
+	}
+
+	public void checkToHDDRadioButton(String HDD) {
+		waitForElementVisible(driver, ProductDetailPageUI.HDD_RADIO_BUTTON, HDD);
+		waitForElementClickabled(driver, ProductDetailPageUI.HDD_RADIO_BUTTON, HDD);
+		checkToDefaultCheckboxRadio(driver, ProductDetailPageUI.HDD_RADIO_BUTTON, HDD);
+		
+	}
+
+	public void checkOSRadioButton(String OS) {
+		waitForElementVisible(driver, ProductDetailPageUI.OS_RADIO_BUTTON, OS);
+		waitForElementClickabled(driver, ProductDetailPageUI.OS_RADIO_BUTTON, OS);
+		checkToDefaultCheckboxRadio(driver, ProductDetailPageUI.OS_RADIO_BUTTON, OS);
+		
+	}
+
+	public void checkToSoftwareCheckbox(String softwareOption) {
+		waitForElementVisible(driver, ProductDetailPageUI.SOFTWARE_CHECKBOX, softwareOption);
+		waitForElementClickabled(driver, ProductDetailPageUI.SOFTWARE_CHECKBOX, softwareOption);
+		checkToDefaultCheckboxRadio(driver, ProductDetailPageUI.SOFTWARE_CHECKBOX, softwareOption);
+		sleepInSecond(1);
+		
+	}
+
+	public boolean isSoftwareCheckSelectedByDefault(String softwareOption) {
+		return isElementSelected(driver, ProductDetailPageUI.SOFTWARE_CHECKBOX, softwareOption);
+	}
+
+	public String getTotalPrice() {
+		waitForElementVisible(driver, ProductDetailPageUI.PRODUCT_PRICE);
+		return getElementText(driver, ProductDetailPageUI.PRODUCT_PRICE);
+	}
+
+	public void clickOnAddToCartButton() {
+		waitForElementVisible(driver, ProductDetailPageUI.ADD_TO_CART);
+		waitForElementClickabled(driver, ProductDetailPageUI.ADD_TO_CART);
+		clickToElement(driver, ProductDetailPageUI.ADD_TO_CART);
+	}
+
+	public String getProductAddToCartMessage() {
+		waitForElementVisible(driver, ProductDetailPageUI.BAR_NOITIFICATION);
+		return getElementText(driver, ProductDetailPageUI.BAR_NOITIFICATION);
 	}
 
 }

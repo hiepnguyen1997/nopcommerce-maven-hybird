@@ -3,6 +3,7 @@ package hybrid.nopcommerce.user;
 import java.lang.reflect.Method;
 import java.util.Random;
 
+import org.aeonbits.owner.ConfigFactory;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
@@ -20,18 +21,21 @@ import hybrid.nopcommerce.commons.Register_Commons;
 import pageObjects.nopCommerce.portal.UserHomePageObject;
 import pageObjects.nopCommerce.portal.UserLoginPageObject;
 import reportConfig.ExtentTestManager;
+import utilities.EnvironmentConfig;
 
 public class NopCommerce_Login extends BaseTest {
 	WebDriver driver;
 	String invalidEmail, notFoundEmail, wrongPassword;
 	private UserHomePageObject homePage;
 	private UserLoginPageObject loginPage;
+	private EnvironmentConfig environmentConfig;
 
 	@Parameters({ "browser", "environment" })
 	@BeforeClass
 	public void beforeClass(@Optional("chrome") String browserName, String environmentName) throws BrowserNotSupport {
-		driver = getBrowserDriver(browserName);
-		driver.get(getEnvironmentName(environmentName));
+		ConfigFactory.setProperty("evn", environmentName);
+		environmentConfig = ConfigFactory.create(EnvironmentConfig.class);
+		driver = getBrowserDriverMananment(browserName, environmentConfig.getWebURL());
 		invalidEmail = "123@dasd.#22";
 		notFoundEmail = "test" + getRandomNumber() + "@gmail.vn";
 		wrongPassword = "147258";

@@ -242,11 +242,11 @@ public class BasePage {
 	}
 
 	protected String getElementText(WebDriver driver, String locatorType) {
-		return getWebElement(driver, locatorType).getText();
+		return getWebElement(driver, locatorType).getText().trim();
 	}
 
 	protected String getElementText(WebDriver driver, String locatorType, String... params) {
-		return getWebElement(driver, getDynamicXpath(locatorType, params)).getText();
+		return getWebElement(driver, getDynamicXpath(locatorType, params)).getText().trim();
 	}
 
 	protected String getElementCssValue(WebDriver driver, String locatorType, String propertyName) {
@@ -526,6 +526,7 @@ public class BasePage {
 	}
 
 	public UserHomePageObject clickOnLougoutLinkUserPage(WebDriver driver) {
+		waitForElementClickabled(driver, BasePageUINopCommerce.LOGOUT_LINK_USER);
 		waitForElementVisible(driver, BasePageUINopCommerce.LOGOUT_LINK_USER);
 		clickToElement(driver, BasePageUINopCommerce.LOGOUT_LINK_USER);
 		return PageGeneratorManager.getUserHomePage(driver);
@@ -626,6 +627,22 @@ public class BasePage {
 		waitForElementVisible(driver, BasePageUINopCommerce.WISHLIST_LINK);
 		clickToElement(driver, BasePageUINopCommerce.WISHLIST_LINK);
 		return PageGeneratorManager.getWishlistPage(driver);
+	}
+	
+	public ShoppingCardPageObject clickOnShoppingCartLink(WebDriver driver) {
+		waitForElementVisible(driver, BasePageUINopCommerce.SHOPPING_CARD_LINK);
+		clickToElement(driver, BasePageUINopCommerce.SHOPPING_CARD_LINK);
+		return PageGeneratorManager.getShoppingCardPage(driver);
+	}
+	
+	public String getWislistQuantity(WebDriver driver) {
+		waitForElementVisible(driver, BasePageUINopCommerce.WISHLIST_QUANTITY);
+		return getElementText(driver, BasePageUINopCommerce.WISHLIST_QUANTITY);
+	}
+	
+	public String getCountNumberOfShoppingCart(WebDriver driver) {
+		waitForElementVisible(driver, BasePageUINopCommerce.SHOPPING_CART_QUANTITY);
+		return getElementText(driver, BasePageUINopCommerce.SHOPPING_CART_QUANTITY);
 	}
 	
 	private long longTimeout = GlobalConstants.LONG_TIMEOUT;

@@ -29,7 +29,7 @@ public class Register_Commons extends BaseTest{
 	public void beforeTest(String browserName, String environmentName) throws BrowserNotSupport {
 		ConfigFactory.setProperty("evn", environmentName);
 		environmentConfig = ConfigFactory.create(EnvironmentConfig.class);
-		driver = getBrowserDriver(browserName, environmentConfig.getWebURL());
+		driver = getBrowserDriverMananment(browserName, environmentConfig.getWebURL());
 		fakeDataHelper = FakeDataHelper.getFakeDataHelper();
 		firstName = fakeDataHelper.getFirstName();
 		lastName = fakeDataHelper.getLastName();

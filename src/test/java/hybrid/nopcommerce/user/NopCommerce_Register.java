@@ -3,6 +3,7 @@ package hybrid.nopcommerce.user;
 import java.lang.reflect.Method;
 import java.util.Random;
 
+import org.aeonbits.owner.ConfigFactory;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
@@ -20,18 +21,21 @@ import hybrid.nopcommerce.commons.Register_Commons;
 import pageObjects.nopCommerce.portal.UserHomePageObject;
 import pageObjects.nopCommerce.portal.UserRegisterPageObject;
 import reportConfig.ExtentTestManager;
+import utilities.EnvironmentConfig;
 
 public class NopCommerce_Register extends BaseTest {
 	WebDriver driver;
 	String email, inValidMail, firstName, lastName, password, wrongPassword;
 	private UserHomePageObject homePage;
 	private UserRegisterPageObject registerPage;
+	private EnvironmentConfig environmentConfig;
 
-	@Parameters({"browser", "environment"})
+	@Parameters({ "browser", "environment" })
 	@BeforeClass
-	public void beforeClass(@Optional ("chorme") String browserName, String environmentName) throws BrowserNotSupport {
-		driver = getBrowserDriver(browserName);
-		driver.get(getEnvironmentName(environmentName));
+	public void beforeClass(@Optional("chrome") String browserName, String environmentName) throws BrowserNotSupport {
+		ConfigFactory.setProperty("evn", environmentName);
+		environmentConfig = ConfigFactory.create(EnvironmentConfig.class);
+		driver = getBrowserDriverMananment(browserName, environmentConfig.getWebURL());
 		homePage = PageGeneratorManager.getUserHomePage(driver);
 		email = "testAuto" + generatorNumber() + "@gmail.com";
 		inValidMail = "123@123";

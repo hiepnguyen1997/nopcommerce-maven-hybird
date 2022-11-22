@@ -3,10 +3,12 @@ package hybrid.nopcommerce.user;
 import java.lang.reflect.Method;
 import java.util.Random;
 
+import org.aeonbits.owner.ConfigFactory;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -27,15 +29,15 @@ import pageObjects.nopCommerce.portal.UserLoginPageObject;
 import pageObjects.nopCommerce.portal.UserMyProductReviewPageObject;
 import pageObjects.nopCommerce.portal.UserRegisterPageObject;
 import reportConfig.ExtentTestManager;
+import utilities.EnvironmentConfig;
 import utilities.FakeDataHelper;
 
 public class NopCommerce_MyAccount extends BaseTest {
 	private WebDriver driver;
-	private String homePageURL;
-	private String firstName, lastName, email, password, dayOfBirth, monthOfBirth, yearOfBirth, male, female;
+	private String male, female;
 	private String newFullName, newFirstName, newLastName, newEmail, newPassword, newDayOfBirth, newMonthOfBirth, newYearOfBirth, newCompany;
 	private String country, city, address_1, address_2, zip, phoneNumber, faxNumber;
-	private String productName, reviewTitle, reviewBody, getCurrentDate;
+	private String productName, reviewTitle, reviewBody;
 	private int randomNumber;
 
 	UserHomePageObject homePage;
@@ -49,23 +51,18 @@ public class NopCommerce_MyAccount extends BaseTest {
 	ProductPreviewPageObject productReviewPage;
 	UserMyProductReviewPageObject myProductReViewPage;
 	FakeDataHelper dataHelper;
+	private EnvironmentConfig environmentConfig;
 
 	@Parameters({ "browser", "environment" })
 	@BeforeClass
-	public void beforeClass(String browserName, String environmentName) throws BrowserNotSupport {
-		driver = getBrowserDriver(browserName);
-		driver.get(getEnvironmentName(environmentName));
+	public void beforeClass(@Optional("chrome") String browserName, String environmentName) throws BrowserNotSupport {
+		ConfigFactory.setProperty("evn", environmentName);
+		environmentConfig = ConfigFactory.create(EnvironmentConfig.class);
+		driver = getBrowserDriverMananment(browserName, environmentConfig.getWebURL());
 		homePage = PageGeneratorManager.getUserHomePage(driver);
 		dataHelper = FakeDataHelper.getFakeDataHelper();
 
 		randomNumber = generateRandomNumber();
-//		email = "today" + randomNumber + "@gmail.com";
-//		firstName = "Hoang Hiep";
-//		lastName = "Nguyen";
-//		password = "123456";
-//		dayOfBirth = "11";
-//		monthOfBirth = "August";
-//		yearOfBirth = "1997";
 		male = "Male";
 		female = "Female";
 
@@ -79,7 +76,8 @@ public class NopCommerce_MyAccount extends BaseTest {
 		newYearOfBirth = "1996";
 		newCompany = dataHelper.getCompany();
 
-		country = dataHelper.getCountry();
+		//country = dataHelper.getCountry();
+		country = "Viet Nam";
 		city = dataHelper.getCity();
 		address_1 = dataHelper.getAddress();
 		address_2 = dataHelper.getAddress();
@@ -90,7 +88,6 @@ public class NopCommerce_MyAccount extends BaseTest {
 		productName = "Digital Storm VANQUISH 3 Custom Performance PC";
 		reviewTitle = "Title of review " + randomNumber;
 		reviewBody = "Body of review " + randomNumber;
-		getCurrentDate = getToday();
 
 		log.info("Pre-Conditon: Step 1 - Click on Login link");
 		loginPage = homePage.clickOnLoginLink();
@@ -106,7 +103,6 @@ public class NopCommerce_MyAccount extends BaseTest {
 
 		log.info("Pre-Conditon: Step 5 - Verify My Account link displayed");
 		Assert.assertTrue(homePage.isMyAccountLinkDisplayed());
-		homePageURL = homePage.getPageUrl(driver);
 	}
 
 	@Test

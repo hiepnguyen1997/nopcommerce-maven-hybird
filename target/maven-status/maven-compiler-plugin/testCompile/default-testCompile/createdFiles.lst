@@ -7,4 +7,5 @@ hybrid\nopcommerce\user\NopCommerce_Login.class
 com\nopcommerce\data\UserDataMapper.class
 hybrid\nopcommerce\user\NopCommerce_MyAccount.class
 hybrid\nopcommerce\user\NopCommerce_Search.class
+hybrid\nopcommerce\user\NopCommerce_Order.class
 hybrid\nopcommerce\commons\Register_Commons.class

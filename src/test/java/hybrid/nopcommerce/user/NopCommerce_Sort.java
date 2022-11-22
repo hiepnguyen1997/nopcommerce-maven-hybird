@@ -2,10 +2,12 @@ package hybrid.nopcommerce.user;
 
 import java.lang.reflect.Method;
 
+import org.aeonbits.owner.ConfigFactory;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -17,17 +19,20 @@ import exception.BrowserNotSupport;
 import pageObjects.nopCommerce.portal.NotebooksPageObject;
 import pageObjects.nopCommerce.portal.UserHomePageObject;
 import reportConfig.ExtentTestManager;
+import utilities.EnvironmentConfig;
 
 public class NopCommerce_Sort extends BaseTest {
     private WebDriver driver;
     UserHomePageObject homePage;
     NotebooksPageObject notebookPage;
+    private EnvironmentConfig environmentConfig;
 
-    @Parameters({"browser", "environment"})
-    @BeforeClass
-    public void beforeClass(String browserName, String environmentName) throws BrowserNotSupport {
-        driver = getBrowserDriver(browserName);
-        driver.get(getEnvironmentName(environmentName));
+	@Parameters({ "browser", "environment" })
+	@BeforeClass
+	public void beforeClass(@Optional("chrome") String browserName, String environmentName) throws BrowserNotSupport {
+		ConfigFactory.setProperty("evn", environmentName);
+		environmentConfig = ConfigFactory.create(EnvironmentConfig.class);
+		driver = getBrowserDriverMananment(browserName, environmentConfig.getWebURL());
         homePage = PageGeneratorManager.getUserHomePage(driver);
     }
 

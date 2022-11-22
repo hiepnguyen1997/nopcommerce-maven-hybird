@@ -7,6 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -30,12 +31,11 @@ import utilities.EnvironmentConfig;
 
 public class NopCommerce_Wishlist_Compare_RecentReview extends BaseTest{
 	private WebDriver driver;
-	private String emailAddress, password, firstName, lastName, fullName;
+	private String emailAddress, password, fullName;
 	private String wishlistPageUrl;
 	private String productName1, productName2, productName3, productName4, productName5;
 	UserHomePageObject homePage;
 	UserLoginPageObject loginPage;
-	EnvironmentConfig environmentConfig;
 	ProductDetailPageObject productDetailPage;
 	NotebooksPageObject notebooksPage;
 	WishlistPageObject wishlistPage;
@@ -43,13 +43,14 @@ public class NopCommerce_Wishlist_Compare_RecentReview extends BaseTest{
 	ShoppingCardPageObject shoppingCardPage;
 	CompareListPageObject comparelistPage;
 	RecentlyViewProductPageObject recentlyViewsPage;
-	
-	@Parameters({"browser", "environment"})
+	private EnvironmentConfig environmentConfig;
+
+	@Parameters({ "browser", "environment" })
 	@BeforeClass
-	public void beforeClass(String browserName, String environmentName) throws BrowserNotSupport{
+	public void beforeClass(@Optional("chrome") String browserName, String environmentName) throws BrowserNotSupport {
 		ConfigFactory.setProperty("evn", environmentName);
 		environmentConfig = ConfigFactory.create(EnvironmentConfig.class);
-		driver = getBrowserDriver(browserName, environmentConfig.getWebURL());
+		driver = getBrowserDriverMananment(browserName, environmentConfig.getWebURL());
 		emailAddress = Register_Commons.emailAddress;
 		password = Register_Commons.password;
 		fullName = Register_Commons.firstName + " " + Register_Commons.lastName;
@@ -59,6 +60,7 @@ public class NopCommerce_Wishlist_Compare_RecentReview extends BaseTest{
 		productName4 = "Asus N551JK-XO076H Laptop";
 		productName5 = "HP Spectre XT Pro UltraBook";
 		homePage = PageGeneratorManager.getUserHomePage(driver);
+		
 		log.info("Pre Conditions: Step 01 - Click on Login link");
 		loginPage = homePage.clickOnLoginLink();
 		
@@ -74,7 +76,7 @@ public class NopCommerce_Wishlist_Compare_RecentReview extends BaseTest{
 		log.info("Pre Conditions: Step 05 - Verify login successfull");
 		homePage.isMyAccountLinkDisplayed();
 	}
-	//@Test
+	@Test
 	public void TC_01_Add_To_Wishlist(Method method) {
 		ExtentTestManager.startTest(method.getName(), "TC 01: Add to wishlist");
 		ExtentTestManager.getTest().log(Status.INFO, "Step 01: Open Notebooks page");
@@ -92,9 +94,9 @@ public class NopCommerce_Wishlist_Compare_RecentReview extends BaseTest{
 		ExtentTestManager.getTest().log(Status.INFO, "Step 04: Verify the message add to wishlist successfull");
 		log.info("Step 04: Verify the message add to wishlist successfull display");
 		Assert.assertEquals(productDetailPage.getAddWishlistMessageDisplay(), "The product has been added to your wishlist");
-		productDetailPage.closeAddWishlistMessage();
+		productDetailPage.closeNoitificationMessage();
 		
-		ExtentTestManager.getTest().log(Status.INFO, "Step 01: Open Notebooks page");
+		ExtentTestManager.getTest().log(Status.INFO, "Step 05: Click on Wishlist link");
 		log.info("Step 05: Click on Wishlist link");
 		wishlistPage = productDetailPage.clickOnWishlistLink(driver);
 		
@@ -117,7 +119,7 @@ public class NopCommerce_Wishlist_Compare_RecentReview extends BaseTest{
 		
 	}
 	
-	//@Test
+	@Test
 	public void TC_02_Add_product_to_Cart_from_Wishlsit_page(Method method) {
 		ExtentTestManager.startTest(method.getName(), "TC 02: Add product to cart from wishlist page");
 		ExtentTestManager.getTest().log(Status.INFO, "Step 01: Open Wishlist page");
@@ -135,12 +137,12 @@ public class NopCommerce_Wishlist_Compare_RecentReview extends BaseTest{
 		
 		ExtentTestManager.getTest().log(Status.INFO, "Step 04: Verify the product is removed from Wishlist page and add to card");
 		log.info("Step 04: Verify the product is removed from Wishlist page and add to card");
-		Assert.assertEquals(shoppingCardPage.getWislistQuantity(), "(0)");
+		Assert.assertEquals(shoppingCardPage.getWislistQuantity(driver), "(0)");
 		Assert.assertTrue(shoppingCardPage.isShoppingCardTitleDisplay());
-		Assert.assertEquals(shoppingCardPage.getProductAtRowNumberByName("1", "Product(s)"), productName1);
+		Assert.assertEquals(shoppingCardPage.getProductValueAtRowNumberByColumnName("1", "Product(s)"), productName1);
 	}
 	
-	//@Test
+	@Test
 	public void TC_03_Remove_product_from_Wishlist_Page(Method method) {
 		ExtentTestManager.startTest(method.getName(), "TC 03: Remove product from Wishlist page");
 		ExtentTestManager.getTest().log(Status.INFO, "Step 01: Open Notebooks page");
@@ -158,7 +160,7 @@ public class NopCommerce_Wishlist_Compare_RecentReview extends BaseTest{
 		ExtentTestManager.getTest().log(Status.INFO, "Step 04: Verify the message add to wishlist successfull");
 		log.info("Step 04: Verify the message add to wishlist successfull display");
 		Assert.assertEquals(productDetailPage.getAddWishlistMessageDisplay(), "The product has been added to your wishlist");
-		productDetailPage.closeAddWishlistMessage();
+		productDetailPage.closeNoitificationMessage();
 		
 		ExtentTestManager.getTest().log(Status.INFO, "Step 05: Click on Wishlist link");
 		log.info("Step 05: Click on Wishlist link");
@@ -177,7 +179,7 @@ public class NopCommerce_Wishlist_Compare_RecentReview extends BaseTest{
 		Assert.assertTrue(wishlistPage.isPageEmptyMessageDisplay());
 	}
 
-	//@Test
+	@Test
 	public void TC_04_Add_product_to_compare(Method method) {
 		ExtentTestManager.startTest(method.getName(), "TC 04: Add product to compare");
 		ExtentTestManager.getTest().log(Status.INFO, "Step 01: Open Notebooks page");
@@ -280,8 +282,8 @@ public class NopCommerce_Wishlist_Compare_RecentReview extends BaseTest{
 	
 	}
 	
-//	@AfterClass(alwaysRun = true)
-//		public void afterClass() {
-//		closeBrowserAndDriver();
-//	}
+	@AfterClass(alwaysRun = true)
+		public void afterClass() {
+		closeBrowserAndDriver();
+	}
 }

@@ -22,10 +22,17 @@ import org.testng.annotations.BeforeSuite;
 
 import exception.BrowserNotSupport;
 import io.github.bonigarcia.wdm.WebDriverManager;
+import utilities.ChromeBrowserManagement;
+import utilities.EdgeBrowserManagement;
+import utilities.FireBrowserManagement;
+import utilities.H_LessChromeBrowserManagement;
+import utilities.H_LessFirefoxBrowserManagement;
 
 public class BaseTest {
 	private WebDriver driver;
 	protected final Log log;
+	private int longTime = 30;
+	private int shortTime = 5;
 
 	@BeforeSuite
 	public void initBeforeSuite() {
@@ -35,106 +42,139 @@ public class BaseTest {
 	protected BaseTest() {
 		log = LogFactory.getLog(getClass());
 	}
+	
+	protected WebDriver getBrowserDriverMananment(String browserName, String webURL) {
+		BrowserList browser = BrowserList.valueOf(browserName.toUpperCase());
+		switch (browser) {
+		
+		case CHROME:
+			driver = new ChromeBrowserManagement().getWebDiver();
+			break;
+			
+		case FIREFOX:
+			driver = new FireBrowserManagement().getWebDiver();
+			break;
+			
+		case EDGE:
+			driver = new EdgeBrowserManagement().getWebDiver();
+			break;
+			
+		case H_CHROME:
+			driver = new H_LessChromeBrowserManagement().getWebDiver();
+			break;
+			
+		case H_FIREFOX:
+			driver = new H_LessFirefoxBrowserManagement().getWebDiver();
+			break;
 
-	protected WebDriver getBrowserDriver(String browserName) throws BrowserNotSupport {
-		BrowserList browserList = BrowserList.valueOf(browserName.toUpperCase());
-		if (browserList == BrowserList.FIREFOX) {
-			WebDriverManager.firefoxdriver().setup();
-			FirefoxOptions options = new FirefoxOptions();
-			options.setAcceptInsecureCerts(true);
-			driver = new FirefoxDriver(options);
-		} else if (browserList == BrowserList.H_FIREFOX) {
-			WebDriverManager.firefoxdriver().setup();
-			FirefoxOptions option = new FirefoxOptions();
-			option.addArguments("-headless");
-			option.addArguments("window-size=1920x1080");
-			driver = new FirefoxDriver(option);
-		} else if (browserList == BrowserList.CHROME) {
-			WebDriverManager.chromedriver().setup();
-			ChromeOptions options = new ChromeOptions();
-			HashMap<String, Object> prefs = new HashMap<String, Object>();
-			prefs.put("profile.default_content_settings.popups", 0);
-			prefs.put("download.default_directory", GlobalConstants.DOWNLOAD_FILE_PATH);
-			// options.addArguments("--lang=en");
-			options.addArguments("--incognito");
-			System.setProperty("webdriver.chrome.args", "--disable-logging");
-			System.setProperty("webdriver.chrome.silentOutput", "true");
-			driver = new ChromeDriver(options);
-		} else if (browserList == BrowserList.H_CHROME) {
-			WebDriverManager.chromedriver().setup();
-			ChromeOptions option = new ChromeOptions();
-			option.addArguments("headless");
-			option.addArguments("window-size=1920x1080");
-			driver = new ChromeDriver(option);
-		} else if (browserList == BrowserList.EDGE) {
-			WebDriverManager.edgedriver().setup();
-			driver = new EdgeDriver();
-		} else {
+		default:
 			throw new BrowserNotSupport(browserName);
 		}
-		driver.manage().timeouts().implicitlyWait(GlobalConstants.LONG_TIMEOUT, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(longTime, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
+		driver.get(webURL);
 		return driver;
 	}
 
-	protected WebDriver getBrowserDriver(String browserName, String urlName) throws BrowserNotSupport {
-		BrowserList browserList = BrowserList.valueOf(browserName.toUpperCase());
-		if (browserList == BrowserList.FIREFOX) {
-			WebDriverManager.firefoxdriver().setup();
-			FirefoxOptions options = new FirefoxOptions();
-			options.setAcceptInsecureCerts(true);
-			driver = new FirefoxDriver(options);
-		} else if (browserList == BrowserList.H_FIREFOX) {
-			WebDriverManager.firefoxdriver().setup();
-			FirefoxOptions option = new FirefoxOptions();
-			option.addArguments("-headless");
-			option.addArguments("window-size=1920x1080");
-			driver = new FirefoxDriver(option);
-		} else if (browserList == BrowserList.CHROME) {
-			WebDriverManager.chromedriver().setup();
-			ChromeOptions options = new ChromeOptions();
-			HashMap<String, Object> prefs = new HashMap<String, Object>();
-			prefs.put("profile.default_content_settings.popups", 0);
-			prefs.put("download.default_directory", GlobalConstants.DOWNLOAD_FILE_PATH);
-			options.addArguments("--incognito");
-			System.setProperty("webdriver.chrome.args", "--disable-logging");
-			System.setProperty("webdriver.chrome.silentOutput", "true");
-			driver = new ChromeDriver(options);
-		} else if (browserList == BrowserList.H_CHROME) {
-			WebDriverManager.chromedriver().setup();
-			ChromeOptions option = new ChromeOptions();
-			option.addArguments("headless");
-			option.addArguments("window-size=1920x1080");
-			driver = new ChromeDriver(option);
-		} else if (browserList == BrowserList.EDGE) {
-			WebDriverManager.edgedriver().setup();
-			driver = new EdgeDriver();
-		} else {
-			throw new BrowserNotSupport(browserName);
-		}
-		driver.manage().timeouts().implicitlyWait(GlobalConstants.LONG_TIMEOUT, TimeUnit.SECONDS);
-		driver.manage().window().maximize();
-		driver.get(urlName);
-		return driver;
-	}
+//	protected WebDriver getBrowserDriver(String browserName) throws BrowserNotSupport {
+//		BrowserList browserList = BrowserList.valueOf(browserName.toUpperCase());
+//		if (browserList == BrowserList.FIREFOX) {
+//			WebDriverManager.firefoxdriver().setup();
+//			FirefoxOptions options = new FirefoxOptions();
+//			options.setAcceptInsecureCerts(true);
+//			driver = new FirefoxDriver(options);
+//		} else if (browserList == BrowserList.H_FIREFOX) {
+//			WebDriverManager.firefoxdriver().setup();
+//			FirefoxOptions option = new FirefoxOptions();
+//			option.addArguments("-headless");
+//			option.addArguments("window-size=1920x1080");
+//			driver = new FirefoxDriver(option);
+//		} else if (browserList == BrowserList.CHROME) {
+//			WebDriverManager.chromedriver().setup();
+//			ChromeOptions options = new ChromeOptions();
+//			HashMap<String, Object> prefs = new HashMap<String, Object>();
+//			prefs.put("profile.default_content_settings.popups", 0);
+//			prefs.put("download.default_directory", GlobalConstants.DOWNLOAD_FILE_PATH);
+//			// options.addArguments("--lang=en");
+//			options.addArguments("--incognito");
+//			System.setProperty("webdriver.chrome.args", "--disable-logging");
+//			System.setProperty("webdriver.chrome.silentOutput", "true");
+//			driver = new ChromeDriver(options);
+//		} else if (browserList == BrowserList.H_CHROME) {
+//			WebDriverManager.chromedriver().setup();
+//			ChromeOptions option = new ChromeOptions();
+//			option.addArguments("headless");
+//			option.addArguments("window-size=1920x1080");
+//			driver = new ChromeDriver(option);
+//		} else if (browserList == BrowserList.EDGE) {
+//			WebDriverManager.edgedriver().setup();
+//			driver = new EdgeDriver();
+//		} else {
+//			throw new BrowserNotSupport(browserName);
+//		}
+//		driver.manage().timeouts().implicitlyWait(GlobalConstants.LONG_TIMEOUT, TimeUnit.SECONDS);
+//		driver.manage().window().maximize();
+//		return driver;
+//	}
+//
+//	protected WebDriver getBrowserDriver(String browserName, String urlName) throws BrowserNotSupport {
+//		BrowserList browserList = BrowserList.valueOf(browserName.toUpperCase());
+//		if (browserList == BrowserList.FIREFOX) {
+//			WebDriverManager.firefoxdriver().setup();
+//			FirefoxOptions options = new FirefoxOptions();
+//			options.setAcceptInsecureCerts(true);
+//			driver = new FirefoxDriver(options);
+//		} else if (browserList == BrowserList.H_FIREFOX) {
+//			WebDriverManager.firefoxdriver().setup();
+//			FirefoxOptions option = new FirefoxOptions();
+//			option.addArguments("-headless");
+//			option.addArguments("window-size=1920x1080");
+//			driver = new FirefoxDriver(option);
+//		} else if (browserList == BrowserList.CHROME) {
+//			WebDriverManager.chromedriver().setup();
+//			ChromeOptions options = new ChromeOptions();
+//			HashMap<String, Object> prefs = new HashMap<String, Object>();
+//			prefs.put("profile.default_content_settings.popups", 0);
+//			prefs.put("download.default_directory", GlobalConstants.DOWNLOAD_FILE_PATH);
+//			options.addArguments("--incognito");
+//			System.setProperty("webdriver.chrome.args", "--disable-logging");
+//			System.setProperty("webdriver.chrome.silentOutput", "true");
+//			driver = new ChromeDriver(options);
+//		} else if (browserList == BrowserList.H_CHROME) {
+//			WebDriverManager.chromedriver().setup();
+//			ChromeOptions option = new ChromeOptions();
+//			option.addArguments("headless");
+//			option.addArguments("window-size=1920x1080");
+//			driver = new ChromeDriver(option);
+//		} else if (browserList == BrowserList.EDGE) {
+//			WebDriverManager.edgedriver().setup();
+//			driver = new EdgeDriver();
+//		} else {
+//			throw new BrowserNotSupport(browserName);
+//		}
+//		driver.manage().timeouts().implicitlyWait(GlobalConstants.LONG_TIMEOUT, TimeUnit.SECONDS);
+//		driver.manage().window().maximize();
+//		driver.get(urlName);
+//		return driver;
+//	}
+//
+//
+//	protected String getEnvironmentName(String environmentName) {
+//		String url = "";
+//		EnvironmentList environmentList = EnvironmentList.valueOf(environmentName.toUpperCase());
+//		if (environmentList == EnvironmentList.STAGING) {
+//			url = GlobalConstants.USER_PAGE_URL;
+//		} else if (environmentList == EnvironmentList.DEV) {
+//			url = GlobalConstants.ADMIN_PAGE_URL;
+//		} else {
+//			throw new RuntimeException("Environment name is invalid.");
+//		}
+//		return url;
+//	}
 
 	public WebDriver getDriverInstance() {
 		return this.driver;
 	}
-
-	protected String getEnvironmentName(String environmentName) {
-		String url = "";
-		EnvironmentList environmentList = EnvironmentList.valueOf(environmentName.toUpperCase());
-		if (environmentList == EnvironmentList.STAGING) {
-			url = GlobalConstants.USER_PAGE_URL;
-		} else if (environmentList == EnvironmentList.DEV) {
-			url = GlobalConstants.ADMIN_PAGE_URL;
-		} else {
-			throw new RuntimeException("Environment name is invalid.");
-		}
-		return url;
-	}
-
 	protected boolean verifyTrue(boolean condition) {
 		boolean pass = true;
 		try {

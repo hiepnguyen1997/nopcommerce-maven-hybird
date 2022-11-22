@@ -1,11 +1,20 @@
-[2022-10-30 16:10:12,143] Pre Conditions: Step 01 - Click on Login link
-[2022-10-30 16:10:13,642] Pre Conditions: Step 02 - Input to email by: benton.kuhn@gmail.com
-[2022-10-30 16:10:13,839] Pre Conditions: Step 03 - Input to password by: 3O$zGnH0
-[2022-10-30 16:10:14,014] Pre Conditions: Step 04 - Click on Login button
-[2022-10-30 16:10:14,762] Pre Conditions: Step 05 - Verify login successfull
-[2022-10-30 16:10:15,043] Step 01: Open Notebooks page
-[2022-10-30 16:10:16,109] Step 08: Click on product: Asus N551JK-XO076H Laptop
-[2022-10-30 16:10:21,126] Step 09: Open Notebooks page again
-[2022-10-30 16:10:21,792] Step 10: Click on product: HP Spectre XT Pro UltraBook
-[2022-10-30 16:10:22,735] Step 11: Open Recently views product page
-[2022-10-30 16:10:23,541] Step 12: Verify the last2products displayed
+[2022-11-18 18:43:15,166] Pre-Conditions: Click on Login link
+[2022-11-18 18:43:16,598] Pre-Conditions: Input to email: malik.ankunding@yahoo.com
+[2022-11-18 18:43:16,799] Pre-Conditions: Input to password: xBP*6D$66
+[2022-11-18 18:43:16,967] Pre-Conditions: Click on Login button
+[2022-11-18 18:43:17,679] Pre-Conditions: Verify login successfull
+[2022-11-18 18:43:17,968] Step 01: Open Desktop page
+[2022-11-18 18:43:18,990] Step 02: Click on product name: Build your own computer
+[2022-11-18 18:43:20,173] Step 03: Select Processer: 2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]
+[2022-11-18 18:43:20,368] Step 04: Select RAM: 8GB [+$60.00]
+[2022-11-18 18:43:20,574] Step 05: Select HDD: 400 GB [+$100.00]
+[2022-11-18 18:43:20,765] Step 06: Select HDD: Vista Premium [+$60.00]
+[2022-11-18 18:43:20,944] Step 07: Check to checkbox of Software: Acrobat Reader [+$10.00]
+[2022-11-18 18:43:22,120] Step 08: Check to checkbox of Software: Acrobat Reader [+$10.00]
+[2022-11-18 18:43:23,318] Step 09: Verify the Software: Microsoft Office [+$50.00] is checked by default
+[2022-11-18 18:43:23,359] Step 10: Get total price
+[2022-11-18 18:43:23,419] Step 11: Click on Add to cart
+[2022-11-18 18:43:23,588] Step 12: Verify the message The product has been added to your shopping cart
+[2022-11-18 18:43:26,064] Step 13: Get text and verify the number of Shopping Cart
+[2022-11-18 18:43:26,145] Step 14: Click on Shopping Cart
+[2022-11-18 18:43:27,061] Step 15: Open Desktop page

@@ -13,18 +13,21 @@ public class ShoppingCardPageObject extends BasePage{
 		this.driver = driver;
 	}
 
-	public String getWislistQuantity() {
-		waitForElementVisible(driver, BasePageUINopCommerce.WISHLIST_QUANTITY);
-		return getElementText(driver, BasePageUINopCommerce.WISHLIST_QUANTITY);
-	}
-
 	public boolean isShoppingCardTitleDisplay() {
 		waitForElementVisible(driver, ShoppingCardPageUI.SHOPPING_CARD_TITLE);
 		return isElementDisplayed(driver, ShoppingCardPageUI.SHOPPING_CARD_TITLE);
 	}
 
-	public String getProductAtRowNumberByName(String rowNumber, String columnName) {
+	public String getProductValueAtRowNumberByColumnName(String rowNumber, String columnName) {
 		int columnIndex = getElementSize(driver, ShoppingCardPageUI.COLUMN_INDEX_BY_NAME, columnName) + 1;
 		return getElementText(driver, ShoppingCardPageUI.VALUE_AT_ROW_NUMBER_BY_COLUMN_NAME, rowNumber, String.valueOf(columnIndex));
+	}
+	public String getProductNameAtRowNumberByColumnName(String rowNumber, String columnName) {
+		int columnIndex = getElementSize(driver, ShoppingCardPageUI.COLUMN_INDEX_BY_NAME, columnName) + 1;
+		return getElementText(driver, ShoppingCardPageUI.NAME_PRODUCT_BUILD_YOUR_OWN_COMPUTER, rowNumber, String.valueOf(columnIndex));
+	}
+	public String getProductAttributeAtRowNumberByColumnName(String rowNumber, String columnName) {
+		int columnIndex = getElementSize(driver, ShoppingCardPageUI.COLUMN_INDEX_BY_NAME, columnName) + 1;
+		return getElementText(driver, ShoppingCardPageUI.ATTRIBUTE_BUILD_YOUR_OWN_COMPUTER, rowNumber, String.valueOf(columnIndex));
 	}
 }

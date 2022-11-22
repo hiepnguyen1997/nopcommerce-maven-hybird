@@ -6,16 +6,11 @@
 		<listener class-name="reportConfig.ExtentTestListener" />
 	</listeners>
 	<parameter name="environment" value="userStaging" />
-	<test name="Run on Chorme">
-		<parameter name="browser" value="chrome" />
+	<test name="Run on Chorme" preserve-order="true">
+		<parameter name="browser" value="firefox" />
 		<classes>
 			<class name="hybrid.nopcommerce.commons.Register_Commons" />
-			<!-- <class name="hybrid.nopcommerce.user.NopCommerce_Login" /> -->
-			<!-- <class name="hybrid.nopcommerce.user.NopCommerce_Register" /> -->
-			<!--<class name="hybrid.nopcommerce.user.NopCommerce_MyAccount" />-->
-			<!--<class name="hybrid.nopcommerce.user.NopCommerce_Search" />-->
-			<class name="hybrid.nopcommerce.user.NopCommerce_Wishlist_Compare_RecentReview" />
-			<!--<class name="hybrid.nopcommerce.user.NopCommerce_Wishlist_Compare_RecentReview" />-->
+			<class name="hybrid.nopcommerce.user.NopCommerce_Order" />
 		</classes>
 	</test>
 </suite>

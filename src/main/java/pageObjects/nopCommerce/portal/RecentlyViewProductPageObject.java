@@ -25,12 +25,8 @@ public class RecentlyViewProductPageObject extends FooterListMenuPage {
 	}
 
 	public boolean isLast3ProducstDisplayedFromListProduct(String... listValue) {
-		int sizeListProduct = listValue.length;
 		Collections.reverse(Arrays.asList(listValue));
-		for (String test : listValue) {
-			System.out.println(test);
-		}
-		ArrayList<String> tempReviewsProduct = new ArrayList<String>();
+		List<String> tempReviewsProduct = new ArrayList<String>();
 		for (int i = 0; i < getProductSizeDisplay(); i++) {
 			tempReviewsProduct.add(listValue[i]);
 		}
