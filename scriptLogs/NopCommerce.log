@@ -13249,3 +13249,514 @@ must have at least 6 characters' display
 [2022-11-18 18:43:26,064] Step 13: Get text and verify the number of Shopping Cart
 [2022-11-18 18:43:26,145] Step 14: Click on Shopping Cart
 [2022-11-18 18:43:27,061] Step 15: Open Desktop page
+[2022-11-22 20:56:54,657] Pre-Conditions: Click on Login link
+[2022-11-22 20:56:55,489] Pre-Conditions: Input to email: jina.weimann@hotmail.com
+[2022-11-22 20:56:55,614] Pre-Conditions: Input to password: unhb%^*2e
+[2022-11-22 20:56:55,741] Pre-Conditions: Click on Login button
+[2022-11-22 20:56:56,548] Pre-Conditions: Verify login successfull
+[2022-11-22 20:56:59,118] Step 01: Open Desktop page
+[2022-11-22 20:57:00,024] Step 02: Click on product name: Build your own computer
+[2022-11-22 20:57:01,758] Step 03: Select Processer: 2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]
+[2022-11-22 20:57:01,898] Step 04: Select RAM: 8GB [+$60.00]
+[2022-11-22 20:57:02,252] Step 05: Select HDD: 400 GB [+$100.00]
+[2022-11-22 20:57:02,582] Step 06: Select HDD: Vista Premium [+$60.00]
+[2022-11-22 20:57:02,942] Step 07: Check to checkbox of Software: Acrobat Reader [+$10.00]
+[2022-11-22 20:57:04,281] Step 08: Check to checkbox of Software: Acrobat Reader [+$10.00]
+[2022-11-22 20:57:05,620] Step 09: Verify the Software: Microsoft Office [+$50.00] is checked by default
+[2022-11-22 20:57:05,645] Step 10: Get total price
+[2022-11-22 20:57:05,698] Step 11: Click on Add to cart
+[2022-11-22 20:57:06,030] Step 12: Verify the message The product has been added to your shopping cart
+[2022-11-22 20:57:08,468] Step 13: Get text and verify the number of Shopping Cart
+[2022-11-22 20:57:08,525] Step 14: Click on Shopping Cart
+[2022-11-22 20:57:09,831] Step 15: Open Desktop page
+[2022-11-22 21:00:44,844] Pre-Conditions: Click on Login link
+[2022-11-22 21:00:46,301] Pre-Conditions: Input to email: noble.mayert@gmail.com
+[2022-11-22 21:00:46,500] Pre-Conditions: Input to password: euqGMb36
+[2022-11-22 21:00:46,662] Pre-Conditions: Click on Login button
+[2022-11-22 21:00:47,407] Pre-Conditions: Verify login successfull
+[2022-11-22 21:00:47,691] Step 01: Open Desktop page
+[2022-11-22 21:00:48,758] Step 02: Click on product name: Build your own computer
+[2022-11-22 21:00:49,935] Step 03: Select Processer: 2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]
+[2022-11-22 21:00:50,125] Step 04: Select RAM: 8GB [+$60.00]
+[2022-11-22 21:00:50,320] Step 05: Select HDD: 400 GB [+$100.00]
+[2022-11-22 21:00:50,508] Step 06: Select HDD: Vista Premium [+$60.00]
+[2022-11-22 21:00:50,699] Step 07: Check to checkbox of Software: Acrobat Reader [+$10.00]
+[2022-11-22 21:00:51,861] Step 08: Check to checkbox of Software: Acrobat Reader [+$10.00]
+[2022-11-22 21:00:53,053] Step 09: Verify the Software: Microsoft Office [+$50.00] is checked by default
+[2022-11-22 21:00:53,095] Step 10: Get total price
+[2022-11-22 21:00:53,169] Step 11: Click on Add to cart
+[2022-11-22 21:00:53,327] Step 12: Verify the message The product has been added to your shopping cart
+[2022-11-22 21:00:55,781] Step 13: Get text and verify the number of Shopping Cart
+[2022-11-22 21:00:55,866] Step 14: Click on Shopping Cart
+[2022-11-22 21:00:56,688] Step 15: Open Desktop page
+[2022-11-22 21:41:38,746] Pre-Conditions: Click on Login link
+[2022-11-22 21:41:39,861] Pre-Conditions: Input to email: kerri.gottlieb@hotmail.com
+[2022-11-22 21:41:40,055] Pre-Conditions: Input to password: N8!B#8$M
+[2022-11-22 21:41:40,237] Pre-Conditions: Click on Login button
+[2022-11-22 21:41:40,999] Pre-Conditions: Verify login successfull
+[2022-11-22 21:41:41,273] Step 01: Open Desktop page
+[2022-11-22 21:41:42,553] Step 02: Click on product name: Build your own computer
+[2022-11-22 21:41:43,589] Step 03: Select Processer: 2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]
+[2022-11-22 21:41:43,774] Step 04: Select RAM: 8GB [+$60.00]
+[2022-11-22 21:41:43,980] Step 05: Select HDD: 400 GB [+$100.00]
+[2022-11-22 21:41:44,193] Step 06: Select HDD: Vista Premium [+$60.00]
+[2022-11-22 21:41:44,369] Step 07: Check to checkbox of Software: Acrobat Reader [+$10.00]
+[2022-11-22 21:41:45,551] Step 08: Check to checkbox of Software: Acrobat Reader [+$10.00]
+[2022-11-22 21:41:46,757] Step 09: Verify the Software: Microsoft Office [+$50.00] is checked by default
+[2022-11-22 21:41:46,798] Step 10: Get total price
+[2022-11-22 21:41:46,858] Step 11: Click on Add to cart
+[2022-11-22 21:41:47,031] Step 12: Verify the message The product has been added to your shopping cart
+[2022-11-22 21:41:49,539] Step 13: Get text and verify the number of Shopping Cart
+[2022-11-22 21:41:49,608] Step 14: Click on Shopping Cart
+[2022-11-22 21:41:50,335] Step 15: Open Desktop page
+[2022-11-22 21:41:50,511] Step 01: Access Shopping Cart
+[2022-11-22 21:41:51,025] Step 02: Click on Edit link
+[2022-11-22 21:41:51,118] Step 03: Edit processer by: null
+[2022-11-22 21:47:07,522] Pre-Conditions: Click on Login link
+[2022-11-22 21:47:09,082] Pre-Conditions: Input to email: tran.satterfield@hotmail.com
+[2022-11-22 21:47:09,283] Pre-Conditions: Input to password: Gff7rqO^
+[2022-11-22 21:47:09,459] Pre-Conditions: Click on Login button
+[2022-11-22 21:47:10,177] Pre-Conditions: Verify login successfull
+[2022-11-22 21:47:10,468] Step 01: Open Desktop page
+[2022-11-22 21:47:11,602] Step 02: Click on product name: Build your own computer
+[2022-11-22 21:47:12,830] Step 03: Select Processer: 2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]
+[2022-11-22 21:47:12,995] Step 04: Select RAM: 8GB [+$60.00]
+[2022-11-22 21:47:13,203] Step 05: Select HDD: 400 GB [+$100.00]
+[2022-11-22 21:47:13,370] Step 06: Select HDD: Vista Premium [+$60.00]
+[2022-11-22 21:47:13,551] Step 07: Check to checkbox of Software: Acrobat Reader [+$10.00]
+[2022-11-22 21:47:14,743] Step 08: Check to checkbox of Software: Acrobat Reader [+$10.00]
+[2022-11-22 21:47:15,936] Step 09: Verify the Software: Microsoft Office [+$50.00] is checked by default
+[2022-11-22 21:47:15,973] Step 10: Get total price
+[2022-11-22 21:47:16,037] Step 11: Click on Add to cart
+[2022-11-22 21:47:16,177] Step 12: Verify the message The product has been added to your shopping cart
+[2022-11-22 21:47:18,700] Step 13: Get text and verify the number of Shopping Cart
+[2022-11-22 21:47:18,786] Step 14: Click on Shopping Cart
+[2022-11-22 21:47:20,013] Step 15: Open Desktop page
+[2022-11-22 21:47:20,438] Step 01: Access Shopping Cart
+[2022-11-22 21:47:20,942] Step 02: Click on Edit link
+[2022-11-22 21:47:21,018] Step 03: Edit processer by: 2.2 GHz Intel Pentium Dual-Core E2200
+[2022-11-22 21:50:04,801] Pre-Conditions: Click on Login link
+[2022-11-22 21:50:06,358] Pre-Conditions: Input to email: fritz.abshire@gmail.com
+[2022-11-22 21:50:06,547] Pre-Conditions: Input to password: $c1Zi^E9
+[2022-11-22 21:50:06,723] Pre-Conditions: Click on Login button
+[2022-11-22 21:50:07,467] Pre-Conditions: Verify login successfull
+[2022-11-22 21:50:07,789] Step 01: Open Desktop page
+[2022-11-22 21:50:08,999] Step 02: Click on product name: Build your own computer
+[2022-11-22 21:50:10,143] Step 03: Select Processer: 2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]
+[2022-11-22 21:50:10,316] Step 04: Select RAM: 8GB [+$60.00]
+[2022-11-22 21:50:10,523] Step 05: Select HDD: 400 GB [+$100.00]
+[2022-11-22 21:50:10,707] Step 06: Select HDD: Vista Premium [+$60.00]
+[2022-11-22 21:50:10,903] Step 07: Check to checkbox of Software: Acrobat Reader [+$10.00]
+[2022-11-22 21:50:12,095] Step 08: Check to checkbox of Software: Acrobat Reader [+$10.00]
+[2022-11-22 21:50:13,294] Step 09: Verify the Software: Microsoft Office [+$50.00] is checked by default
+[2022-11-22 21:50:13,335] Step 10: Get total price
+[2022-11-22 21:50:13,413] Step 11: Click on Add to cart
+[2022-11-22 21:50:13,567] Step 12: Verify the message The product has been added to your shopping cart
+[2022-11-22 21:50:16,033] Step 13: Get text and verify the number of Shopping Cart
+[2022-11-22 21:50:16,117] Step 14: Click on Shopping Cart
+[2022-11-22 21:50:18,014] Step 15: Open Desktop page
+[2022-11-22 21:50:18,194] Step 01: Access Shopping Cart
+[2022-11-22 21:50:18,691] Step 02: Click on Edit link
+[2022-11-22 21:50:20,080] Step 03: Edit processer by: 2.2 GHz Intel Pentium Dual-Core E2200
+[2022-11-22 21:50:20,259] Step 04: Edit RAM by: 4GB [+$20.00]
+[2022-11-22 21:50:20,448] Step 05: Edit HDD by: 320 GB
+[2022-11-22 21:50:20,638] Step 06: Edit OS by: Vista Home [+$50.00]
+[2022-11-22 21:50:20,816] Step 07: Unselect software: Acrobat Reader [+$10.00] and Total Commander [+$5.00]
+[2022-11-22 21:50:23,067] Step 08: Increase the number of product to 2
+[2022-11-22 21:50:23,241] Step 09: Click on Update Button
+[2022-11-22 21:50:23,407] Step 10: Verify the message The product has been added to your shopping cart
+[2022-11-22 21:50:25,906] Step 11: Get text and verify the number of Shopping Cart
+[2022-11-22 21:52:52,771] Pre-Conditions: Click on Login link
+[2022-11-22 21:52:54,787] Pre-Conditions: Input to email: maria.bosco@hotmail.com
+[2022-11-22 21:52:54,976] Pre-Conditions: Input to password: 5@0Og%o%
+[2022-11-22 21:52:55,164] Pre-Conditions: Click on Login button
+[2022-11-22 21:52:55,901] Pre-Conditions: Verify login successfull
+[2022-11-22 21:52:56,193] Step 01: Open Desktop page
+[2022-11-22 21:52:59,193] Step 02: Click on product name: Build your own computer
+[2022-11-22 21:53:01,306] Step 03: Select Processer: 2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]
+[2022-11-22 21:53:01,482] Step 04: Select RAM: 8GB [+$60.00]
+[2022-11-22 21:53:01,711] Step 05: Select HDD: 400 GB [+$100.00]
+[2022-11-22 21:53:01,908] Step 06: Select HDD: Vista Premium [+$60.00]
+[2022-11-22 21:53:02,106] Step 07: Check to checkbox of Software: Acrobat Reader [+$10.00]
+[2022-11-22 21:53:03,285] Step 08: Check to checkbox of Software: Acrobat Reader [+$10.00]
+[2022-11-22 21:53:04,474] Step 09: Verify the Software: Microsoft Office [+$50.00] is checked by default
+[2022-11-22 21:53:04,516] Step 10: Get total price
+[2022-11-22 21:53:04,592] Step 11: Click on Add to cart
+[2022-11-22 21:53:04,732] Step 12: Verify the message The product has been added to your shopping cart
+[2022-11-22 21:53:07,192] Step 13: Get text and verify the number of Shopping Cart
+[2022-11-22 21:53:07,276] Step 14: Click on Shopping Cart
+[2022-11-22 21:53:09,491] Step 15: Open Desktop page
+[2022-11-22 21:53:09,649] Step 01: Access Shopping Cart
+[2022-11-22 21:53:10,205] Step 02: Click on Edit link
+[2022-11-22 21:53:11,747] Step 03: Edit processer by: 2.2 GHz Intel Pentium Dual-Core E2200
+[2022-11-22 21:53:11,940] Step 04: Edit RAM by: 4GB [+$20.00]
+[2022-11-22 21:53:12,124] Step 05: Edit HDD by: 320 GB
+[2022-11-22 21:53:12,330] Step 06: Edit OS by: Vista Home [+$50.00]
+[2022-11-22 21:53:12,509] Step 07: Unselect software: Acrobat Reader [+$10.00] and Total Commander [+$5.00]
+[2022-11-22 21:53:14,864] Step 08: Increase the number of product to 2
+[2022-11-22 21:53:15,040] Step 09: Click on Update Button
+[2022-11-22 21:53:15,209] Step 10: Verify the message The product has been added to your shopping cart
+[2022-11-22 21:53:17,651] Step 11: Get text and verify the number of Shopping Cart
+[2022-11-22 21:53:17,723] Step 12: Click on Shopping Cart
+[2022-11-22 21:53:18,249] Step 01: Access Shopping Cart
+[2022-11-22 21:53:18,249] Step 01: Access Shopping Cart
+[2022-11-22 21:53:18,249] Step 01: Access Shopping Cart
+[2022-11-22 21:53:18,250] Step 01: Access Shopping Cart
+[2022-11-22 21:53:18,250] Step 01: Access Shopping Cart
+[2022-11-22 21:53:18,250] Step 01: Access Shopping Cart
+[2022-11-24 11:50:50,578] Pre-Conditions: Click on Login link
+[2022-11-24 11:50:52,207] Pre-Conditions: Input to email: quentin.langosh@gmail.com
+[2022-11-24 11:50:52,403] Pre-Conditions: Input to password: L^WoER%%
+[2022-11-24 11:50:52,596] Pre-Conditions: Click on Login button
+[2022-11-24 11:50:53,403] Pre-Conditions: Verify login successfull
+[2022-11-24 11:50:53,948] Step 01: Open Desktop page
+[2022-11-24 11:50:55,099] Step 02: Click on product name: Build your own computer
+[2022-11-24 11:50:56,379] Step 03: Select Processer: 2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]
+[2022-11-24 11:50:56,556] Step 04: Select RAM: 8GB [+$60.00]
+[2022-11-24 11:50:56,762] Step 05: Select HDD: 400 GB [+$100.00]
+[2022-11-24 11:50:56,953] Step 06: Select HDD: Vista Premium [+$60.00]
+[2022-11-24 11:50:57,134] Step 07: Check to checkbox of Software: Acrobat Reader [+$10.00]
+[2022-11-24 11:50:58,306] Step 08: Check to checkbox of Software: Acrobat Reader [+$10.00]
+[2022-11-24 11:50:59,500] Step 09: Verify the Software: Microsoft Office [+$50.00] is checked by default
+[2022-11-24 11:50:59,541] Step 10: Get total price
+[2022-11-24 11:50:59,616] Step 11: Click on Add to cart
+[2022-11-24 11:50:59,758] Step 12: Verify the message The product has been added to your shopping cart
+[2022-11-24 11:51:02,347] Step 13: Get text and verify the number of Shopping Cart
+[2022-11-24 11:51:02,433] Step 14: Click on Shopping Cart
+[2022-11-24 11:51:03,458] Step 15: Verify the product display correctly in Shopping Cart
+[2022-11-24 11:51:03,693] Step 01: Access Shopping Cart
+[2022-11-24 11:51:04,207] Step 02: Click on Edit link
+[2022-11-24 11:51:05,144] Step 03: Edit processer by: 2.2 GHz Intel Pentium Dual-Core E2200
+[2022-11-24 11:51:05,353] Step 04: Edit RAM by: 4GB [+$20.00]
+[2022-11-24 11:51:05,554] Step 05: Edit HDD by: 320 GB
+[2022-11-24 11:51:05,745] Step 06: Edit OS by: Vista Home [+$50.00]
+[2022-11-24 11:51:05,913] Step 07: Unselect software: Acrobat Reader [+$10.00] and Total Commander [+$5.00]
+[2022-11-24 11:51:08,293] Step 08: Get total price
+[2022-11-24 11:51:08,363] Step 09: Increase the number of product to 2
+[2022-11-24 11:51:08,534] Step 11: Click on Update Button
+[2022-11-24 11:51:08,681] Step 12: Verify the message The product has been added to your shopping cart
+[2022-11-24 11:51:11,180] Step 13: Get text and verify the number of Shopping Cart
+[2022-11-24 11:51:11,268] Step 14: Click on Shopping Cart
+[2022-11-24 11:51:11,800] Step 15: Verify the product display correctly in Shopping Cart
+[2022-11-24 12:17:27,434] Pre-Conditions: Click on Login link
+[2022-11-24 12:17:29,903] Pre-Conditions: Input to email: troy.smith@gmail.com
+[2022-11-24 12:17:30,084] Pre-Conditions: Input to password: T30sw34j
+[2022-11-24 12:17:30,269] Pre-Conditions: Click on Login button
+[2022-11-24 12:17:31,307] Pre-Conditions: Verify login successfull
+[2022-11-24 12:17:31,610] Step 01: Open Desktop page
+[2022-11-24 12:17:34,322] Step 02: Click on product name: Build your own computer
+[2022-11-24 12:17:36,730] Step 03: Select Processer: 2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]
+[2022-11-24 12:17:36,884] Step 04: Select RAM: 8GB [+$60.00]
+[2022-11-24 12:17:37,113] Step 05: Select HDD: 400 GB [+$100.00]
+[2022-11-24 12:17:37,287] Step 06: Select HDD: Vista Premium [+$60.00]
+[2022-11-24 12:17:37,471] Step 07: Check to checkbox of Software: Acrobat Reader [+$10.00]
+[2022-11-24 12:17:38,673] Step 08: Check to checkbox of Software: Acrobat Reader [+$10.00]
+[2022-11-24 12:17:39,874] Step 09: Verify the Software: Microsoft Office [+$50.00] is checked by default
+[2022-11-24 12:17:39,912] Step 10: Get total price
+[2022-11-24 12:17:40,005] Step 11: Click on Add to cart
+[2022-11-24 12:17:40,145] Step 12: Verify the message The product has been added to your shopping cart
+[2022-11-24 12:17:42,904] Step 13: Get text and verify the number of Shopping Cart
+[2022-11-24 12:17:42,988] Step 14: Click on Shopping Cart
+[2022-11-24 12:17:46,027] Step 15: Verify the product display correctly in Shopping Cart
+[2022-11-24 12:17:46,232] Step 01: Access Shopping Cart
+[2022-11-24 12:17:46,841] Step 02: Click on Edit link
+[2022-11-24 12:17:48,569] Step 03: Edit processer by: 2.2 GHz Intel Pentium Dual-Core E2200
+[2022-11-24 12:17:48,812] Step 04: Edit RAM by: 4GB [+$20.00]
+[2022-11-24 12:17:48,991] Step 05: Edit HDD by: 320 GB
+[2022-11-24 12:17:49,182] Step 06: Edit OS by: Vista Home [+$50.00]
+[2022-11-24 12:17:49,352] Step 07: Unselect software: Acrobat Reader [+$10.00] and Total Commander [+$5.00]
+[2022-11-24 12:17:51,698] Step 08: Get total price
+[2022-11-24 12:17:51,770] Step 09: Increase the number of product to 2
+[2022-11-24 12:17:51,931] Step 11: Click on Update Button
+[2022-11-24 12:17:52,099] Step 12: Verify the message The product has been added to your shopping cart
+[2022-11-24 12:17:54,590] Step 13: Get text and verify the number of Shopping Cart
+[2022-11-24 12:17:54,660] Step 14: Click on Shopping Cart
+[2022-11-24 12:17:55,478] Step 15: Verify the product display correctly in Shopping Cart
+[2022-11-24 12:29:21,662] Pre-Conditions: Click on Login link
+[2022-11-24 12:29:23,382] Pre-Conditions: Input to email: jamison.daniel@yahoo.com
+[2022-11-24 12:29:23,614] Pre-Conditions: Input to password: CCvB29ZhO
+[2022-11-24 12:29:23,851] Pre-Conditions: Click on Login button
+[2022-11-24 12:29:29,959] Pre-Conditions: Verify login successfull
+[2022-11-24 12:29:31,022] Step 01: Open Desktop page
+[2022-11-24 12:29:32,418] Step 02: Click on product name: Build your own computer
+[2022-11-24 12:29:34,120] Step 03: Select Processer: 2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]
+[2022-11-24 12:29:34,311] Step 04: Select RAM: 8GB [+$60.00]
+[2022-11-24 12:29:34,566] Step 05: Select HDD: 400 GB [+$100.00]
+[2022-11-24 12:29:34,779] Step 06: Select HDD: Vista Premium [+$60.00]
+[2022-11-24 12:29:34,988] Step 07: Check to checkbox of Software: Acrobat Reader [+$10.00]
+[2022-11-24 12:29:36,223] Step 08: Check to checkbox of Software: Acrobat Reader [+$10.00]
+[2022-11-24 12:29:37,429] Step 09: Verify the Software: Microsoft Office [+$50.00] is checked by default
+[2022-11-24 12:29:37,472] Step 10: Get total price
+[2022-11-24 12:29:37,571] Step 11: Click on Add to cart
+[2022-11-24 12:29:37,775] Step 12: Verify the message The product has been added to your shopping cart
+[2022-11-24 12:29:40,294] Step 13: Get text and verify the number of Shopping Cart
+[2022-11-24 12:29:40,399] Step 14: Click on Shopping Cart
+[2022-11-24 12:29:41,373] Step 15: Verify the product display correctly in Shopping Cart
+[2022-11-24 12:29:41,546] Step 01: Access Shopping Cart
+[2022-11-24 12:29:42,140] Step 02: Click on Edit link
+[2022-11-24 12:29:43,252] Step 03: Edit processer by: 2.2 GHz Intel Pentium Dual-Core E2200
+[2022-11-24 12:29:43,452] Step 04: Edit RAM by: 4GB [+$20.00]
+[2022-11-24 12:29:43,673] Step 05: Edit HDD by: 320 GB
+[2022-11-24 12:29:43,945] Step 06: Edit OS by: Vista Home [+$50.00]
+[2022-11-24 12:29:44,203] Step 07: Unselect software: Acrobat Reader [+$10.00] and Total Commander [+$5.00]
+[2022-11-24 12:29:46,577] Step 08: Get total price
+[2022-11-24 12:29:46,651] Step 09: Increase the number of product to 2
+[2022-11-24 12:29:46,860] Step 11: Click on Update Button
+[2022-11-24 12:29:47,046] Step 12: Verify the message The product has been added to your shopping cart
+[2022-11-24 12:29:49,702] Step 13: Get text and verify the number of Shopping Cart
+[2022-11-24 12:29:49,808] Step 14: Click on Shopping Cart
+[2022-11-24 12:29:51,080] Step 15: Verify the product display correctly in Shopping Cart
+[2022-11-24 12:29:51,395] Step 01: Access Shopping Cart
+[2022-11-24 12:29:51,396] Step 01: Access Shopping Cart
+[2022-11-24 12:29:51,396] Step 01: Access Shopping Cart
+[2022-11-24 12:29:51,396] Step 01: Access Shopping Cart
+[2022-11-24 12:29:51,396] Step 01: Access Shopping Cart
+[2022-11-24 12:29:51,397] Step 01: Access Shopping Cart
+[2022-11-24 12:31:07,903] Pre-Conditions: Click on Login link
+[2022-11-24 12:31:09,671] Pre-Conditions: Input to email: modesta.stanton@gmail.com
+[2022-11-24 12:31:09,859] Pre-Conditions: Input to password: f8%iewTi3
+[2022-11-24 12:31:10,017] Pre-Conditions: Click on Login button
+[2022-11-24 12:31:10,820] Pre-Conditions: Verify login successfull
+[2022-11-24 12:31:11,085] Step 01: Open Desktop page
+[2022-11-24 12:31:12,420] Step 02: Click on product name: Build your own computer
+[2022-11-24 12:31:13,811] Step 03: Select Processer: 2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]
+[2022-11-24 12:31:13,984] Step 04: Select RAM: 8GB [+$60.00]
+[2022-11-24 12:31:14,193] Step 05: Select HDD: 400 GB [+$100.00]
+[2022-11-24 12:31:14,366] Step 06: Select HDD: Vista Premium [+$60.00]
+[2022-11-24 12:31:14,537] Step 07: Check to checkbox of Software: Acrobat Reader [+$10.00]
+[2022-11-24 12:31:15,718] Step 08: Check to checkbox of Software: Acrobat Reader [+$10.00]
+[2022-11-24 12:31:16,910] Step 09: Verify the Software: Microsoft Office [+$50.00] is checked by default
+[2022-11-24 12:31:16,949] Step 10: Get total price
+[2022-11-24 12:31:17,011] Step 11: Click on Add to cart
+[2022-11-24 12:31:17,167] Step 12: Verify the message The product has been added to your shopping cart
+[2022-11-24 12:31:19,662] Step 13: Get text and verify the number of Shopping Cart
+[2022-11-24 12:31:19,732] Step 14: Click on Shopping Cart
+[2022-11-24 12:31:20,624] Step 15: Verify the product display correctly in Shopping Cart
+[2022-11-24 12:31:20,836] Step 01: Access Shopping Cart
+[2022-11-24 12:31:21,356] Step 02: Click on Edit link
+[2022-11-24 12:31:22,269] Step 03: Edit processer by: 2.2 GHz Intel Pentium Dual-Core E2200
+[2022-11-24 12:31:22,476] Step 04: Edit RAM by: 4GB [+$20.00]
+[2022-11-24 12:31:22,680] Step 05: Edit HDD by: 320 GB
+[2022-11-24 12:31:22,907] Step 06: Edit OS by: Vista Home [+$50.00]
+[2022-11-24 12:31:23,101] Step 07: Unselect software: Acrobat Reader [+$10.00] and Total Commander [+$5.00]
+[2022-11-24 12:31:25,447] Step 08: Get total price
+[2022-11-24 12:31:25,519] Step 09: Increase the number of product to 2
+[2022-11-24 12:31:25,699] Step 11: Click on Update Button
+[2022-11-24 12:31:25,852] Step 12: Verify the message The product has been added to your shopping cart
+[2022-11-24 12:31:28,347] Step 13: Get text and verify the number of Shopping Cart
+[2022-11-24 12:32:34,917] Pre-Conditions: Click on Login link
+[2022-11-24 12:32:36,627] Pre-Conditions: Input to email: santos.greenholt@hotmail.com
+[2022-11-24 12:32:36,831] Pre-Conditions: Input to password: tm&uB5*7o
+[2022-11-24 12:32:37,018] Pre-Conditions: Click on Login button
+[2022-11-24 12:32:37,800] Pre-Conditions: Verify login successfull
+[2022-11-24 12:32:38,082] Step 01: Open Desktop page
+[2022-11-24 12:32:39,401] Step 02: Click on product name: Build your own computer
+[2022-11-24 12:32:40,933] Step 03: Select Processer: 2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]
+[2022-11-24 12:32:41,099] Step 04: Select RAM: 8GB [+$60.00]
+[2022-11-24 12:32:41,307] Step 05: Select HDD: 400 GB [+$100.00]
+[2022-11-24 12:32:41,489] Step 06: Select HDD: Vista Premium [+$60.00]
+[2022-11-24 12:32:41,683] Step 07: Check to checkbox of Software: Acrobat Reader [+$10.00]
+[2022-11-24 12:32:42,848] Step 08: Check to checkbox of Software: Acrobat Reader [+$10.00]
+[2022-11-24 12:32:44,041] Step 09: Verify the Software: Microsoft Office [+$50.00] is checked by default
+[2022-11-24 12:32:44,082] Step 10: Get total price
+[2022-11-24 12:32:44,156] Step 11: Click on Add to cart
+[2022-11-24 12:32:44,311] Step 12: Verify the message The product has been added to your shopping cart
+[2022-11-24 12:32:46,825] Step 13: Get text and verify the number of Shopping Cart
+[2022-11-24 12:32:46,910] Step 14: Click on Shopping Cart
+[2022-11-24 12:32:47,811] Step 15: Verify the product display correctly in Shopping Cart
+[2022-11-24 12:32:47,963] Step 01: Access Shopping Cart
+[2022-11-24 12:32:48,452] Step 02: Click on Edit link
+[2022-11-24 12:32:49,343] Step 03: Edit processer by: 2.2 GHz Intel Pentium Dual-Core E2200
+[2022-11-24 12:32:49,520] Step 04: Edit RAM by: 4GB [+$20.00]
+[2022-11-24 12:32:49,701] Step 05: Edit HDD by: 320 GB
+[2022-11-24 12:32:49,885] Step 06: Edit OS by: Vista Home [+$50.00]
+[2022-11-24 12:32:50,083] Step 07: Unselect software: Acrobat Reader [+$10.00] and Total Commander [+$5.00]
+[2022-11-24 12:32:52,429] Step 08: Get total price
+[2022-11-24 12:32:52,497] Step 09: Increase the number of product to 2
+[2022-11-24 12:32:52,646] Step 11: Click on Update Button
+[2022-11-24 12:32:52,795] Step 12: Verify the message The product has been added to your shopping cart
+[2022-11-24 12:32:55,287] Step 13: Get text and verify the number of Shopping Cart
+[2022-11-24 12:32:55,362] Step 14: Click on Shopping Cart
+[2022-11-24 12:32:56,153] Step 15: Verify the product display correctly in Shopping Cart
+[2022-11-24 21:23:46,074] Pre-Conditions: Click on Login link
+[2022-11-24 21:23:48,306] Pre-Conditions: Input to email: bell.johnson@yahoo.com
+[2022-11-24 21:23:48,481] Pre-Conditions: Input to password: vL%7@&0!
+[2022-11-24 21:23:48,668] Pre-Conditions: Click on Login button
+[2022-11-24 21:23:49,436] Pre-Conditions: Verify login successfull
+[2022-11-24 21:23:50,022] Step 01: Open Desktop page
+[2022-11-24 21:23:52,366] Step 02: Click on product name: Build your own computer
+[2022-11-24 21:23:56,106] Step 03: Select Processer: 2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]
+[2022-11-24 21:23:56,279] Step 04: Select RAM: 8GB [+$60.00]
+[2022-11-24 21:23:56,490] Step 05: Select HDD: 400 GB [+$100.00]
+[2022-11-24 21:23:56,672] Step 06: Select HDD: Vista Premium [+$60.00]
+[2022-11-24 21:23:56,859] Step 07: Check to checkbox of Software: Acrobat Reader [+$10.00]
+[2022-11-24 21:23:58,061] Step 08: Check to checkbox of Software: Acrobat Reader [+$10.00]
+[2022-11-24 21:23:59,248] Step 09: Verify the Software: Microsoft Office [+$50.00] is checked by default
+[2022-11-24 21:23:59,296] Step 10: Get total price
+[2022-11-24 21:23:59,362] Step 11: Click on Add to cart
+[2022-11-24 21:23:59,523] Step 12: Verify the message The product has been added to your shopping cart
+[2022-11-24 21:24:02,176] Step 13: Get text and verify the number of Shopping Cart
+[2022-11-24 21:24:02,260] Step 14: Click on Shopping Cart
+[2022-11-24 21:24:05,875] Step 15: Verify the product display correctly in Shopping Cart
+[2022-11-24 21:24:06,041] Step 01: Access Shopping Cart
+[2022-11-24 21:24:06,581] Step 02: Click on Edit link
+[2022-11-24 21:24:07,570] Step 03: Edit processer by: 2.2 GHz Intel Pentium Dual-Core E2200
+[2022-11-24 21:24:07,767] Step 04: Edit RAM by: 4GB [+$20.00]
+[2022-11-24 21:24:07,943] Step 05: Edit HDD by: 320 GB
+[2022-11-24 21:24:08,145] Step 06: Edit OS by: Vista Home [+$50.00]
+[2022-11-24 21:24:08,325] Step 07: Unselect software: Acrobat Reader [+$10.00] and Total Commander [+$5.00]
+[2022-11-24 21:24:10,679] Step 08: Get total price
+[2022-11-24 21:24:10,752] Step 09: Increase the number of product to 2
+[2022-11-24 21:24:10,918] Step 11: Click on Update Button
+[2022-11-24 21:24:11,065] Step 12: Verify the message The product has been added to your shopping cart
+[2022-11-24 21:24:13,558] Step 13: Get text and verify the number of Shopping Cart
+[2022-11-24 21:24:13,643] Step 14: Click on Shopping Cart
+[2022-11-24 21:24:14,568] Step 15: Verify the product display correctly in Shopping Cart
+[2022-11-24 21:24:14,830] Step 01: Click on Shopping Cart link
+[2022-11-24 22:12:58,704] Pre-Conditions: Click on Login link
+[2022-11-24 22:13:00,355] Pre-Conditions: Input to email: felton.rolfson@yahoo.com
+[2022-11-24 22:13:00,565] Pre-Conditions: Input to password: cdV0!FPE$
+[2022-11-24 22:13:00,751] Pre-Conditions: Click on Login button
+[2022-11-24 22:13:01,594] Pre-Conditions: Verify login successfull
+[2022-11-24 22:13:01,983] Step 01: Open Desktop page
+[2022-11-24 22:13:03,299] Step 02: Click on product name: Build your own computer
+[2022-11-24 22:13:04,622] Step 03: Select Processer: 2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]
+[2022-11-24 22:13:04,792] Step 04: Select RAM: 8GB [+$60.00]
+[2022-11-24 22:13:05,003] Step 05: Select HDD: 400 GB [+$100.00]
+[2022-11-24 22:13:05,192] Step 06: Select HDD: Vista Premium [+$60.00]
+[2022-11-24 22:13:05,379] Step 07: Check to checkbox of Software: Acrobat Reader [+$10.00]
+[2022-11-24 22:13:06,574] Step 08: Check to checkbox of Software: Acrobat Reader [+$10.00]
+[2022-11-24 22:13:07,765] Step 09: Verify the Software: Microsoft Office [+$50.00] is checked by default
+[2022-11-24 22:13:07,807] Step 10: Get total price
+[2022-11-24 22:13:07,887] Step 11: Click on Add to cart
+[2022-11-24 22:13:08,037] Step 12: Verify the message The product has been added to your shopping cart
+[2022-11-24 22:13:10,562] Step 13: Get text and verify the number of Shopping Cart
+[2022-11-24 22:13:10,647] Step 14: Click on Shopping Cart
+[2022-11-24 22:13:11,532] Step 15: Verify the product display correctly in Shopping Cart
+[2022-11-24 22:13:11,750] Step 01: Access Shopping Cart
+[2022-11-24 22:13:12,361] Step 02: Click on Edit link
+[2022-11-24 22:13:13,280] Step 03: Edit processer by: 2.2 GHz Intel Pentium Dual-Core E2200
+[2022-11-24 22:13:13,451] Step 04: Edit RAM by: 4GB [+$20.00]
+[2022-11-24 22:13:13,767] Step 05: Edit HDD by: 320 GB
+[2022-11-24 22:13:13,948] Step 06: Edit OS by: Vista Home [+$50.00]
+[2022-11-24 22:13:14,119] Step 07: Unselect software: Acrobat Reader [+$10.00] and Total Commander [+$5.00]
+[2022-11-24 22:13:16,467] Step 08: Get total price
+[2022-11-24 22:13:16,583] Step 09: Increase the number of product to 2
+[2022-11-24 22:13:16,738] Step 11: Click on Update Button
+[2022-11-24 22:13:16,897] Step 12: Verify the message The product has been added to your shopping cart
+[2022-11-24 22:13:19,386] Step 13: Get text and verify the number of Shopping Cart
+[2022-11-24 22:13:19,454] Step 14: Click on Shopping Cart
+[2022-11-24 22:13:20,050] Step 15: Verify the product display correctly in Shopping Cart
+[2022-11-24 22:13:20,368] Step 01: Click on Shopping Cart link
+[2022-11-24 22:13:20,864] Step 02: Click on Remove button by Product Name
+[2022-11-24 22:14:53,627] Pre-Conditions: Click on Login link
+[2022-11-24 22:14:55,407] Pre-Conditions: Input to email: mervin.ferry@hotmail.com
+[2022-11-24 22:14:55,598] Pre-Conditions: Input to password: 9k7@4f@9
+[2022-11-24 22:14:55,770] Pre-Conditions: Click on Login button
+[2022-11-24 22:14:56,547] Pre-Conditions: Verify login successfull
+[2022-11-24 22:14:56,806] Step 01: Open Desktop page
+[2022-11-24 22:14:57,996] Step 02: Click on product name: Build your own computer
+[2022-11-24 22:14:59,275] Step 03: Select Processer: 2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]
+[2022-11-24 22:14:59,469] Step 04: Select RAM: 8GB [+$60.00]
+[2022-11-24 22:14:59,678] Step 05: Select HDD: 400 GB [+$100.00]
+[2022-11-24 22:14:59,870] Step 06: Select HDD: Vista Premium [+$60.00]
+[2022-11-24 22:15:00,055] Step 07: Check to checkbox of Software: Acrobat Reader [+$10.00]
+[2022-11-24 22:15:01,250] Step 08: Check to checkbox of Software: Acrobat Reader [+$10.00]
+[2022-11-24 22:15:02,446] Step 09: Verify the Software: Microsoft Office [+$50.00] is checked by default
+[2022-11-24 22:15:02,486] Step 10: Get total price
+[2022-11-24 22:15:02,547] Step 11: Click on Add to cart
+[2022-11-24 22:15:02,688] Step 12: Verify the message The product has been added to your shopping cart
+[2022-11-24 22:15:05,198] Step 13: Get text and verify the number of Shopping Cart
+[2022-11-24 22:15:05,280] Step 14: Click on Shopping Cart
+[2022-11-24 22:15:06,126] Step 15: Verify the product display correctly in Shopping Cart
+[2022-11-24 22:15:06,311] Step 01: Access Shopping Cart
+[2022-11-24 22:15:06,819] Step 02: Click on Edit link
+[2022-11-24 22:15:07,968] Step 03: Edit processer by: 2.2 GHz Intel Pentium Dual-Core E2200
+[2022-11-24 22:15:08,173] Step 04: Edit RAM by: 4GB [+$20.00]
+[2022-11-24 22:15:08,372] Step 05: Edit HDD by: 320 GB
+[2022-11-24 22:15:08,579] Step 06: Edit OS by: Vista Home [+$50.00]
+[2022-11-24 22:15:08,772] Step 07: Unselect software: Acrobat Reader [+$10.00] and Total Commander [+$5.00]
+[2022-11-24 22:15:11,124] Step 08: Get total price
+[2022-11-24 22:15:11,194] Step 09: Increase the number of product to 2
+[2022-11-24 22:15:11,342] Step 11: Click on Update Button
+[2022-11-24 22:15:11,494] Step 12: Verify the message The product has been added to your shopping cart
+[2022-11-24 22:15:13,990] Step 13: Get text and verify the number of Shopping Cart
+[2022-11-24 22:15:14,062] Step 14: Click on Shopping Cart
+[2022-11-24 22:15:14,608] Step 15: Verify the product display correctly in Shopping Cart
+[2022-11-24 22:15:14,966] Step 01: Click on Shopping Cart link
+[2022-11-24 22:15:15,483] Step 02: Click on Remove button by Product Name
+[2022-11-24 22:15:16,265] Step 03: Verify the shopping cart is empty
+[2022-11-24 22:26:58,149] Pre-Conditions: Click on Login link
+[2022-11-24 22:26:59,914] Pre-Conditions: Input to email: hank.hills@hotmail.com
+[2022-11-24 22:27:00,113] Pre-Conditions: Input to password: !M3B13y80
+[2022-11-24 22:27:00,288] Pre-Conditions: Click on Login button
+[2022-11-24 22:27:01,099] Pre-Conditions: Verify login successfull
+[2022-11-24 22:27:01,370] Step 01: Open Desktop page
+[2022-11-24 22:27:02,615] Step 02: Click on product name: Build your own computer
+[2022-11-24 22:27:04,038] Step 03: Select Processer: 2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]
+[2022-11-24 22:27:04,224] Step 04: Select RAM: 8GB [+$60.00]
+[2022-11-24 22:27:04,435] Step 05: Select HDD: 400 GB [+$100.00]
+[2022-11-24 22:27:04,624] Step 06: Select HDD: Vista Premium [+$60.00]
+[2022-11-24 22:27:04,804] Step 07: Check to checkbox of Software: Acrobat Reader [+$10.00]
+[2022-11-24 22:27:05,991] Step 08: Check to checkbox of Software: Acrobat Reader [+$10.00]
+[2022-11-24 22:27:07,188] Step 09: Verify the Software: Microsoft Office [+$50.00] is checked by default
+[2022-11-24 22:27:07,224] Step 10: Get total price
+[2022-11-24 22:27:07,306] Step 11: Click on Add to cart
+[2022-11-24 22:27:07,471] Step 12: Verify the message The product has been added to your shopping cart
+[2022-11-24 22:27:10,001] Step 13: Get text and verify the number of Shopping Cart
+[2022-11-24 22:27:10,085] Step 14: Click on Shopping Cart
+[2022-11-24 22:27:10,942] Step 15: Verify the product display correctly in Shopping Cart
+[2022-11-24 22:27:11,092] Step 01: Access Shopping Cart
+[2022-11-24 22:27:11,636] Step 02: Click on Edit link
+[2022-11-24 22:27:12,554] Step 03: Edit processer by: 2.2 GHz Intel Pentium Dual-Core E2200
+[2022-11-24 22:27:12,736] Step 04: Edit RAM by: 4GB [+$20.00]
+[2022-11-24 22:27:12,923] Step 05: Edit HDD by: 320 GB
+[2022-11-24 22:27:13,102] Step 06: Edit OS by: Vista Home [+$50.00]
+[2022-11-24 22:27:13,280] Step 07: Unselect software: Acrobat Reader [+$10.00] and Total Commander [+$5.00]
+[2022-11-24 22:27:15,633] Step 08: Get total price
+[2022-11-24 22:27:15,706] Step 09: Increase the number of product to 2
+[2022-11-24 22:27:15,853] Step 11: Click on Update Button
+[2022-11-24 22:27:16,000] Step 12: Verify the message The product has been added to your shopping cart
+[2022-11-24 22:27:18,511] Step 13: Get text and verify the number of Shopping Cart
+[2022-11-24 22:27:18,595] Step 14: Click on Shopping Cart
+[2022-11-24 22:27:19,630] Step 15: Verify the product display correctly in Shopping Cart
+[2022-11-24 22:27:19,873] Step 01: Click on Shopping Cart link
+[2022-11-24 22:27:20,411] Step 02: Click on Remove button by Product Name
+[2022-11-24 22:27:21,213] Step 03: Verify the shopping cart is empty
+[2022-11-24 22:28:45,875] Pre-Conditions: Click on Login link
+[2022-11-24 22:28:47,075] Pre-Conditions: Input to email: jacob.renner@yahoo.com
+[2022-11-24 22:28:47,270] Pre-Conditions: Input to password: 265uN26h4
+[2022-11-24 22:28:47,447] Pre-Conditions: Click on Login button
+[2022-11-24 22:28:48,302] Pre-Conditions: Verify login successfull
+[2022-11-24 22:28:48,585] Step 01: Open Desktop page
+[2022-11-24 22:28:49,868] Step 02: Click on product name: Build your own computer
+[2022-11-24 22:28:51,424] Step 03: Select Processer: 2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]
+[2022-11-24 22:28:51,601] Step 04: Select RAM: 8GB [+$60.00]
+[2022-11-24 22:28:51,809] Step 05: Select HDD: 400 GB [+$100.00]
+[2022-11-24 22:28:51,983] Step 06: Select HDD: Vista Premium [+$60.00]
+[2022-11-24 22:28:52,169] Step 07: Check to checkbox of Software: Acrobat Reader [+$10.00]
+[2022-11-24 22:28:53,350] Step 08: Check to checkbox of Software: Acrobat Reader [+$10.00]
+[2022-11-24 22:28:54,536] Step 09: Verify the Software: Microsoft Office [+$50.00] is checked by default
+[2022-11-24 22:28:54,574] Step 10: Get total price
+[2022-11-24 22:28:54,654] Step 11: Click on Add to cart
+[2022-11-24 22:28:54,799] Step 12: Verify the message The product has been added to your shopping cart
+[2022-11-24 22:28:57,337] Step 13: Get text and verify the number of Shopping Cart
+[2022-11-24 22:28:57,417] Step 14: Click on Shopping Cart
+[2022-11-24 22:28:58,550] Step 15: Verify the product display correctly in Shopping Cart
+[2022-11-24 22:28:58,713] Step 01: Access Shopping Cart
+[2022-11-24 22:28:59,396] Step 02: Click on Edit link
+[2022-11-24 22:29:00,355] Step 03: Edit processer by: 2.2 GHz Intel Pentium Dual-Core E2200
+[2022-11-24 22:29:00,552] Step 04: Edit RAM by: 4GB [+$20.00]
+[2022-11-24 22:29:00,728] Step 05: Edit HDD by: 320 GB
+[2022-11-24 22:29:00,903] Step 06: Edit OS by: Vista Home [+$50.00]
+[2022-11-24 22:29:01,086] Step 07: Unselect software: Acrobat Reader [+$10.00] and Total Commander [+$5.00]
+[2022-11-24 22:29:03,460] Step 08: Get total price
+[2022-11-24 22:29:03,533] Step 09: Increase the number of product to 2
+[2022-11-24 22:29:03,679] Step 11: Click on Update Button
+[2022-11-24 22:29:03,840] Step 12: Verify the message The product has been added to your shopping cart
+[2022-11-24 22:29:06,359] Step 13: Get text and verify the number of Shopping Cart
+[2022-11-24 22:29:06,427] Step 14: Click on Shopping Cart
+[2022-11-24 22:29:07,028] Step 15: Verify the product display correctly in Shopping Cart
+[2022-11-24 22:29:07,299] Step 01: Click on Shopping Cart link
+[2022-11-24 22:29:07,876] Step 02: Click on Remove button by Product Name
+[2022-11-24 22:29:08,708] Step 03: Verify the shopping cart is empty

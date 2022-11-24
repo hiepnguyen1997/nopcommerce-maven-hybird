@@ -7,7 +7,7 @@
 	</listeners>
 	<parameter name="environment" value="userStaging" />
 	<test name="Run on Chorme" preserve-order="true">
-		<parameter name="browser" value="firefox" />
+		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="hybrid.nopcommerce.commons.Register_Commons" />
 			<class name="hybrid.nopcommerce.user.NopCommerce_Order" />

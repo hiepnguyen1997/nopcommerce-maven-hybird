@@ -73,6 +73,14 @@ public class ProductDetailPageObject extends BasePage{
 		sleepInSecond(1);
 		
 	}
+	
+	public void unCheckToSoftwareCheckbox(String softwareOption) {
+		waitForElementVisible(driver, ProductDetailPageUI.SOFTWARE_CHECKBOX, softwareOption);
+		waitForElementClickabled(driver, ProductDetailPageUI.SOFTWARE_CHECKBOX, softwareOption);
+		unCheckToDefaultCheckbox(driver, ProductDetailPageUI.SOFTWARE_CHECKBOX, softwareOption);
+		sleepInSecond(1);
+		
+	}
 
 	public boolean isSoftwareCheckSelectedByDefault(String softwareOption) {
 		return isElementSelected(driver, ProductDetailPageUI.SOFTWARE_CHECKBOX, softwareOption);
@@ -92,6 +100,17 @@ public class ProductDetailPageObject extends BasePage{
 	public String getProductAddToCartMessage() {
 		waitForElementVisible(driver, ProductDetailPageUI.BAR_NOITIFICATION);
 		return getElementText(driver, ProductDetailPageUI.BAR_NOITIFICATION);
+	}
+
+	public void inputToNumberQuantityProduct(String numberProduct) {
+		waitForElementVisible(driver, ProductDetailPageUI.NUMBER_PRODUCT);
+		sendkeyToElement(driver, ProductDetailPageUI.NUMBER_PRODUCT, numberProduct);
+	}
+
+	public void clickOnUpdateButton() {
+		waitForElementVisible(driver, ProductDetailPageUI.UPDATE_BUTTON);
+		waitForElementClickabled(driver, ProductDetailPageUI.UPDATE_BUTTON);
+		clickToElement(driver, ProductDetailPageUI.UPDATE_BUTTON);
 	}
 
 }

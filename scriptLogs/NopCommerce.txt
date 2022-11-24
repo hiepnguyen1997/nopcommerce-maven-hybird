@@ -1,20 +1,37 @@
-[2022-11-18 18:43:15,166] Pre-Conditions: Click on Login link
-[2022-11-18 18:43:16,598] Pre-Conditions: Input to email: malik.ankunding@yahoo.com
-[2022-11-18 18:43:16,799] Pre-Conditions: Input to password: xBP*6D$66
-[2022-11-18 18:43:16,967] Pre-Conditions: Click on Login button
-[2022-11-18 18:43:17,679] Pre-Conditions: Verify login successfull
-[2022-11-18 18:43:17,968] Step 01: Open Desktop page
-[2022-11-18 18:43:18,990] Step 02: Click on product name: Build your own computer
-[2022-11-18 18:43:20,173] Step 03: Select Processer: 2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]
-[2022-11-18 18:43:20,368] Step 04: Select RAM: 8GB [+$60.00]
-[2022-11-18 18:43:20,574] Step 05: Select HDD: 400 GB [+$100.00]
-[2022-11-18 18:43:20,765] Step 06: Select HDD: Vista Premium [+$60.00]
-[2022-11-18 18:43:20,944] Step 07: Check to checkbox of Software: Acrobat Reader [+$10.00]
-[2022-11-18 18:43:22,120] Step 08: Check to checkbox of Software: Acrobat Reader [+$10.00]
-[2022-11-18 18:43:23,318] Step 09: Verify the Software: Microsoft Office [+$50.00] is checked by default
-[2022-11-18 18:43:23,359] Step 10: Get total price
-[2022-11-18 18:43:23,419] Step 11: Click on Add to cart
-[2022-11-18 18:43:23,588] Step 12: Verify the message The product has been added to your shopping cart
-[2022-11-18 18:43:26,064] Step 13: Get text and verify the number of Shopping Cart
-[2022-11-18 18:43:26,145] Step 14: Click on Shopping Cart
-[2022-11-18 18:43:27,061] Step 15: Open Desktop page
+[2022-11-24 22:28:45,875] Pre-Conditions: Click on Login link
+[2022-11-24 22:28:47,075] Pre-Conditions: Input to email: jacob.renner@yahoo.com
+[2022-11-24 22:28:47,270] Pre-Conditions: Input to password: 265uN26h4
+[2022-11-24 22:28:47,447] Pre-Conditions: Click on Login button
+[2022-11-24 22:28:48,302] Pre-Conditions: Verify login successfull
+[2022-11-24 22:28:48,585] Step 01: Open Desktop page
+[2022-11-24 22:28:49,868] Step 02: Click on product name: Build your own computer
+[2022-11-24 22:28:51,424] Step 03: Select Processer: 2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]
+[2022-11-24 22:28:51,601] Step 04: Select RAM: 8GB [+$60.00]
+[2022-11-24 22:28:51,809] Step 05: Select HDD: 400 GB [+$100.00]
+[2022-11-24 22:28:51,983] Step 06: Select HDD: Vista Premium [+$60.00]
+[2022-11-24 22:28:52,169] Step 07: Check to checkbox of Software: Acrobat Reader [+$10.00]
+[2022-11-24 22:28:53,350] Step 08: Check to checkbox of Software: Acrobat Reader [+$10.00]
+[2022-11-24 22:28:54,536] Step 09: Verify the Software: Microsoft Office [+$50.00] is checked by default
+[2022-11-24 22:28:54,574] Step 10: Get total price
+[2022-11-24 22:28:54,654] Step 11: Click on Add to cart
+[2022-11-24 22:28:54,799] Step 12: Verify the message The product has been added to your shopping cart
+[2022-11-24 22:28:57,337] Step 13: Get text and verify the number of Shopping Cart
+[2022-11-24 22:28:57,417] Step 14: Click on Shopping Cart
+[2022-11-24 22:28:58,550] Step 15: Verify the product display correctly in Shopping Cart
+[2022-11-24 22:28:58,713] Step 01: Access Shopping Cart
+[2022-11-24 22:28:59,396] Step 02: Click on Edit link
+[2022-11-24 22:29:00,355] Step 03: Edit processer by: 2.2 GHz Intel Pentium Dual-Core E2200
+[2022-11-24 22:29:00,552] Step 04: Edit RAM by: 4GB [+$20.00]
+[2022-11-24 22:29:00,728] Step 05: Edit HDD by: 320 GB
+[2022-11-24 22:29:00,903] Step 06: Edit OS by: Vista Home [+$50.00]
+[2022-11-24 22:29:01,086] Step 07: Unselect software: Acrobat Reader [+$10.00] and Total Commander [+$5.00]
+[2022-11-24 22:29:03,460] Step 08: Get total price
+[2022-11-24 22:29:03,533] Step 09: Increase the number of product to 2
+[2022-11-24 22:29:03,679] Step 11: Click on Update Button
+[2022-11-24 22:29:03,840] Step 12: Verify the message The product has been added to your shopping cart
+[2022-11-24 22:29:06,359] Step 13: Get text and verify the number of Shopping Cart
+[2022-11-24 22:29:06,427] Step 14: Click on Shopping Cart
+[2022-11-24 22:29:07,028] Step 15: Verify the product display correctly in Shopping Cart
+[2022-11-24 22:29:07,299] Step 01: Click on Shopping Cart link
+[2022-11-24 22:29:07,876] Step 02: Click on Remove button by Product Name
+[2022-11-24 22:29:08,708] Step 03: Verify the shopping cart is empty
