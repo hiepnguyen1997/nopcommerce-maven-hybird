@@ -13760,3 +13760,821 @@ must have at least 6 characters' display
 [2022-11-24 22:29:07,299] Step 01: Click on Shopping Cart link
 [2022-11-24 22:29:07,876] Step 02: Click on Remove button by Product Name
 [2022-11-24 22:29:08,708] Step 03: Verify the shopping cart is empty
+[2022-11-25 20:33:34,968] Pre-Conditions: Click on Login link
+[2022-11-25 20:33:36,840] Pre-Conditions: Input to email: azzie.yundt@gmail.com
+[2022-11-25 20:33:37,036] Pre-Conditions: Input to password: !R45%tkk%
+[2022-11-25 20:33:37,205] Pre-Conditions: Click on Login button
+[2022-11-25 20:33:38,003] Pre-Conditions: Verify login successfull
+[2022-11-25 20:33:38,615] Step 01: Open Desktop page
+[2022-11-25 20:33:40,013] Step 02: Click on product name: Build your own computer
+[2022-11-25 20:33:41,762] Step 03: Select Processer: 2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]
+[2022-11-25 20:33:41,938] Step 04: Select RAM: 8GB [+$60.00]
+[2022-11-25 20:33:42,148] Step 05: Select HDD: 400 GB [+$100.00]
+[2022-11-25 20:33:42,334] Step 06: Select HDD: Vista Premium [+$60.00]
+[2022-11-25 20:33:42,519] Step 07: Check to checkbox of Software: Acrobat Reader [+$10.00]
+[2022-11-25 20:33:43,701] Step 08: Check to checkbox of Software: Acrobat Reader [+$10.00]
+[2022-11-25 20:33:44,892] Step 09: Verify the Software: Microsoft Office [+$50.00] is checked by default
+[2022-11-25 20:33:44,933] Step 10: Get total price
+[2022-11-25 20:33:45,010] Step 11: Click on Add to cart
+[2022-11-25 20:33:45,178] Step 12: Verify the message The product has been added to your shopping cart
+[2022-11-25 20:33:47,720] Step 13: Get text and verify the number of Shopping Cart
+[2022-11-25 20:33:47,809] Step 14: Click on Shopping Cart
+[2022-11-25 20:33:49,174] Step 15: Verify the product display correctly in Shopping Cart
+[2022-11-25 20:33:49,438] Step 01: Access Shopping Cart
+[2022-11-25 20:33:49,969] Step 02: Click on Edit link
+[2022-11-25 20:33:50,863] Step 03: Edit processer by: 2.2 GHz Intel Pentium Dual-Core E2200
+[2022-11-25 20:33:51,034] Step 04: Edit RAM by: 4GB [+$20.00]
+[2022-11-25 20:33:51,225] Step 05: Edit HDD by: 320 GB
+[2022-11-25 20:33:51,423] Step 06: Edit OS by: Vista Home [+$50.00]
+[2022-11-25 20:33:51,592] Step 07: Unselect software: Acrobat Reader [+$10.00] and Total Commander [+$5.00]
+[2022-11-25 20:33:53,973] Step 08: Get total price
+[2022-11-25 20:33:54,040] Step 09: Increase the number of product to 2
+[2022-11-25 20:33:54,209] Step 11: Click on Update Button
+[2022-11-25 20:33:54,382] Step 12: Verify the message The product has been added to your shopping cart
+[2022-11-25 20:33:56,908] Step 13: Get text and verify the number of Shopping Cart
+[2022-11-25 20:33:56,977] Step 14: Click on Shopping Cart
+[2022-11-25 20:33:57,664] Step 15: Verify the product display correctly in Shopping Cart
+[2022-11-25 20:33:57,988] Step 01: Click on Shopping Cart link
+[2022-11-25 20:33:58,644] Step 02: Click on Remove button by Product Name
+[2022-11-25 20:34:00,392] Step 03: Verify the shopping cart is empty
+[2022-11-25 21:21:04,537] Pre-Conditions: Click on Login link
+[2022-11-25 21:21:06,503] Pre-Conditions: Input to email: ramon.skiles@gmail.com
+[2022-11-25 21:21:06,704] Pre-Conditions: Input to password: rY@@7G*I
+[2022-11-25 21:21:06,884] Pre-Conditions: Click on Login button
+[2022-11-25 21:21:07,809] Pre-Conditions: Verify login successfull
+[2022-11-25 21:21:08,361] Step 01: Open Desktops page
+[2022-11-25 21:21:10,007] Step 02: Click on Add to cart for product: Lenovo IdeaCentre 600 All-in-One PC
+[2022-11-25 21:21:10,251] Step 03: Verify the message add to cart display
+[2022-11-25 21:22:28,716] Pre-Conditions: Click on Login link
+[2022-11-25 21:22:30,737] Pre-Conditions: Input to email: stefany.veum@yahoo.com
+[2022-11-25 21:22:30,927] Pre-Conditions: Input to password: X#Sx5&r&
+[2022-11-25 21:22:31,101] Pre-Conditions: Click on Login button
+[2022-11-25 21:22:31,863] Pre-Conditions: Verify login successfull
+[2022-11-25 21:22:32,134] Step 01: Open Desktops page
+[2022-11-25 21:22:33,622] Step 02: Click on Add to cart for product: Lenovo IdeaCentre 600 All-in-One PC
+[2022-11-25 21:22:33,842] Step 03: Verify the message add to cart display
+[2022-11-25 21:22:36,262] Step 04: Click on Shopping cart link
+[2022-11-25 21:22:37,237] Step 05: Verify the infomation of product display correctly
+[2022-11-25 21:22:37,349] Step 06: Change the quantity: 5
+[2022-11-25 21:26:06,206] Pre-Conditions: Click on Login link
+[2022-11-25 21:26:08,275] Pre-Conditions: Input to email: sharri.ruecker@hotmail.com
+[2022-11-25 21:26:08,491] Pre-Conditions: Input to password: B8#*&mv&5
+[2022-11-25 21:26:08,668] Pre-Conditions: Click on Login button
+[2022-11-25 21:26:09,476] Pre-Conditions: Verify login successfull
+[2022-11-25 21:26:09,785] Step 01: Open Desktops page
+[2022-11-25 21:26:11,391] Step 02: Click on Add to cart for product: Lenovo IdeaCentre 600 All-in-One PC
+[2022-11-25 21:26:11,619] Step 03: Verify the message add to cart display
+[2022-11-25 21:26:14,031] Step 04: Click on Shopping cart link
+[2022-11-25 21:26:15,284] Step 05: Verify the infomation of product display correctly
+[2022-11-25 21:26:15,397] Step 06: Change the quantity: 5
+[2022-11-25 21:26:15,605] Step 07: Click Update shopping cart button
+[2022-11-25 21:26:16,185] Step 08: verify the total price is $2,500.00
+[2022-11-25 21:30:16,140] Pre-Conditions: Click on Login link
+[2022-11-25 21:30:18,007] Pre-Conditions: Input to email: jordon.ortiz@gmail.com
+[2022-11-25 21:30:18,193] Pre-Conditions: Input to password: tZ5P!%*y
+[2022-11-25 21:30:18,355] Pre-Conditions: Click on Login button
+[2022-11-25 21:30:19,162] Pre-Conditions: Verify login successfull
+[2022-11-25 21:30:19,429] Step 01: Open Desktops page
+[2022-11-25 21:30:20,668] Step 02: Click on Add to cart for product: Lenovo IdeaCentre 600 All-in-One PC
+[2022-11-25 21:30:20,891] Step 03: Verify the message add to cart display
+[2022-11-25 21:30:23,325] Step 04: Click on Shopping cart link
+[2022-11-25 21:30:24,607] Step 05: Verify the infomation of product display correctly
+[2022-11-25 21:30:24,761] Step 06: Change the quantity: 5
+[2022-11-25 21:30:24,953] Step 07: Click Update shopping cart button
+[2022-11-25 21:30:25,505] Step 08: verify the total price is $2,500.00
+[2022-11-25 21:30:25,583] OS name = windows 10
+[2022-11-25 21:30:25,583] Driver instance name = chromedriver: chrome on windows (3196327e67476439692cff3f56879513)
+[2022-11-25 21:35:00,392] Pre-Conditions: Click on Login link
+[2022-11-25 21:35:01,823] Pre-Conditions: Input to email: hue.simonis@gmail.com
+[2022-11-25 21:35:02,027] Pre-Conditions: Input to password: m35K3Gm0w
+[2022-11-25 21:35:02,214] Pre-Conditions: Click on Login button
+[2022-11-25 21:35:03,023] Pre-Conditions: Verify login successfull
+[2022-11-25 21:35:03,299] Step 01: Open Desktop page
+[2022-11-25 21:35:04,313] Step 02: Click on product name: Build your own computer
+[2022-11-25 21:35:05,635] Step 03: Select Processer: 2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]
+[2022-11-25 21:35:05,829] Step 04: Select RAM: 8GB [+$60.00]
+[2022-11-25 21:35:06,054] Step 05: Select HDD: 400 GB [+$100.00]
+[2022-11-25 21:35:06,226] Step 06: Select HDD: Vista Premium [+$60.00]
+[2022-11-25 21:35:06,410] Step 07: Check to checkbox of Software: Acrobat Reader [+$10.00]
+[2022-11-25 21:35:07,594] Step 08: Check to checkbox of Software: Acrobat Reader [+$10.00]
+[2022-11-25 21:35:08,784] Step 09: Verify the Software: Microsoft Office [+$50.00] is checked by default
+[2022-11-25 21:35:08,823] Step 10: Get total price
+[2022-11-25 21:35:08,903] Step 11: Click on Add to cart
+[2022-11-25 21:35:09,054] Step 12: Verify the message The product has been added to your shopping cart
+[2022-11-25 21:35:11,573] Step 13: Get text and verify the number of Shopping Cart
+[2022-11-25 21:35:11,657] Step 14: Click on Shopping Cart
+[2022-11-25 21:35:12,431] Step 15: Verify the product display correctly in Shopping Cart
+[2022-11-25 21:35:12,581] Step 01: Access Shopping Cart
+[2022-11-25 21:35:13,125] Step 02: Click on Edit link
+[2022-11-25 21:35:14,318] Step 03: Edit processer by: 2.2 GHz Intel Pentium Dual-Core E2200
+[2022-11-25 21:35:14,536] Step 04: Edit RAM by: 4GB [+$20.00]
+[2022-11-25 21:35:14,736] Step 05: Edit HDD by: 320 GB
+[2022-11-25 21:35:14,923] Step 06: Edit OS by: Vista Home [+$50.00]
+[2022-11-25 21:35:15,105] Step 07: Unselect software: Acrobat Reader [+$10.00] and Total Commander [+$5.00]
+[2022-11-25 21:35:17,451] Step 08: Get total price
+[2022-11-25 21:35:17,523] Step 09: Increase the number of product to 2
+[2022-11-25 21:35:17,671] Step 11: Click on Update Button
+[2022-11-25 21:35:17,838] Step 12: Verify the message The product has been added to your shopping cart
+[2022-11-25 21:35:20,353] Step 13: Get text and verify the number of Shopping Cart
+[2022-11-25 21:35:20,422] Step 14: Click on Shopping Cart
+[2022-11-25 21:35:20,998] Step 15: Verify the product display correctly in Shopping Cart
+[2022-11-25 21:35:21,251] Step 01: Click on Shopping Cart link
+[2022-11-25 21:35:21,856] Step 02: Click on Remove button by Product Name
+[2022-11-25 21:35:23,525] Step 03: Verify the shopping cart is empty
+[2022-11-25 21:35:28,684] Step 01: Open Desktops page
+[2022-11-25 21:35:30,131] Step 02: Click on Add to cart for product: Lenovo IdeaCentre 600 All-in-One PC
+[2022-11-25 21:35:30,335] Step 03: Verify the message add to cart display
+[2022-11-25 21:35:32,752] Step 04: Click on Shopping cart link
+[2022-11-25 21:35:33,338] Step 05: Verify the infomation of product display correctly
+[2022-11-25 21:35:33,438] Step 06: Change the quantity: 5
+[2022-11-25 21:35:33,602] Step 07: Click Update shopping cart button
+[2022-11-25 21:35:34,248] Step 08: verify the total price is $2,500.00
+[2022-11-25 21:35:34,301] OS name = windows 10
+[2022-11-25 21:35:34,301] Driver instance name = chromedriver: chrome on windows (a3bf22181df5b7076fd2418894441efb)
+[2022-11-26 18:05:49,263] Pre-Conditions: Click on Login link
+[2022-11-26 18:05:50,811] Pre-Conditions: Input to email: alfred.stanton@gmail.com
+[2022-11-26 18:05:51,008] Pre-Conditions: Input to password: sRc!6m#3
+[2022-11-26 18:05:51,198] Pre-Conditions: Click on Login button
+[2022-11-26 18:05:51,975] Pre-Conditions: Verify login successfull
+[2022-11-26 18:05:52,738] Step 01: Open Desktop page
+[2022-11-26 18:05:53,856] Step 02: Click on product name: Build your own computer
+[2022-11-26 18:05:55,635] Step 03: Select Processer: 2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]
+[2022-11-26 18:05:55,816] Step 04: Select RAM: 8GB [+$60.00]
+[2022-11-26 18:05:56,022] Step 05: Select HDD: 400 GB [+$100.00]
+[2022-11-26 18:05:56,182] Step 06: Select HDD: Vista Premium [+$60.00]
+[2022-11-26 18:05:56,368] Step 07: Check to checkbox of Software: Acrobat Reader [+$10.00]
+[2022-11-26 18:05:57,560] Step 08: Check to checkbox of Software: Acrobat Reader [+$10.00]
+[2022-11-26 18:05:58,774] Step 09: Verify the Software: Microsoft Office [+$50.00] is checked by default
+[2022-11-26 18:05:58,815] Step 10: Get total price
+[2022-11-26 18:05:58,875] Step 11: Click on Add to cart
+[2022-11-26 18:05:59,018] Step 12: Verify the message The product has been added to your shopping cart
+[2022-11-26 18:06:01,525] Step 13: Get text and verify the number of Shopping Cart
+[2022-11-26 18:06:01,612] Step 14: Click on Shopping Cart
+[2022-11-26 18:06:03,931] Step 15: Verify the product display correctly in Shopping Cart
+[2022-11-26 18:06:04,201] Step 01: Access Shopping Cart
+[2022-11-26 18:06:04,756] Step 02: Click on Edit link
+[2022-11-26 18:06:05,752] Step 03: Edit processer by: 2.2 GHz Intel Pentium Dual-Core E2200
+[2022-11-26 18:06:05,928] Step 04: Edit RAM by: 4GB [+$20.00]
+[2022-11-26 18:06:06,115] Step 05: Edit HDD by: 320 GB
+[2022-11-26 18:06:06,310] Step 06: Edit OS by: Vista Home [+$50.00]
+[2022-11-26 18:06:06,476] Step 07: Unselect software: Acrobat Reader [+$10.00] and Total Commander [+$5.00]
+[2022-11-26 18:06:08,840] Step 08: Get total price
+[2022-11-26 18:06:08,928] Step 09: Increase the number of product to 2
+[2022-11-26 18:06:09,081] Step 11: Click on Update Button
+[2022-11-26 18:06:09,245] Step 12: Verify the message The product has been added to your shopping cart
+[2022-11-26 18:06:11,730] Step 13: Get text and verify the number of Shopping Cart
+[2022-11-26 18:06:11,814] Step 14: Click on Shopping Cart
+[2022-11-26 18:06:12,467] Step 15: Verify the product display correctly in Shopping Cart
+[2022-11-26 18:06:12,709] Step 01: Click on Shopping Cart link
+[2022-11-26 18:06:13,309] Step 02: Click on Remove button by Product Name
+[2022-11-26 18:06:14,094] Step 03: Verify the shopping cart is empty
+[2022-11-26 18:06:19,227] Step 01: Open Desktops page
+[2022-11-26 18:06:20,657] Step 02: Click on Add to cart for product: Lenovo IdeaCentre 600 All-in-One PC
+[2022-11-26 18:06:20,860] Step 03: Verify the message add to cart display
+[2022-11-26 18:06:23,272] Step 04: Click on Shopping cart link
+[2022-11-26 18:06:23,816] Step 05: Verify the infomation of product display correctly
+[2022-11-26 18:06:23,910] Step 06: Change the quantity: 5
+[2022-11-26 18:06:24,070] Step 07: Click Update shopping cart button
+[2022-11-26 18:06:24,695] Step 08: verify the total price is $2,500.00
+[2022-11-26 20:45:12,917] Pre-Conditions: Click on Login link
+[2022-11-26 20:45:14,867] Pre-Conditions: Input to email: dixie.smitham@hotmail.com
+[2022-11-26 20:45:15,062] Pre-Conditions: Input to password: B&zR%cg*
+[2022-11-26 20:45:15,244] Pre-Conditions: Click on Login button
+[2022-11-26 20:45:16,043] Pre-Conditions: Verify login successfull
+[2022-11-26 20:45:16,630] Step 01: Open Desktop page
+[2022-11-26 20:45:19,191] Step 02: Click on product name: Build your own computer
+[2022-11-26 20:45:50,075] Step 03: Select Processer: 2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]
+[2022-11-26 20:45:50,268] Step 04: Select RAM: 8GB [+$60.00]
+[2022-11-26 20:45:50,493] Step 05: Select HDD: 400 GB [+$100.00]
+[2022-11-26 20:45:50,663] Step 06: Select HDD: Vista Premium [+$60.00]
+[2022-11-26 20:45:50,851] Step 07: Check to checkbox of Software: Acrobat Reader [+$10.00]
+[2022-11-26 20:45:52,063] Step 08: Check to checkbox of Software: Acrobat Reader [+$10.00]
+[2022-11-26 20:45:53,276] Step 09: Verify the Software: Microsoft Office [+$50.00] is checked by default
+[2022-11-26 20:45:53,316] Step 10: Get total price
+[2022-11-26 20:45:53,422] Step 11: Click on Add to cart
+[2022-11-26 20:45:53,577] Step 12: Verify the message The product has been added to your shopping cart
+[2022-11-26 20:45:56,205] Step 13: Get text and verify the number of Shopping Cart
+[2022-11-26 20:45:56,291] Step 14: Click on Shopping Cart
+[2022-11-26 20:45:57,623] Step 15: Verify the product display correctly in Shopping Cart
+[2022-11-26 20:45:57,820] Step 01: Access Shopping Cart
+[2022-11-26 20:45:58,371] Step 02: Click on Edit link
+[2022-11-26 20:47:16,437] Step 03: Edit processer by: 2.2 GHz Intel Pentium Dual-Core E2200
+[2022-11-26 20:47:16,654] Step 04: Edit RAM by: 4GB [+$20.00]
+[2022-11-26 20:47:16,853] Step 05: Edit HDD by: 320 GB
+[2022-11-26 20:47:17,029] Step 06: Edit OS by: Vista Home [+$50.00]
+[2022-11-26 20:47:17,213] Step 07: Unselect software: Acrobat Reader [+$10.00] and Total Commander [+$5.00]
+[2022-11-26 20:47:19,547] Step 08: Get total price
+[2022-11-26 20:47:19,638] Step 09: Increase the number of product to 2
+[2022-11-26 20:47:19,788] Step 11: Click on Update Button
+[2022-11-26 20:47:19,950] Step 12: Verify the message The product has been added to your shopping cart
+[2022-11-26 20:47:22,443] Step 13: Get text and verify the number of Shopping Cart
+[2022-11-26 20:47:22,512] Step 14: Click on Shopping Cart
+[2022-11-26 20:47:23,052] Step 15: Verify the product display correctly in Shopping Cart
+[2022-11-26 20:47:23,336] Step 01: Click on Shopping Cart link
+[2022-11-26 20:47:23,852] Step 02: Click on Remove button by Product Name
+[2022-11-26 20:47:25,436] Step 03: Verify the shopping cart is empty
+[2022-11-26 20:47:30,606] Step 01: Open Desktops page
+[2022-11-26 20:47:32,050] Step 02: Click on Add to cart for product: Lenovo IdeaCentre 600 All-in-One PC
+[2022-11-26 20:47:32,264] Step 03: Verify the message add to cart display
+[2022-11-26 20:47:34,743] Step 04: Click on Shopping cart link
+[2022-11-26 20:47:36,006] Step 05: Verify the infomation of product display correctly
+[2022-11-26 20:47:36,097] Step 06: Change the quantity: 5
+[2022-11-26 20:47:36,256] Step 07: Click Update shopping cart button
+[2022-11-26 20:47:36,842] Step 08: verify the total price is $2,500.00
+[2022-12-01 20:53:54,712] Pre-Conditions: Click on Login link
+[2022-12-01 20:53:56,359] Pre-Conditions: Input to email: julian.friesen@yahoo.com
+[2022-12-01 20:53:56,544] Pre-Conditions: Input to password: kak98Lu@4
+[2022-12-01 20:53:56,711] Pre-Conditions: Click on Login button
+[2022-12-01 20:53:57,499] Pre-Conditions: Verify login successfull
+[2022-12-01 20:53:57,942] Step 01: Open Desktop page
+[2022-12-01 20:53:59,112] Step 02: Click on product name: Build your own computer
+[2022-12-01 20:54:00,590] Step 03: Select Processer: 2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]
+[2022-12-01 20:54:00,766] Step 04: Select RAM: 8GB [+$60.00]
+[2022-12-01 20:54:00,963] Step 05: Select HDD: 400 GB [+$100.00]
+[2022-12-01 20:54:01,145] Step 06: Select HDD: Vista Premium [+$60.00]
+[2022-12-01 20:54:01,322] Step 07: Check to checkbox of Software: Acrobat Reader [+$10.00]
+[2022-12-01 20:54:02,504] Step 08: Check to checkbox of Software: Acrobat Reader [+$10.00]
+[2022-12-01 20:54:03,717] Step 09: Verify the Software: Microsoft Office [+$50.00] is checked by default
+[2022-12-01 20:54:03,758] Step 10: Get total price
+[2022-12-01 20:54:03,835] Step 11: Click on Add to cart
+[2022-12-01 20:54:03,977] Step 12: Verify the message The product has been added to your shopping cart
+[2022-12-01 20:55:10,236] Pre-Conditions: Click on Login link
+[2022-12-01 20:55:11,512] Pre-Conditions: Input to email: asley.torphy@hotmail.com
+[2022-12-01 20:55:11,707] Pre-Conditions: Input to password: Gs46SQF55
+[2022-12-01 20:55:11,869] Pre-Conditions: Click on Login button
+[2022-12-01 20:55:12,700] Pre-Conditions: Verify login successfull
+[2022-12-01 20:55:12,979] Step 01: Open Notebooks page
+[2022-12-01 20:55:14,338] Step 02: Click on Add to cart for product: Apple MacBook Pro 13-inch
+[2022-12-01 20:55:14,470] Step 03: Click on Add to cart at product detail page
+[2022-12-01 20:55:14,619] Verify the product has been add to shopping cart message display
+[2022-12-01 20:59:43,583] Pre-Conditions: Click on Login link
+[2022-12-01 20:59:45,412] Pre-Conditions: Input to email: byron.armstrong@gmail.com
+[2022-12-01 20:59:45,607] Pre-Conditions: Input to password: Vx6^Cm4M
+[2022-12-01 20:59:45,796] Pre-Conditions: Click on Login button
+[2022-12-01 20:59:46,616] Pre-Conditions: Verify login successfull
+[2022-12-01 20:59:46,901] Step 01: Open Notebooks page
+[2022-12-01 20:59:48,209] Step 02: Click on Add to cart for product: Apple MacBook Pro 13-inch
+[2022-12-01 20:59:48,335] Step 03: Click on Add to cart at product detail page
+[2022-12-01 20:59:48,476] Verify the product has been add to shopping cart message display
+[2022-12-01 21:00:04,257] 
+[2022-12-01 21:00:04,258] 
+[2022-12-01 21:00:04,258] 
+[2022-12-01 21:00:04,258] 
+[2022-12-01 21:00:04,259] 
+[2022-12-01 21:00:04,259] 
+[2022-12-01 21:00:04,259] 
+[2022-12-01 21:00:04,259] 
+[2022-12-01 21:00:04,260] 
+[2022-12-01 21:00:04,260] 
+[2022-12-01 21:00:04,260] 
+[2022-12-01 21:00:04,260] 
+[2022-12-01 21:02:26,123] Pre-Conditions: Click on Login link
+[2022-12-01 21:02:27,897] Pre-Conditions: Input to email: iesha.wuckert@yahoo.com
+[2022-12-01 21:02:28,094] Pre-Conditions: Input to password: p&#vF7AD@
+[2022-12-01 21:02:28,274] Pre-Conditions: Click on Login button
+[2022-12-01 21:02:29,094] Pre-Conditions: Verify login successfull
+[2022-12-01 21:02:29,381] Step 01: Open Notebooks page
+[2022-12-01 21:02:30,604] Step 02: Click on Add to cart for product: Apple MacBook Pro 13-inch
+[2022-12-01 21:02:32,753] Step 03: Click on Add to cart at product detail page
+[2022-12-01 21:02:32,938] Verify the product has been add to shopping cart message display
+[2022-12-01 21:02:33,331] 
+[2022-12-01 21:02:33,331] 
+[2022-12-01 21:02:33,331] 
+[2022-12-01 21:02:33,332] 
+[2022-12-01 21:02:33,332] 
+[2022-12-01 21:02:33,332] 
+[2022-12-01 21:02:33,332] 
+[2022-12-01 21:02:33,332] 
+[2022-12-01 21:02:33,333] 
+[2022-12-01 21:02:33,333] 
+[2022-12-01 21:02:33,333] 
+[2022-12-01 21:02:33,333] 
+[2022-12-01 21:03:41,822] Pre-Conditions: Click on Login link
+[2022-12-01 21:03:43,138] Pre-Conditions: Input to email: essie.halvorson@yahoo.com
+[2022-12-01 21:03:43,335] Pre-Conditions: Input to password: ^D5!^f$vW
+[2022-12-01 21:03:43,503] Pre-Conditions: Click on Login button
+[2022-12-01 21:03:44,315] Pre-Conditions: Verify login successfull
+[2022-12-01 21:03:44,614] Step 01: Open Notebooks page
+[2022-12-01 21:03:45,820] Step 02: Click on Add to cart for product: Apple MacBook Pro 13-inch
+[2022-12-01 21:03:47,070] Step 03: Click on Add to cart at product detail page
+[2022-12-01 21:03:47,251] Verify the product has been add to shopping cart message display
+[2022-12-01 21:03:47,636] 
+[2022-12-01 21:03:47,636] 
+[2022-12-01 21:03:47,637] 
+[2022-12-01 21:03:47,637] 
+[2022-12-01 21:03:47,637] 
+[2022-12-01 21:03:47,637] 
+[2022-12-01 21:03:47,637] 
+[2022-12-01 21:03:47,637] 
+[2022-12-01 21:03:47,637] 
+[2022-12-01 21:03:47,638] 
+[2022-12-01 21:03:47,638] 
+[2022-12-01 21:03:47,638] 
+[2022-12-03 20:36:27,897] Pre-Conditions: Click on Login link
+[2022-12-03 20:36:28,550] Pre-Conditions: Input to email: ashly.braun@yahoo.com
+[2022-12-03 20:36:28,753] Pre-Conditions: Input to password: ^b*B96OQ
+[2022-12-03 20:36:28,945] Pre-Conditions: Click on Login button
+[2022-12-03 20:36:29,701] Pre-Conditions: Verify login successfull
+[2022-12-03 20:36:30,601] Step 01: Open Notebooks page
+[2022-12-03 20:36:32,948] Step 02: Click on Add to cart for product: Apple MacBook Pro 13-inch
+[2022-12-03 20:36:35,194] Step 03: Click on Add to cart at product detail page
+[2022-12-03 20:36:35,359] Step 04: Verify the product has been add to shopping cart message display
+[2022-12-03 20:36:38,014] Step 05: Click on Shopping Cart link
+[2022-12-03 20:36:39,938] Step 06: Select the No option on Gift wrapping
+[2022-12-03 20:36:40,092] Step 07: Click on Estimate shipping button
+[2022-12-03 20:36:40,218] Step 08: Select Country in Ship to popup: Viet Nam
+[2022-12-03 20:40:39,098] Pre-Conditions: Click on Login link
+[2022-12-03 20:40:39,745] Pre-Conditions: Input to email: boyce.murazik@hotmail.com
+[2022-12-03 20:40:39,940] Pre-Conditions: Input to password: !RN6ATaTE
+[2022-12-03 20:40:40,125] Pre-Conditions: Click on Login button
+[2022-12-03 20:40:40,863] Pre-Conditions: Verify login successfull
+[2022-12-03 20:40:41,149] Step 01: Open Notebooks page
+[2022-12-03 20:40:42,621] Step 02: Click on Add to cart for product: Apple MacBook Pro 13-inch
+[2022-12-03 20:40:43,832] Step 03: Click on Add to cart at product detail page
+[2022-12-03 20:40:44,007] Step 04: Verify the product has been add to shopping cart message display
+[2022-12-03 20:40:46,562] Step 05: Click on Shopping Cart link
+[2022-12-03 20:40:48,037] Step 06: Select the No option on Gift wrapping
+[2022-12-03 20:40:48,166] Step 07: Click on Estimate shipping button
+[2022-12-03 20:40:48,315] Step 08: Select Country in Ship to popup: Viet Nam
+[2022-12-03 20:40:48,510] Step 09: Select Province in Ship to popup: Other
+[2022-12-03 20:40:48,681] Step 10: Input to Zip/Postal Code textbox: 550000
+[2022-12-03 20:40:48,848] Step 11: Click on Apply button
+[2022-12-03 20:40:48,969] Step 12: Check to I agree with condition checkbox
+[2022-12-03 20:44:34,306] Pre-Conditions: Click on Login link
+[2022-12-03 20:44:35,059] Pre-Conditions: Input to email: carter.crist@gmail.com
+[2022-12-03 20:44:35,264] Pre-Conditions: Input to password: 2xI*U5y*
+[2022-12-03 20:44:35,449] Pre-Conditions: Click on Login button
+[2022-12-03 20:44:36,205] Pre-Conditions: Verify login successfull
+[2022-12-03 20:44:36,496] Step 01: Open Notebooks page
+[2022-12-03 20:44:39,026] Step 02: Click on Add to cart for product: Apple MacBook Pro 13-inch
+[2022-12-03 20:44:40,223] Step 03: Click on Add to cart at product detail page
+[2022-12-03 20:44:40,388] Step 04: Verify the product has been add to shopping cart message display
+[2022-12-03 20:44:43,025] Step 05: Click on Shopping Cart link
+[2022-12-03 20:44:44,548] Step 06: Select the No option on Gift wrapping
+[2022-12-03 20:44:44,688] Step 07: Click on Estimate shipping button
+[2022-12-03 20:44:44,823] Step 08: Select Country in Ship to popup: Viet Nam
+[2022-12-03 20:44:47,009] Step 09: Select Province in Ship to popup: Other
+[2022-12-03 20:44:47,147] Step 10: Input to Zip/Postal Code textbox: 550000
+[2022-12-03 20:44:47,327] Step 11: Click on Apply button
+[2022-12-03 20:44:47,459] Step 12: Check to I agree with condition checkbox
+[2022-12-03 20:48:12,240] Pre-Conditions: Click on Login link
+[2022-12-03 20:48:12,870] Pre-Conditions: Input to email: buster.haag@gmail.com
+[2022-12-03 20:48:13,060] Pre-Conditions: Input to password: 5wOO%#%I
+[2022-12-03 20:48:13,243] Pre-Conditions: Click on Login button
+[2022-12-03 20:48:14,001] Pre-Conditions: Verify login successfull
+[2022-12-03 20:48:14,284] Step 01: Open Notebooks page
+[2022-12-03 20:48:15,293] Step 02: Click on Add to cart for product: Apple MacBook Pro 13-inch
+[2022-12-03 20:48:16,356] Step 03: Click on Add to cart at product detail page
+[2022-12-03 20:48:16,528] Step 04: Verify the product has been add to shopping cart message display
+[2022-12-03 20:48:19,133] Step 05: Click on Shopping Cart link
+[2022-12-03 20:48:19,952] Step 06: Select the No option on Gift wrapping
+[2022-12-03 20:48:20,102] Step 07: Click on Estimate shipping button
+[2022-12-03 20:48:20,249] Step 08: Select Country in Ship to popup: Viet Nam
+[2022-12-03 20:48:23,041] Step 09: Select Province in Ship to popup: Other
+[2022-12-03 20:48:23,211] Step 10: Input to Zip/Postal Code textbox: 550000
+[2022-12-03 20:48:23,386] Step 11: Click on Apply button
+[2022-12-03 20:48:23,514] Step 12: Check to I agree with condition checkbox
+[2022-12-03 20:48:36,931] Step 13: Click on Checkout button
+[2022-12-03 20:48:38,410] 
+[2022-12-03 20:48:38,410] 
+[2022-12-03 20:48:38,411] 
+[2022-12-03 20:52:52,008] Pre-Conditions: Click on Login link
+[2022-12-03 20:52:53,753] Pre-Conditions: Input to email: tuan.mosciski@hotmail.com
+[2022-12-03 20:52:53,946] Pre-Conditions: Input to password: ST9uh2@^
+[2022-12-03 20:52:54,137] Pre-Conditions: Click on Login button
+[2022-12-03 20:52:54,957] Pre-Conditions: Verify login successfull
+[2022-12-03 20:52:55,257] Step 01: Open Notebooks page
+[2022-12-03 20:52:57,058] Step 02: Click on Add to cart for product: Apple MacBook Pro 13-inch
+[2022-12-03 20:52:58,408] Step 03: Click on Add to cart at product detail page
+[2022-12-03 20:52:58,595] Step 04: Verify the product has been add to shopping cart message display
+[2022-12-03 20:53:01,181] Step 05: Click on Shopping Cart link
+[2022-12-03 20:53:03,999] Step 06: Select the No option on Gift wrapping
+[2022-12-03 20:53:04,300] Step 07: Click on Estimate shipping button
+[2022-12-03 20:53:04,426] Step 08: Select Country in Ship to popup: Viet Nam
+[2022-12-03 20:53:06,715] Step 09: Select Province in Ship to popup: Other
+[2022-12-03 20:53:06,913] Step 10: Input to Zip/Postal Code textbox: 550000
+[2022-12-03 20:53:07,123] Step 11: Click on Apply button
+[2022-12-03 20:53:07,281] Step 12: Check to I agree with condition checkbox
+[2022-12-03 20:53:12,904] Step 13: Click on Checkout button
+[2022-12-03 20:53:14,948] 
+[2022-12-03 20:53:14,949] 
+[2022-12-03 20:53:14,950] 
+[2022-12-03 20:54:34,382] Pre-Conditions: Click on Login link
+[2022-12-03 20:54:36,422] Pre-Conditions: Input to email: fern.wunsch@gmail.com
+[2022-12-03 20:54:36,633] Pre-Conditions: Input to password: mU&C0RTO
+[2022-12-03 20:54:36,798] Pre-Conditions: Click on Login button
+[2022-12-03 20:54:37,637] Pre-Conditions: Verify login successfull
+[2022-12-03 20:54:37,952] Step 01: Open Notebooks page
+[2022-12-03 20:54:39,492] Step 02: Click on Add to cart for product: Apple MacBook Pro 13-inch
+[2022-12-03 20:54:41,033] Step 03: Click on Add to cart at product detail page
+[2022-12-03 20:54:41,195] Step 04: Verify the product has been add to shopping cart message display
+[2022-12-03 20:54:43,791] Step 05: Click on Shopping Cart link
+[2022-12-03 20:54:46,367] Step 06: Select the No option on Gift wrapping
+[2022-12-03 20:54:46,489] Step 07: Click on Estimate shipping button
+[2022-12-03 20:54:48,643] Step 08: Select Country in Ship to popup: Viet Nam
+[2022-12-03 20:54:48,920] Step 09: Select Province in Ship to popup: Other
+[2022-12-03 20:54:49,118] Step 10: Input to Zip/Postal Code textbox: 550000
+[2022-12-03 20:54:49,356] Step 11: Click on Apply button
+[2022-12-03 20:54:49,509] Step 12: Check to I agree with condition checkbox
+[2022-12-03 20:58:08,211] Pre-Conditions: Click on Login link
+[2022-12-03 20:58:09,795] Pre-Conditions: Input to email: neville.armstrong@yahoo.com
+[2022-12-03 20:58:09,994] Pre-Conditions: Input to password: e*!!*vl%
+[2022-12-03 20:58:10,170] Pre-Conditions: Click on Login button
+[2022-12-03 20:58:11,519] Pre-Conditions: Verify login successfull
+[2022-12-03 20:58:11,817] Step 01: Open Notebooks page
+[2022-12-03 20:58:13,173] Step 02: Click on Add to cart for product: Apple MacBook Pro 13-inch
+[2022-12-03 20:58:14,622] Step 03: Click on Add to cart at product detail page
+[2022-12-03 20:58:14,785] Step 04: Verify the product has been add to shopping cart message display
+[2022-12-03 20:58:17,563] Step 05: Click on Shopping Cart link
+[2022-12-03 20:58:18,636] Step 06: Select the No option on Gift wrapping
+[2022-12-03 20:58:18,768] Step 07: Click on Estimate shipping button
+[2022-12-03 20:58:22,919] Step 08: Select Country in Ship to popup: Viet Nam
+[2022-12-03 20:58:23,191] Step 09: Select Province in Ship to popup: Other
+[2022-12-03 20:58:23,371] Step 10: Input to Zip/Postal Code textbox: 550000
+[2022-12-03 20:58:23,611] Step 11: Click on Apply button
+[2022-12-03 20:58:23,770] Step 12: Check to I agree with condition checkbox
+[2022-12-03 21:05:24,946] Pre-Conditions: Click on Login link
+[2022-12-03 21:05:26,890] Pre-Conditions: Input to email: ashley.franecki@hotmail.com
+[2022-12-03 21:05:27,089] Pre-Conditions: Input to password: &p1$7oD9
+[2022-12-03 21:05:27,252] Pre-Conditions: Click on Login button
+[2022-12-03 21:05:28,078] Pre-Conditions: Verify login successfull
+[2022-12-03 21:05:28,355] Step 01: Open Notebooks page
+[2022-12-03 21:05:29,724] Step 02: Click on Add to cart for product: Apple MacBook Pro 13-inch
+[2022-12-03 21:05:31,040] Step 03: Click on Add to cart at product detail page
+[2022-12-03 21:05:31,218] Step 04: Verify the product has been add to shopping cart message display
+[2022-12-03 21:05:33,846] Step 05: Click on Shopping Cart link
+[2022-12-03 21:05:34,926] Step 06: Select the No option on Gift wrapping
+[2022-12-03 21:05:35,073] Step 07: Click on Estimate shipping button
+[2022-12-03 21:05:35,215] Step 08: Select Country in Ship to popup: Viet Nam
+[2022-12-03 21:05:36,019] Step 09: Select Province in Ship to popup: Other
+[2022-12-03 21:05:36,263] Step 10: Input to Zip/Postal Code textbox: 550000
+[2022-12-03 21:05:36,478] Step 11: Click on Apply button
+[2022-12-03 21:05:38,620] Step 12: Check to I agree with condition checkbox
+[2022-12-03 21:06:00,226] Step 13: Click on Checkout button
+[2022-12-03 21:06:02,952] 
+[2022-12-03 21:06:02,953] 
+[2022-12-03 21:06:02,953] 
+[2022-12-03 21:11:57,228] Pre-Conditions: Click on Login link
+[2022-12-03 21:11:59,171] Pre-Conditions: Input to email: keenan.bartoletti@hotmail.com
+[2022-12-03 21:11:59,383] Pre-Conditions: Input to password: h@j0SkrQ
+[2022-12-03 21:11:59,561] Pre-Conditions: Click on Login button
+[2022-12-03 21:12:00,406] Pre-Conditions: Verify login successfull
+[2022-12-03 21:12:00,693] Step 01: Open Notebooks page
+[2022-12-03 21:12:01,995] Step 02: Click on Add to cart for product: Apple MacBook Pro 13-inch
+[2022-12-03 21:12:03,404] Step 03: Click on Add to cart at product detail page
+[2022-12-03 21:12:03,574] Step 04: Verify the product has been add to shopping cart message display
+[2022-12-03 21:12:06,187] Step 05: Click on Shopping Cart link
+[2022-12-03 21:12:07,302] Step 06: Select the No option on Gift wrapping
+[2022-12-03 21:12:07,444] Step 07: Click on Estimate shipping button
+[2022-12-03 21:12:07,589] Step 08: Select Country in Ship to popup: Viet Nam
+[2022-12-03 21:12:07,902] Step 09: Select Province in Ship to popup: Other
+[2022-12-03 21:12:08,121] Step 10: Input to Zip/Postal Code textbox: 550000
+[2022-12-03 21:12:08,345] Step 11: Click on Apply button
+[2022-12-03 21:19:13,795] Pre-Conditions: Click on Login link
+[2022-12-03 21:19:14,463] Pre-Conditions: Input to email: trevor.klocko@gmail.com
+[2022-12-03 21:19:14,667] Pre-Conditions: Input to password: K9X5cHm8^
+[2022-12-03 21:19:14,872] Pre-Conditions: Click on Login button
+[2022-12-03 21:19:15,698] Pre-Conditions: Verify login successfull
+[2022-12-03 21:19:16,054] Step 01: Open Notebooks page
+[2022-12-03 21:19:16,956] Step 02: Click on Add to cart for product: Apple MacBook Pro 13-inch
+[2022-12-03 21:19:18,034] Step 03: Click on Add to cart at product detail page
+[2022-12-03 21:19:18,235] Step 04: Verify the product has been add to shopping cart message display
+[2022-12-03 21:19:20,828] Step 05: Click on Shopping Cart link
+[2022-12-03 21:19:21,787] Step 06: Select the No option on Gift wrapping
+[2022-12-03 21:19:21,916] Step 07: Click on Estimate shipping button
+[2022-12-03 21:19:22,059] Step 08: Select Country in Ship to popup: Viet Nam
+[2022-12-03 21:19:22,433] Step 09: Select Province in Ship to popup: Other
+[2022-12-03 21:19:22,892] Step 10: Input to Zip/Postal Code textbox: 550000
+[2022-12-03 21:19:23,121] Step 11: Click on Apply button
+[2022-12-03 21:19:53,937] Step 12: Check to I agree with condition checkbox
+[2022-12-03 21:19:54,646] Step 13: Click on Checkout button
+[2022-12-03 21:19:55,834] 
+[2022-12-03 21:19:55,835] 
+[2022-12-03 21:19:55,836] 
+[2022-12-03 21:26:59,380] Pre-Conditions: Click on Login link
+[2022-12-03 21:27:01,167] Pre-Conditions: Input to email: cyril.reichel@yahoo.com
+[2022-12-03 21:27:01,359] Pre-Conditions: Input to password: XcG%#F8i
+[2022-12-03 21:27:01,544] Pre-Conditions: Click on Login button
+[2022-12-03 21:27:02,367] Pre-Conditions: Verify login successfull
+[2022-12-03 21:27:02,636] Step 01: Open Notebooks page
+[2022-12-03 21:27:04,027] Step 02: Click on Add to cart for product: Apple MacBook Pro 13-inch
+[2022-12-03 21:27:05,342] Step 03: Click on Add to cart at product detail page
+[2022-12-03 21:27:05,519] Step 04: Verify the product has been add to shopping cart message display
+[2022-12-03 21:27:08,104] Step 05: Click on Shopping Cart link
+[2022-12-03 21:27:09,281] Step 06: Select the No option on Gift wrapping
+[2022-12-03 21:27:09,436] Step 07: Click on Estimate shipping button
+[2022-12-03 21:27:09,595] Step 08: Select Country in Ship to popup: Viet Nam
+[2022-12-03 21:27:10,398] Step 09: Select Province in Ship to popup: Other
+[2022-12-03 21:27:10,601] Step 10: Input to Zip/Postal Code textbox: 550000
+[2022-12-03 21:27:10,799] Step 11: Click on Apply button
+[2022-12-03 21:27:41,568] Step 12: Check to I agree with condition checkbox
+[2022-12-03 21:27:42,246] Step 13: Click on Checkout button
+[2022-12-03 21:27:45,842] 
+[2022-12-03 21:27:45,842] 
+[2022-12-03 21:27:45,843] 
+[2022-12-03 21:41:05,549] Pre-Conditions: Click on Login link
+[2022-12-03 21:41:06,189] Pre-Conditions: Input to email: jonathon.oberbrunner@yahoo.com
+[2022-12-03 21:41:06,392] Pre-Conditions: Input to password: FKL71VPN8
+[2022-12-03 21:41:06,564] Pre-Conditions: Click on Login button
+[2022-12-03 21:41:07,293] Pre-Conditions: Verify login successfull
+[2022-12-03 21:41:07,576] Step 01: Open Notebooks page
+[2022-12-03 21:41:10,203] Step 02: Click on Add to cart for product: Apple MacBook Pro 13-inch
+[2022-12-03 21:41:13,364] Step 03: Click on Add to cart at product detail page
+[2022-12-03 21:41:13,545] Step 04: Verify the product has been add to shopping cart message display
+[2022-12-03 21:41:16,090] Step 05: Click on Shopping Cart link
+[2022-12-03 21:41:18,649] Step 06: Select the No option on Gift wrapping
+[2022-12-03 21:41:18,780] Step 07: Click on Estimate shipping button
+[2022-12-03 21:41:18,925] Step 08: Select Country in Ship to popup: Viet Nam
+[2022-12-03 21:41:19,721] Step 09: Select Province in Ship to popup: Other
+[2022-12-03 21:41:19,915] Step 10: Input to Zip/Postal Code textbox: 550000
+[2022-12-03 21:41:24,129] Step 11: Click on Apply button
+[2022-12-03 21:41:24,293] Step 12: Check to I agree with condition checkbox
+[2022-12-03 21:41:24,965] Step 13: Click on Checkout button
+[2022-12-03 21:41:27,294] 
+[2022-12-03 21:41:27,295] 
+[2022-12-03 21:41:27,295] 
+[2022-12-03 21:52:59,253] Pre-Conditions: Click on Login link
+[2022-12-03 21:53:00,668] Pre-Conditions: Input to email: jason.ondricka@hotmail.com
+[2022-12-03 21:53:00,915] Pre-Conditions: Input to password: 9A5ow8#37
+[2022-12-03 21:53:01,138] Pre-Conditions: Click on Login button
+[2022-12-03 21:53:02,037] Pre-Conditions: Verify login successfull
+[2022-12-03 21:53:03,558] Step 01: Open Notebooks page
+[2022-12-03 21:53:04,998] Step 02: Click on Add to cart for product: Apple MacBook Pro 13-inch
+[2022-12-03 21:53:08,995] Step 03: Click on Add to cart at product detail page
+[2022-12-03 21:53:09,159] Step 04: Verify the product has been add to shopping cart message display
+[2022-12-03 21:53:11,816] Step 05: Click on Shopping Cart link
+[2022-12-03 21:53:13,093] Step 06: Select the No option on Gift wrapping
+[2022-12-03 21:53:13,248] Step 07: Click on Estimate shipping button
+[2022-12-03 21:53:13,400] Step 08: Select Country in Ship to popup: Viet Nam
+[2022-12-03 21:53:13,733] Step 09: Select Province in Ship to popup: Other
+[2022-12-03 21:53:13,926] Step 10: Input to Zip/Postal Code textbox: 550000
+[2022-12-03 21:53:14,179] Step 11: Click on Apply button
+[2022-12-03 21:53:14,339] Step 12: Check to I agree with condition checkbox
+[2022-12-03 21:54:14,042] Pre-Conditions: Click on Login link
+[2022-12-03 21:54:15,894] Pre-Conditions: Input to email: earlie.zboncak@gmail.com
+[2022-12-03 21:54:16,089] Pre-Conditions: Input to password: WN&B$ymN#
+[2022-12-03 21:54:16,253] Pre-Conditions: Click on Login button
+[2022-12-03 21:54:17,059] Pre-Conditions: Verify login successfull
+[2022-12-03 21:54:17,326] Step 01: Open Notebooks page
+[2022-12-03 21:54:18,710] Step 02: Click on Add to cart for product: Apple MacBook Pro 13-inch
+[2022-12-03 21:54:20,121] Step 03: Click on Add to cart at product detail page
+[2022-12-03 21:54:20,315] Step 04: Verify the product has been add to shopping cart message display
+[2022-12-03 21:54:22,947] Step 05: Click on Shopping Cart link
+[2022-12-03 21:54:24,033] Step 06: Select the No option on Gift wrapping
+[2022-12-03 21:54:24,170] Step 07: Click on Estimate shipping button
+[2022-12-03 21:54:24,316] Step 08: Select Country in Ship to popup: Viet Nam
+[2022-12-03 21:54:24,811] Step 09: Select Province in Ship to popup: Other
+[2022-12-03 21:54:24,995] Step 10: Input to Zip/Postal Code textbox: 550000
+[2022-12-03 21:54:27,223] Step 11: Click on Apply button
+[2022-12-03 21:54:27,385] Step 12: Check to I agree with condition checkbox
+[2022-12-03 21:54:28,059] Step 13: Click on Checkout button
+[2022-12-03 21:54:29,432] 
+[2022-12-03 21:54:29,432] 
+[2022-12-03 21:54:29,432] 
+[2022-12-04 19:36:04,723] Pre-Conditions: Click on Login link
+[2022-12-04 19:36:05,375] Pre-Conditions: Input to email: abel.dickinson@hotmail.com
+[2022-12-04 19:36:05,577] Pre-Conditions: Input to password: c6W0i%Av
+[2022-12-04 19:36:05,771] Pre-Conditions: Click on Login button
+[2022-12-04 19:36:06,523] Pre-Conditions: Verify login successfull
+[2022-12-04 19:36:06,913] Step 01: Open Notebooks page
+[2022-12-04 19:36:07,702] Step 02: Click on Add to cart for product: Apple MacBook Pro 13-inch
+[2022-12-04 19:36:09,046] Step 03: Click on Add to cart at product detail page
+[2022-12-04 19:36:09,232] Step 04: Verify the product has been add to shopping cart message display
+[2022-12-04 19:36:11,781] Step 05: Click on Shopping Cart link
+[2022-12-04 19:36:12,616] Step 06: Select the No option on Gift wrapping
+[2022-12-04 19:36:12,744] Step 07: Click on Estimate shipping button
+[2022-12-04 19:36:12,877] Step 08: Select Country in Ship to popup: Viet Nam
+[2022-12-04 19:36:13,207] Step 09: Select Province in Ship to popup: Other
+[2022-12-04 19:36:13,752] Step 10: Input to Zip/Postal Code textbox: 550000
+[2022-12-04 19:36:14,001] Step 11: Click on Apply button
+[2022-12-04 19:38:50,023] Pre-Conditions: Click on Login link
+[2022-12-04 19:38:51,513] Pre-Conditions: Input to email: reyes.marks@gmail.com
+[2022-12-04 19:38:51,701] Pre-Conditions: Input to password: Vl&c&&Fu
+[2022-12-04 19:38:51,891] Pre-Conditions: Click on Login button
+[2022-12-04 19:38:52,691] Pre-Conditions: Verify login successfull
+[2022-12-04 19:38:52,972] Step 01: Open Notebooks page
+[2022-12-04 19:38:54,727] Step 02: Click on Add to cart for product: Apple MacBook Pro 13-inch
+[2022-12-04 19:38:56,088] Step 03: Click on Add to cart at product detail page
+[2022-12-04 19:38:56,274] Step 04: Verify the product has been add to shopping cart message display
+[2022-12-04 19:38:58,887] Step 05: Click on Shopping Cart link
+[2022-12-04 19:39:00,004] Step 06: Select the No option on Gift wrapping
+[2022-12-04 19:39:00,161] Step 07: Click on Estimate shipping button
+[2022-12-04 19:39:00,298] Step 08: Select Country in Ship to popup: Viet Nam
+[2022-12-04 19:39:01,118] Step 09: Select Province in Ship to popup: Other
+[2022-12-04 19:39:01,305] Step 10: Input to Zip/Postal Code textbox: 550000
+[2022-12-04 19:39:03,527] Step 11: Click on Apply button
+[2022-12-04 19:39:08,772] Step 12: Check to I agree with condition checkbox
+[2022-12-04 19:39:09,454] Step 13: Click on Checkout button
+[2022-12-04 19:39:12,434] 
+[2022-12-04 19:39:12,434] 
+[2022-12-04 19:39:12,435] 
+[2022-12-04 22:38:16,422] Pre-Conditions: Click on Login link
+[2022-12-04 22:38:17,185] Pre-Conditions: Input to email: toney.konopelski@hotmail.com
+[2022-12-04 22:38:17,395] Pre-Conditions: Input to password: 5B^9N6pE
+[2022-12-04 22:38:17,591] Pre-Conditions: Click on Login button
+[2022-12-04 22:38:18,404] Pre-Conditions: Verify login successfull
+[2022-12-04 22:38:19,135] Step 01: Open Notebooks page
+[2022-12-04 22:38:19,978] Step 02: Click on Add to cart for product: Apple MacBook Pro 13-inch
+[2022-12-04 22:38:21,292] Step 03: Click on Add to cart at product detail page
+[2022-12-04 22:38:21,458] Step 04: Verify the product has been add to shopping cart message display
+[2022-12-04 22:38:24,061] Step 05: Click on Shopping Cart link
+[2022-12-04 22:38:25,043] Step 06: Select the No option on Gift wrapping
+[2022-12-04 22:38:25,192] Step 07: Click on Estimate shipping button
+[2022-12-04 22:38:25,337] Step 08: Select Country in Ship to popup: Viet Nam
+[2022-12-04 22:38:26,154] Step 09: Select Province in Ship to popup: Other
+[2022-12-04 22:38:26,349] Step 10: Input to Zip/Postal Code textbox: 550000
+[2022-12-04 22:38:26,563] Step 11: Click on Apply button
+[2022-12-04 22:38:26,800] Step 12: Check to I agree with condition checkbox
+[2022-12-08 19:36:25,844] Pre-Conditions: Click on Login link
+[2022-12-08 19:36:28,020] Pre-Conditions: Input to email: null
+[2022-12-08 20:40:56,755] Pre-Conditions: Click on Login link
+[2022-12-08 20:40:58,347] Pre-Conditions: Input to email: crystal.senger@gmail.com
+[2022-12-08 20:40:58,546] Pre-Conditions: Input to password: e35o@GDBs
+[2022-12-08 20:40:58,737] Pre-Conditions: Click on Login button
+[2022-12-08 20:40:59,566] Pre-Conditions: Verify login successfull
+[2022-12-08 20:40:59,910] Step 01: Open Notebooks page
+[2022-12-08 20:41:01,036] Step 02: Click on Add to cart for product: Apple MacBook Pro 13-inch
+[2022-12-08 20:41:02,200] Step 03: Click on Add to cart at product detail page
+[2022-12-08 20:41:02,369] Step 04: Verify the product has been add to shopping cart message display
+[2022-12-08 20:41:04,959] Step 05: Click on Shopping Cart link
+[2022-12-08 20:41:05,970] Step 06: Select the No option on Gift wrapping
+[2022-12-08 20:41:06,113] Step 07: Click on Estimate shipping button
+[2022-12-08 20:41:06,294] Step 08: Select Country in Ship to popup: Viet Nam
+[2022-12-08 20:41:06,782] Step 09: Select Province in Ship to popup: Other
+[2022-12-08 20:41:06,972] Step 10: Input to Zip/Postal Code textbox: 550000
+[2022-12-08 20:41:07,207] Step 11: Click on Apply button
+[2022-12-08 20:41:07,411] Step 12: Check to I agree with condition checkbox
+[2022-12-08 20:44:22,039] Pre-Conditions: Click on Login link
+[2022-12-08 20:44:23,638] Pre-Conditions: Input to email: felipe.pacocha@gmail.com
+[2022-12-08 20:44:23,823] Pre-Conditions: Input to password: D38I9FVD
+[2022-12-08 20:44:24,000] Pre-Conditions: Click on Login button
+[2022-12-08 20:44:24,816] Pre-Conditions: Verify login successfull
+[2022-12-08 20:44:25,107] Step 01: Open Notebooks page
+[2022-12-08 20:44:26,243] Step 02: Click on Add to cart for product: Apple MacBook Pro 13-inch
+[2022-12-08 20:44:28,721] Step 03: Click on Add to cart at product detail page
+[2022-12-08 20:44:28,896] Step 04: Verify the product has been add to shopping cart message display
+[2022-12-08 20:44:31,524] Step 05: Click on Shopping Cart link
+[2022-12-08 20:44:33,037] Step 06: Select the No option on Gift wrapping
+[2022-12-08 20:44:33,175] Step 07: Click on Estimate shipping button
+[2022-12-08 20:44:33,356] Step 08: Select Country in Ship to popup: Viet Nam
+[2022-12-08 20:44:33,672] Step 09: Select Province in Ship to popup: Other
+[2022-12-08 20:44:33,874] Step 10: Input to Zip/Postal Code textbox: 550000
+[2022-12-08 20:44:36,102] Step 11: Click on Apply button
+[2022-12-08 20:44:36,268] Step 12: Check to I agree with condition checkbox
+[2022-12-08 20:44:36,959] Step 13: Click on Checkout button
+[2022-12-08 20:44:39,479] 
+[2022-12-08 20:44:39,479] 
+[2022-12-08 20:44:39,479] 
+[2022-12-08 21:41:19,317] Pre-Conditions: Click on Login link
+[2022-12-08 21:41:20,852] Pre-Conditions: Input to email: nicholas.medhurst@gmail.com
+[2022-12-08 21:41:21,052] Pre-Conditions: Input to password: 7IS##$ZU
+[2022-12-08 21:41:21,237] Pre-Conditions: Click on Login button
+[2022-12-08 21:41:21,990] Pre-Conditions: Verify login successfull
+[2022-12-08 21:41:22,284] Step 01: Open Notebooks page
+[2022-12-08 21:41:23,329] Step 02: Click on Add to cart for product: Apple MacBook Pro 13-inch
+[2022-12-08 21:41:24,407] Step 03: Click on Add to cart at product detail page
+[2022-12-08 21:41:24,577] Step 04: Verify the product has been add to shopping cart message display
+[2022-12-08 21:41:27,147] Step 05: Click on Shopping Cart link
+[2022-12-08 21:41:28,094] Step 06: Select the No option on Gift wrapping
+[2022-12-08 21:41:28,234] Step 07: Click on Estimate shipping button
+[2022-12-08 21:41:28,463] Step 08: Select Country in Ship to popup: Viet Nam
+[2022-12-08 21:41:28,930] Step 09: Select Province in Ship to popup: Other
+[2022-12-08 21:41:29,132] Step 10: Input to Zip/Postal Code textbox: 550000
+[2022-12-08 21:41:31,356] Step 11: Click on Apply button
+[2022-12-08 21:41:31,521] Step 12: Check to I agree with condition checkbox
+[2022-12-08 21:41:32,209] Step 13: Click on Checkout button
+[2022-12-08 21:41:33,470] Step 14: Input to Company textbox: Towne-Price
+[2022-12-21 15:52:56,357] Pre-Conditions: Click on Login link
+[2022-12-21 15:52:57,094] Pre-Conditions: Input to email: viva.crist@yahoo.com
+[2022-12-21 15:52:57,280] Pre-Conditions: Input to password: p@$$w8T*
+[2022-12-21 15:52:57,470] Pre-Conditions: Click on Login button
+[2022-12-21 15:52:58,239] Pre-Conditions: Verify login successfull
+[2022-12-21 15:52:58,531] Step 01: Open Notebooks page
+[2022-12-21 15:52:59,633] Step 02: Click on Add to cart for product: Apple MacBook Pro 13-inch
+[2022-12-21 15:53:00,911] Step 03: Click on Add to cart at product detail page
+[2022-12-21 15:53:01,093] Step 04: Verify the product has been add to shopping cart message display
+[2022-12-21 15:53:03,707] Step 05: Click on Shopping Cart link
+[2022-12-21 15:53:04,546] Step 06: Select the No option on Gift wrapping
+[2022-12-21 15:53:04,685] Step 07: Click on Estimate shipping button
+[2022-12-21 15:53:04,824] Step 08: Select Country in Ship to popup: Viet Nam
+[2022-12-21 15:53:05,666] Step 09: Select Province in Ship to popup: Other
+[2022-12-21 15:53:05,856] Step 10: Input to Zip/Postal Code textbox: 550000
+[2022-12-21 15:53:08,101] Step 11: Click on Apply button
+[2022-12-21 15:53:08,271] Step 12: Check to I agree with condition checkbox
+[2022-12-21 15:53:08,963] Step 13: Click on Checkout button
+[2022-12-21 15:53:10,357] Step 14: Input to Company textbox: Batz-Morar
+[2022-12-21 19:24:28,754] Pre-Conditions: Click on Login link
+[2022-12-21 19:24:29,986] Pre-Conditions: Input to email: jeffry.douglas@hotmail.com
+[2022-12-21 19:24:30,186] Pre-Conditions: Input to password: ^3mXsjM1H
+[2022-12-21 19:24:30,381] Pre-Conditions: Click on Login button
+[2022-12-21 19:24:31,127] Pre-Conditions: Verify login successfull
+[2022-12-21 19:24:31,465] Step 01: Open Notebooks page
+[2022-12-21 19:24:32,461] Step 02: Click on Add to cart for product: Apple MacBook Pro 13-inch
+[2022-12-21 19:24:33,879] Step 03: Click on Add to cart at product detail page
+[2022-12-21 19:24:34,079] Step 04: Verify the product has been add to shopping cart message display
+[2022-12-21 19:24:36,646] Step 05: Click on Shopping Cart link
+[2022-12-21 19:24:38,226] Step 06: Select the No option on Gift wrapping
+[2022-12-21 19:24:38,367] Step 07: Click on Estimate shipping button
+[2022-12-21 19:24:38,532] Step 08: Select Country in Ship to popup: Viet Nam
+[2022-12-21 19:24:38,810] Step 09: Select Province in Ship to popup: Other
+[2022-12-21 19:24:39,021] Step 10: Input to Zip/Postal Code textbox: 550000
+[2022-12-21 19:24:41,246] Step 11: Click on Apply button
+[2022-12-21 19:24:41,413] Step 12: Check to I agree with condition checkbox
+[2022-12-21 19:24:42,082] Step 13: Click on Checkout button
+[2022-12-21 19:24:43,452] Step 14: Input to Company textbox: Altenwerth-Yundt
+[2022-12-21 20:49:46,265] Pre-Conditions: Click on Login link
+[2022-12-21 20:49:47,470] Pre-Conditions: Input to email: mose.herzog@yahoo.com
+[2022-12-21 20:49:47,670] Pre-Conditions: Input to password: uNk5HFWX#
+[2022-12-21 20:49:47,852] Pre-Conditions: Click on Login button
+[2022-12-21 20:49:48,626] Pre-Conditions: Verify login successfull
+[2022-12-21 20:49:48,914] Step 01: Open Notebooks page
+[2022-12-21 20:49:50,043] Step 02: Click on Add to cart for product: Apple MacBook Pro 13-inch
+[2022-12-21 20:49:51,497] Step 03: Click on Add to cart at product detail page
+[2022-12-21 20:49:51,678] Step 04: Verify the product has been add to shopping cart message display
+[2022-12-21 20:49:54,232] Step 05: Click on Shopping Cart link
+[2022-12-21 20:49:55,760] Step 06: Select the No option on Gift wrapping
+[2022-12-21 20:49:55,884] Step 07: Click on Estimate shipping button
+[2022-12-21 20:49:56,020] Step 08: Select Country in Ship to popup: Viet Nam
+[2022-12-21 20:49:56,288] Step 09: Select Province in Ship to popup: Other
+[2022-12-21 20:49:56,488] Step 10: Input to Zip/Postal Code textbox: 550000
+[2022-12-21 20:49:58,723] Step 11: Click on Apply button
+[2022-12-21 20:49:58,893] Step 12: Check to I agree with condition checkbox
+[2022-12-21 20:49:59,607] Step 13: Click on Checkout button
+[2022-12-21 20:50:01,058] Step 14: Input to Company textbox: Lang, McGlynn and Stracke
+[2022-12-21 21:19:06,630] Pre-Conditions: Click on Login link
+[2022-12-21 21:19:07,909] Pre-Conditions: Input to email: nicky.auer@yahoo.com
+[2022-12-21 21:19:08,094] Pre-Conditions: Input to password: p1Wd5JxN
+[2022-12-21 21:19:08,263] Pre-Conditions: Click on Login button
+[2022-12-21 21:19:08,984] Pre-Conditions: Verify login successfull
+[2022-12-21 21:19:09,286] Step 01: Open Notebooks page
+[2022-12-21 21:19:10,478] Step 02: Click on Add to cart for product: Apple MacBook Pro 13-inch
+[2022-12-21 21:19:11,800] Step 03: Click on Add to cart at product detail page
+[2022-12-21 21:19:11,970] Step 04: Verify the product has been add to shopping cart message display
+[2022-12-21 21:19:14,542] Step 05: Click on Shopping Cart link
+[2022-12-21 21:19:16,135] Step 06: Select the No option on Gift wrapping
+[2022-12-21 21:19:16,276] Step 07: Click on Estimate shipping button
+[2022-12-21 21:19:16,420] Step 08: Select Country in Ship to popup: Viet Nam
+[2022-12-21 21:19:16,743] Step 09: Select Province in Ship to popup: Other
+[2022-12-21 21:19:17,003] Step 10: Input to Zip/Postal Code textbox: 550000
+[2022-12-21 21:19:19,238] Step 11: Click on Apply button
+[2022-12-21 21:19:19,403] Step 12: Check to I agree with condition checkbox
+[2022-12-21 21:19:20,087] Step 13: Click on Checkout button
+[2022-12-21 21:19:23,336] Step 14: Input to Company textbox: Schowalter-Brown
+[2022-12-21 21:19:23,533] Step 15: Select value in Country dropdown: Croatia
+[2022-12-21 21:19:23,697] Step 16: Input to City textbox: Lake Chasehaven
+[2022-12-21 21:19:23,896] Step 17: Input to Address 1 textbox: 8660 Patsy Ports
+[2022-12-21 21:19:24,103] Step 18: Input to Address 2 textbox: 838 Homenick Spring
+[2022-12-21 21:19:24,329] Step 19: Input to ZipCode textbox: 88515
+[2022-12-21 21:19:24,507] Step 20: Input to Phone number textbox: 1-790-489-7220 x532
+[2022-12-21 21:19:24,711] Step 21: Input to Fax number textbox: 3
+[2022-12-21 21:19:24,887] Step 22: Click on Continue button
+[2022-12-21 21:19:25,012] 
+[2022-12-21 21:38:17,470] Pre-Conditions: Click on Login link
+[2022-12-21 21:38:18,178] Pre-Conditions: Input to email: glenn.mitchell@hotmail.com
+[2022-12-21 21:38:18,380] Pre-Conditions: Input to password: oH9M$$iJ
+[2022-12-21 21:38:18,571] Pre-Conditions: Click on Login button
+[2022-12-21 21:38:19,357] Pre-Conditions: Verify login successfull
+[2022-12-21 21:38:19,631] Step 01: Open Notebooks page
+[2022-12-21 21:38:20,962] Step 02: Click on Add to cart for product: Apple MacBook Pro 13-inch
+[2022-12-21 21:38:22,020] Step 03: Click on Add to cart at product detail page
+[2022-12-21 21:38:22,187] Step 04: Verify the product has been add to shopping cart message display
+[2022-12-21 21:38:24,800] Step 05: Click on Shopping Cart link
+[2022-12-21 21:38:25,648] Step 06: Select the No option on Gift wrapping
+[2022-12-21 21:38:25,770] Step 07: Click on Estimate shipping button
+[2022-12-21 21:38:25,908] Step 08: Select Country in Ship to popup: Viet Nam
+[2022-12-21 21:38:26,222] Step 09: Select Province in Ship to popup: Other
+[2022-12-21 21:38:26,420] Step 10: Input to Zip/Postal Code textbox: 550000
+[2022-12-21 21:38:28,660] Step 11: Click on Apply button
+[2022-12-21 21:38:28,826] Step 12: Check to I agree with condition checkbox
+[2022-12-21 21:38:29,509] Step 13: Click on Checkout button
+[2022-12-21 21:38:31,007] Step 14: Input to Company textbox: Jacobi, Crist and Balistreri
+[2022-12-21 21:38:31,207] Step 15: Select value in Country dropdown: South Georgia and the South Sandwich Islands
+[2022-12-21 21:41:12,770] Pre-Conditions: Click on Login link
+[2022-12-21 21:41:13,517] Pre-Conditions: Input to email: loni.veum@gmail.com
+[2022-12-21 21:41:13,698] Pre-Conditions: Input to password: !LfDMigUq
+[2022-12-21 21:41:13,881] Pre-Conditions: Click on Login button
+[2022-12-21 21:41:14,869] Pre-Conditions: Verify login successfull
+[2022-12-21 21:41:15,145] Step 01: Open Notebooks page
+[2022-12-21 21:41:16,508] Step 02: Click on Add to cart for product: Apple MacBook Pro 13-inch
+[2022-12-21 21:41:17,925] Step 03: Click on Add to cart at product detail page
+[2022-12-21 21:41:18,086] Step 04: Verify the product has been add to shopping cart message display
+[2022-12-21 21:41:20,843] Step 05: Click on Shopping Cart link
+[2022-12-21 21:41:21,622] Step 06: Select the No option on Gift wrapping
+[2022-12-21 21:41:21,763] Step 07: Click on Estimate shipping button
+[2022-12-21 21:41:21,926] Step 08: Select Country in Ship to popup: Viet Nam
+[2022-12-21 21:41:22,234] Step 09: Select Province in Ship to popup: Other
+[2022-12-21 21:41:22,412] Step 10: Input to Zip/Postal Code textbox: 550000
+[2022-12-21 21:41:24,616] Step 11: Click on Apply button
+[2022-12-21 21:41:24,766] Step 12: Check to I agree with condition checkbox
+[2022-12-21 21:41:25,458] Step 13: Click on Checkout button
+[2022-12-21 21:41:26,914] Step 14: Input to Company textbox: Corwin, King and Bergstrom
+[2022-12-21 21:41:27,140] Step 15: Select value in Country dropdown: Viet Nam
+[2022-12-21 21:41:27,321] Step 16: Input to City textbox: Port Mazie
+[2022-12-21 21:41:27,507] Step 17: Input to Address 1 textbox: 9676 Lesha Track
+[2022-12-21 21:41:27,723] Step 18: Input to Address 2 textbox: 66208 Christiansen Vista
+[2022-12-21 21:41:27,934] Step 19: Input to ZipCode textbox: 76785-7561
+[2022-12-21 21:41:28,136] Step 20: Input to Phone number textbox: (551) 998-7474 x46007
+[2022-12-21 21:41:28,331] Step 21: Input to Fax number textbox: 3
+[2022-12-21 21:41:28,523] Step 22: Click on Continue button
+[2022-12-21 21:41:28,658] Step 23: Select Shipping method: Next Day Air ($0.00)
+[2022-12-21 21:41:29,090] Step 24: Click on Continus button

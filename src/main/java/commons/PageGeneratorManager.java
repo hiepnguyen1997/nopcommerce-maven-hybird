@@ -2,6 +2,7 @@ package commons;
 
 import org.openqa.selenium.WebDriver;
 
+import pageObjects.nopCommerce.portal.CheckoutPageObject;
 import pageObjects.nopCommerce.portal.CompareListPageObject;
 import pageObjects.nopCommerce.portal.DesktopsPageObject;
 import pageObjects.nopCommerce.portal.NotebooksPageObject;
@@ -88,5 +89,9 @@ public class PageGeneratorManager {
 	
 	public static RecentlyViewProductPageObject getRecentlyViewPage(WebDriver driver) {
 		return new RecentlyViewProductPageObject(driver);
+	}
+	
+	public static CheckoutPageObject getCheckoutPage(WebDriver driver) {
+		return new CheckoutPageObject(driver);
 	}
 }

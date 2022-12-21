@@ -190,15 +190,15 @@ public class NopCommerce_Wishlist_Compare_RecentReview extends BaseTest{
 		log.info("Step 02: Click on Add to compare list for: " + productName1);
 		String priceProduct1 = notebooksPage.getProductPriceByProductName(productName1);
 		notebooksPage.clickonAddToCompareListProductName(productName1);
-		Assert.assertEquals(notebooksPage.getCompareProductMessage(), "The product has been added to your product comparison");
-		notebooksPage.closeAddCompareListMessage();
+		Assert.assertEquals(notebooksPage.getNoitificationBarMessage(), "The product has been added to your product comparison");
+		notebooksPage.closeNoitificationBarMessage();
 		
 		ExtentTestManager.getTest().log(Status.INFO, "Step 03: Click on Add to compare list for: " + productName2);
 		log.info("Step 03: Click on Add to compare list for: " + productName2);
 		String priceProduct2 =notebooksPage.getProductPriceByProductName(productName2);
 		notebooksPage.clickonAddToCompareListProductName(productName2);
-		Assert.assertEquals(notebooksPage.getCompareProductMessage(), "The product has been added to your product comparison");
-		notebooksPage.closeAddCompareListMessage();
+		Assert.assertEquals(notebooksPage.getNoitificationBarMessage(), "The product has been added to your product comparison");
+		notebooksPage.closeNoitificationBarMessage();
 		
 		ExtentTestManager.getTest().log(Status.INFO, "Step 04: Click on Compare product list at footer page");
 		log.info("Step 04: Click on Compare product list at footer page");

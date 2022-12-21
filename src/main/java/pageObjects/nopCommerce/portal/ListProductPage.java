@@ -147,12 +147,12 @@ public class ListProductPage extends BasePage {
 		
 	}
 
-	public String getCompareProductMessage() {
+	public String getNoitificationBarMessage() {
 		waitForElementVisible(driver, ListProductPageUI.ADD_COMPARE_LIST_MESSAGE);
 		return getElementText(driver, ListProductPageUI.ADD_COMPARE_LIST_MESSAGE);
 	}
 	
-	public void closeAddCompareListMessage() {
+	public void closeNoitificationBarMessage() {
 		waitForElementVisible(driver, ListProductPageUI.CLOSE_ADD_COMPARE_LIST_MESSAGE);
 		clickToElement(driver, ListProductPageUI.CLOSE_ADD_COMPARE_LIST_MESSAGE);
 		sleepInSecond(2);

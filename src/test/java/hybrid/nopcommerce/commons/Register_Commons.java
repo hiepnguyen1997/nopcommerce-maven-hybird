@@ -3,7 +3,9 @@ package hybrid.nopcommerce.commons;
 import org.aeonbits.owner.ConfigFactory;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 
@@ -72,7 +74,7 @@ public class Register_Commons extends BaseTest{
 		
 		log.info("Pre-Condidtion: Step 11 - Verify Register message successfull display");
 		Assert.assertEquals(registerPage.getRegisterSuccessMessage(), "Your registration completed");
-		homePage = registerPage.clickOnLougoutLinkUserPage(driver);
+		//homePage = registerPage.clickOnLougoutLinkUserPage(driver);
 		driver.quit();
 	}
 	

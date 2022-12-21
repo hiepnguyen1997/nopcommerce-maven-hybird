@@ -49,4 +49,8 @@ public class FakeDataHelper {
 	public String getPhoneNumber() {
 		return fake.phoneNumber().phoneNumber();
 	}
+	
+	public int getFaxNumber() {
+		return fake.number().numberBetween(3, 4);
+	}
 }

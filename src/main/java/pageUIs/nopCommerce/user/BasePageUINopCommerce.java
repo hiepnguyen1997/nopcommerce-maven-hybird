@@ -15,6 +15,7 @@ public class BasePageUINopCommerce {
 	public static final String WISHLIST_LINK = "XPATH=//div[@class='header-links']//a[@class='ico-wishlist']";
 	public static final String WISHLIST_QUANTITY = "XPATH=//a[@class='ico-wishlist']/span[@class='wishlist-qty']";
 	public static final String SHOPPING_CART_QUANTITY = "XPATH=//a[@class='ico-cart']/span[@class='cart-qty']";
+	public static final String ADD_TO_CART_BY_PRODUCT_NAME = "xpath=//a[text()='%s']/parent::h2/following-sibling::div[@class='add-info']//button";
 	
 	//pattern object
 	

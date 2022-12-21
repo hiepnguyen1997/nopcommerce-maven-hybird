@@ -11,6 +11,10 @@
 		<classes>
 			<class name="hybrid.nopcommerce.commons.Register_Commons" />
 			<class name="hybrid.nopcommerce.user.NopCommerce_Order" />
+			<methods>
+				<include name = "TC_05_Checkout_Order" />
+			</methods>
+
 		</classes>
 	</test>
 </suite>

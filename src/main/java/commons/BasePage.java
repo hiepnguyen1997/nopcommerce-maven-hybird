@@ -25,6 +25,7 @@ import pageObjects.nopCommerce.portal.ShoppingCardPageObject;
 import pageObjects.nopCommerce.portal.UserHomePageObject;
 import pageObjects.nopCommerce.portal.WishlistPageObject;
 import pageUIs.nopCommerce.user.BasePageUINopCommerce;
+import pageUIs.nopCommerce.user.DesktopsPageUI;
 
 public class BasePage {
 
@@ -643,6 +644,12 @@ public class BasePage {
 	public String getCountNumberOfShoppingCart(WebDriver driver) {
 		waitForElementVisible(driver, BasePageUINopCommerce.SHOPPING_CART_QUANTITY);
 		return getElementText(driver, BasePageUINopCommerce.SHOPPING_CART_QUANTITY);
+	}
+	
+	public void clickOnAddToCartByProductName(WebDriver driver, String productName2) {
+		waitForElementClickabled(driver, BasePageUINopCommerce.ADD_TO_CART_BY_PRODUCT_NAME, productName2);
+		clickToElement(driver, BasePageUINopCommerce.ADD_TO_CART_BY_PRODUCT_NAME, productName2);
+		
 	}
 	
 	private long longTimeout = GlobalConstants.LONG_TIMEOUT;
