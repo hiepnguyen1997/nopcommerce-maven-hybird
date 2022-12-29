@@ -14578,3 +14578,1208 @@ must have at least 6 characters' display
 [2022-12-21 21:41:28,523] Step 22: Click on Continue button
 [2022-12-21 21:41:28,658] Step 23: Select Shipping method: Next Day Air ($0.00)
 [2022-12-21 21:41:29,090] Step 24: Click on Continus button
+[2022-12-22 19:40:41,229] Pre-Conditions: Click on Login link
+[2022-12-22 19:40:42,564] Pre-Conditions: Input to email: boyd.schmidt@yahoo.com
+[2022-12-22 19:40:42,756] Pre-Conditions: Input to password: 2y5mS%M#
+[2022-12-22 19:40:42,938] Pre-Conditions: Click on Login button
+[2022-12-22 19:40:43,731] Pre-Conditions: Verify login successfull
+[2022-12-22 19:40:44,260] Step 01: Open Notebooks page
+[2022-12-22 19:40:45,638] Step 02: Click on Add to cart for product: Apple MacBook Pro 13-inch
+[2022-12-22 19:40:47,988] Step 03: Click on Add to cart at product detail page
+[2022-12-22 19:40:48,145] Step 04: Verify the product has been add to shopping cart message display
+[2022-12-22 19:40:50,742] Step 05: Click on Shopping Cart link
+[2022-12-22 19:40:52,280] Step 06: Select the No option on Gift wrapping
+[2022-12-22 19:40:52,420] Step 07: Click on Estimate shipping button
+[2022-12-22 19:40:52,602] Step 08: Select Country in Ship to popup: Viet Nam
+[2022-12-22 19:40:52,882] Step 09: Select Province in Ship to popup: Other
+[2022-12-22 19:40:53,081] Step 10: Input to Zip/Postal Code textbox: 550000
+[2022-12-22 19:40:55,309] Step 11: Click on Apply button
+[2022-12-22 19:40:55,481] Step 12: Check to I agree with condition checkbox
+[2022-12-22 19:40:56,170] Step 13: Click on Checkout button
+[2022-12-22 19:40:59,508] Step 14: Input to Company textbox: Hermann LLC
+[2022-12-22 19:40:59,683] Step 15: Select value in Country dropdown: Viet Nam
+[2022-12-22 19:40:59,863] Step 16: Input to City textbox: Sooport
+[2022-12-22 19:41:00,058] Step 17: Input to Address 1 textbox: 3349 Audie Plaza
+[2022-12-22 19:41:00,265] Step 18: Input to Address 2 textbox: 566 Koepp Station
+[2022-12-22 19:41:00,503] Step 19: Input to ZipCode textbox: 06220
+[2022-12-22 19:41:00,689] Step 20: Input to Phone number textbox: 076-616-3962
+[2022-12-22 19:41:00,887] Step 21: Input to Fax number textbox: 3
+[2022-12-22 19:41:01,045] Step 22: Click on Continue button
+[2022-12-22 19:41:01,171] Step 23: Select Shipping method: Next Day Air ($0.00)
+[2022-12-22 19:41:01,654] Step 24: Click on Continus button
+[2022-12-22 20:46:54,001] Pre-Conditions: Click on Login link
+[2022-12-22 20:46:55,326] Pre-Conditions: Input to email: margeret.hyatt@yahoo.com
+[2022-12-22 20:46:55,523] Pre-Conditions: Input to password: ^&CeT2v!
+[2022-12-22 20:46:55,705] Pre-Conditions: Click on Login button
+[2022-12-22 20:46:56,510] Pre-Conditions: Verify login successfull
+[2022-12-22 20:46:57,259] Step 01: Open Notebooks page
+[2022-12-22 20:46:58,671] Step 02: Click on Add to cart for product: Apple MacBook Pro 13-inch
+[2022-12-22 20:47:00,191] Step 03: Click on Add to cart at product detail page
+[2022-12-22 20:47:00,357] Step 04: Verify the product has been add to shopping cart message display
+[2022-12-22 20:47:02,982] Step 05: Click on Shopping Cart link
+[2022-12-22 20:47:03,970] Step 06: Select the No option on Gift wrapping
+[2022-12-22 20:47:04,093] Step 07: Click on Estimate shipping button
+[2022-12-22 20:47:04,218] Step 08: Select Country in Ship to popup: Viet Nam
+[2022-12-22 20:47:04,500] Step 09: Select Province in Ship to popup: Other
+[2022-12-22 20:47:04,894] Step 10: Input to Zip/Postal Code textbox: 550000
+[2022-12-22 20:47:07,256] Step 11: Click on Apply button
+[2022-12-22 20:47:07,423] Step 12: Check to I agree with condition checkbox
+[2022-12-22 20:47:08,101] Step 13: Click on Checkout button
+[2022-12-22 20:47:09,689] Step 14: Input to Company textbox: Heathcote-Daugherty
+[2022-12-22 20:47:09,909] Step 15: Select value in Country dropdown: Viet Nam
+[2022-12-22 20:47:10,093] Step 16: Input to City textbox: Thanhtown
+[2022-12-22 20:47:10,280] Step 17: Input to Address 1 textbox: 518 Elmira Locks
+[2022-12-22 20:47:10,482] Step 18: Input to Address 2 textbox: 312 Bosco Brook
+[2022-12-22 20:47:10,674] Step 19: Input to ZipCode textbox: 61771-0750
+[2022-12-22 20:47:10,882] Step 20: Input to Phone number textbox: 108-284-7305
+[2022-12-22 20:47:11,088] Step 21: Input to Fax number textbox: 3
+[2022-12-22 20:47:11,261] Step 22: Click on Continue button
+[2022-12-22 20:47:11,402] Step 23: Select Shipping method: Next Day Air ($0.00)
+[2022-12-22 20:47:11,868] Step 24: Click on Continus button
+[2022-12-22 20:47:11,989] Step 25: Check to payment method: Credit Card
+[2022-12-22 20:47:11,989] Step 26: Click on Continue button
+[2022-12-22 20:47:11,990] 
+[2022-12-22 20:47:11,990] 
+[2022-12-22 20:47:11,990] 
+[2022-12-22 20:47:11,991] 
+[2022-12-22 20:47:11,991] 
+[2022-12-22 21:14:39,765] Pre-Conditions: Click on Login link
+[2022-12-22 21:14:40,545] Pre-Conditions: Input to email: vincent.murphy@gmail.com
+[2022-12-22 21:14:40,737] Pre-Conditions: Input to password: pGnG%wN%$
+[2022-12-22 21:14:40,925] Pre-Conditions: Click on Login button
+[2022-12-22 21:14:41,774] Pre-Conditions: Verify login successfull
+[2022-12-22 21:14:42,077] Step 01: Open Notebooks page
+[2022-12-22 21:14:43,621] Step 02: Click on Add to cart for product: Apple MacBook Pro 13-inch
+[2022-12-22 21:14:44,823] Step 03: Click on Add to cart at product detail page
+[2022-12-22 21:14:45,002] Step 04: Verify the product has been add to shopping cart message display
+[2022-12-22 21:14:47,563] Step 05: Click on Shopping Cart link
+[2022-12-22 21:14:49,055] Step 06: Select the No option on Gift wrapping
+[2022-12-22 21:14:49,183] Step 07: Click on Estimate shipping button
+[2022-12-22 21:14:49,325] Step 08: Select Country in Ship to popup: Viet Nam
+[2022-12-22 21:14:49,651] Step 09: Select Province in Ship to popup: Other
+[2022-12-22 21:14:49,851] Step 10: Input to Zip/Postal Code textbox: 550000
+[2022-12-22 21:14:52,051] Step 11: Click on Apply button
+[2022-12-22 21:14:52,217] Step 12: Check to I agree with condition checkbox
+[2022-12-22 21:14:52,895] Step 13: Click on Checkout button
+[2022-12-22 21:14:54,423] Step 14: Input to Company textbox: Murazik, Adams and Boyle
+[2022-12-22 21:14:54,643] Step 15: Select value in Country dropdown: Viet Nam
+[2022-12-22 21:14:54,799] Step 16: Input to City textbox: West Devorafort
+[2022-12-22 21:14:55,000] Step 17: Input to Address 1 textbox: 648 Zane Throughway
+[2022-12-22 21:14:55,220] Step 18: Input to Address 2 textbox: 1873 Raynor Bypass
+[2022-12-22 21:14:55,440] Step 19: Input to ZipCode textbox: 93961
+[2022-12-22 21:14:55,636] Step 20: Input to Phone number textbox: (335) 205-2293 x650
+[2022-12-22 21:14:55,872] Step 21: Input to Fax number textbox: 3
+[2022-12-22 21:14:56,029] Step 22: Click on Continue button
+[2022-12-22 21:14:56,138] Step 23: Select Shipping method: Next Day Air ($0.00)
+[2022-12-22 21:14:56,562] Step 24: Click on Continus button
+[2022-12-22 21:14:56,683] Step 25: Check to payment method: Credit Card
+[2022-12-22 21:14:57,113] Step 26: Click on Continue button
+[2022-12-22 21:18:03,266] Pre-Conditions: Click on Login link
+[2022-12-22 21:18:04,566] Pre-Conditions: Input to email: tiffaney.raynor@hotmail.com
+[2022-12-22 21:18:04,760] Pre-Conditions: Input to password: !B!@RfqA
+[2022-12-22 21:18:04,947] Pre-Conditions: Click on Login button
+[2022-12-22 21:18:05,745] Pre-Conditions: Verify login successfull
+[2022-12-22 21:18:06,033] Step 01: Open Notebooks page
+[2022-12-22 21:18:07,445] Step 02: Click on Add to cart for product: Apple MacBook Pro 13-inch
+[2022-12-22 21:18:08,439] Step 03: Click on Add to cart at product detail page
+[2022-12-22 21:18:08,612] Step 04: Verify the product has been add to shopping cart message display
+[2022-12-22 21:18:11,208] Step 05: Click on Shopping Cart link
+[2022-12-22 21:18:11,985] Step 06: Select the No option on Gift wrapping
+[2022-12-22 21:18:12,121] Step 07: Click on Estimate shipping button
+[2022-12-22 21:18:12,271] Step 08: Select Country in Ship to popup: Viet Nam
+[2022-12-22 21:18:12,584] Step 09: Select Province in Ship to popup: Other
+[2022-12-22 21:18:12,792] Step 10: Input to Zip/Postal Code textbox: 550000
+[2022-12-22 21:18:14,996] Step 11: Click on Apply button
+[2022-12-22 21:18:15,155] Step 12: Check to I agree with condition checkbox
+[2022-12-22 21:18:15,834] Step 13: Click on Checkout button
+[2022-12-22 21:18:17,278] Step 14: Input to Company textbox: Feeney LLC
+[2022-12-22 21:18:17,474] Step 15: Select value in Country dropdown: Viet Nam
+[2022-12-22 21:18:17,638] Step 16: Input to City textbox: Shoshanamouth
+[2022-12-22 21:18:17,834] Step 17: Input to Address 1 textbox: 863 Astrid Ways
+[2022-12-22 21:18:18,040] Step 18: Input to Address 2 textbox: 482 Erich Prairie
+[2022-12-22 21:18:18,262] Step 19: Input to ZipCode textbox: 72752-2072
+[2022-12-22 21:18:18,465] Step 20: Input to Phone number textbox: 737.918.2212
+[2022-12-22 21:18:18,662] Step 21: Input to Fax number textbox: 3
+[2022-12-22 21:18:18,847] Step 22: Click on Continue button
+[2022-12-22 21:18:18,973] Step 23: Select Shipping method: Next Day Air ($0.00)
+[2022-12-22 21:18:19,397] Step 24: Click on Continus button
+[2022-12-22 21:18:19,519] Step 25: Check to payment method: Credit Card
+[2022-12-22 21:18:19,976] Step 26: Click on Continue button
+[2022-12-22 21:18:20,079] Step 27: Select credit card: Master card
+[2022-12-22 21:18:20,523] Step 28: Input cartholder name: BIDV
+[2022-12-22 21:18:20,680] Step 29: Input cart number:  6007-2259-3042-3564
+[2022-12-22 21:18:20,895] Step 30: Select Expiration date: 24
+[2022-12-22 21:19:16,819] Pre-Conditions: Click on Login link
+[2022-12-22 21:19:18,088] Pre-Conditions: Input to email: danny.kuhn@gmail.com
+[2022-12-22 21:19:18,280] Pre-Conditions: Input to password: *5kU1LG68
+[2022-12-22 21:19:18,445] Pre-Conditions: Click on Login button
+[2022-12-22 21:19:19,221] Pre-Conditions: Verify login successfull
+[2022-12-22 21:19:19,507] Step 01: Open Notebooks page
+[2022-12-22 21:19:20,628] Step 02: Click on Add to cart for product: Apple MacBook Pro 13-inch
+[2022-12-22 21:19:21,751] Step 03: Click on Add to cart at product detail page
+[2022-12-22 21:19:21,929] Step 04: Verify the product has been add to shopping cart message display
+[2022-12-22 21:19:24,524] Step 05: Click on Shopping Cart link
+[2022-12-22 21:19:25,305] Step 06: Select the No option on Gift wrapping
+[2022-12-22 21:19:25,445] Step 07: Click on Estimate shipping button
+[2022-12-22 21:19:25,570] Step 08: Select Country in Ship to popup: Viet Nam
+[2022-12-22 21:19:25,908] Step 09: Select Province in Ship to popup: Other
+[2022-12-22 21:19:26,128] Step 10: Input to Zip/Postal Code textbox: 550000
+[2022-12-22 21:19:28,348] Step 11: Click on Apply button
+[2022-12-22 21:19:28,501] Step 12: Check to I agree with condition checkbox
+[2022-12-22 21:19:29,178] Step 13: Click on Checkout button
+[2022-12-22 21:19:30,627] Step 14: Input to Company textbox: Kshlerin, Okuneva and Reichert
+[2022-12-22 21:19:30,850] Step 15: Select value in Country dropdown: Viet Nam
+[2022-12-22 21:19:31,011] Step 16: Input to City textbox: West Silas
+[2022-12-22 21:19:31,215] Step 17: Input to Address 1 textbox: 6140 Volkman Groves
+[2022-12-22 21:19:31,418] Step 18: Input to Address 2 textbox: 0713 Gusikowski Road
+[2022-12-22 21:19:31,643] Step 19: Input to ZipCode textbox: 25814-5976
+[2022-12-22 21:19:31,823] Step 20: Input to Phone number textbox: 1-897-817-4455
+[2022-12-22 21:19:32,026] Step 21: Input to Fax number textbox: 3
+[2022-12-22 21:19:32,205] Step 22: Click on Continue button
+[2022-12-22 21:19:32,356] Step 23: Select Shipping method: Next Day Air ($0.00)
+[2022-12-22 21:19:32,819] Step 24: Click on Continus button
+[2022-12-22 21:19:32,926] Step 25: Check to payment method: Credit Card
+[2022-12-22 21:19:33,322] Step 26: Click on Continue button
+[2022-12-22 21:19:33,453] Step 27: Select credit card: Master card
+[2022-12-22 21:19:33,850] Step 28: Input cartholder name: BIDV
+[2022-12-22 21:19:34,006] Step 29: Input cart number:  3683-577451-8994
+[2022-12-22 21:19:34,197] Step 30: Select Expiration date: 08
+[2022-12-22 21:19:34,361] Step 31: Select Expiration month: 2023
+[2022-12-22 21:19:34,544] Step 32: Input to card code 3
+[2022-12-22 21:19:34,699] Step 33: Click to Continue button
+[2022-12-22 21:23:27,375] Pre-Conditions: Click on Login link
+[2022-12-22 21:23:28,644] Pre-Conditions: Input to email: tisa.shields@yahoo.com
+[2022-12-22 21:23:28,850] Pre-Conditions: Input to password: x#4B#A0WY
+[2022-12-22 21:23:29,024] Pre-Conditions: Click on Login button
+[2022-12-22 21:23:29,861] Pre-Conditions: Verify login successfull
+[2022-12-22 21:23:30,152] Step 01: Open Notebooks page
+[2022-12-22 21:23:31,360] Step 02: Click on Add to cart for product: Apple MacBook Pro 13-inch
+[2022-12-22 21:23:32,422] Step 03: Click on Add to cart at product detail page
+[2022-12-22 21:23:32,583] Step 04: Verify the product has been add to shopping cart message display
+[2022-12-22 21:23:35,191] Step 05: Click on Shopping Cart link
+[2022-12-22 21:23:36,038] Step 06: Select the No option on Gift wrapping
+[2022-12-22 21:23:36,181] Step 07: Click on Estimate shipping button
+[2022-12-22 21:23:36,331] Step 08: Select Country in Ship to popup: Viet Nam
+[2022-12-22 21:23:36,600] Step 09: Select Province in Ship to popup: Other
+[2022-12-22 21:23:36,817] Step 10: Input to Zip/Postal Code textbox: 550000
+[2022-12-22 21:23:39,038] Step 11: Click on Apply button
+[2022-12-22 21:23:39,210] Step 12: Check to I agree with condition checkbox
+[2022-12-22 21:23:39,899] Step 13: Click on Checkout button
+[2022-12-22 21:23:41,438] Step 14: Input to Company textbox: Schuster, Roob and Kreiger
+[2022-12-22 21:23:41,663] Step 15: Select value in Country dropdown: Viet Nam
+[2022-12-22 21:23:41,821] Step 16: Input to City textbox: Lake Chrisshire
+[2022-12-22 21:23:42,040] Step 17: Input to Address 1 textbox: 7092 Gutmann Lake
+[2022-12-22 21:23:42,266] Step 18: Input to Address 2 textbox: 049 Torphy Lake
+[2022-12-22 21:23:42,448] Step 19: Input to ZipCode textbox: 06392
+[2022-12-22 21:23:42,620] Step 20: Input to Phone number textbox: 315.736.9983
+[2022-12-22 21:23:42,816] Step 21: Input to Fax number textbox: 3
+[2022-12-22 21:23:43,001] Step 22: Click on Continue button
+[2022-12-22 21:23:43,125] Step 23: Select Shipping method: Next Day Air ($0.00)
+[2022-12-22 21:23:43,565] Step 24: Click on Continus button
+[2022-12-22 21:23:43,689] Step 25: Check to payment method: Credit Card
+[2022-12-22 21:23:44,436] Step 26: Click on Continue button
+[2022-12-22 21:23:44,555] Step 27: Select credit card: Master card
+[2022-12-22 21:23:45,259] Step 28: Input cartholder name: BIDV
+[2022-12-22 21:23:45,429] Step 29: Input cart number:  6011-6236-3983-4465-4871
+[2022-12-22 21:23:45,624] Step 30: Select Expiration date: 08
+[2022-12-22 21:23:45,791] Step 31: Select Expiration month: 2023
+[2022-12-22 21:23:45,950] Step 32: Input to card code 4
+[2022-12-22 21:23:46,106] Step 33: Click to Continue button
+[2022-12-22 21:32:12,996] Pre-Conditions: Click on Login link
+[2022-12-22 21:32:14,307] Pre-Conditions: Input to email: bert.champlin@yahoo.com
+[2022-12-22 21:32:14,493] Pre-Conditions: Input to password: 4V*Q9eWEu
+[2022-12-22 21:32:14,718] Pre-Conditions: Click on Login button
+[2022-12-22 21:32:16,074] Pre-Conditions: Verify login successfull
+[2022-12-22 21:32:16,388] Step 01: Open Notebooks page
+[2022-12-22 21:32:17,737] Step 02: Click on Add to cart for product: Apple MacBook Pro 13-inch
+[2022-12-22 21:32:18,823] Step 03: Click on Add to cart at product detail page
+[2022-12-22 21:32:18,981] Step 04: Verify the product has been add to shopping cart message display
+[2022-12-22 21:32:21,558] Step 05: Click on Shopping Cart link
+[2022-12-22 21:32:22,400] Step 06: Select the No option on Gift wrapping
+[2022-12-22 21:32:22,542] Step 07: Click on Estimate shipping button
+[2022-12-22 21:32:22,665] Step 08: Select Country in Ship to popup: Viet Nam
+[2022-12-22 21:32:22,908] Step 09: Select Province in Ship to popup: Other
+[2022-12-22 21:32:23,135] Step 10: Input to Zip/Postal Code textbox: 550000
+[2022-12-22 21:32:25,330] Step 11: Click on Apply button
+[2022-12-22 21:32:25,509] Step 12: Check to I agree with condition checkbox
+[2022-12-22 21:32:26,195] Step 13: Click on Checkout button
+[2022-12-22 21:32:27,683] Step 14: Input to Company textbox: Hessel-Hammes
+[2022-12-22 21:32:27,883] Step 15: Select value in Country dropdown: Viet Nam
+[2022-12-22 21:32:28,041] Step 16: Input to City textbox: West Bentonmouth
+[2022-12-22 21:32:28,275] Step 17: Input to Address 1 textbox: 94942 Jeremy Land
+[2022-12-22 21:32:28,508] Step 18: Input to Address 2 textbox: 101 Labadie Squares
+[2022-12-22 21:32:28,776] Step 19: Input to ZipCode textbox: 18413
+[2022-12-22 21:32:29,023] Step 20: Input to Phone number textbox: 1-748-520-5242
+[2022-12-22 21:32:29,234] Step 21: Input to Fax number textbox: 661-261-6075
+[2022-12-22 21:32:29,452] Step 22: Click on Continue button
+[2022-12-22 21:32:29,581] Step 23: Select Shipping method: Next Day Air ($0.00)
+[2022-12-22 21:32:30,023] Step 24: Click on Continus button
+[2022-12-22 21:32:30,145] Step 25: Check to payment method: Credit Card
+[2022-12-22 21:32:30,552] Step 26: Click on Continue button
+[2022-12-22 21:32:30,686] Step 27: Select credit card: Master card
+[2022-12-22 21:32:31,134] Step 28: Input cartholder name: BIDV
+[2022-12-22 21:32:31,334] Step 29: Input cart number:  6767-6677-7913-0990-188
+[2022-12-22 21:32:31,572] Step 30: Select Expiration date: 08
+[2022-12-22 21:32:31,738] Step 31: Select Expiration month: 2023
+[2022-12-22 21:32:31,867] Step 32: Input to card code 3854
+[2022-12-22 21:32:32,043] Step 33: Click to Continue button
+[2022-12-22 21:47:11,553] Pre-Conditions: Click on Login link
+[2022-12-22 21:47:12,740] Pre-Conditions: Input to email: felipa.torphy@gmail.com
+[2022-12-22 21:47:12,918] Pre-Conditions: Input to password: vdw5YjfZv
+[2022-12-22 21:47:13,120] Pre-Conditions: Click on Login button
+[2022-12-22 21:47:13,876] Pre-Conditions: Verify login successfull
+[2022-12-22 21:47:14,154] Step 01: Open Notebooks page
+[2022-12-22 21:47:15,243] Step 02: Click on Add to cart for product: Apple MacBook Pro 13-inch
+[2022-12-22 21:47:16,439] Step 03: Click on Add to cart at product detail page
+[2022-12-22 21:47:16,606] Step 04: Verify the product has been add to shopping cart message display
+[2022-12-22 21:47:19,207] Step 05: Click on Shopping Cart link
+[2022-12-22 21:47:19,979] Step 06: Select the No option on Gift wrapping
+[2022-12-22 21:47:20,087] Step 07: Click on Estimate shipping button
+[2022-12-22 21:47:20,231] Step 08: Select Country in Ship to popup: Viet Nam
+[2022-12-22 21:47:20,521] Step 09: Select Province in Ship to popup: Other
+[2022-12-22 21:47:20,741] Step 10: Input to Zip/Postal Code textbox: 550000
+[2022-12-22 21:47:22,999] Step 11: Click on Apply button
+[2022-12-22 21:47:23,157] Step 12: Check to I agree with condition checkbox
+[2022-12-22 21:47:23,852] Step 13: Click on Checkout button
+[2022-12-22 21:47:25,197] Step 14: Input to Company textbox: Schmeler LLC
+[2022-12-22 21:47:25,397] Step 15: Select value in Country dropdown: Viet Nam
+[2022-12-22 21:47:25,557] Step 16: Input to City textbox: Terrytown
+[2022-12-22 21:47:25,741] Step 17: Input to Address 1 textbox: 499 McGlynn View
+[2022-12-22 21:47:25,942] Step 18: Input to Address 2 textbox: 52218 Kenton Mountain
+[2022-12-22 21:47:26,176] Step 19: Input to ZipCode textbox: 02155
+[2022-12-22 21:47:26,382] Step 20: Input to Phone number textbox: 606.151.6201
+[2022-12-22 21:47:26,576] Step 21: Input to Fax number textbox: 422.866.5518 x295
+[2022-12-22 21:47:26,777] Step 22: Click on Continue button
+[2022-12-22 21:47:26,909] Step 23: Select Shipping method: Next Day Air ($0.00)
+[2022-12-22 21:47:27,348] Step 24: Click on Continus button
+[2022-12-22 21:47:27,468] Step 25: Check to payment method: Credit Card
+[2022-12-22 21:47:27,898] Step 26: Click on Continue button
+[2022-12-22 21:47:28,032] Step 27: Select credit card: Master card
+[2022-12-22 21:47:28,492] Step 28: Input cartholder name: BIDV
+[2022-12-22 21:47:28,644] Step 29: Input cart number:  6767-2028-6808-6909-53
+[2022-12-22 21:47:28,838] Step 30: Select Expiration date: 08
+[2022-12-22 21:47:29,008] Step 31: Select Expiration month: 2023
+[2022-12-22 21:47:29,148] Step 32: Input to card code 5702
+[2022-12-22 21:47:29,318] Step 33: Click to Continue button
+[2022-12-22 21:49:06,882] Pre-Conditions: Click on Login link
+[2022-12-22 21:49:08,156] Pre-Conditions: Input to email: waylon.farrell@yahoo.com
+[2022-12-22 21:49:08,347] Pre-Conditions: Input to password: X8Q14Si%4
+[2022-12-22 21:49:08,536] Pre-Conditions: Click on Login button
+[2022-12-22 21:49:09,306] Pre-Conditions: Verify login successfull
+[2022-12-22 21:49:09,596] Step 01: Open Notebooks page
+[2022-12-22 21:49:11,069] Step 02: Click on Add to cart for product: Apple MacBook Pro 13-inch
+[2022-12-22 21:49:12,281] Step 03: Click on Add to cart at product detail page
+[2022-12-22 21:49:12,456] Step 04: Verify the product has been add to shopping cart message display
+[2022-12-22 21:49:15,049] Step 05: Click on Shopping Cart link
+[2022-12-22 21:49:15,847] Step 06: Select the No option on Gift wrapping
+[2022-12-22 21:49:15,977] Step 07: Click on Estimate shipping button
+[2022-12-22 21:49:16,109] Step 08: Select Country in Ship to popup: Viet Nam
+[2022-12-22 21:49:16,449] Step 09: Select Province in Ship to popup: Other
+[2022-12-22 21:49:16,657] Step 10: Input to Zip/Postal Code textbox: 550000
+[2022-12-22 21:49:18,883] Step 11: Click on Apply button
+[2022-12-22 21:49:19,046] Step 12: Check to I agree with condition checkbox
+[2022-12-22 21:49:19,750] Step 13: Click on Checkout button
+[2022-12-22 21:49:21,161] Step 14: Input to Company textbox: Hermann-Paucek
+[2022-12-22 21:49:21,348] Step 15: Select value in Country dropdown: Viet Nam
+[2022-12-22 21:49:21,512] Step 16: Input to City textbox: Emmieton
+[2022-12-22 21:49:21,718] Step 17: Input to Address 1 textbox: 1676 Morgan Mountains
+[2022-12-22 21:49:21,915] Step 18: Input to Address 2 textbox: 37142 Bret Ways
+[2022-12-22 21:49:22,112] Step 19: Input to ZipCode textbox: 92417
+[2022-12-22 21:49:22,300] Step 20: Input to Phone number textbox: 1-730-308-0149 x6973
+[2022-12-22 21:49:22,493] Step 21: Input to Fax number textbox: 188-238-5339
+[2022-12-22 21:49:22,691] Step 22: Click on Continue button
+[2022-12-22 21:49:22,796] Step 23: Select Shipping method: Next Day Air ($0.00)
+[2022-12-22 21:49:23,235] Step 24: Click on Continus button
+[2022-12-22 21:49:23,366] Step 25: Check to payment method: Credit Card
+[2022-12-22 21:49:23,822] Step 26: Click on Continue button
+[2022-12-22 21:49:23,949] Step 27: Select credit card: Master card
+[2022-12-22 21:49:24,357] Step 28: Input cartholder name: BIDV
+[2022-12-22 21:49:24,509] Step 29: Input cart number:  6007-2242-1169-6410
+[2022-12-22 21:49:24,696] Step 30: Select Expiration date: 08
+[2022-12-22 21:49:24,860] Step 31: Select Expiration month: 2023
+[2022-12-22 21:49:25,017] Step 32: Input to card code 1128
+[2022-12-22 21:49:25,178] Step 33: Click to Continue button
+[2022-12-22 21:55:56,318] Pre-Conditions: Click on Login link
+[2022-12-22 21:55:57,691] Pre-Conditions: Input to email: rossana.abshire@yahoo.com
+[2022-12-22 21:55:57,879] Pre-Conditions: Input to password: 1$R*^1cI
+[2022-12-22 21:55:58,047] Pre-Conditions: Click on Login button
+[2022-12-22 21:55:58,841] Pre-Conditions: Verify login successfull
+[2022-12-22 21:55:59,140] Step 01: Open Notebooks page
+[2022-12-22 21:56:00,549] Step 02: Click on Add to cart for product: Apple MacBook Pro 13-inch
+[2022-12-22 21:56:01,899] Step 03: Click on Add to cart at product detail page
+[2022-12-22 21:56:02,060] Step 04: Verify the product has been add to shopping cart message display
+[2022-12-22 21:56:04,656] Step 05: Click on Shopping Cart link
+[2022-12-22 21:56:06,240] Step 06: Select the No option on Gift wrapping
+[2022-12-22 21:56:06,344] Step 07: Click on Estimate shipping button
+[2022-12-22 21:56:06,480] Step 08: Select Country in Ship to popup: Viet Nam
+[2022-12-22 21:56:06,738] Step 09: Select Province in Ship to popup: Other
+[2022-12-22 21:56:06,946] Step 10: Input to Zip/Postal Code textbox: 65063
+[2022-12-22 21:56:09,163] Step 11: Click on Apply button
+[2022-12-22 21:56:09,344] Step 12: Check to I agree with condition checkbox
+[2022-12-22 21:56:10,046] Step 13: Click on Checkout button
+[2022-12-22 21:56:13,386] Step 14: Input to Company textbox: Reilly, Grady and Douglas
+[2022-12-22 21:56:13,589] Step 15: Select value in Country dropdown: Viet Nam
+[2022-12-22 21:56:13,766] Step 16: Input to City textbox: West Jayneshire
+[2022-12-22 21:56:13,963] Step 17: Input to Address 1 textbox: 902 Kilback Tunnel
+[2022-12-22 21:56:14,195] Step 18: Input to Address 2 textbox: 30891 Susana Route
+[2022-12-22 21:56:14,427] Step 19: Input to ZipCode textbox: 90091
+[2022-12-22 21:56:14,619] Step 20: Input to Phone number textbox: 403-016-2559
+[2022-12-22 21:56:14,811] Step 21: Input to Fax number textbox: 102.788.2944
+[2022-12-22 21:56:14,985] Step 22: Click on Continue button
+[2022-12-22 21:56:15,113] Step 23: Select Shipping method: Next Day Air ($0.00)
+[2022-12-22 21:56:15,552] Step 24: Click on Continus button
+[2022-12-22 21:56:15,674] Step 25: Check to payment method: Credit Card
+[2022-12-22 21:56:16,123] Step 26: Click on Continue button
+[2022-12-22 21:56:16,233] Step 27: Select credit card: Master card
+[2022-12-22 21:56:16,702] Step 28: Input cartholder name: BIDV
+[2022-12-22 21:56:16,878] Step 29: Input cart number:  3462-419505-73959
+[2022-12-22 21:56:17,058] Step 30: Select Expiration date: 08
+[2022-12-22 21:56:17,213] Step 31: Select Expiration month: 2023
+[2022-12-22 21:56:17,370] Step 32: Input to card code 7865
+[2022-12-22 21:56:17,536] Step 33: Click to Continue button
+[2022-12-25 19:49:04,770] Pre-Conditions: Click on Login link
+[2022-12-25 19:49:06,064] Pre-Conditions: Input to email: rigoberto.walter@yahoo.com
+[2022-12-25 19:49:06,261] Pre-Conditions: Input to password: DWgz3@^*
+[2022-12-25 19:49:06,460] Pre-Conditions: Click on Login button
+[2022-12-25 19:49:07,270] Pre-Conditions: Verify login successfull
+[2022-12-25 19:49:07,735] Step 01: Open Notebooks page
+[2022-12-25 19:49:08,831] Step 02: Click on Add to cart for product: Apple MacBook Pro 13-inch
+[2022-12-25 19:49:10,229] Step 03: Click on Add to cart at product detail page
+[2022-12-25 19:49:10,386] Step 04: Verify the product has been add to shopping cart message display
+[2022-12-25 19:49:13,036] Step 05: Click on Shopping Cart link
+[2022-12-25 19:49:14,593] Step 06: Select the No option on Gift wrapping
+[2022-12-25 19:49:14,752] Step 07: Click on Estimate shipping button
+[2022-12-25 19:49:14,943] Step 08: Select Country in Ship to popup: Viet Nam
+[2022-12-25 19:49:15,175] Step 09: Select Province in Ship to popup: Other
+[2022-12-25 19:49:15,396] Step 10: Input to Zip/Postal Code textbox: 42648-2628
+[2022-12-25 19:49:17,620] Step 11: Click on Apply button
+[2022-12-25 19:49:17,803] Step 12: Check to I agree with condition checkbox
+[2022-12-25 19:49:18,521] Step 13: Click on Checkout button
+[2022-12-25 19:49:21,213] Step 14: Input to Company textbox: Schmidt, Ankunding and Toy
+[2022-12-25 19:49:21,424] Step 15: Select value in Country dropdown: Viet Nam
+[2022-12-25 19:49:21,569] Step 16: Input to City textbox: West Blake
+[2022-12-25 19:49:21,761] Step 17: Input to Address 1 textbox: 68882 Huel Stravenue
+[2022-12-25 19:49:21,987] Step 18: Input to Address 2 textbox: 303 Upton Villages
+[2022-12-25 19:49:22,209] Step 19: Input to ZipCode textbox: 54021
+[2022-12-25 19:49:22,421] Step 20: Input to Phone number textbox: 160-602-2727
+[2022-12-25 19:49:22,627] Step 21: Input to Fax number textbox: 948.493.4827 x69016
+[2022-12-25 19:49:22,811] Step 22: Click on Continue button
+[2022-12-25 19:49:22,927] Step 23: Select Shipping method: Next Day Air ($0.00)
+[2022-12-25 19:49:23,428] Step 24: Click on Continus button
+[2022-12-25 19:49:23,562] Step 25: Check to payment method: Credit Card
+[2022-12-25 19:49:24,006] Step 26: Click on Continue button
+[2022-12-25 19:49:24,139] Step 27: Select credit card: Master card
+[2022-12-25 19:49:24,577] Step 28: Input cartholder name: BIDV
+[2022-12-25 19:49:24,751] Step 29: Input cart number:  6771-8991-4405-7774
+[2022-12-25 19:49:24,932] Step 30: Select Expiration date: 08
+[2022-12-25 19:49:25,062] Step 31: Select Expiration month: 2023
+[2022-12-25 19:49:25,212] Step 32: Input to card code 9284
+[2022-12-25 19:49:25,396] Step 33: Click to Continue button
+[2022-12-25 20:20:56,280] Pre-Conditions: Click on Login link
+[2022-12-25 20:20:57,574] Pre-Conditions: Input to email: alayna.mitchell@gmail.com
+[2022-12-25 20:20:57,779] Pre-Conditions: Input to password: 8zJ8m$Aw
+[2022-12-25 20:20:57,970] Pre-Conditions: Click on Login button
+[2022-12-25 20:20:58,751] Pre-Conditions: Verify login successfull
+[2022-12-25 20:20:59,036] Step 01: Open Desktop page
+[2022-12-25 20:21:00,688] Step 02: Click on product name: Build your own computer
+[2022-12-25 20:21:02,146] Step 03: Select Processer: 2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]
+[2022-12-25 20:21:02,326] Step 04: Select RAM: 8GB [+$60.00]
+[2022-12-25 20:21:02,531] Step 05: Select HDD: 400 GB [+$100.00]
+[2022-12-25 20:21:02,723] Step 06: Select HDD: Vista Premium [+$60.00]
+[2022-12-25 20:21:02,907] Step 07: Check to checkbox of Software: Acrobat Reader [+$10.00]
+[2022-12-25 20:21:04,094] Step 08: Check to checkbox of Software: Acrobat Reader [+$10.00]
+[2022-12-25 20:21:05,291] Step 09: Verify the Software: Microsoft Office [+$50.00] is checked by default
+[2022-12-25 20:21:05,326] Step 10: Get total price
+[2022-12-25 20:21:05,401] Step 11: Click on Add to cart
+[2022-12-25 20:21:05,579] Step 12: Verify the message The product has been added to your shopping cart
+[2022-12-25 20:21:08,147] Step 13: Get text and verify the number of Shopping Cart
+[2022-12-25 20:21:08,235] Step 14: Click on Shopping Cart
+[2022-12-25 20:21:09,571] Step 15: Verify the product display correctly in Shopping Cart
+[2022-12-25 20:21:09,854] Step 01: Access Shopping Cart
+[2022-12-25 20:21:10,424] Step 02: Click on Edit link
+[2022-12-25 20:21:12,222] Step 03: Edit processer by: 2.2 GHz Intel Pentium Dual-Core E2200
+[2022-12-25 20:21:12,400] Step 04: Edit RAM by: 4GB [+$20.00]
+[2022-12-25 20:21:12,614] Step 05: Edit HDD by: 320 GB
+[2022-12-25 20:21:12,792] Step 06: Edit OS by: Vista Home [+$50.00]
+[2022-12-25 20:21:12,968] Step 07: Unselect software: Acrobat Reader [+$10.00] and Total Commander [+$5.00]
+[2022-12-25 20:21:15,308] Step 08: Get total price
+[2022-12-25 20:21:15,381] Step 09: Increase the number of product to 2
+[2022-12-25 20:21:15,528] Step 11: Click on Update Button
+[2022-12-25 20:21:15,675] Step 12: Verify the message The product has been added to your shopping cart
+[2022-12-25 20:21:18,203] Step 13: Get text and verify the number of Shopping Cart
+[2022-12-25 20:21:18,275] Step 14: Click on Shopping Cart
+[2022-12-25 20:21:18,868] Step 15: Verify the product display correctly in Shopping Cart
+[2022-12-25 20:21:19,126] Step 01: Click on Shopping Cart link
+[2022-12-25 20:21:19,727] Step 02: Click on Remove button by Product Name
+[2022-12-25 20:21:20,326] Step 03: Verify the shopping cart is empty
+[2022-12-25 20:21:25,513] Step 01: Open Desktops page
+[2022-12-25 20:21:26,927] Step 02: Click on Add to cart for product: Lenovo IdeaCentre 600 All-in-One PC
+[2022-12-25 20:21:27,154] Step 03: Verify the message add to cart display
+[2022-12-25 20:21:29,530] Step 04: Click on Shopping cart link
+[2022-12-25 20:21:30,800] Step 05: Verify the infomation of product display correctly
+[2022-12-25 20:21:30,900] Step 06: Change the quantity: 5
+[2022-12-25 20:21:31,063] Step 07: Click Update shopping cart button
+[2022-12-25 20:21:31,696] Step 08: verify the total price is $2,500.00
+[2022-12-25 20:21:31,745] Step 01: Open Notebooks page
+[2022-12-25 20:21:32,555] Step 02: Click on Add to cart for product: Apple MacBook Pro 13-inch
+[2022-12-25 20:21:33,416] Step 03: Click on Add to cart at product detail page
+[2022-12-25 20:21:33,589] Step 04: Verify the product has been add to shopping cart message display
+[2022-12-25 20:21:36,167] Step 05: Click on Shopping Cart link
+[2022-12-25 20:28:09,159] Pre-Conditions: Click on Login link
+[2022-12-25 20:28:10,486] Pre-Conditions: Input to email: mabelle.wuckert@yahoo.com
+[2022-12-25 20:28:10,686] Pre-Conditions: Input to password: $yNqVx6j
+[2022-12-25 20:28:10,869] Pre-Conditions: Click on Login button
+[2022-12-25 20:28:11,674] Pre-Conditions: Verify login successfull
+[2022-12-25 20:28:11,985] Step 01: Open Desktop page
+[2022-12-25 20:28:13,689] Step 02: Click on product name: Build your own computer
+[2022-12-25 20:28:15,039] Step 03: Select Processer: 2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]
+[2022-12-25 20:28:15,219] Step 04: Select RAM: 8GB [+$60.00]
+[2022-12-25 20:28:15,410] Step 05: Select HDD: 400 GB [+$100.00]
+[2022-12-25 20:28:15,593] Step 06: Select HDD: Vista Premium [+$60.00]
+[2022-12-25 20:28:15,771] Step 07: Check to checkbox of Software: Acrobat Reader [+$10.00]
+[2022-12-25 20:28:16,974] Step 08: Check to checkbox of Software: Acrobat Reader [+$10.00]
+[2022-12-25 20:28:18,165] Step 09: Verify the Software: Microsoft Office [+$50.00] is checked by default
+[2022-12-25 20:28:18,205] Step 10: Get total price
+[2022-12-25 20:28:18,265] Step 11: Click on Add to cart
+[2022-12-25 20:28:18,440] Step 12: Verify the message The product has been added to your shopping cart
+[2022-12-25 20:28:20,965] Step 13: Get text and verify the number of Shopping Cart
+[2022-12-25 20:28:21,034] Step 14: Click on Shopping Cart
+[2022-12-25 20:28:22,342] Step 15: Verify the product display correctly in Shopping Cart
+[2022-12-25 20:28:22,529] Step 01: Access Shopping Cart
+[2022-12-25 20:28:23,071] Step 02: Click on Edit link
+[2022-12-25 20:28:24,026] Step 03: Edit processer by: 2.2 GHz Intel Pentium Dual-Core E2200
+[2022-12-25 20:28:24,233] Step 04: Edit RAM by: 4GB [+$20.00]
+[2022-12-25 20:28:24,422] Step 05: Edit HDD by: 320 GB
+[2022-12-25 20:28:24,621] Step 06: Edit OS by: Vista Home [+$50.00]
+[2022-12-25 20:28:24,782] Step 07: Unselect software: Acrobat Reader [+$10.00] and Total Commander [+$5.00]
+[2022-12-25 20:28:27,118] Step 08: Get total price
+[2022-12-25 20:28:27,186] Step 09: Increase the number of product to 2
+[2022-12-25 20:28:27,338] Step 11: Click on Update Button
+[2022-12-25 20:28:27,498] Step 12: Verify the message The product has been added to your shopping cart
+[2022-12-25 20:28:29,982] Step 13: Get text and verify the number of Shopping Cart
+[2022-12-25 20:28:30,069] Step 14: Click on Shopping Cart
+[2022-12-25 20:28:30,699] Step 15: Verify the product display correctly in Shopping Cart
+[2022-12-25 20:28:30,951] Step 01: Click on Shopping Cart link
+[2022-12-25 20:28:31,628] Step 02: Click on Remove button by Product Name
+[2022-12-25 20:28:32,367] Step 03: Verify the shopping cart is empty
+[2022-12-25 20:28:37,537] Step 01: Open Desktops page
+[2022-12-25 20:28:38,500] Step 02: Click on Add to cart for product: Lenovo IdeaCentre 600 All-in-One PC
+[2022-12-25 20:28:38,730] Step 03: Verify the message add to cart display
+[2022-12-25 20:28:41,114] Step 04: Click on Shopping cart link
+[2022-12-25 20:28:42,373] Step 05: Verify the infomation of product display correctly
+[2022-12-25 20:28:42,468] Step 06: Change the quantity: 5
+[2022-12-25 20:28:42,640] Step 07: Click Update shopping cart button
+[2022-12-25 20:28:43,278] Step 08: verify the total price is $2,500.00
+[2022-12-25 20:28:43,783] Step 01: Open Notebooks page
+[2022-12-25 20:28:44,621] Step 02: Click on Add to cart for product: Apple MacBook Pro 13-inch
+[2022-12-25 20:28:45,486] Step 03: Click on Add to cart at product detail page
+[2022-12-25 20:28:45,640] Step 04: Verify the product has been add to shopping cart message display
+[2022-12-25 20:28:48,232] Step 05: Click on Shopping Cart link
+[2022-12-25 20:28:49,745] Step 06: Select the No option on Gift wrapping
+[2022-12-25 20:28:49,887] Step 07: Click on Estimate shipping button
+[2022-12-25 20:28:50,008] Step 08: Select Country in Ship to popup: Viet Nam
+[2022-12-25 20:28:50,275] Step 09: Select Province in Ship to popup: Other
+[2022-12-25 20:28:50,484] Step 10: Input to Zip/Postal Code textbox: 00730-7408
+[2022-12-25 20:28:52,735] Step 11: Click on Apply button
+[2022-12-25 20:28:52,900] Step 12: Check to I agree with condition checkbox
+[2022-12-25 20:28:53,580] Step 13: Click on Checkout button
+[2022-12-25 20:28:57,441] Step 14: Input to Company textbox: O'Keefe, Metz and Rippin
+[2022-12-25 20:28:57,659] Step 15: Select value in Country dropdown: Viet Nam
+[2022-12-25 20:28:57,804] Step 16: Input to City textbox: North Norbert
+[2022-12-25 20:28:57,987] Step 17: Input to Address 1 textbox: 942 Kory Summit
+[2022-12-25 20:28:58,199] Step 18: Input to Address 2 textbox: 1947 Farrell Mountain
+[2022-12-25 20:28:58,411] Step 19: Input to ZipCode textbox: 74942
+[2022-12-25 20:28:58,629] Step 20: Input to Phone number textbox: 290-129-6404
+[2022-12-25 20:28:58,795] Step 21: Input to Fax number textbox: 588.646.4132 x154
+[2022-12-25 20:28:58,973] Step 22: Click on Continue button
+[2022-12-25 20:28:59,093] Step 23: Select Shipping method: Next Day Air ($0.00)
+[2022-12-25 20:28:59,574] Step 24: Click on Continus button
+[2022-12-25 20:28:59,678] Step 25: Check to payment method: Credit Card
+[2022-12-25 20:29:00,107] Step 26: Click on Continue button
+[2022-12-25 20:29:00,227] Step 27: Select credit card: Master card
+[2022-12-25 20:29:00,668] Step 28: Input cartholder name: BIDV
+[2022-12-25 20:29:00,828] Step 29: Input cart number:  4591-4925-6153-3197
+[2022-12-25 20:29:01,032] Step 30: Select Expiration date: 08
+[2022-12-25 20:29:01,188] Step 31: Select Expiration month: 2023
+[2022-12-25 20:29:01,309] Step 32: Input to card code 104
+[2022-12-25 20:29:01,459] Step 33: Click to Continue button
+[2022-12-25 21:38:00,135] Pre-Conditions: Click on Login link
+[2022-12-25 21:38:01,376] Pre-Conditions: Input to email: bernie.nitzsche@hotmail.com
+[2022-12-25 21:38:01,582] Pre-Conditions: Input to password: 7A@ndzEno
+[2022-12-25 21:38:01,766] Pre-Conditions: Click on Login button
+[2022-12-25 21:38:02,531] Pre-Conditions: Verify login successfull
+[2022-12-25 21:38:02,831] Step 01: Open Desktop page
+[2022-12-25 21:38:04,066] Step 02: Click on product name: Build your own computer
+[2022-12-25 21:38:05,380] Step 03: Select Processer: 2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]
+[2022-12-25 21:38:05,551] Step 04: Select RAM: 8GB [+$60.00]
+[2022-12-25 21:38:05,759] Step 05: Select HDD: 400 GB [+$100.00]
+[2022-12-25 21:38:05,921] Step 06: Select HDD: Vista Premium [+$60.00]
+[2022-12-25 21:38:06,106] Step 07: Check to checkbox of Software: Acrobat Reader [+$10.00]
+[2022-12-25 21:38:07,298] Step 08: Check to checkbox of Software: Acrobat Reader [+$10.00]
+[2022-12-25 21:38:08,493] Step 09: Verify the Software: Microsoft Office [+$50.00] is checked by default
+[2022-12-25 21:38:08,536] Step 10: Get total price
+[2022-12-25 21:38:08,611] Step 11: Click on Add to cart
+[2022-12-25 21:38:08,756] Step 12: Verify the message The product has been added to your shopping cart
+[2022-12-25 21:38:11,249] Step 13: Get text and verify the number of Shopping Cart
+[2022-12-25 21:38:11,334] Step 14: Click on Shopping Cart
+[2022-12-25 21:38:11,885] Step 15: Verify the product display correctly in Shopping Cart
+[2022-12-25 21:38:12,072] Step 01: Access Shopping Cart
+[2022-12-25 21:38:12,567] Step 02: Click on Edit link
+[2022-12-25 21:38:13,566] Step 03: Edit processer by: 2.2 GHz Intel Pentium Dual-Core E2200
+[2022-12-25 21:38:13,762] Step 04: Edit RAM by: 4GB [+$20.00]
+[2022-12-25 21:38:13,946] Step 05: Edit HDD by: 320 GB
+[2022-12-25 21:38:14,150] Step 06: Edit OS by: Vista Home [+$50.00]
+[2022-12-25 21:38:14,348] Step 07: Unselect software: Acrobat Reader [+$10.00] and Total Commander [+$5.00]
+[2022-12-25 21:38:16,711] Step 08: Get total price
+[2022-12-25 21:38:16,783] Step 09: Increase the number of product to 2
+[2022-12-25 21:38:16,931] Step 11: Click on Update Button
+[2022-12-25 21:38:17,097] Step 12: Verify the message The product has been added to your shopping cart
+[2022-12-25 21:38:19,603] Step 13: Get text and verify the number of Shopping Cart
+[2022-12-25 21:38:19,703] Step 14: Click on Shopping Cart
+[2022-12-25 21:38:20,262] Step 15: Verify the product display correctly in Shopping Cart
+[2022-12-25 21:38:20,515] Step 01: Click on Shopping Cart link
+[2022-12-25 21:38:21,051] Step 02: Click on Remove button by Product Name
+[2022-12-25 21:38:21,608] Step 03: Verify the shopping cart is empty
+[2022-12-25 21:38:26,784] Step 01: Open Desktops page
+[2022-12-25 21:38:27,558] Step 02: Click on Add to cart for product: Lenovo IdeaCentre 600 All-in-One PC
+[2022-12-25 21:38:27,767] Step 03: Verify the message add to cart display
+[2022-12-25 21:38:30,196] Step 04: Click on Shopping cart link
+[2022-12-25 21:38:30,739] Step 05: Verify the infomation of product display correctly
+[2022-12-25 21:38:30,829] Step 06: Change the quantity: 5
+[2022-12-25 21:38:31,001] Step 07: Click Update shopping cart button
+[2022-12-25 21:38:31,628] Step 08: verify the total price is $2,500.00
+[2022-12-25 21:38:32,212] Step 01: Open Notebooks page
+[2022-12-25 21:38:32,983] Step 02: Click on Add to cart for product: Apple MacBook Pro 13-inch
+[2022-12-25 21:38:33,901] Step 03: Click on Add to cart at product detail page
+[2022-12-25 21:38:34,067] Step 04: Verify the product has been add to shopping cart message display
+[2022-12-25 21:38:36,582] Step 05: Click on Shopping Cart link
+[2022-12-25 21:38:37,270] Step 06: Select the No option on Gift wrapping
+[2022-12-25 21:38:37,403] Step 07: Click on Estimate shipping button
+[2022-12-25 21:38:37,550] Step 08: Select Country in Ship to popup: Viet Nam
+[2022-12-25 21:38:37,826] Step 09: Select Province in Ship to popup: Other
+[2022-12-25 21:38:38,030] Step 10: Input to Zip/Postal Code textbox: 58568
+[2022-12-25 21:38:40,257] Step 11: Click on Apply button
+[2022-12-25 21:38:40,423] Step 12: Check to I agree with condition checkbox
+[2022-12-25 21:38:41,112] Step 13: Click on Checkout button
+[2022-12-25 21:38:42,516] Step 14: Input to Company textbox: Lynch Group
+[2022-12-25 21:38:42,709] Step 15: Select value in Country dropdown: Viet Nam
+[2022-12-25 21:38:42,862] Step 16: Input to City textbox: Baumbachtown
+[2022-12-25 21:38:43,056] Step 17: Input to Address 1 textbox: 4264 Page Streets
+[2022-12-25 21:38:43,285] Step 18: Input to Address 2 textbox: 8838 Langosh Mountain
+[2022-12-25 21:38:43,499] Step 19: Input to ZipCode textbox: 19389-3833
+[2022-12-25 21:38:43,675] Step 20: Input to Phone number textbox: 947.202.8438 x3224
+[2022-12-25 21:38:43,871] Step 21: Input to Fax number textbox: 1-008-064-2960 x0801
+[2022-12-25 21:38:44,075] Step 22: Click on Continue button
+[2022-12-25 21:38:44,204] Step 23: Select Shipping method: Next Day Air ($0.00)
+[2022-12-25 21:38:44,645] Step 24: Click on Continus button
+[2022-12-25 21:38:44,752] Step 25: Check to payment method: Credit Card
+[2022-12-25 21:38:45,174] Step 26: Click on Continue button
+[2022-12-25 21:38:45,280] Step 27: Select credit card: Master card
+[2022-12-25 21:38:45,721] Step 28: Input cartholder name: BIDV
+[2022-12-25 21:38:45,892] Step 29: Input cart number:  5019-1570-4819-5578
+[2022-12-25 21:38:46,071] Step 30: Select Expiration date: 08
+[2022-12-25 21:38:46,226] Step 31: Select Expiration month: 2023
+[2022-12-25 21:38:46,349] Step 32: Input to card code 9563
+[2022-12-25 21:38:46,498] Step 33: Click to Continue button
+[2022-12-25 21:38:46,614] Step 34: Verify the previous information display correctly
+[2022-12-25 21:40:21,007] Pre-Conditions: Click on Login link
+[2022-12-25 21:40:22,253] Pre-Conditions: Input to email: kenny.abbott@gmail.com
+[2022-12-25 21:40:22,451] Pre-Conditions: Input to password: DE$$$LhU
+[2022-12-25 21:40:22,627] Pre-Conditions: Click on Login button
+[2022-12-25 21:40:23,394] Pre-Conditions: Verify login successfull
+[2022-12-25 21:40:23,683] Step 01: Open Notebooks page
+[2022-12-25 21:40:25,136] Step 02: Click on Add to cart for product: Apple MacBook Pro 13-inch
+[2022-12-25 21:40:27,456] Step 03: Click on Add to cart at product detail page
+[2022-12-25 21:40:27,625] Step 04: Verify the product has been add to shopping cart message display
+[2022-12-25 21:40:30,221] Step 05: Click on Shopping Cart link
+[2022-12-25 21:40:31,687] Step 06: Select the No option on Gift wrapping
+[2022-12-25 21:40:31,804] Step 07: Click on Estimate shipping button
+[2022-12-25 21:40:31,940] Step 08: Select Country in Ship to popup: Viet Nam
+[2022-12-25 21:40:32,224] Step 09: Select Province in Ship to popup: Other
+[2022-12-25 21:40:32,423] Step 10: Input to Zip/Postal Code textbox: 91987-1881
+[2022-12-25 21:40:34,661] Step 11: Click on Apply button
+[2022-12-25 21:40:34,837] Step 12: Check to I agree with condition checkbox
+[2022-12-25 21:40:35,515] Step 13: Click on Checkout button
+[2022-12-25 21:40:38,835] Step 14: Input to Company textbox: Wiza, Ernser and Goldner
+[2022-12-25 21:40:39,056] Step 15: Select value in Country dropdown: Viet Nam
+[2022-12-25 21:40:39,225] Step 16: Input to City textbox: Vandervortmouth
+[2022-12-25 21:40:39,439] Step 17: Input to Address 1 textbox: 294 Catarina Station
+[2022-12-25 21:40:39,639] Step 18: Input to Address 2 textbox: 8670 Roxanna Oval
+[2022-12-25 21:40:39,844] Step 19: Input to ZipCode textbox: 72745
+[2022-12-25 21:40:40,003] Step 20: Input to Phone number textbox: 454.075.4742
+[2022-12-25 21:40:40,191] Step 21: Input to Fax number textbox: 529.539.0286 x191
+[2022-12-25 21:40:40,390] Step 22: Click on Continue button
+[2022-12-25 21:40:40,504] Step 23: Select Shipping method: Next Day Air ($0.00)
+[2022-12-25 21:40:40,927] Step 24: Click on Continus button
+[2022-12-25 21:40:41,037] Step 25: Check to payment method: Credit Card
+[2022-12-25 21:40:41,462] Step 26: Click on Continue button
+[2022-12-25 21:40:41,598] Step 27: Select credit card: Master card
+[2022-12-25 21:40:42,066] Step 28: Input cartholder name: BIDV
+[2022-12-25 21:40:42,247] Step 29: Input cart number:  4190-1979-6771-1421
+[2022-12-25 21:40:42,443] Step 30: Select Expiration date: 08
+[2022-12-25 21:40:42,602] Step 31: Select Expiration month: 2023
+[2022-12-25 21:40:42,771] Step 32: Input to card code 1022
+[2022-12-25 21:40:42,950] Step 33: Click to Continue button
+[2022-12-25 21:40:43,081] Step 34: Verify the previous information display correctly
+[2022-12-25 22:08:52,266] Pre-Conditions: Click on Login link
+[2022-12-25 22:08:53,493] Pre-Conditions: Input to email: quiana.kunze@yahoo.com
+[2022-12-25 22:08:53,684] Pre-Conditions: Input to password: O7igEi1@@
+[2022-12-25 22:08:53,863] Pre-Conditions: Click on Login button
+[2022-12-25 22:08:54,652] Pre-Conditions: Verify login successfull
+[2022-12-25 22:08:54,958] Step 01: Open Notebooks page
+[2022-12-25 22:08:56,035] Step 02: Click on Add to cart for product: Apple MacBook Pro 13-inch
+[2022-12-25 22:08:57,095] Step 03: Click on Add to cart at product detail page
+[2022-12-25 22:08:57,256] Step 04: Verify the product has been add to shopping cart message display
+[2022-12-25 22:08:59,853] Step 05: Click on Shopping Cart link
+[2022-12-25 22:09:00,592] Step 06: Select the No option on Gift wrapping
+[2022-12-25 22:09:00,720] Step 07: Click on Estimate shipping button
+[2022-12-25 22:09:00,855] Step 08: Select Country in Ship to popup: Viet Nam
+[2022-12-25 22:09:01,173] Step 09: Select Province in Ship to popup: Other
+[2022-12-25 22:09:01,407] Step 10: Input to Zip/Postal Code textbox: 72004-6175
+[2022-12-25 22:09:03,645] Step 11: Click on Apply button
+[2022-12-25 22:09:03,821] Step 12: Check to I agree with condition checkbox
+[2022-12-25 22:09:04,491] Step 13: Click on Checkout button
+[2022-12-25 22:09:05,933] Step 14: Input to Company textbox: Hartmann, Altenwerth and Schaefer
+[2022-12-25 22:09:06,187] Step 15: Select value in Country dropdown: Viet Nam
+[2022-12-25 22:09:06,364] Step 16: Input to City textbox: New Jamemouth
+[2022-12-25 22:09:06,566] Step 17: Input to Address 1 textbox: 41269 Ondricka River
+[2022-12-25 22:09:06,784] Step 18: Input to Address 2 textbox: 452 Haley Parkway
+[2022-12-25 22:09:07,005] Step 19: Input to ZipCode textbox: 08865
+[2022-12-25 22:09:07,188] Step 20: Input to Phone number textbox: (886) 135-1992
+[2022-12-25 22:09:07,369] Step 21: Input to Fax number textbox: 224.970.0086
+[2022-12-25 22:09:07,553] Step 22: Click on Continue button
+[2022-12-25 22:09:07,667] Step 23: Select Shipping method: Next Day Air ($0.00)
+[2022-12-25 22:09:08,094] Step 24: Click on Continus button
+[2022-12-25 22:09:08,212] Step 25: Check to payment method: Credit Card
+[2022-12-25 22:09:08,638] Step 26: Click on Continue button
+[2022-12-25 22:09:08,744] Step 27: Select credit card: Master card
+[2022-12-25 22:09:09,136] Step 28: Input cartholder name: BIDV
+[2022-12-25 22:09:09,307] Step 29: Input cart number:  6594-5247-9819-1407
+[2022-12-25 22:09:09,503] Step 30: Select Expiration date: 08
+[2022-12-25 22:09:09,669] Step 31: Select Expiration month: 2023
+[2022-12-25 22:09:09,808] Step 32: Input to card code 9695
+[2022-12-25 22:09:09,959] Step 33: Click to Continue button
+[2022-12-25 22:09:10,075] Step 34: Verify the previous information display correctly
+[2022-12-27 21:00:50,909] Pre-Conditions: Click on Login link
+[2022-12-27 21:00:52,281] Pre-Conditions: Input to email: eugene.kilback@gmail.com
+[2022-12-27 21:00:52,513] Pre-Conditions: Input to password: 72wn&R46
+[2022-12-27 21:00:52,702] Pre-Conditions: Click on Login button
+[2022-12-27 21:00:53,614] Pre-Conditions: Verify login successfull
+[2022-12-27 21:00:54,142] Step 01: Open Notebooks page
+[2022-12-27 21:01:01,169] Step 02: Click on Add to cart for product: Apple MacBook Pro 13-inch
+[2022-12-27 21:01:04,035] Step 03: Click on Add to cart at product detail page
+[2022-12-27 21:01:04,189] Step 04: Verify the product has been add to shopping cart message display
+[2022-12-27 21:01:07,130] Step 05: Click on Shopping Cart link
+[2022-12-27 21:01:08,509] Step 06: Select the No option on Gift wrapping
+[2022-12-27 21:01:08,650] Step 07: Click on Estimate shipping button
+[2022-12-27 21:01:08,819] Step 08: Select Country in Ship to popup: Viet Nam
+[2022-12-27 21:01:09,121] Step 09: Select Province in Ship to popup: Other
+[2022-12-27 21:01:09,316] Step 10: Input to Zip/Postal Code textbox: 48763
+[2022-12-27 21:01:11,527] Step 11: Click on Apply button
+[2022-12-27 21:01:11,691] Step 12: Check to I agree with condition checkbox
+[2022-12-27 21:01:12,372] Step 13: Click on Checkout button
+[2022-12-27 21:01:14,786] Step 14: Input to Company textbox: Schaden Group
+[2022-12-27 21:01:14,967] Step 15: Select value in Country dropdown: Viet Nam
+[2022-12-27 21:01:15,117] Step 16: Input to City textbox: Lake Andres
+[2022-12-27 21:01:15,295] Step 17: Input to Address 1 textbox: 5158 Corkery Burg
+[2022-12-27 21:01:15,514] Step 18: Input to Address 2 textbox: 99760 Nolan Expressway
+[2022-12-27 21:01:15,734] Step 19: Input to ZipCode textbox: 94514-9687
+[2022-12-27 21:01:15,940] Step 20: Input to Phone number textbox: 897-163-1377 x7514
+[2022-12-27 21:01:16,140] Step 21: Input to Fax number textbox: 1-647-194-7354
+[2022-12-27 21:01:16,323] Step 22: Click on Continue button
+[2022-12-27 21:01:16,452] Step 23: Select Shipping method: Next Day Air ($0.00)
+[2022-12-27 21:01:16,937] Step 24: Click on Continus button
+[2022-12-27 21:01:17,056] Step 25: Check to payment method: Credit Card
+[2022-12-27 21:01:17,488] Step 26: Click on Continue button
+[2022-12-27 21:01:17,607] Step 27: Select credit card: Master card
+[2022-12-27 21:01:18,051] Step 28: Input cartholder name: BIDV
+[2022-12-27 21:01:18,223] Step 29: Input cart number:  6007-2296-0622-5899
+[2022-12-27 21:01:18,413] Step 30: Select Expiration date: 08
+[2022-12-27 21:01:18,582] Step 31: Select Expiration month: 2023
+[2022-12-27 21:01:18,718] Step 32: Input to card code 1869
+[2022-12-27 21:01:18,886] Step 33: Click to Continue button
+[2022-12-27 21:01:19,021] Step 34: Verify the previous information display correctly
+[2022-12-27 21:06:19,061] Pre-Conditions: Click on Login link
+[2022-12-27 21:06:20,637] Pre-Conditions: Input to email: germaine.wuckert@hotmail.com
+[2022-12-27 21:06:20,866] Pre-Conditions: Input to password: kQoyz%M5N
+[2022-12-27 21:06:21,087] Pre-Conditions: Click on Login button
+[2022-12-27 21:06:22,558] Pre-Conditions: Verify login successfull
+[2022-12-27 21:06:22,961] Step 01: Open Notebooks page
+[2022-12-27 21:06:25,942] Step 02: Click on Add to cart for product: Apple MacBook Pro 13-inch
+[2022-12-27 21:06:28,745] Step 03: Click on Add to cart at product detail page
+[2022-12-27 21:06:28,978] Step 04: Verify the product has been add to shopping cart message display
+[2022-12-27 21:06:31,644] Step 05: Click on Shopping Cart link
+[2022-12-27 21:06:32,963] Step 06: Select the No option on Gift wrapping
+[2022-12-27 21:06:33,115] Step 07: Click on Estimate shipping button
+[2022-12-27 21:06:33,267] Step 08: Select Country in Ship to popup: Viet Nam
+[2022-12-27 21:06:33,564] Step 09: Select Province in Ship to popup: Other
+[2022-12-27 21:06:33,760] Step 10: Input to Zip/Postal Code textbox: 94380-2083
+[2022-12-27 21:06:36,023] Step 11: Click on Apply button
+[2022-12-27 21:06:36,251] Step 12: Check to I agree with condition checkbox
+[2022-12-27 21:06:36,959] Step 13: Click on Checkout button
+[2022-12-27 21:06:42,061] Step 14: Input to Company textbox: Gutmann Inc
+[2022-12-27 21:06:42,249] Step 15: Select value in Country dropdown: Viet Nam
+[2022-12-27 21:06:42,414] Step 16: Input to City textbox: Fidelbury
+[2022-12-27 21:06:42,597] Step 17: Input to Address 1 textbox: 06223 Warren Harbors
+[2022-12-27 21:06:42,814] Step 18: Input to Address 2 textbox: 58199 Dietrich Trafficway
+[2022-12-27 21:06:43,000] Step 19: Input to ZipCode textbox: 95758
+[2022-12-27 21:06:43,179] Step 20: Input to Phone number textbox: 380.823.1750 x8535
+[2022-12-27 21:06:43,375] Step 21: Input to Fax number textbox: 1-845-923-6970 x93871
+[2022-12-27 21:06:43,577] Step 22: Click on Continue button
+[2022-12-27 21:06:43,719] Step 23: Select Shipping method: Next Day Air ($0.00)
+[2022-12-27 21:06:44,149] Step 24: Click on Continus button
+[2022-12-27 21:06:44,260] Step 25: Check to payment method: Credit Card
+[2022-12-27 21:06:44,766] Step 26: Click on Continue button
+[2022-12-27 21:06:44,898] Step 27: Select credit card: Master card
+[2022-12-27 21:06:45,343] Step 28: Input cartholder name: BIDV
+[2022-12-27 21:06:45,525] Step 29: Input cart number:  6007-2274-6290-4557
+[2022-12-27 21:06:45,712] Step 30: Select Expiration date: 08
+[2022-12-27 21:06:45,853] Step 31: Select Expiration month: 2023
+[2022-12-27 21:06:46,021] Step 32: Input to card code 9560
+[2022-12-27 21:06:46,184] Step 33: Click to Continue button
+[2022-12-27 21:06:46,317] Step 34: Verify the previous information display correctly
+[2022-12-27 22:40:01,909] Pre-Conditions: Click on Login link
+[2022-12-27 22:40:03,178] Pre-Conditions: Input to email: dominick.collins@yahoo.com
+[2022-12-27 22:40:03,379] Pre-Conditions: Input to password: ^zLDRvQZY
+[2022-12-27 22:40:03,571] Pre-Conditions: Click on Login button
+[2022-12-27 22:40:04,326] Pre-Conditions: Verify login successfull
+[2022-12-27 22:40:04,630] Step 01: Open Notebooks page
+[2022-12-27 22:40:06,222] Step 02: Click on Add to cart for product: Apple MacBook Pro 13-inch
+[2022-12-27 22:40:07,897] Step 03: Click on Add to cart at product detail page
+[2022-12-27 22:40:08,061] Step 04: Verify the product has been add to shopping cart message display
+[2022-12-27 22:40:10,674] Step 05: Click on Shopping Cart link
+[2022-12-27 22:40:12,271] Step 06: Select the No option on Gift wrapping
+[2022-12-27 22:40:12,388] Step 07: Click on Estimate shipping button
+[2022-12-27 22:40:12,535] Step 08: Select Country in Ship to popup: Viet Nam
+[2022-12-27 22:40:12,848] Step 09: Select Province in Ship to popup: Other
+[2022-12-27 22:40:13,022] Step 10: Input to Zip/Postal Code textbox: 75972-7835
+[2022-12-27 22:40:15,243] Step 11: Click on Apply button
+[2022-12-27 22:40:15,423] Step 12: Check to I agree with condition checkbox
+[2022-12-27 22:40:16,111] Step 13: Click on Checkout button
+[2022-12-27 22:40:18,974] Step 14: Input to Company textbox: Schoen Group
+[2022-12-27 22:40:19,184] Step 15: Select value in Country dropdown: Viet Nam
+[2022-12-27 22:40:19,335] Step 16: Input to City textbox: North Janellamouth
+[2022-12-27 22:40:19,529] Step 17: Input to Address 1 textbox: 9616 Keneth Street
+[2022-12-27 22:40:19,717] Step 18: Input to Address 2 textbox: 896 Barbie Gardens
+[2022-12-27 22:40:19,929] Step 19: Input to ZipCode textbox: 27283-9480
+[2022-12-27 22:40:20,135] Step 20: Input to Phone number textbox: 1-374-490-4538 x575
+[2022-12-27 22:40:20,329] Step 21: Input to Fax number textbox: 1-721-886-7516
+[2022-12-27 22:40:20,546] Step 22: Click on Continue button
+[2022-12-27 22:40:20,680] Step 23: Select Shipping method: Next Day Air ($0.00)
+[2022-12-27 22:40:21,128] Step 24: Click on Continus button
+[2022-12-27 22:40:21,253] Step 25: Check to payment method: Credit Card
+[2022-12-27 22:40:21,697] Step 26: Click on Continue button
+[2022-12-27 22:40:21,824] Step 27: Select credit card: Master card
+[2022-12-27 22:40:22,282] Step 28: Input cartholder name: BIDV
+[2022-12-27 22:40:22,503] Step 29: Input cart number:  4810-2621-6622-8054
+[2022-12-27 22:40:22,685] Step 30: Select Expiration date: 08
+[2022-12-27 22:40:22,866] Step 31: Select Expiration month: 2023
+[2022-12-27 22:40:23,011] Step 32: Input to card code 4661
+[2022-12-27 22:40:23,178] Step 33: Click to Continue button
+[2022-12-27 22:40:23,307] Step 34: Verify the previous information display correctly
+[2022-12-28 22:07:27,279] Pre-Conditions: Click on Login link
+[2022-12-28 22:07:28,311] Pre-Conditions: Input to email: ignacia.langosh@hotmail.com
+[2022-12-28 22:07:28,508] Pre-Conditions: Input to password: PP^^LQsi
+[2022-12-28 22:07:28,689] Pre-Conditions: Click on Login button
+[2022-12-28 22:07:29,553] Pre-Conditions: Verify login successfull
+[2022-12-28 22:07:30,045] Step 01: Open Notebooks page
+[2022-12-28 22:07:33,111] Step 02: Click on Add to cart for product: Apple MacBook Pro 13-inch
+[2022-12-28 22:07:35,654] Step 03: Click on Add to cart at product detail page
+[2022-12-28 22:07:35,829] Step 04: Verify the product has been add to shopping cart message display
+[2022-12-28 22:07:38,442] Step 05: Click on Shopping Cart link
+[2022-12-28 22:07:39,494] Step 06: Select the No option on Gift wrapping
+[2022-12-28 22:07:39,640] Step 07: Click on Estimate shipping button
+[2022-12-28 22:07:39,869] Step 08: Select Country in Ship to popup: Viet Nam
+[2022-12-28 22:07:40,167] Step 09: Select Province in Ship to popup: Other
+[2022-12-28 22:14:08,882] Pre-Conditions: Click on Login link
+[2022-12-28 22:14:09,606] Pre-Conditions: Input to email: frederick.quigley@hotmail.com
+[2022-12-28 22:14:09,826] Pre-Conditions: Input to password: c$U@ksc8
+[2022-12-28 22:14:10,008] Pre-Conditions: Click on Login button
+[2022-12-28 22:14:10,778] Pre-Conditions: Verify login successfull
+[2022-12-28 22:14:11,059] Step 01: Open Notebooks page
+[2022-12-28 22:14:12,441] Step 02: Click on Add to cart for product: Apple MacBook Pro 13-inch
+[2022-12-28 22:14:13,562] Step 03: Click on Add to cart at product detail page
+[2022-12-28 22:14:13,702] Step 04: Verify the product has been add to shopping cart message display
+[2022-12-28 22:14:16,285] Step 05: Click on Shopping Cart link
+[2022-12-28 22:14:17,819] Step 06: Select the No option on Gift wrapping
+[2022-12-28 22:14:17,964] Step 07: Click on Estimate shipping button
+[2022-12-28 22:14:18,122] Step 08: Select Country in Ship to popup: Viet Nam
+[2022-12-28 22:14:18,423] Step 09: Select Province in Ship to popup: Other
+[2022-12-28 22:14:18,611] Step 10: Input to Zip/Postal Code textbox: 63629-2600
+[2022-12-28 22:14:20,847] Step 11: Click on Apply button
+[2022-12-28 22:14:21,016] Step 12: Check to I agree with condition checkbox
+[2022-12-28 22:14:21,692] Step 13: Click on Checkout button
+[2022-12-28 22:14:24,470] Step 14: Input to Company textbox: Kuhn-Hilpert
+[2022-12-28 22:14:24,656] Step 15: Select value in Country dropdown: Viet Nam
+[2022-12-28 22:14:24,823] Step 16: Input to City textbox: Lake Raymon
+[2022-12-28 22:14:25,027] Step 17: Input to Address 1 textbox: 7268 Hoyt Ridges
+[2022-12-28 22:14:25,252] Step 18: Input to Address 2 textbox: 059 Brown Cape
+[2022-12-28 22:14:25,470] Step 19: Input to ZipCode textbox: 68090-6809
+[2022-12-28 22:14:25,681] Step 20: Input to Phone number textbox: 1-929-419-1379 x94501
+[2022-12-28 22:14:25,888] Step 21: Input to Fax number textbox: 032.149.7648
+[2022-12-28 22:14:26,095] Step 22: Click on Continue button
+[2022-12-28 22:14:26,234] Step 23: Select Shipping method: Next Day Air ($0.00)
+[2022-12-28 22:14:26,667] Step 24: Click on Continus button
+[2022-12-28 22:14:26,788] Step 25: Check to payment method: Credit Card
+[2022-12-28 22:14:27,217] Step 26: Click on Continue button
+[2022-12-28 22:14:27,326] Step 27: Select credit card: Master card
+[2022-12-28 22:14:27,768] Step 28: Input cartholder name: BIDV
+[2022-12-28 22:14:27,943] Step 29: Input cart number:  6767-7541-1647-2613-29
+[2022-12-28 22:14:28,138] Step 30: Select Expiration date: 08
+[2022-12-28 22:14:28,310] Step 31: Select Expiration month: 2023
+[2022-12-28 22:14:28,461] Step 32: Input to card code 9922
+[2022-12-28 22:14:28,650] Step 33: Click to Continue button
+[2022-12-28 22:14:28,792] Step 34: Verify the previous information display correctly
+[2022-12-29 14:56:59,439] Pre-Conditions: Click on Login link
+[2022-12-29 14:57:01,143] Pre-Conditions: Input to email: siobhan.kutch@gmail.com
+[2022-12-29 14:57:01,338] Pre-Conditions: Input to password: 6HLY#6!L
+[2022-12-29 14:57:01,514] Pre-Conditions: Click on Login button
+[2022-12-29 14:57:02,333] Pre-Conditions: Verify login successfull
+[2022-12-29 14:57:02,727] Step 01: Open Notebooks page
+[2022-12-29 14:57:04,340] Step 02: Click on Add to cart for product: Apple MacBook Pro 13-inch
+[2022-12-29 14:57:05,665] Step 03: Click on Add to cart at product detail page
+[2022-12-29 14:57:05,830] Step 04: Verify the product has been add to shopping cart message display
+[2022-12-29 14:57:08,452] Step 05: Click on Shopping Cart link
+[2022-12-29 14:57:09,978] Step 06: Select the No option on Gift wrapping
+[2022-12-29 14:57:10,134] Step 07: Click on Estimate shipping button
+[2022-12-29 14:57:10,291] Step 08: Select Country in Ship to popup: Viet Nam
+[2022-12-29 14:57:10,568] Step 09: Select Province in Ship to popup: Other
+[2022-12-29 14:57:10,760] Step 10: Input to Zip/Postal Code textbox: 75115
+[2022-12-29 14:57:12,995] Step 11: Click on Apply button
+[2022-12-29 14:57:13,189] Step 12: Check to I agree with condition checkbox
+[2022-12-29 14:57:13,869] Step 13: Click on Checkout button
+[2022-12-29 14:57:16,542] Step 14: Input to Company textbox: McCullough and Sons
+[2022-12-29 14:57:16,768] Step 15: Select value in Country dropdown: Viet Nam
+[2022-12-29 14:57:16,965] Step 16: Input to City textbox: Port Delilaside
+[2022-12-29 14:57:17,187] Step 17: Input to Address 1 textbox: 14872 Michael Inlet
+[2022-12-29 14:57:17,484] Step 18: Input to Address 2 textbox: 331 Aline Greens
+[2022-12-29 14:57:17,702] Step 19: Input to ZipCode textbox: 91165-3517
+[2022-12-29 14:57:17,906] Step 20: Input to Phone number textbox: 1-508-456-4027
+[2022-12-29 14:57:18,125] Step 21: Input to Fax number textbox: 1-768-186-1411 x1454
+[2022-12-29 14:57:18,358] Step 22: Click on Continue button
+[2022-12-29 14:57:18,480] Step 23: Select Shipping method: Next Day Air ($0.00)
+[2022-12-29 14:57:18,917] Step 24: Click on Continus button
+[2022-12-29 14:57:19,051] Step 25: Check to payment method: Credit Card
+[2022-12-29 14:57:19,470] Step 26: Click on Continue button
+[2022-12-29 14:57:19,591] Step 27: Select credit card: Master card
+[2022-12-29 14:57:20,038] Step 28: Input cartholder name: BIDV
+[2022-12-29 14:57:20,260] Step 29: Input cart number:  3529-6215-6292-1444
+[2022-12-29 14:57:20,481] Step 30: Select Expiration date: 08
+[2022-12-29 14:57:20,628] Step 31: Select Expiration month: 2023
+[2022-12-29 14:57:20,798] Step 32: Input to card code 5189
+[2022-12-29 14:57:20,967] Step 33: Click to Continue button
+[2022-12-29 14:57:21,078] Step 34: Verify the previous information display correctly
+[2022-12-29 15:02:40,442] Pre-Conditions: Click on Login link
+[2022-12-29 15:02:41,907] Pre-Conditions: Input to email: enoch.barrows@yahoo.com
+[2022-12-29 15:02:42,105] Pre-Conditions: Input to password: #j8mrS8%
+[2022-12-29 15:02:42,308] Pre-Conditions: Click on Login button
+[2022-12-29 15:02:43,121] Pre-Conditions: Verify login successfull
+[2022-12-29 15:02:43,521] Step 01: Open Notebooks page
+[2022-12-29 15:02:45,006] Step 02: Click on Add to cart for product: Apple MacBook Pro 13-inch
+[2022-12-29 15:02:49,000] Step 03: Click on Add to cart at product detail page
+[2022-12-29 15:02:49,166] Step 04: Verify the product has been add to shopping cart message display
+[2022-12-29 15:02:51,765] Step 05: Click on Shopping Cart link
+[2022-12-29 15:02:52,697] Step 06: Select the No option on Gift wrapping
+[2022-12-29 15:02:52,864] Step 07: Click on Estimate shipping button
+[2022-12-29 15:02:53,039] Step 08: Select Country in Ship to popup: Viet Nam
+[2022-12-29 15:02:53,380] Step 09: Select Province in Ship to popup: Other
+[2022-12-29 15:02:53,597] Step 10: Input to Zip/Postal Code textbox: 68568
+[2022-12-29 15:02:55,839] Step 11: Click on Apply button
+[2022-12-29 15:02:56,033] Step 12: Check to I agree with condition checkbox
+[2022-12-29 15:02:56,765] Step 13: Click on Checkout button
+[2022-12-29 15:02:58,245] Step 14: Input to Company textbox: Romaguera, Bogan and Sauer
+[2022-12-29 15:02:58,464] Step 15: Select value in Country dropdown: Viet Nam
+[2022-12-29 15:02:58,619] Step 16: Input to City textbox: Ismaelland
+[2022-12-29 15:02:58,810] Step 17: Input to Address 1 textbox: 665 Ona Crescent
+[2022-12-29 15:02:59,054] Step 18: Input to Address 2 textbox: 4743 Olson Light
+[2022-12-29 15:02:59,294] Step 19: Input to ZipCode textbox: 10670-9539
+[2022-12-29 15:02:59,489] Step 20: Input to Phone number textbox: 862.181.3748
+[2022-12-29 15:02:59,648] Step 21: Input to Fax number textbox: 1-598-490-2410 x0880
+[2022-12-29 15:02:59,907] Step 22: Click on Continue button
+[2022-12-29 15:03:00,056] Step 23: Select Shipping method: Next Day Air ($0.00)
+[2022-12-29 15:03:00,483] Step 24: Click on Continus button
+[2022-12-29 15:03:00,615] Step 25: Check to payment method: Credit Card
+[2022-12-29 15:03:01,052] Step 26: Click on Continue button
+[2022-12-29 15:03:01,186] Step 27: Select credit card: Master card
+[2022-12-29 15:03:01,608] Step 28: Input cartholder name: BIDV
+[2022-12-29 15:03:01,833] Step 29: Input cart number:  6767-4916-5034-1937
+[2022-12-29 15:03:02,040] Step 30: Select Expiration date: 08
+[2022-12-29 15:03:02,187] Step 31: Select Expiration month: 2023
+[2022-12-29 15:03:02,354] Step 32: Input to card code 1603
+[2022-12-29 15:03:02,508] Step 33: Click to Continue button
+[2022-12-29 15:03:02,645] Step 34: Verify the previous information display correctly
+[2022-12-29 15:39:03,821] Pre-Conditions: Click on Login link
+[2022-12-29 15:39:07,328] Pre-Conditions: Input to email: arnold.sanford@gmail.com
+[2022-12-29 15:39:38,684] Pre-Conditions: Click on Login link
+[2022-12-29 15:39:39,446] Pre-Conditions: Input to email: young.adams@yahoo.com
+[2022-12-29 15:39:39,635] Pre-Conditions: Input to password: 606mo@63
+[2022-12-29 15:39:39,805] Pre-Conditions: Click on Login button
+[2022-12-29 15:39:41,873] Pre-Conditions: Verify login successfull
+[2022-12-29 15:39:45,614] Step 01: Open Notebooks page
+[2022-12-29 15:39:47,139] Step 02: Click on Add to cart for product: Apple MacBook Pro 13-inch
+[2022-12-29 15:39:48,537] Step 03: Click on Add to cart at product detail page
+[2022-12-29 15:39:48,695] Step 04: Verify the product has been add to shopping cart message display
+[2022-12-29 15:39:51,337] Step 05: Click on Shopping Cart link
+[2022-12-29 15:39:52,122] Step 06: Select the No option on Gift wrapping
+[2022-12-29 15:39:52,262] Step 07: Click on Estimate shipping button
+[2022-12-29 15:39:52,452] Step 08: Select Country in Ship to popup: Viet Nam
+[2022-12-29 15:39:52,775] Step 09: Select Province in Ship to popup: Other
+[2022-12-29 15:39:53,046] Step 10: Input to Zip/Postal Code textbox: 16137
+[2022-12-29 15:39:55,249] Step 11: Click on Apply button
+[2022-12-29 15:39:55,412] Step 12: Check to I agree with condition checkbox
+[2022-12-29 15:39:56,103] Step 13: Click on Checkout button
+[2022-12-29 15:39:58,725] Step 14: Input to Company textbox: Bradtke LLC
+[2022-12-29 15:39:58,920] Step 15: Select value in Country dropdown: Viet Nam
+[2022-12-29 15:39:59,058] Step 16: Input to City textbox: Kermitville
+[2022-12-29 15:39:59,260] Step 17: Input to Address 1 textbox: 908 Casper Run
+[2022-12-29 15:39:59,448] Step 18: Input to Address 2 textbox: 4887 Davis Fork
+[2022-12-29 15:39:59,658] Step 19: Input to ZipCode textbox: 66250-7965
+[2022-12-29 15:39:59,871] Step 20: Input to Phone number textbox: (349) 339-6636 x7126
+[2022-12-29 15:40:00,094] Step 21: Input to Fax number textbox: (397) 174-6472
+[2022-12-29 15:40:00,297] Step 22: Click on Continue button
+[2022-12-29 15:40:00,410] Step 23: Select Shipping method: Next Day Air ($0.00)
+[2022-12-29 15:40:00,849] Step 24: Click on Continus button
+[2022-12-29 15:40:00,958] Step 25: Check to payment method: Credit Card
+[2022-12-29 15:40:01,399] Step 26: Click on Continue button
+[2022-12-29 15:40:01,534] Step 27: Select credit card: Master card
+[2022-12-29 15:40:01,987] Step 28: Input cartholder name: BIDV
+[2022-12-29 15:40:02,140] Step 29: Input cart number:  3686-937104-0482
+[2022-12-29 15:40:02,324] Step 30: Select Expiration date: 08
+[2022-12-29 15:40:02,474] Step 31: Select Expiration month: 2023
+[2022-12-29 15:40:02,646] Step 32: Input to card code 9382
+[2022-12-29 15:40:02,827] Step 33: Click to Continue button
+[2022-12-29 15:40:02,957] Step 34: Verify the previous information display correctly
+[2022-12-29 15:46:10,788] Pre-Conditions: Click on Login link
+[2022-12-29 15:46:12,004] Pre-Conditions: Input to email: jannie.howell@gmail.com
+[2022-12-29 15:46:12,198] Pre-Conditions: Input to password: f3qhsIfuV
+[2022-12-29 15:46:12,385] Pre-Conditions: Click on Login button
+[2022-12-29 15:46:13,171] Pre-Conditions: Verify login successfull
+[2022-12-29 15:46:14,644] Step 01: Open Notebooks page
+[2022-12-29 15:46:15,699] Step 02: Click on Add to cart for product: Apple MacBook Pro 13-inch
+[2022-12-29 15:46:16,668] Step 03: Click on Add to cart at product detail page
+[2022-12-29 15:46:16,826] Step 04: Verify the product has been add to shopping cart message display
+[2022-12-29 15:46:19,442] Step 05: Click on Shopping Cart link
+[2022-12-29 15:46:20,321] Step 06: Select the No option on Gift wrapping
+[2022-12-29 15:46:20,482] Step 07: Click on Estimate shipping button
+[2022-12-29 15:46:20,665] Step 08: Select Country in Ship to popup: Viet Nam
+[2022-12-29 15:46:21,013] Step 09: Select Province in Ship to popup: Other
+[2022-12-29 15:46:21,220] Step 10: Input to Zip/Postal Code textbox: 69657
+[2022-12-29 15:46:23,462] Step 11: Click on Apply button
+[2022-12-29 15:46:23,643] Step 12: Check to I agree with condition checkbox
+[2022-12-29 15:46:24,333] Step 13: Click on Checkout button
+[2022-12-29 15:46:26,132] Step 14: Input to Company textbox: Schneider, Hettinger and Graham
+[2022-12-29 15:46:26,370] Step 15: Select value in Country dropdown: Viet Nam
+[2022-12-29 15:46:26,555] Step 16: Input to City textbox: West Muoi
+[2022-12-29 15:46:26,822] Step 17: Input to Address 1 textbox: 89766 Micaela Radial
+[2022-12-29 15:46:27,047] Step 18: Input to Address 2 textbox: 025 Vito Springs
+[2022-12-29 15:46:27,289] Step 19: Input to ZipCode textbox: 43335
+[2022-12-29 15:46:27,500] Step 20: Input to Phone number textbox: 1-973-979-5390 x997
+[2022-12-29 15:46:27,750] Step 21: Input to Fax number textbox: 1-613-995-3441
+[2022-12-29 15:46:27,992] Step 22: Click on Continue button
+[2022-12-29 15:46:28,131] Step 23: Select Shipping method: Next Day Air ($0.00)
+[2022-12-29 15:46:28,590] Step 24: Click on Continus button
+[2022-12-29 15:46:28,748] Step 25: Check to payment method: Credit Card
+[2022-12-29 15:46:29,152] Step 26: Click on Continue button
+[2022-12-29 15:46:29,281] Step 27: Select credit card: Master card
+[2022-12-29 15:46:29,753] Step 28: Input cartholder name: BIDV
+[2022-12-29 15:46:29,981] Step 29: Input cart number:  5019-7475-7843-6218
+[2022-12-29 15:46:30,205] Step 30: Select Expiration date: 08
+[2022-12-29 15:46:30,375] Step 31: Select Expiration month: 2023
+[2022-12-29 15:46:30,527] Step 32: Input to card code 6248
+[2022-12-29 15:46:30,726] Step 33: Click to Continue button
+[2022-12-29 15:46:30,874] Step 34: Verify the previous information display correctly
+[2022-12-29 15:59:43,671] Pre-Conditions: Click on Login link
+[2022-12-29 15:59:44,972] Pre-Conditions: Input to email: wade.donnelly@gmail.com
+[2022-12-29 15:59:45,213] Pre-Conditions: Input to password: Vg*g^Snjz
+[2022-12-29 15:59:45,396] Pre-Conditions: Click on Login button
+[2022-12-29 15:59:46,251] Pre-Conditions: Verify login successfull
+[2022-12-29 15:59:46,609] Step 01: Open Notebooks page
+[2022-12-29 15:59:47,928] Step 02: Click on Add to cart for product: Apple MacBook Pro 13-inch
+[2022-12-29 15:59:49,392] Step 03: Click on Add to cart at product detail page
+[2022-12-29 15:59:49,590] Step 04: Verify the product has been add to shopping cart message display
+[2022-12-29 15:59:52,256] Step 05: Click on Shopping Cart link
+[2022-12-29 15:59:53,151] Step 06: Select the No option on Gift wrapping
+[2022-12-29 15:59:53,299] Step 07: Click on Estimate shipping button
+[2022-12-29 15:59:53,463] Step 08: Select Country in Ship to popup: Viet Nam
+[2022-12-29 15:59:53,780] Step 09: Select Province in Ship to popup: Other
+[2022-12-29 15:59:54,010] Step 10: Input to Zip/Postal Code textbox: 12508-2808
+[2022-12-29 15:59:56,245] Step 11: Click on Apply button
+[2022-12-29 15:59:56,403] Step 12: Check to I agree with condition checkbox
+[2022-12-29 15:59:57,112] Step 13: Click on Checkout button
+[2022-12-29 15:59:58,592] Step 14: Input to Company textbox: Keebler-Schmidt
+[2022-12-29 15:59:58,794] Step 15: Select value in Country dropdown: Viet Nam
+[2022-12-29 15:59:58,991] Step 16: Input to City textbox: Lake Danntown
+[2022-12-29 15:59:59,227] Step 17: Input to Address 1 textbox: 818 Stephine Flats
+[2022-12-29 15:59:59,469] Step 18: Input to Address 2 textbox: 562 Charlie Mills
+[2022-12-29 15:59:59,743] Step 19: Input to ZipCode textbox: 16516-0757
+[2022-12-29 15:59:59,983] Step 20: Input to Phone number textbox: (742) 335-9173
+[2022-12-29 16:00:00,253] Step 21: Input to Fax number textbox: 410-491-0744 x837
+[2022-12-29 16:00:00,481] Step 22: Click on Continue button
+[2022-12-29 16:00:00,631] Step 23: Select Shipping method: Next Day Air ($0.00)
+[2022-12-29 16:00:01,095] Step 24: Click on Continus button
+[2022-12-29 16:00:01,226] Step 25: Check to payment method: Credit Card
+[2022-12-29 16:00:01,694] Step 26: Click on Continue button
+[2022-12-29 16:00:01,827] Step 27: Select credit card: Master card
+[2022-12-29 16:00:02,295] Step 28: Input cartholder name: BIDV
+[2022-12-29 16:00:02,497] Step 29: Input cart number:  6759-0988-9344-7502-34
+[2022-12-29 16:00:02,757] Step 30: Select Expiration date: 08
+[2022-12-29 16:00:02,948] Step 31: Select Expiration month: 2023
+[2022-12-29 16:00:03,128] Step 32: Input to card code 8166
+[2022-12-29 16:00:03,320] Step 33: Click to Continue button
+[2022-12-29 16:00:03,446] Step 34: Verify the previous information display correctly
+[2022-12-29 16:04:15,669] Pre-Conditions: Click on Login link
+[2022-12-29 16:04:16,902] Pre-Conditions: Input to email: darrick.ziemann@gmail.com
+[2022-12-29 16:04:17,110] Pre-Conditions: Input to password: Nu%2880n
+[2022-12-29 16:04:17,296] Pre-Conditions: Click on Login button
+[2022-12-29 16:04:18,129] Pre-Conditions: Verify login successfull
+[2022-12-29 16:04:18,405] Step 01: Open Notebooks page
+[2022-12-29 16:04:19,490] Step 02: Click on Add to cart for product: Apple MacBook Pro 13-inch
+[2022-12-29 16:04:20,651] Step 03: Click on Add to cart at product detail page
+[2022-12-29 16:04:20,817] Step 04: Verify the product has been add to shopping cart message display
+[2022-12-29 16:04:23,433] Step 05: Click on Shopping Cart link
+[2022-12-29 16:04:24,227] Step 06: Select the No option on Gift wrapping
+[2022-12-29 16:04:24,368] Step 07: Click on Estimate shipping button
+[2022-12-29 16:04:24,509] Step 08: Select Country in Ship to popup: Viet Nam
+[2022-12-29 16:04:25,315] Step 09: Select Province in Ship to popup: Other
+[2022-12-29 16:04:25,499] Step 10: Input to Zip/Postal Code textbox: 50665-9743
+[2022-12-29 16:04:27,759] Step 11: Click on Apply button
+[2022-12-29 16:04:27,943] Step 12: Check to I agree with condition checkbox
+[2022-12-29 16:04:28,636] Step 13: Click on Checkout button
+[2022-12-29 16:04:30,128] Step 14: Input to Company textbox: Schulist-Hoppe
+[2022-12-29 16:04:30,371] Step 15: Select value in Country dropdown: Viet Nam
+[2022-12-29 16:04:30,557] Step 16: Input to City textbox: Uptonshire
+[2022-12-29 16:04:30,762] Step 17: Input to Address 1 textbox: 1607 Bryant Skyway
+[2022-12-29 16:04:30,983] Step 18: Input to Address 2 textbox: 05443 Jarrod Vista
+[2022-12-29 16:04:31,205] Step 19: Input to ZipCode textbox: 87790
+[2022-12-29 16:04:31,402] Step 20: Input to Phone number textbox: (803) 868-4205 x0566
+[2022-12-29 16:04:31,605] Step 21: Input to Fax number textbox: 705.496.5327 x7609
+[2022-12-29 16:04:31,846] Step 22: Click on Continue button
+[2022-12-29 16:04:31,982] Step 23: Select Shipping method: Next Day Air ($0.00)
+[2022-12-29 16:04:32,430] Step 24: Click on Continus button
+[2022-12-29 16:04:32,561] Step 25: Check to payment method: Credit Card
+[2022-12-29 16:04:32,998] Step 26: Click on Continue button
+[2022-12-29 16:04:33,118] Step 27: Select credit card: Master card
+[2022-12-29 16:04:33,574] Step 28: Input cartholder name: BIDV
+[2022-12-29 16:04:33,747] Step 29: Input cart number:  4257-1965-0152-1312
+[2022-12-29 16:04:33,933] Step 30: Select Expiration date: 08
+[2022-12-29 16:04:34,060] Step 31: Select Expiration month: 2023
+[2022-12-29 16:04:34,179] Step 32: Input to card code 5434
+[2022-12-29 16:04:34,326] Step 33: Click to Continue button
+[2022-12-29 16:04:34,454] Step 34: Verify the previous information display correctly
+[2022-12-29 19:08:10,100] Pre-Conditions: Click on Login link
+[2022-12-29 19:08:11,491] Pre-Conditions: Input to email: willard.nader@yahoo.com
+[2022-12-29 19:08:11,690] Pre-Conditions: Input to password: kzCD7^mf@
+[2022-12-29 19:08:11,887] Pre-Conditions: Click on Login button
+[2022-12-29 19:08:12,715] Pre-Conditions: Verify login successfull
+[2022-12-29 19:08:13,037] Step 01: Open Notebooks page
+[2022-12-29 19:08:15,533] Step 02: Click on Add to cart for product: Apple MacBook Pro 13-inch
+[2022-12-29 19:08:17,909] Step 03: Click on Add to cart at product detail page
+[2022-12-29 19:08:18,077] Step 04: Verify the product has been add to shopping cart message display
+[2022-12-29 19:08:20,705] Step 05: Click on Shopping Cart link
+[2022-12-29 19:08:22,319] Step 06: Select the No option on Gift wrapping
+[2022-12-29 19:08:22,442] Step 07: Click on Estimate shipping button
+[2022-12-29 19:08:22,584] Step 08: Select Country in Ship to popup: Viet Nam
+[2022-12-29 19:08:23,398] Step 09: Select Province in Ship to popup: Other
+[2022-12-29 19:08:23,589] Step 10: Input to Zip/Postal Code textbox: 73280
+[2022-12-29 19:08:25,829] Step 11: Click on Apply button
+[2022-12-29 19:08:25,993] Step 12: Check to I agree with condition checkbox
+[2022-12-29 19:08:26,672] Step 13: Click on Checkout button
+[2022-12-29 19:08:30,171] Step 14: Input to Company textbox: Witting, Auer and Romaguera
+[2022-12-29 19:08:30,386] Step 15: Select value in Country dropdown: Viet Nam
+[2022-12-29 19:08:30,522] Step 16: Input to City textbox: North Dorsey
+[2022-12-29 19:08:30,724] Step 17: Input to Address 1 textbox: 05174 Delsie Stream
+[2022-12-29 19:08:30,941] Step 18: Input to Address 2 textbox: 476 Brakus Burgs
+[2022-12-29 19:08:31,158] Step 19: Input to ZipCode textbox: 15381-0137
+[2022-12-29 19:08:31,363] Step 20: Input to Phone number textbox: 666-244-0435 x2675
+[2022-12-29 19:08:31,573] Step 21: Input to Fax number textbox: (691) 593-6267 x37266
+[2022-12-29 19:08:31,778] Step 22: Click on Continue button
+[2022-12-29 19:08:31,921] Step 23: Select Shipping method: Next Day Air ($0.00)
+[2022-12-29 19:08:32,350] Step 24: Click on Continus button
+[2022-12-29 19:08:32,485] Step 25: Check to payment method: Credit Card
+[2022-12-29 19:08:32,927] Step 26: Click on Continue button
+[2022-12-29 19:08:33,065] Step 27: Select credit card: Master card
+[2022-12-29 19:08:33,493] Step 28: Input cartholder name: BIDV
+[2022-12-29 19:08:33,731] Step 29: Input cart number:  4022-2571-4195-4786
+[2022-12-29 19:08:33,973] Step 30: Select Expiration date: 08
+[2022-12-29 19:08:34,157] Step 31: Select Expiration month: 2023
+[2022-12-29 19:08:34,327] Step 32: Input to card code 4137
+[2022-12-29 19:08:34,507] Step 33: Click to Continue button
+[2022-12-29 19:08:34,631] Step 34: Verify the previous information display correctly
+[2022-12-29 21:10:58,452] Pre-Conditions: Click on Login link
+[2022-12-29 21:11:00,743] Pre-Conditions: Input to email: humberto.weber@yahoo.com
+[2022-12-29 21:11:00,915] Pre-Conditions: Input to password: hW$s%%f2
+[2022-12-29 21:11:01,094] Pre-Conditions: Click on Login button
+[2022-12-29 21:11:02,009] Pre-Conditions: Verify login successfull
+[2022-12-29 21:11:02,290] Step 01: Open Notebooks page
+[2022-12-29 21:11:06,441] Step 02: Click on Add to cart for product: Apple MacBook Pro 13-inch
+[2022-12-29 21:11:08,668] Step 03: Click on Add to cart at product detail page
+[2022-12-29 21:11:08,827] Step 04: Verify the product has been add to shopping cart message display
+[2022-12-29 21:11:11,611] Step 05: Click on Shopping Cart link
+[2022-12-29 21:11:13,364] Step 06: Select the No option on Gift wrapping
+[2022-12-29 21:11:13,525] Step 07: Click on Estimate shipping button
+[2022-12-29 21:11:13,676] Step 08: Select Country in Ship to popup: Viet Nam
+[2022-12-29 21:11:13,937] Step 09: Select Province in Ship to popup: Other
+[2022-12-29 21:11:14,142] Step 10: Input to Zip/Postal Code textbox: 99452
+[2022-12-29 21:11:16,371] Step 11: Click on Apply button
+[2022-12-29 21:11:16,543] Step 12: Check to I agree with condition checkbox
+[2022-12-29 21:11:17,260] Step 13: Click on Checkout button
+[2022-12-29 21:11:22,123] Step 14: Input to Company textbox: Auer, Rohan and Brekke
+[2022-12-29 21:11:22,336] Step 15: Select value in Country dropdown: Viet Nam
+[2022-12-29 21:11:22,528] Step 16: Input to City textbox: Jameshire
+[2022-12-29 21:11:22,722] Step 17: Input to Address 1 textbox: 7207 Filiberto Overpass
+[2022-12-29 21:11:22,917] Step 18: Input to Address 2 textbox: 38258 Leonel Run
+[2022-12-29 21:11:23,119] Step 19: Input to ZipCode textbox: 95409-0342
+[2022-12-29 21:11:23,348] Step 20: Input to Phone number textbox: 1-888-723-9017
+[2022-12-29 21:11:23,542] Step 21: Input to Fax number textbox: 715.670.9524
+[2022-12-29 21:11:23,745] Step 22: Click on Continue button
+[2022-12-29 21:11:23,849] Step 23: Select Shipping method: Next Day Air ($0.00)
+[2022-12-29 21:11:24,527] Step 24: Click on Continus button
+[2022-12-29 21:11:24,634] Step 25: Check to payment method: Credit Card
+[2022-12-29 21:11:25,125] Step 26: Click on Continue button
+[2022-12-29 21:11:25,247] Step 27: Select credit card: Master card
+[2022-12-29 21:11:25,897] Step 28: Input cartholder name: BIDV
+[2022-12-29 21:11:26,082] Step 29: Input cart number:  6767-4962-1684-0038-070
+[2022-12-29 21:11:26,288] Step 30: Select Expiration date: 08
+[2022-12-29 21:11:26,456] Step 31: Select Expiration month: 2023
+[2022-12-29 21:11:26,587] Step 32: Input to card code 6902
+[2022-12-29 21:11:26,749] Step 33: Click to Continue button
+[2022-12-29 21:11:26,860] Step 34: Verify the previous information display correctly
+[2022-12-29 21:12:12,788] Pre-Conditions: Click on Login link
+[2022-12-29 21:12:14,551] Pre-Conditions: Input to email: jeremiah.deckow@hotmail.com
+[2022-12-29 21:12:14,749] Pre-Conditions: Input to password: 59#W^$aWt
+[2022-12-29 21:12:14,939] Pre-Conditions: Click on Login button
+[2022-12-29 21:12:15,927] Pre-Conditions: Verify login successfull
+[2022-12-29 21:12:16,237] Step 01: Open Notebooks page
+[2022-12-29 21:12:20,151] Step 02: Click on Add to cart for product: Apple MacBook Pro 13-inch
+[2022-12-29 21:12:22,221] Step 03: Click on Add to cart at product detail page
+[2022-12-29 21:12:22,382] Step 04: Verify the product has been add to shopping cart message display
+[2022-12-29 21:12:24,968] Step 05: Click on Shopping Cart link
+[2022-12-29 21:12:26,518] Step 06: Select the No option on Gift wrapping
+[2022-12-29 21:12:26,658] Step 07: Click on Estimate shipping button
+[2022-12-29 21:12:26,798] Step 08: Select Country in Ship to popup: Viet Nam
+[2022-12-29 21:12:27,077] Step 09: Select Province in Ship to popup: Other
+[2022-12-29 21:12:27,303] Step 10: Input to Zip/Postal Code textbox: 86378
+[2022-12-29 21:12:29,533] Step 11: Click on Apply button
+[2022-12-29 21:12:29,709] Step 12: Check to I agree with condition checkbox
+[2022-12-29 21:12:30,391] Step 13: Click on Checkout button
+[2022-12-29 21:12:32,551] Step 14: Input to Company textbox: Renner, Quitzon and Wintheiser
+[2022-12-29 21:12:32,794] Step 15: Select value in Country dropdown: Viet Nam
+[2022-12-29 21:12:32,955] Step 16: Input to City textbox: Schroederland
+[2022-12-29 21:12:33,138] Step 17: Input to Address 1 textbox: 080 Buckridge Plains
+[2022-12-29 21:12:33,361] Step 18: Input to Address 2 textbox: 2924 Bob Summit
+[2022-12-29 21:12:33,583] Step 19: Input to ZipCode textbox: 42118-3516
+[2022-12-29 21:12:33,785] Step 20: Input to Phone number textbox: 973-327-2721
+[2022-12-29 21:12:33,990] Step 21: Input to Fax number textbox: 438.648.0138 x09376
+[2022-12-29 21:12:34,230] Step 22: Click on Continue button
+[2022-12-29 21:12:34,358] Step 23: Select Shipping method: Next Day Air ($0.00)
+[2022-12-29 21:12:34,791] Step 24: Click on Continus button
+[2022-12-29 21:12:34,909] Step 25: Check to payment method: Credit Card
+[2022-12-29 21:12:35,407] Step 26: Click on Continue button
+[2022-12-29 21:12:35,527] Step 27: Select credit card: Master card
+[2022-12-29 21:12:35,969] Step 28: Input cartholder name: BIDV
+[2022-12-29 21:12:36,144] Step 29: Input cart number:  6767-3009-5569-5568-91
+[2022-12-29 21:12:36,340] Step 30: Select Expiration date: 08
+[2022-12-29 21:12:36,534] Step 31: Select Expiration month: 2023
+[2022-12-29 21:12:36,682] Step 32: Input to card code 7151
+[2022-12-29 21:12:36,854] Step 33: Click to Continue button
+[2022-12-29 21:12:36,965] Step 34: Verify the previous information display correctly

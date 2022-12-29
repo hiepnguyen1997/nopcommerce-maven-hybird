@@ -1,6 +1,7 @@
 pageUIs\nopCommerce\user\AddressPageUI.class
 pageUIs\nopCommerce\user\SearchPageUI.class
 pageUIs\nopCommerce\user\FooterListPageUI.class
+pageObjects\nopCommerce\portal\CheckoutPageObject.class
 pageUIs\nopCommerce\user\CompareListPageUI.class
 reportConfig\ExtentManager.class
 pageObjects\nopCommerce\portal\UserHomePageObject.class
@@ -56,6 +57,7 @@ pageUIs\nopCommerce\user\ProductDetailPageUI.class
 pageUIs\nopCommerce\user\CustomerInforPageUI.class
 utilities\H_LessFirefoxBrowserManagement.class
 commons\EnvironmentList.class
+pageUIs\nopCommerce\user\CheckoutPageUI.class
 utilities\FakeDataHelper.class
 exception\BrowserNotSupport.class
 commons\BasePage.class

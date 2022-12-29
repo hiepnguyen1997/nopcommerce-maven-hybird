@@ -3,6 +3,7 @@ D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\commons\TestNGApp
 D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\pageObjects\nopCommerce\portal\UserLoginPageObject.java
 D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\pageUIs\nopCommerce\user\WishlistPageUI.java
 D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\pageObjects\nopCommerce\portal\ListProductPage.java
+D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\pageUIs\nopCommerce\user\CheckoutPageUI.java
 D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\pageObjects\nopCommerce\portal\WishlistShareLinkPageObject.java
 D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\commons\EnvironmentList.java
 D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\commons\GlobalConstants.java
@@ -39,6 +40,7 @@ D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\pageObjects\nopCo
 D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\commons\PageGeneratorManager.java
 D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\commons\ListPageAtTopMenu.java
 D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\pageUIs\nopCommerce\user\RecentlyViewProductPageUI.java
+D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\pageObjects\nopCommerce\portal\CheckoutPageObject.java
 D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\reportConfig\ExtentTestListener.java
 D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\commons\BrowserList.java
 D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\pageObjects\nopCommerce\portal\DesktopsPageObject.java

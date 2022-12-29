@@ -50,7 +50,7 @@ public class FakeDataHelper {
 		return fake.phoneNumber().phoneNumber();
 	}
 	
-	public int getFaxNumber() {
-		return fake.number().numberBetween(3, 4);
+	public String getCardNumber() {
+		return fake.finance().creditCard();
 	}
 }

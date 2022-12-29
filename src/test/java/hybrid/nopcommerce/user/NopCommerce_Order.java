@@ -41,8 +41,8 @@ public class NopCommerce_Order extends BaseTest{
 	private String productName1, productName2, productName3, processer, RAM, HDD, OS, softwareMicrosoftOffice, softwareAcrobatReader, softwareTotalCommander, price;
 	private String  processerEdit, RAMEdit, HDDEdit, OSEdit, quantityProduct1, quantityProduct2;
 	private String shiptoCountry, shiptoProvince, shiptoZipcode;
-	private String company, country, city, address1, address2, zipCode, phoneNumber, shippingMethod;
-	private int faxNumber;
+	private String company, country, city, address1, address2, zipCode, phoneNumber, faxNumber, shippingMethod, paymentMethod;
+	private String creditCard, cardHolderName, cardNumber, expirationYear, expirationMonth, cardCode;
 	
 	@Parameters({"browser", "environment"})
 	@BeforeClass
@@ -70,16 +70,23 @@ public class NopCommerce_Order extends BaseTest{
 		quantityProduct2 = "5";
 		shiptoCountry = "Viet Nam";
 		shiptoProvince = "Other";
-		shiptoZipcode = "550000";
+		shiptoZipcode = fakeData.getZipCode();
 		company = fakeData.getCompany();
 		country = "Viet Nam";
 		city = fakeData.getCity();
 		address1 = fakeData.getAddress();
 		address2 = fakeData.getAddress();
 		zipCode = fakeData.getZipCode();
-		phoneNumber =fakeData.getPhoneNumber();
-		faxNumber = fakeData.getFaxNumber();
+		phoneNumber = fakeData.getPhoneNumber();
+		faxNumber = fakeData.getPhoneNumber();
 		shippingMethod = "Next Day Air ($0.00)";
+		paymentMethod = "Credit Card";
+		creditCard = "Master card";
+		cardHolderName = "BIDV";
+		cardNumber = fakeData.getCardNumber();
+		expirationMonth= "08";
+		expirationYear = "2023";
+		cardCode = String.valueOf(generatorNumber());
 		
 		driver = getBrowserDriverMananment(browserName, environmentConfig.getWebURL());
 		homePage = PageGeneratorManager.getUserHomePage(driver);
@@ -291,7 +298,7 @@ public class NopCommerce_Order extends BaseTest{
 		ExtentTestManager.getTest().log(Status.INFO, "Step 08: verify the total price is $2,500.00");
 		log.info("Step 08: verify the total price is $2,500.00");
 		Assert.assertEquals(shoppingCartPage.getProductValueAtRowNumberByColumnName("1", "Total"), "$2,500.00");
-		
+		shoppingCartPage.clickOnRemoveButtonByProductName(productName2);
 	}
 	
 	@Test
@@ -399,6 +406,70 @@ public class NopCommerce_Order extends BaseTest{
 		log.info("Step 24: Click on Continus button");
 		checkoutPage.clickOnContinueButton("Shipping method");
 		
+		ExtentTestManager.getTest().log(Status.INFO, "Step 25: Check to payment method: " + paymentMethod);
+		log.info("Step 25: Check to payment method: " + paymentMethod);
+		checkoutPage.clickOnRadioButtonByLabelName(driver, paymentMethod);
+		
+		ExtentTestManager.getTest().log(Status.INFO, "Step 26: Click on Continue button");
+		log.info("Step 26: Click on Continue button");
+		checkoutPage.clickOnContinueButton("Payment method");
+		
+		ExtentTestManager.getTest().log(Status.INFO, "Step 27: Select credit card: " + creditCard);
+		log.info("Step 27: Select credit card: " + creditCard);
+		checkoutPage.selectValueInDropDownByName(driver, "CreditCardType", creditCard);
+		
+		ExtentTestManager.getTest().log(Status.INFO, "Step 28: Input cartholder name: " + cardHolderName);
+		log.info("Step 28: Input cartholder name: " + cardHolderName);
+		checkoutPage.inputToTextboxByID(driver, "CardholderName", cardHolderName);
+		
+		ExtentTestManager.getTest().log(Status.INFO, "Step 29: Input cart number:  " + cardNumber);
+		log.info("Step 29: Input cart number:  " + cardNumber);
+		checkoutPage.inputToTextboxByID(driver, "CardNumber", cardNumber);
+		
+		ExtentTestManager.getTest().log(Status.INFO, "Step 30: Select Expiration date: " + expirationMonth);
+		log.info("Step 30: Select Expiration date: " + expirationMonth);
+		checkoutPage.selectValueInDropDownByName(driver, "ExpireMonth", expirationMonth);
+		
+		ExtentTestManager.getTest().log(Status.INFO, "Step 31: Select Expiration month: " + expirationYear);
+		log.info("Step 31: Select Expiration month: " + expirationYear);
+		checkoutPage.selectValueInDropDownByName(driver, "ExpireYear", expirationYear);
+		
+		ExtentTestManager.getTest().log(Status.INFO, "Step 32: Input to card code " + cardCode);
+		log.info("Step 32: Input to card code " + cardCode);
+		checkoutPage.inputToTextboxByID(driver, "CardCode", cardCode);
+		
+		ExtentTestManager.getTest().log(Status.INFO, "Step 33: Click to Continue button");
+		log.info("Step 33: Click to Continue button");
+		checkoutPage.clickOnContinueButton("Payment information");
+		
+		ExtentTestManager.getTest().log(Status.INFO, "Step 34: Verify the previous information display correctly");
+		log.info("Step 34: Verify the previous information display correctly");
+		Assert.assertEquals(checkoutPage.getBillingAddressInfomationByClassName("name"), Register_Commons.firstName + " " + Register_Commons.lastName);
+		Assert.assertEquals(checkoutPage.getBillingAddressInfomationByClassName("email"), "Email: " + email);
+		Assert.assertEquals(checkoutPage.getBillingAddressInfomationByClassName("phone"), "Phone: " + phoneNumber);
+		Assert.assertEquals(checkoutPage.getBillingAddressInfomationByClassName("fax"), "Fax: " + faxNumber);
+		Assert.assertEquals(checkoutPage.getBillingAddressInfomationByClassName("company"), company);
+		Assert.assertEquals(checkoutPage.getBillingAddressInfomationByClassName("address1"), address1);
+		Assert.assertEquals(checkoutPage.getBillingAddressInfomationByClassName("address2"), address2);
+		Assert.assertEquals(checkoutPage.getBillingAddressInfomationByClassName("city-state-zip"), city + "," + zipCode);
+		Assert.assertEquals(checkoutPage.getBillingAddressInfomationByClassName("country"), country);
+		Assert.assertEquals(checkoutPage.getTextValueAtRowNumberByColumnName("1", "Product(s)"), productName3);
+		Assert.assertEquals(checkoutPage.getPriceCheckoutByProductName(productName3), price);
+		String subTotal = checkoutPage.getTextValueAtRowNumberByColumnName("1", "Total");
+		System.out.println(subTotal);
+		Assert.assertEquals(checkoutPage.getQtyProductCheckoutByProductName(productName3), quantityProd);
+		float actualTotal = checkoutPage.convertToNumberTotalPriceCheckoutByProductName(productName3);
+		float expectdTotal = checkoutPage.caculateTotalPrice(price, quantityProd);
+		String[] shippingInfor = shippingMethod.split("\\(");
+		System.out.println(shippingInfor[0].trim());
+		System.out.println(shippingInfor[1].substring(shippingInfor[1].length() - 1));
+		Assert.assertEquals(actualTotal, expectdTotal);
+		Assert.assertEquals(checkoutPage.getSubTotalAtTotalInfo(), subTotal);
+		Assert.assertEquals(checkoutPage.getShippingMethodAtTotalInfo(), "(" + shippingInfor[0].trim() + ")");
+		Assert.assertEquals(checkoutPage.getShippingAtTotalInfo(), shippingInfor[1].substring(0, shippingInfor[1].length() - 1));
+		Assert.assertEquals(checkoutPage.getTaxAtTotalInfo(), "$0.00");
+		Assert.assertEquals(checkoutPage.getTotalAtTotalInfo(), subTotal);
+
 	}
 	
 //	@AfterClass(alwaysRun = true)
