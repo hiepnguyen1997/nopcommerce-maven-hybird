@@ -2,6 +2,7 @@ package commons;
 
 import org.openqa.selenium.WebDriver;
 
+import pageObjects.nopCommerce.portal.OrderPageObject;
 import pageObjects.nopCommerce.portal.UserAddressPageObject;
 import pageObjects.nopCommerce.portal.UserChangePasswordPageObject;
 import pageObjects.nopCommerce.portal.UserCustomerInforPageObject;
@@ -37,6 +38,12 @@ public class SubMenuAtMyAccountPage extends BasePage{
 		waitForElementVisible(driver, BasePageUINopCommerce.MY_PRODUCT_LINK);
 		clickToElement(driver, BasePageUINopCommerce.MY_PRODUCT_LINK);
 		return PageGeneratorManager.getUserMyProductPage(driver);
+	}
+	
+	public OrderPageObject openOrderPage() {
+		waitForElementVisible(driver, BasePageUINopCommerce.ORDER_LINK);
+		clickToElement(driver, BasePageUINopCommerce.ORDER_LINK);
+		return PageGeneratorManager.getOrderPage(driver);
 	}
 
 }

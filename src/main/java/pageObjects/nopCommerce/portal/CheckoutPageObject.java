@@ -3,6 +3,7 @@ package pageObjects.nopCommerce.portal;
 import org.openqa.selenium.WebDriver;
 
 import commons.BasePage;
+import commons.PageGeneratorManager;
 import pageUIs.nopCommerce.user.CheckoutPageUI;
 
 public class CheckoutPageObject extends BasePage{
@@ -12,12 +13,22 @@ public class CheckoutPageObject extends BasePage{
 		this.driver = driver;
 	}
 
-	public void clickOnContinueButton(String pageTitle) {
+	public void clickOnContinueButtonByStepTitle(String pageTitle) {
 		waitForElementClickabled(driver, CheckoutPageUI.CONTINUE_BUTTON_BY_PAGE_TITLE, pageTitle);
 		clickToElement(driver, CheckoutPageUI.CONTINUE_BUTTON_BY_PAGE_TITLE, pageTitle);
 	}
 	
-	public String getBillingAddressInfomationByClassName(String className) {
+	public void clickOnEditButtonOfBillingAdress() {
+		waitForElementClickabled(driver, CheckoutPageUI.EDIT_BUTTON_AT_BILLING_ADDRESS);
+		clickToElement(driver, CheckoutPageUI.EDIT_BUTTON_AT_BILLING_ADDRESS);
+	}
+	
+	public void clickOnSaveButtonOfBillingAdress() {
+		waitForElementClickabled(driver, CheckoutPageUI.SAVE_BUTTON_AT_BILLING_ADDRESS);
+		clickToElement(driver, CheckoutPageUI.SAVE_BUTTON_AT_BILLING_ADDRESS);
+	}
+	
+	public String getBillingAddressAtCheckoutPageByClassName(String className) {
 		waitForElementVisible(driver, CheckoutPageUI.BILLING_ADDRESS_INFOMATION_BY_NAME, className);
 		return getElementText(driver, CheckoutPageUI.BILLING_ADDRESS_INFOMATION_BY_NAME, className);
 	}
@@ -80,5 +91,10 @@ public class CheckoutPageObject extends BasePage{
 		return getElementText(driver, CheckoutPageUI.TOTAL_INFOR_TOTAL);
 	}
 	
+	public UserHomePageObject clickOnconfirmButton() {
+		waitForElementVisible(driver, CheckoutPageUI.CONFIRM_BUTTON);
+		clickToElement(driver, CheckoutPageUI.CONFIRM_BUTTON);
+		return PageGeneratorManager.getUserHomePage(driver);
+	}
 	
 }

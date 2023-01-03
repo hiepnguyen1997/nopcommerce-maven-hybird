@@ -49,14 +49,12 @@ public class ShoppingCardPageObject extends BasePage{
 		int columnIndex = getElementSize(driver, ShoppingCardPageUI.COLUMN_INDEX_BY_NAME, columnName) + 1;
 		String price = getElementText(driver, ShoppingCardPageUI.VALUE_AT_ROW_NUMBER_BY_COLUMN_NAME, rowNumber, String.valueOf(columnIndex));
 		float actualTotalPrice = Float.parseFloat(price.substring(1).replace(",", ""));
-		System.out.println(actualTotalPrice);
 		return actualTotalPrice;
 	}
 
 	public float totalPriceOfProduct(String price, String quantityProduct) {
 		String newPrice = price.substring(1);
 		float numberPrice = Float.parseFloat(newPrice.replace(",", "")) * Integer.parseInt(quantityProduct);
-		System.out.println(numberPrice);
 		return numberPrice;
 	}
 

@@ -6,6 +6,7 @@ import pageObjects.nopCommerce.portal.CheckoutPageObject;
 import pageObjects.nopCommerce.portal.CompareListPageObject;
 import pageObjects.nopCommerce.portal.DesktopsPageObject;
 import pageObjects.nopCommerce.portal.NotebooksPageObject;
+import pageObjects.nopCommerce.portal.OrderPageObject;
 import pageObjects.nopCommerce.portal.ProductDetailPageObject;
 import pageObjects.nopCommerce.portal.ProductPreviewPageObject;
 import pageObjects.nopCommerce.portal.RecentlyViewProductPageObject;
@@ -93,5 +94,9 @@ public class PageGeneratorManager {
 	
 	public static CheckoutPageObject getCheckoutPage(WebDriver driver) {
 		return new CheckoutPageObject(driver);
+	}
+	
+	public static OrderPageObject getOrderPage(WebDriver driver) {
+		return new OrderPageObject(driver);
 	}
 }

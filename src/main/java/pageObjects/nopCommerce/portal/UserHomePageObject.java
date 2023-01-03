@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import commons.BasePage;
 import commons.ListPageAtTopMenu;
 import commons.PageGeneratorManager;
+import pageUIs.nopCommerce.user.CheckoutPageUI;
 import pageUIs.nopCommerce.user.HomePageUI;
 
 public class UserHomePageObject extends ListPageAtTopMenu {
@@ -37,6 +38,23 @@ public class UserHomePageObject extends ListPageAtTopMenu {
 		waitForElementVisible(driver, HomePageUI.MYACCOUNT_LINK);
 		clickToElement(driver, HomePageUI.MYACCOUNT_LINK);
 		return PageGeneratorManager.getUserCustomerPage(driver);
+	}
+	
+	public boolean isOrderSuccessfullMessageDisplayed() {
+		waitForElementVisible(driver, HomePageUI.ORDER_SUCCESSFULL_MESSAGE);
+		return isElementDisplayed(driver, HomePageUI.ORDER_SUCCESSFULL_MESSAGE);
+	}
+	
+	public boolean isOrderNumberDisplayed() {
+		waitForElementVisible(driver, HomePageUI.ORDER_NUMBER);
+		return isElementDisplayed(driver, HomePageUI.ORDER_NUMBER);
+	}
+	
+	public String splitOrderNumber() {
+		waitForElementVisible(driver, HomePageUI.ORDER_NUMBER);
+		String tempOrderNumber = getElementText(driver, HomePageUI.ORDER_NUMBER);
+		String[] orderNumber = tempOrderNumber.split(":");
+		return orderNumber[1].trim();
 	}
 
 }

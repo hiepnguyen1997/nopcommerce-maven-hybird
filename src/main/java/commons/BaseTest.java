@@ -294,7 +294,7 @@ public class BaseTest {
 			}
 		}
 	}
-
+	
 	protected String getCurrentDay() {
 		DateTime nowUTC = new DateTime();
 		int day = nowUTC.getDayOfMonth();
