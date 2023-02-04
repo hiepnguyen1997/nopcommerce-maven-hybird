@@ -20,5 +20,6 @@ public class OrderPageUI {
 	public static final String TOTAL_INFOR_SHIPPING = "xpath=//table[@class='cart-total']//label[text()='Shipping:']/parent::td/following-sibling::td/span";
 	public static final String TOTAL_INFOR_TAX = "xpath=//table[@class='cart-total']//label[text()='Tax:']/parent::td/following-sibling::td/span";
 	public static final String ORDER_TOTAL_INFOR_TOTAL = "xpath=//table[@class='cart-total']//label[text()='Order Total:']/parent::td/following-sibling::td/span";
+	public static final String RE_ORDER_BUTTON = "xpath=//button[text()='Re-order']";
 	
 }

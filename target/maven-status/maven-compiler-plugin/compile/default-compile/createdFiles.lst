@@ -37,6 +37,7 @@ utilities\EdgeBrowserManagement.class
 commons\BaseTest.class
 commons\FooterListMenuPage.class
 commons\TestNGAppender.class
+pageUIs\nopCommerce\user\OrderPageUI.class
 pageObjects\nopCommerce\portal\NotebooksPageObject.class
 pageUIs\nopCommerce\user\ShoppingCardPageUI.class
 pageUIs\nopCommerce\user\RegisterPageUI.class
@@ -55,9 +56,11 @@ commons\PageGeneratorManager.class
 commons\MethodListener.class
 pageUIs\nopCommerce\user\ProductDetailPageUI.class
 pageUIs\nopCommerce\user\CustomerInforPageUI.class
+pageObjects\nopCommerce\portal\OrderPageObject.class
 utilities\H_LessFirefoxBrowserManagement.class
 commons\EnvironmentList.class
 pageUIs\nopCommerce\user\CheckoutPageUI.class
+pageObjects\nopCommerce\admin\LoginPageObject_Admin.class
 utilities\FakeDataHelper.class
 exception\BrowserNotSupport.class
 commons\BasePage.class

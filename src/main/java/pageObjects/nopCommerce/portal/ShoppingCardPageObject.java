@@ -73,10 +73,10 @@ public class ShoppingCardPageObject extends BasePage{
 		return isElementUnDisplay(driver, ShoppingCardPageUI.PRODUCT_BY_NAME, productName);
 	}
 
-	public void inputToQtyByProductName(String quantityProduct2, String rowNumber, String columnName) {
+	public void inputToQtyByProductName(String quantityProduct, String rowNumber, String columnName) {
 		int columnIndex = getElementSize(driver, ShoppingCardPageUI.COLUMN_INDEX_BY_NAME, columnName) + 1;
 		waitForElementVisible(driver, ShoppingCardPageUI.ATTRIBUTE_VALUE_AT_ROW_NUMBER_BY_COLUMN_NAME, rowNumber, String.valueOf(columnIndex));
-		sendkeyToElement(driver, ShoppingCardPageUI.ATTRIBUTE_VALUE_AT_ROW_NUMBER_BY_COLUMN_NAME, quantityProduct2,rowNumber, String.valueOf(columnIndex));
+		sendkeyToElement(driver, ShoppingCardPageUI.ATTRIBUTE_VALUE_AT_ROW_NUMBER_BY_COLUMN_NAME, quantityProduct,rowNumber, String.valueOf(columnIndex));
 		
 	}
 
@@ -113,6 +113,7 @@ public class ShoppingCardPageObject extends BasePage{
 		waitForElementVisible(driver, ShoppingCardPageUI.ESTIMATE_SHIPPING_POPUP);
 		waitForElementVisible(driver, ShoppingCardPageUI.SHIP_TO_ZIP);
 		sendkeyToElement(driver, ShoppingCardPageUI.SHIP_TO_ZIP, zipCode);
+		//waitForElementInvisible(driver, ShoppingCardPageUI.SHIPPING_OPTION_LOADING);
 		sleepInSecond(2);
 	}
 

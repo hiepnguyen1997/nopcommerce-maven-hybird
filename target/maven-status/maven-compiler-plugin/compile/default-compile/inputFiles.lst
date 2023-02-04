@@ -10,6 +10,7 @@ D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\commons\GlobalCon
 D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\pageUIs\nopCommerce\user\ShoppingCardPageUI.java
 D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\exception\BrowserNotSupport.java
 D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\pageUIs\nopCommerce\user\DesktopsPageUI.java
+D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\pageUIs\nopCommerce\user\OrderPageUI.java
 D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\pageObjects\nopCommerce\portal\WishlistPageObject.java
 D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\pageUIs\nopCommerce\user\CompareListPageUI.java
 D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\commons\BasePageFactory.java
@@ -32,6 +33,7 @@ D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\utilities\EdgeBro
 D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\utilities\H_LessChromeBrowserManagement.java
 D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\pageUIs\nopCommerce\user\ProductPreviewPageUI.java
 D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\pageUIs\nopCommerce\user\CustomerInforPageUI.java
+D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\pageObjects\nopCommerce\portal\OrderPageObject.java
 D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\pageObjects\nopCommerce\portal\ShoppingCardPageObject.java
 D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\pageUIs\nopCommerce\user\HomePageUI.java
 D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\commons\MethodListener.java
@@ -48,6 +50,7 @@ D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\pageObjects\nopCo
 D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\utilities\BrowserFactory.java
 D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\utilities\EnvironmentConfig.java
 D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\commons\BaseTest.java
+D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\pageObjects\nopCommerce\admin\LoginPageObject_Admin.java
 D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\utilities\H_LessFirefoxBrowserManagement.java
 D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\pageObjects\nopCommerce\portal\ProductDetailPageObject.java
 D:\Automation\NopCommerce-Maven Hybrid Framework\src\main\java\pageObjects\nopCommerce\portal\UserCustomerInforPageObject.java

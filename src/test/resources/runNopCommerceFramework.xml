@@ -13,7 +13,7 @@
 			<class name="hybrid.nopcommerce.user.NopCommerce_Order" />
 			<methods>
 				<include name = "TC_05_Checkout_Order_Payment_Method_By_Cart" />
-				<include name = "TC_06_TC_Checkout_Order_Payment_Methoḍ_By_Cheque" />
+				<!--<include name = "TC_06_TC_Checkout_Order_Payment_Methoḍ_By_Cheque" />-->
 			</methods>
 
 		</classes>

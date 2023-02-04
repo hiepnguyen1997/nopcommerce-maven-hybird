@@ -1,4 +1,5 @@
 com\nopcommerce\data\NopCommerceTestData.class
+hybrid\nopcommerce\admin\NopCommerce_Admin.class
 hybrid\nopcommerce\user\NopCommerce_Register.class
 hybrid\nopcommerce\user\NopCommerce_Sort.class
 com\nopcommerce\data\NopCommerceTestData$SearchData.class

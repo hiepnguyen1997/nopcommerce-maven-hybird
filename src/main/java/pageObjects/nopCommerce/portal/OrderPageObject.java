@@ -6,6 +6,7 @@ import java.util.Locale;
 
 import org.openqa.selenium.WebDriver;
 
+import commons.PageGeneratorManager;
 import commons.SubMenuAtMyAccountPage;
 import pageUIs.nopCommerce.user.OrderPageUI;
 import pageUIs.nopCommerce.user.OrderPageUI;
@@ -89,5 +90,11 @@ public class OrderPageObject extends SubMenuAtMyAccountPage{
 	public String getTotalAtTotalInfo() {
 		waitForElementVisible(driver, OrderPageUI.ORDER_TOTAL_INFOR_TOTAL);
 		return getElementText(driver, OrderPageUI.ORDER_TOTAL_INFOR_TOTAL);
+	}
+
+	public ShoppingCardPageObject clickOnReOrderButton() {
+		waitForElementVisible(driver, OrderPageUI.RE_ORDER_BUTTON);
+		clickToElement(driver, OrderPageUI.RE_ORDER_BUTTON);
+		return PageGeneratorManager.getShoppingCardPage(driver);
 	}
 }
