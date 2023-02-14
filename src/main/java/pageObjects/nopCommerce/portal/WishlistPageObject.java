@@ -39,7 +39,7 @@ public class WishlistPageObject extends BasePage{
 	public ShoppingCardPageObject clickOnAddToCardButton() {
 		waitForElementVisible(driver, WishlistPageUI.ADD_TO_CARD_BUTTON);
 		clickToElement(driver, WishlistPageUI.ADD_TO_CARD_BUTTON);
-		sleepInSecond(2);
+		delay(2);
 		return PageGeneratorManager.getShoppingCardPage(driver);
 	}
 

@@ -91,10 +91,16 @@ public class CheckoutPageObject extends BasePage{
 		return getElementText(driver, CheckoutPageUI.TOTAL_INFOR_TOTAL);
 	}
 	
-	public UserHomePageObject clickOnconfirmButton() {
+	public UserHomePageObject clickOnConfirmButton() {
 		waitForElementVisible(driver, CheckoutPageUI.CONFIRM_BUTTON);
 		clickToElement(driver, CheckoutPageUI.CONFIRM_BUTTON);
 		return PageGeneratorManager.getUserHomePage(driver);
+	}
+	
+	public void acceptAlertPresenceWhenReOrder() {
+		waitForAlertPresence(driver);
+		acceptAlert(driver);
+		delay(10);
 	}
 	
 }

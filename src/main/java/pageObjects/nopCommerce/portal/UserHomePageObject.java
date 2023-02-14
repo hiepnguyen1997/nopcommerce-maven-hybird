@@ -2,10 +2,8 @@ package pageObjects.nopCommerce.portal;
 
 import org.openqa.selenium.WebDriver;
 
-import commons.BasePage;
 import commons.ListPageAtTopMenu;
 import commons.PageGeneratorManager;
-import pageUIs.nopCommerce.user.CheckoutPageUI;
 import pageUIs.nopCommerce.user.HomePageUI;
 
 public class UserHomePageObject extends ListPageAtTopMenu {
@@ -50,7 +48,7 @@ public class UserHomePageObject extends ListPageAtTopMenu {
 		return isElementDisplayed(driver, HomePageUI.ORDER_NUMBER);
 	}
 	
-	public String splitOrderNumber() {
+	public String getOrderNumber() {
 		waitForElementVisible(driver, HomePageUI.ORDER_NUMBER);
 		String tempOrderNumber = getElementText(driver, HomePageUI.ORDER_NUMBER);
 		String[] orderNumber = tempOrderNumber.split(":");

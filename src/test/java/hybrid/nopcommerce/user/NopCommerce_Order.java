@@ -14,7 +14,6 @@ import com.aventstack.extentreports.Status;
 
 import commons.BaseTest;
 import commons.PageGeneratorManager;
-import hybrid.nopcommerce.commons.Register_Commons;
 import pageObjects.nopCommerce.portal.CheckoutPageObject;
 import pageObjects.nopCommerce.portal.DesktopsPageObject;
 import pageObjects.nopCommerce.portal.NotebooksPageObject;
@@ -24,6 +23,7 @@ import pageObjects.nopCommerce.portal.ShoppingCardPageObject;
 import pageObjects.nopCommerce.portal.UserCustomerInforPageObject;
 import pageObjects.nopCommerce.portal.UserHomePageObject;
 import pageObjects.nopCommerce.portal.UserLoginPageObject;
+import pageObjects.nopCommerce.portal.UserRegisterPageObject;
 import reportConfig.ExtentTestManager;
 import utilities.EnvironmentConfig;
 import utilities.FakeDataHelper;
@@ -31,7 +31,8 @@ import utilities.FakeDataHelper;
 public class NopCommerce_Order extends BaseTest {
 	private WebDriver driver;
 	private UserHomePageObject homePage;
-	private UserLoginPageObject userLoginPage;
+	private UserRegisterPageObject registerPage;
+	private UserLoginPageObject loginPage;
 	private DesktopsPageObject desktopPage;
 	private NotebooksPageObject notebooksPage;
 	private ProductDetailPageObject productDetailPage;
@@ -46,7 +47,7 @@ public class NopCommerce_Order extends BaseTest {
 	private String productName1, productName2, productName3, processer, RAM, HDD, OS, softwareMicrosoftOffice, softwareAcrobatReader, softwareTotalCommander, price;
 	private String processerEdit, RAMEdit, HDDEdit, OSEdit, quantityProduct1, quantityProduct2;
 	private String giftWrappingOption, shiptoCountry, shiptoProvince, shiptoZipcode;
-	private String company, country, city, address1, address2, zipCode, phoneNumber, faxNumber;
+	private String lastName, firstName, company, country, city, address1, address2, zipCode, phoneNumber, faxNumber;
 	private String firstname_2, lastname_2, email_2, company_2, country_2, city_2, address1_2, address2_2, zipCode_2, phoneNumber_2, faxNumber_2;
 	private String firstnameReOrder, lastnameReOrder, emailReOrder, companyReOrder, countryReOrder, cityReOrder, address1ReOrder, address2ReOrder, zipCodeReOrder, phoneNumberReOrder, faxNumberReOrder;
 	private String shippingMethod_NextDayAir, shippingMethod_2ndDayAir, paymentMethod_1, paymentMethod_2;
@@ -59,8 +60,11 @@ public class NopCommerce_Order extends BaseTest {
 		ConfigFactory.setProperty("evn", environmentName);
 		environmentConfig = ConfigFactory.create(EnvironmentConfig.class);
 		fakeData = FakeDataHelper.getFakeDataHelper();
-		email = Register_Commons.emailAddress;
-		password = Register_Commons.password;
+		
+		lastName = fakeData.getLastName();
+		firstName = fakeData.getFirstName();
+		email = fakeData.getEmailAddress();
+		password = fakeData.getPassword();
 		productName1 = "Build your own computer";
 		productName2 = "Lenovo IdeaCentre 600 All-in-One PC";
 		productName3 = "Apple MacBook Pro 13-inch";
@@ -120,7 +124,7 @@ public class NopCommerce_Order extends BaseTest {
 		paymentMethod_2 = "Check / Money Order";
 		creditCard = "Master card";
 		cardHolderName = "BIDV";
-		cardNumber = fakeData.getCardNumber();
+		cardNumber = "6007-2244-6151-3240";
 		expirationMonth = "08";
 		expirationYear = "2023";
 		cardCode = String.valueOf(generatorNumber());
@@ -128,19 +132,43 @@ public class NopCommerce_Order extends BaseTest {
 		driver = getBrowserDriverMananment(browserName, environmentConfig.getWebURL());
 		homePage = PageGeneratorManager.getUserHomePage(driver);
 
-		log.info("Pre-Conditions: Click on Login link");
-		userLoginPage = homePage.clickOnLoginLink();
+		log.info("Pre-Condidtion: Step 1 - Click on Register link");
+		registerPage = homePage.clickToRegisterLink();
+		
+		log.info("Pre-Condidtion: Step 2 - Input to FirstName textbox by: " + firstName);
+		registerPage.inputToTextboxByID(driver, "FirstName", firstName);
+		
+		log.info("Pre-Condidtion: Step 3 - Input to LasttName textbox by: " + lastName);
+		registerPage.inputToTextboxByID(driver, "LastName", lastName);
+		
+		log.info("Pre-Condidtion: Step 4 - Input to Email textbox by: " + email);
+		registerPage.inputToTextboxByID(driver, "Email", email);
+		
+		log.info("Pre-Condidtion: Step 5 - Input to Password textbox by: " + password);
+		registerPage.inputToTextboxByID(driver, "Password", password);
+		
+		log.info("Pre-Condidtion: Step 6 - Input to Confirm Password textbox by: " + password);
+		registerPage.inputToTextboxByID(driver, "ConfirmPassword", password);
+		
+		log.info("Pre-Condidtion: Step 7 - Click on Register button");
+		registerPage.clickToRegisterButton();
+		
+		log.info("Pre-Condidtion: Step 8 - Verify Register message successfull display");
+		Assert.assertEquals(registerPage.getRegisterSuccessMessage(), "Your registration completed");
 
-		log.info("Pre-Conditions: Input to email: " + email);
-		userLoginPage.inputToEmailTextBox(email);
+		log.info("Pre-Conditon: Step 9 - Click on Login link");
+		loginPage = homePage.clickOnLoginLink();
 
-		log.info("Pre-Conditions: Input to password: " + password);
-		userLoginPage.inputToPasswordTextBox(password);
+		log.info("Pre-Conditon: Step 10 - Input to Email with data: " + email);
+		loginPage.inputToEmailTextBox(email);
 
-		log.info("Pre-Conditions: Click on Login button");
-		homePage = userLoginPage.clickOnLoginButton();
+		log.info("Pre-Conditon: Step 11 - Input to Confirm Password with data: " + password);
+		loginPage.inputToPasswordTextBox(password);
 
-		log.info("Pre-Conditions: Verify login successfull");
+		log.info("Pre-Conditon: Step 12 - Click on Login button");
+		homePage = loginPage.clickOnLoginButton();
+
+		log.info("Pre-Conditon: Step 13 - Verify My Account link displayed");
 		Assert.assertTrue(homePage.isMyAccountLinkDisplayed());
 	}
 
@@ -359,15 +387,15 @@ public class NopCommerce_Order extends BaseTest {
 		log.info("Step 04: Verify the product has been add to shopping cart message display");
 		Assert.assertEquals(productDetailPage.getProductAddToCartMessage(), "The product has been added to your shopping cart");
 		productDetailPage.closeNoitificationMessage();
-		String price = productDetailPage.getTotalPrice();
+		productPrice = productDetailPage.getTotalPrice();
 
 		ExtentTestManager.getTest().log(Status.INFO, "Step 05: Click on Shopping Cart link");
 		log.info("Step 05: Click on Shopping Cart link");
 		shoppingCartPage = productDetailPage.clickOnShoppingCartLink(driver);
 		Assert.assertEquals(shoppingCartPage.getProductValueAtRowNumberByColumnName("1", "Product(s)"), productName3);
-		Assert.assertEquals(shoppingCartPage.getProductValueAtRowNumberByColumnName("1", "Price"), price);
+		Assert.assertEquals(shoppingCartPage.getProductValueAtRowNumberByColumnName("1", "Price"), productPrice);
 		String quantityProd = shoppingCartPage.getAttributeValueAtRowNumberByColumnName("1", "Qty.", "value");
-		Assert.assertEquals(shoppingCartPage.totalPriceOfProduct(price, quantityProd), shoppingCartPage.getTotalPriceAtShoppingCart("1", "Total"));
+		Assert.assertEquals(shoppingCartPage.totalPriceOfProduct(productPrice, quantityProd), shoppingCartPage.getTotalPriceAtShoppingCart("1", "Total"));
 
 		ExtentTestManager.getTest().log(Status.INFO, "Step 06: Select the No option on Gift wrapping");
 		log.info("Step 06: Select the No option on Gift wrapping");
@@ -483,7 +511,7 @@ public class NopCommerce_Order extends BaseTest {
 
 		ExtentTestManager.getTest().log(Status.INFO, "Step 34: Verify the previous information display correctly");
 		log.info("Step 34: Verify the previous information display correctly");
-		Assert.assertEquals(checkoutPage.getBillingAddressAtCheckoutPageByClassName("name"), Register_Commons.firstName + " " + Register_Commons.lastName);
+		Assert.assertEquals(checkoutPage.getBillingAddressAtCheckoutPageByClassName("name"), firstName + " " + lastName);
 		Assert.assertEquals(checkoutPage.getBillingAddressAtCheckoutPageByClassName("email"), "Email: " + email);
 		Assert.assertEquals(checkoutPage.getBillingAddressAtCheckoutPageByClassName("phone"), "Phone: " + phoneNumber);
 		Assert.assertEquals(checkoutPage.getBillingAddressAtCheckoutPageByClassName("fax"), "Fax: " + faxNumber);
@@ -493,12 +521,12 @@ public class NopCommerce_Order extends BaseTest {
 		Assert.assertEquals(checkoutPage.getBillingAddressAtCheckoutPageByClassName("city-state-zip"), city + "," + zipCode);
 		Assert.assertEquals(checkoutPage.getBillingAddressAtCheckoutPageByClassName("country"), country);
 		Assert.assertEquals(checkoutPage.getTextValueAtRowNumberByColumnName("1", "Product(s)"), productName3);
-		Assert.assertEquals(checkoutPage.getPriceCheckoutByProductName(productName3), price);
+		Assert.assertEquals(checkoutPage.getPriceCheckoutByProductName(productName3), productPrice);
 		String subTotal = checkoutPage.getTextValueAtRowNumberByColumnName("1", "Total");
 		Assert.assertEquals(checkoutPage.getQtyProductCheckoutByProductName(productName3), quantityProd);
 		Assert.assertEquals(checkoutPage.getGiftWappingOption(), "Gift wrapping: " + giftWrappingOption);
 		float actualTotal = checkoutPage.convertToNumberTotalPriceCheckoutByProductName(productName3);
-		float expectdTotal = checkoutPage.caculateTotalPrice(price, quantityProd);
+		float expectdTotal = checkoutPage.caculateTotalPrice(productPrice, quantityProd);
 		String[] shippingInfor = shippingMethod_NextDayAir.split("\\(");
 		Assert.assertEquals(actualTotal, expectdTotal);
 		Assert.assertEquals(checkoutPage.getSubTotalAtTotalInfo(), subTotal);
@@ -509,13 +537,13 @@ public class NopCommerce_Order extends BaseTest {
 
 		ExtentTestManager.getTest().log(Status.INFO, "Step 35: Click on Confirm button");
 		log.info("Step 35: Click on Confirm button");
-		homePage = checkoutPage.clickOnconfirmButton();
+		homePage = checkoutPage.clickOnConfirmButton();
 
 		ExtentTestManager.getTest().log(Status.INFO, "Step 36: Verify the oreder successfull message and the number order display");
 		log.info("Step 36: Verify the oreder successfull message and the number order display");
 		Assert.assertTrue(homePage.isOrderSuccessfullMessageDisplayed());
 		Assert.assertTrue(homePage.isOrderNumberDisplayed());
-		orderNumber = homePage.splitOrderNumber();
+		orderNumber = homePage.getOrderNumber();
 		System.out.println(orderNumber);
 
 		ExtentTestManager.getTest().log(Status.INFO, "Step 37: Click on My Account link");
@@ -540,8 +568,8 @@ public class NopCommerce_Order extends BaseTest {
 
 		ExtentTestManager.getTest().log(Status.INFO, "Step 42: Verify the date order display correctly");
 		log.info("Step 42: Verify the date order display correctly");
-		orderDate = orderPage.getFullLocationDate();
-		Assert.assertTrue(orderPage.isOrderDateByDateDisplayed(orderDate));
+		orderDate = orderPage.getTheTimeZone("en", "America/Chicago");
+		Assert.assertEquals(orderPage.getOrderDate(), orderDate);
 
 		ExtentTestManager.getTest().log(Status.INFO, "Step 43: Verify the status order display correctly");
 		log.info("Step 43: Verify the status order display correctly");
@@ -553,7 +581,7 @@ public class NopCommerce_Order extends BaseTest {
 
 		ExtentTestManager.getTest().log(Status.INFO, "Step 45: Verify the Billing Address display correctly");
 		log.info("Step 45: Verify the Billing Address display correctly");
-		Assert.assertEquals(orderPage.getBillingAddressAtOrderPageByClassName("name"), Register_Commons.firstName + " " + Register_Commons.lastName);
+		Assert.assertEquals(orderPage.getBillingAddressAtOrderPageByClassName("name"), firstName + " " + lastName);
 		Assert.assertEquals(orderPage.getBillingAddressAtOrderPageByClassName("email"), "Email: " + email);
 		Assert.assertEquals(orderPage.getBillingAddressAtOrderPageByClassName("phone"), "Phone: " + phoneNumber);
 		Assert.assertEquals(orderPage.getBillingAddressAtOrderPageByClassName("fax"), "Fax: " + faxNumber);
@@ -563,7 +591,7 @@ public class NopCommerce_Order extends BaseTest {
 		Assert.assertEquals(orderPage.getBillingAddressAtOrderPageByClassName("city-state-zip"), city + "," + zipCode);
 		Assert.assertEquals(orderPage.getBillingAddressAtOrderPageByClassName("country"), country);
 		Assert.assertEquals(orderPage.getTextValueAtRowNumberByColumnName("1", "Name"), productName3);
-		Assert.assertEquals(orderPage.getTextValueAtRowNumberByColumnName("1", "Price"), price);
+		Assert.assertEquals(orderPage.getTextValueAtRowNumberByColumnName("1", "Price"), productPrice);
 		Assert.assertEquals(orderPage.getTextValueAtRowNumberByColumnName("1", "Quantity"), quantityProd);
 		Assert.assertEquals(orderPage.getTextValueAtRowNumberByColumnName("1", "Total"), subTotal);
 		Assert.assertEquals(orderPage.getGiftWappingOption(), "Gift wrapping: " + giftWrappingOption);
@@ -738,17 +766,17 @@ public class NopCommerce_Order extends BaseTest {
 		Assert.assertEquals(checkoutPage.getShippingAtTotalInfo(), shippingInfor[1].substring(0, shippingInfor[1].length() - 1));
 		Assert.assertEquals(checkoutPage.getTaxAtTotalInfo(), "$0.00");
 		Assert.assertEquals(checkoutPage.getTotalAtTotalInfo(), subTotal);
-		delay(5);
+		delay(10);
 
 		ExtentTestManager.getTest().log(Status.INFO, "Step 34: Click on Confirm button");
 		log.info("Step 34: Click on Confirm button");
-		homePage = checkoutPage.clickOnconfirmButton();
+		homePage = checkoutPage.clickOnConfirmButton();
 
 		ExtentTestManager.getTest().log(Status.INFO, "Step 35: Verify the oreder successfull message and the number order display");
 		log.info("Step 35: Verify the oreder successfull message and the number order display");
 		Assert.assertTrue(homePage.isOrderSuccessfullMessageDisplayed());
 		Assert.assertTrue(homePage.isOrderNumberDisplayed());
-		orderNumber = homePage.splitOrderNumber();
+		orderNumber = homePage.getOrderNumber();
 
 		ExtentTestManager.getTest().log(Status.INFO, "Step 36: Click on My Account link");
 		log.info("Step 36: Click on My Account link");
@@ -772,9 +800,8 @@ public class NopCommerce_Order extends BaseTest {
 
 		ExtentTestManager.getTest().log(Status.INFO, "Step 41: Verify the date order display correctly");
 		log.info("Step 41: Verify the date order display correctly");
-		orderDate = orderPage.getFullLocationDate();
-		System.out.println(orderDate);
-		Assert.assertTrue(orderPage.isOrderDateByDateDisplayed(orderDate));
+		orderDate = orderPage.getTheTimeZone("en", "America/Chicago");
+		Assert.assertEquals(orderPage.getOrderDate(), orderDate);
 
 		ExtentTestManager.getTest().log(Status.INFO, "Step 42: Verify the status order display correctly");
 		log.info("Step 42: Verify the status order display correctly");
@@ -814,7 +841,7 @@ public class NopCommerce_Order extends BaseTest {
 		ExtentTestManager.startTest(method.getName(), "TC 07: Re-order the product");
 		ExtentTestManager.getTest().log(Status.INFO, "Step 01: Open My Account page");
 		log.info("Step 01: Open My Account page");
-		customerPage = orderPage.openCustomerInforPage();
+		customerPage = orderPage.clickOnMyAccountLink(driver);
 
 		ExtentTestManager.getTest().log(Status.INFO, "Step 02: Open Order page");
 		log.info("Step 02: Open Order page");
@@ -831,7 +858,7 @@ public class NopCommerce_Order extends BaseTest {
 
 		ExtentTestManager.getTest().log(Status.INFO, "Step 05: Update the number quantyti of product");
 		log.info("Step 05: Update the number quantyti of product");
-		shoppingCartPage.inputToQtyByProductName(quantityProductReOrder, "1", "Qty");
+		shoppingCartPage.inputToQtyByProductName(quantityProductReOrder, "1", "Qty.");
 
 		ExtentTestManager.getTest().log(Status.INFO, "Step : Click on Update Shopping cart button");
 		log.info("Step : Click on Update Shopping cart button");
@@ -874,21 +901,109 @@ public class NopCommerce_Order extends BaseTest {
 		checkoutPage.clickOnRadioButtonByLabelName(driver, shippingMethod_NextDayAir);
 
 		ExtentTestManager.getTest().log(Status.INFO, "Step : Click on Continue and go to Confirm order step");
-		log.info("Step : ");
+		log.info("Step : Click on Continue and go to Confirm order step");
+		checkoutPage.clickOnContinueButtonByStepTitle("Shipping method");
+		checkoutPage.clickOnContinueButtonByStepTitle("Payment method");
+		checkoutPage.clickOnContinueButtonByStepTitle("Payment information");
 
-		ExtentTestManager.getTest().log(Status.INFO, "Step : ");
-		log.info("Step : ");
+		ExtentTestManager.getTest().log(Status.INFO, "Step : Verify the edit information display correctly");
+		log.info("Step : Verify the edit information display correctly");
+		Assert.assertEquals(checkoutPage.getBillingAddressAtCheckoutPageByClassName("name"), firstnameReOrder + " " + lastnameReOrder);
+		Assert.assertEquals(checkoutPage.getBillingAddressAtCheckoutPageByClassName("email"), "Email: " + emailReOrder);
+		Assert.assertEquals(checkoutPage.getBillingAddressAtCheckoutPageByClassName("phone"), "Phone: " + phoneNumberReOrder);
+		Assert.assertEquals(checkoutPage.getBillingAddressAtCheckoutPageByClassName("fax"), "Fax: " + faxNumberReOrder);
+		Assert.assertEquals(checkoutPage.getBillingAddressAtCheckoutPageByClassName("company"), companyReOrder);
+		Assert.assertEquals(checkoutPage.getBillingAddressAtCheckoutPageByClassName("address1"), address1ReOrder);
+		Assert.assertEquals(checkoutPage.getBillingAddressAtCheckoutPageByClassName("address2"), address2ReOrder);
+		Assert.assertEquals(checkoutPage.getBillingAddressAtCheckoutPageByClassName("city-state-zip"), cityReOrder + "," + zipCodeReOrder);
+		Assert.assertEquals(checkoutPage.getBillingAddressAtCheckoutPageByClassName("country"), countryReOrder);
+		Assert.assertEquals(checkoutPage.getTextValueAtRowNumberByColumnName("1", "Product(s)"), productName3);
+		Assert.assertEquals(checkoutPage.getPriceCheckoutByProductName(productName3), productPrice);
+		String subTotal = checkoutPage.getTextValueAtRowNumberByColumnName("1", "Total");
+		Assert.assertEquals(checkoutPage.getQtyProductCheckoutByProductName(productName3), quantityProductReOrder);
+		Assert.assertEquals(checkoutPage.getGiftWappingOption(), "Gift wrapping: " + giftWrappingOption);
+		float actualTotal = checkoutPage.convertToNumberTotalPriceCheckoutByProductName(productName3);
+		float expectdTotal = checkoutPage.caculateTotalPrice(productPrice, quantityProductReOrder);
+		String[] shippingInfor = shippingMethod_NextDayAir.split("\\(");
+		Assert.assertEquals(actualTotal, expectdTotal);
+		Assert.assertEquals(checkoutPage.getSubTotalAtTotalInfo(), subTotal);
+		Assert.assertEquals(checkoutPage.getShippingMethodAtTotalInfo(), "(" + shippingInfor[0].trim() + ")");
+		Assert.assertEquals(checkoutPage.getShippingAtTotalInfo(), shippingInfor[1].substring(0, shippingInfor[1].length() - 1));
+		Assert.assertEquals(checkoutPage.getTaxAtTotalInfo(), "$0.00");
+		Assert.assertEquals(checkoutPage.getTotalAtTotalInfo(), subTotal);
+		delay(15);
 
-		ExtentTestManager.getTest().log(Status.INFO, "Step : ");
-		log.info("Step : ");
+		ExtentTestManager.getTest().log(Status.INFO, "Step : Click on Confirm button");
+		log.info("Step : Click on Confirm button");
+		homePage = checkoutPage.clickOnConfirmButton();
 
-		ExtentTestManager.getTest().log(Status.INFO, "Step : ");
-		log.info("Step : ");
+		ExtentTestManager.getTest().log(Status.INFO, "Step : Verify the order successfully message display");
+		log.info("Step : Verify the order successfully message display");
+		Assert.assertTrue(homePage.isOrderSuccessfullMessageDisplayed());
+		Assert.assertTrue(homePage.isOrderNumberDisplayed());
+		orderNumber = homePage.getOrderNumber();
+		
+		ExtentTestManager.getTest().log(Status.INFO, "Step 36: Click on My Account link");
+		log.info("Step 36: Click on My Account link");
+		customerPage = homePage.clickOnMyAccountLink();
+
+		ExtentTestManager.getTest().log(Status.INFO, "Step 37: Click on Order page");
+		log.info("Step 37: Click on Order page");
+		orderPage = customerPage.openOrderPage();
+
+		ExtentTestManager.getTest().log(Status.INFO, "Step 38: Verify the number order display");
+		log.info("Step 38: Verify the number order display");
+		Assert.assertTrue(orderPage.isOrderByNumberDisplayed(orderNumber));
+
+		ExtentTestManager.getTest().log(Status.INFO, "Step 39: Click on Detail of oreder number");
+		log.info("Step 39: Click on Detail of oreder number");
+		orderPage.clickOnDetailButtonOfOrderNumber(orderNumber);
+
+		ExtentTestManager.getTest().log(Status.INFO, "Step 40: Verify the order ID display correctly");
+		log.info("Step 40: Verify the order ID display correctly");
+		Assert.assertTrue(orderPage.isOrderIDByOrderNumberDisplayed(orderNumber));
+
+		ExtentTestManager.getTest().log(Status.INFO, "Step 41: Verify the date order display correctly");
+		log.info("Step 41: Verify the date order display correctly");
+		orderDate = orderPage.getTheTimeZone("en", "America/Chicago");
+		Assert.assertEquals(orderPage.getOrderDate(), orderDate);
+
+		ExtentTestManager.getTest().log(Status.INFO, "Step 42: Verify the status order display correctly");
+		log.info("Step 42: Verify the status order display correctly");
+		Assert.assertTrue(orderPage.isOrderStatusByStatusDisplayed(orderStatus));
+
+		ExtentTestManager.getTest().log(Status.INFO, "Step 43: Verify the order total display correctly");
+		log.info("Step 43: Verify the order total display correctly");
+		Assert.assertTrue(orderPage.isOrderTotalByTotalDislayed(subTotal));
+
+		ExtentTestManager.getTest().log(Status.INFO, "Step 44: Verify the Billing Address display correctly");
+		log.info("Step 44: Verify the Billing Address display correctly");
+		Assert.assertEquals(orderPage.getBillingAddressAtOrderPageByClassName("name"), firstnameReOrder + " " + lastnameReOrder);
+		Assert.assertEquals(orderPage.getBillingAddressAtOrderPageByClassName("email"), "Email: " + emailReOrder);
+		Assert.assertEquals(orderPage.getBillingAddressAtOrderPageByClassName("phone"), "Phone: " + phoneNumberReOrder);
+		Assert.assertEquals(orderPage.getBillingAddressAtOrderPageByClassName("fax"), "Fax: " + faxNumberReOrder);
+		Assert.assertEquals(orderPage.getBillingAddressAtOrderPageByClassName("company"), companyReOrder);
+		Assert.assertEquals(orderPage.getBillingAddressAtOrderPageByClassName("address1"), address1ReOrder);
+		Assert.assertEquals(orderPage.getBillingAddressAtOrderPageByClassName("address2"), address2ReOrder);
+		Assert.assertEquals(orderPage.getBillingAddressAtOrderPageByClassName("city-state-zip"), cityReOrder + "," + zipCodeReOrder);
+		Assert.assertEquals(orderPage.getBillingAddressAtOrderPageByClassName("country"), countryReOrder);
+		Assert.assertEquals(orderPage.getTextValueAtRowNumberByColumnName("1", "Name"), productName3);
+		Assert.assertEquals(orderPage.getTextValueAtRowNumberByColumnName("1", "Price"), productPrice);
+		Assert.assertEquals(orderPage.getTextValueAtRowNumberByColumnName("1", "Quantity"), quantityProductReOrder);
+		Assert.assertEquals(orderPage.getTextValueAtRowNumberByColumnName("1", "Total"), subTotal);
+		Assert.assertEquals(orderPage.getGiftWappingOption(), "Gift wrapping: " + giftWrappingOption);
+
+		ExtentTestManager.getTest().log(Status.INFO, "Step 45: Verify the product order information display correctly");
+		log.info("Step 45: Verify the product order information display correctly");
+		Assert.assertEquals(orderPage.getSubTotalAtTotalInfo(), subTotal);
+		Assert.assertEquals(orderPage.getShippingAtTotalInfo(), shippingInfor[1].substring(0, shippingInfor[1].length() - 1));
+		Assert.assertEquals(orderPage.getTaxAtTotalInfo(), "$0.00");
+		Assert.assertEquals(orderPage.getTotalAtTotalInfo(), subTotal);
 
 	}
 
-//	@AfterClass(alwaysRun = true)
-//	public void afterClass() {
-//		closeBrowserAndDriver();
-//	}
+	@AfterClass(alwaysRun = true)
+	public void afterClass() {
+		closeBrowserAndDriver();
+	}
 }

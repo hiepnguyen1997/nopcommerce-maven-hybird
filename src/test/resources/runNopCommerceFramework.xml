@@ -2,20 +2,14 @@
 <suite name="NopCommerce">
 
 	<listeners>
-		<listener class-name="commons.MethodListener" />
-		<listener class-name="reportConfig.ExtentTestListener" />
+		<!--<listener class-name="commons.MethodListener" />-->
+		<!-- <listener class-name="reportConfig.ExtentTestListener" />-->
 	</listeners>
-	<parameter name="environment" value="userStaging" />
+	<parameter name="environment" value="adminStaging" />
 	<test name="Run on Chorme" preserve-order="true">
 		<parameter name="browser" value="chrome" />
 		<classes>
-			<class name="hybrid.nopcommerce.commons.Register_Commons" />
-			<class name="hybrid.nopcommerce.user.NopCommerce_Order" />
-			<methods>
-				<include name = "TC_05_Checkout_Order_Payment_Method_By_Cart" />
-				<!--<include name = "TC_06_TC_Checkout_Order_Payment_Methoḍ_By_Cheque" />-->
-			</methods>
-
+			<class name="hybrid.nopcommerce.admin.NopCommerce_Admin" />
 		</classes>
 	</test>
 </suite>

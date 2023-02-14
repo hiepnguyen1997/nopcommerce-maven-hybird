@@ -114,7 +114,7 @@ public class ShoppingCardPageObject extends BasePage{
 		waitForElementVisible(driver, ShoppingCardPageUI.SHIP_TO_ZIP);
 		sendkeyToElement(driver, ShoppingCardPageUI.SHIP_TO_ZIP, zipCode);
 		//waitForElementInvisible(driver, ShoppingCardPageUI.SHIPPING_OPTION_LOADING);
-		sleepInSecond(2);
+		delay(2);
 	}
 
 	public void clickOnApplyButton() {

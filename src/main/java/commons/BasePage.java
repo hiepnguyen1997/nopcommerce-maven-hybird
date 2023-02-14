@@ -22,10 +22,12 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import bsh.commands.dir;
 import pageObjects.nopCommerce.portal.ShoppingCardPageObject;
+import pageObjects.nopCommerce.portal.UserCustomerInforPageObject;
 import pageObjects.nopCommerce.portal.UserHomePageObject;
 import pageObjects.nopCommerce.portal.WishlistPageObject;
 import pageUIs.nopCommerce.user.BasePageUINopCommerce;
 import pageUIs.nopCommerce.user.DesktopsPageUI;
+import pageUIs.nopCommerce.user.HomePageUI;
 
 public class BasePage {
 
@@ -67,6 +69,7 @@ public class BasePage {
 	}
 
 	protected void acceptAlert(WebDriver driver) {
+		//driver.switchTo().alert();
 		waitForAlertPresence(driver).accept();
 	}
 
@@ -523,7 +526,7 @@ public class BasePage {
 		for (Cookie cookie : cookies) {
 			driver.manage().addCookie(cookie);
 		}
-		sleepInSecond(3);
+		delay(3);
 	}
 
 	public UserHomePageObject clickOnLougoutLinkUserPage(WebDriver driver) {
@@ -624,6 +627,12 @@ public class BasePage {
 		return new FooterListMenuPage(driver);
 	}
 	
+	public UserCustomerInforPageObject clickOnMyAccountLink(WebDriver driver) {
+		waitForElementVisible(driver, HomePageUI.MYACCOUNT_LINK);
+		clickToElement(driver, HomePageUI.MYACCOUNT_LINK);
+		return PageGeneratorManager.getUserCustomerPage(driver);
+	}
+	
 	public WishlistPageObject clickOnWishlistLink(WebDriver driver) {
 		waitForElementVisible(driver, BasePageUINopCommerce.WISHLIST_LINK);
 		clickToElement(driver, BasePageUINopCommerce.WISHLIST_LINK);
@@ -660,7 +669,7 @@ public class BasePage {
 		return rand.nextInt(9999);
 	}
 
-	protected void sleepInSecond(long unit) {
+	protected void delay(long unit) {
 		try {
 			Thread.sleep(unit * 1000);
 		} catch (InterruptedException e) {

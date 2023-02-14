@@ -35,7 +35,7 @@ public class ProductDetailPageObject extends BasePage{
 	public void closeNoitificationMessage() {
 		waitForElementClickabled(driver, ProductDetailPageUI.CLOSE_BAR_NOITIFICATION);
 		clickToElement(driver, ProductDetailPageUI.CLOSE_BAR_NOITIFICATION);
-		sleepInSecond(2);
+		delay(2);
 		
 	}
 
@@ -70,7 +70,7 @@ public class ProductDetailPageObject extends BasePage{
 		waitForElementVisible(driver, ProductDetailPageUI.SOFTWARE_CHECKBOX, softwareOption);
 		waitForElementClickabled(driver, ProductDetailPageUI.SOFTWARE_CHECKBOX, softwareOption);
 		checkToDefaultCheckboxRadio(driver, ProductDetailPageUI.SOFTWARE_CHECKBOX, softwareOption);
-		sleepInSecond(1);
+		delay(1);
 		
 	}
 	
@@ -78,7 +78,7 @@ public class ProductDetailPageObject extends BasePage{
 		waitForElementVisible(driver, ProductDetailPageUI.SOFTWARE_CHECKBOX, softwareOption);
 		waitForElementClickabled(driver, ProductDetailPageUI.SOFTWARE_CHECKBOX, softwareOption);
 		unCheckToDefaultCheckbox(driver, ProductDetailPageUI.SOFTWARE_CHECKBOX, softwareOption);
-		sleepInSecond(1);
+		delay(1);
 		
 	}
 

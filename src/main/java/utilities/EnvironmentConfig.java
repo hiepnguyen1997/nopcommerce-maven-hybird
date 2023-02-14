@@ -7,4 +7,10 @@ import org.aeonbits.owner.Config.Sources;
 public interface EnvironmentConfig extends Config{
 	@Key("App.URL")
 	String getWebURL();
+	
+	@Key("App.Email")
+	String getEmail();
+	
+	@Key("App.Password")
+	String getPassword();
 }

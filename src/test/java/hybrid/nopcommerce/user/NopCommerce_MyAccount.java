@@ -34,9 +34,9 @@ import utilities.FakeDataHelper;
 
 public class NopCommerce_MyAccount extends BaseTest {
 	private WebDriver driver;
-	private String male, female;
+	private String female;
 	private String newFullName, newFirstName, newLastName, newEmail, newPassword, newDayOfBirth, newMonthOfBirth, newYearOfBirth, newCompany;
-	private String country, city, address_1, address_2, zip, phoneNumber, faxNumber;
+	private String lastName, firstName, email, password, country, city, address_1, address_2, zip, phoneNumber, faxNumber;
 	private String productName, reviewTitle, reviewBody;
 	private int randomNumber;
 
@@ -63,9 +63,8 @@ public class NopCommerce_MyAccount extends BaseTest {
 		dataHelper = FakeDataHelper.getFakeDataHelper();
 
 		randomNumber = generateRandomNumber();
-		male = "Male";
 		female = "Female";
-
+		
 		newEmail = dataHelper.getEmailAddress();
 		newFirstName = dataHelper.getFirstName();
 		newLastName = dataHelper.getLastName();
@@ -77,6 +76,10 @@ public class NopCommerce_MyAccount extends BaseTest {
 		newCompany = dataHelper.getCompany();
 
 		//country = dataHelper.getCountry();
+		lastName = dataHelper.getLastName();
+		firstName = dataHelper.getFirstName();
+		email = dataHelper.getEmailAddress();
+		password = dataHelper.getPassword();
 		country = "Viet Nam";
 		city = dataHelper.getCity();
 		address_1 = dataHelper.getAddress();
@@ -88,20 +91,44 @@ public class NopCommerce_MyAccount extends BaseTest {
 		productName = "Digital Storm VANQUISH 3 Custom Performance PC";
 		reviewTitle = "Title of review " + randomNumber;
 		reviewBody = "Body of review " + randomNumber;
+		
+		log.info("Pre-Condidtion: Step 1 - Click on Register link");
+		registerPage = homePage.clickToRegisterLink();
+		
+		log.info("Pre-Condidtion: Step 2 - Input to FirstName textbox by: " + firstName);
+		registerPage.inputToTextboxByID(driver, "FirstName", firstName);
+		
+		log.info("Pre-Condidtion: Step 3 - Input to LasttName textbox by: " + lastName);
+		registerPage.inputToTextboxByID(driver, "LastName", lastName);
+		
+		log.info("Pre-Condidtion: Step 4 - Input to Email textbox by: " + email);
+		registerPage.inputToTextboxByID(driver, "Email", email);
+		
+		log.info("Pre-Condidtion: Step 5 - Input to Password textbox by: " + password);
+		registerPage.inputToTextboxByID(driver, "Password", password);
+		
+		log.info("Pre-Condidtion: Step 6 - Input to Confirm Password textbox by: " + password);
+		registerPage.inputToTextboxByID(driver, "ConfirmPassword", password);
+		
+		log.info("Pre-Condidtion: Step 7 - Click on Register button");
+		registerPage.clickToRegisterButton();
+		
+		log.info("Pre-Condidtion: Step 8 - Verify Register message successfull display");
+		Assert.assertEquals(registerPage.getRegisterSuccessMessage(), "Your registration completed");
 
-		log.info("Pre-Conditon: Step 1 - Click on Login link");
+		log.info("Pre-Conditon: Step 9 - Click on Login link");
 		loginPage = homePage.clickOnLoginLink();
 
-		log.info("Pre-Conditon: Step 2 - Input to Email with data: " + Register_Commons.emailAddress);
-		loginPage.inputToEmailTextBox(Register_Commons.emailAddress);
+		log.info("Pre-Conditon: Step 10 - Input to Email with data: " + email);
+		loginPage.inputToEmailTextBox(email);
 
-		log.info("Pre-Conditon: Step 3 - Input to Confirm Password with data: " + Register_Commons.password);
-		loginPage.inputToPasswordTextBox(Register_Commons.password);
+		log.info("Pre-Conditon: Step 11 - Input to Confirm Password with data: " + password);
+		loginPage.inputToPasswordTextBox(password);
 
-		log.info("Pre-Conditon: Step 4 - Click on Login button");
+		log.info("Pre-Conditon: Step 12 - Click on Login button");
 		homePage = loginPage.clickOnLoginButton();
 
-		log.info("Pre-Conditon: Step 5 - Verify My Account link displayed");
+		log.info("Pre-Conditon: Step 13 - Verify My Account link displayed");
 		Assert.assertTrue(homePage.isMyAccountLinkDisplayed());
 	}
 
@@ -302,9 +329,9 @@ public class NopCommerce_MyAccount extends BaseTest {
 		log.info("Step 01: Click on Change Password link");
 		changePasswordPage = addressPage.openChangePasswordPage();
 
-		ExtentTestManager.getTest().log(Status.INFO, "Step 02: Input to Old Password with value: " + Register_Commons.password);
-		log.info("Step 02: Input to Old Password with value: " + Register_Commons.password);
-		changePasswordPage.inputToTextboxByID(driver, "OldPassword", Register_Commons.password);
+		ExtentTestManager.getTest().log(Status.INFO, "Step 02: Input to Old Password with value: " + password);
+		log.info("Step 02: Input to Old Password with value: " + password);
+		changePasswordPage.inputToTextboxByID(driver, "OldPassword", password);
 
 		ExtentTestManager.getTest().log(Status.INFO, "Step 03: Input to New Password with value: " + newPassword);
 		log.info("Step 03: Input to New Password with value: " + newPassword);

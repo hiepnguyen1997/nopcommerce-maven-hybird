@@ -1,6 +1,8 @@
 package pageObjects.nopCommerce.portal;
 
 import java.text.DateFormat;
+import java.time.LocalDate;
+import java.time.ZoneId;
 import java.util.Date;
 import java.util.Locale;
 
@@ -8,7 +10,6 @@ import org.openqa.selenium.WebDriver;
 
 import commons.PageGeneratorManager;
 import commons.SubMenuAtMyAccountPage;
-import pageUIs.nopCommerce.user.OrderPageUI;
 import pageUIs.nopCommerce.user.OrderPageUI;
 
 public class OrderPageObject extends SubMenuAtMyAccountPage{
@@ -38,6 +39,13 @@ public class OrderPageObject extends SubMenuAtMyAccountPage{
 		waitForAllElementsVisible(driver, OrderPageUI.ORDER_DATE_BY_DATE, orderDate);
 		return isElementDisplayed(driver, OrderPageUI.ORDER_DATE_BY_DATE, orderDate);
 	}
+	
+	public String getOrderDate() {
+		waitForElementVisible(driver, OrderPageUI.ORDER_DATE);
+		String fullOrderDate = getElementText(driver, OrderPageUI.ORDER_DATE);
+		String [] orderDate = fullOrderDate.split(":");
+		return orderDate[1].trim();
+	}
 
 	public boolean isOrderStatusByStatusDisplayed(String orderStatus) {
 		waitForAllElementsVisible(driver, OrderPageUI.ORDER_STATUS_BY_STATUS, orderStatus);
@@ -54,6 +62,15 @@ public class OrderPageObject extends SubMenuAtMyAccountPage{
 		Date date  = new Date();
 		DateFormat dateInstance = DateFormat.getDateInstance(DateFormat.FULL, local);
 		return dateInstance.format(date);
+	}
+	
+	public String getTheTimeZone(String location, String zoneID) {
+		Locale local = new Locale(location);
+		ZoneId zoneId = ZoneId.of(zoneID);
+		LocalDate localDate = LocalDate.now(zoneId);
+		Date date = Date.from(localDate.atStartOfDay(zoneId).toInstant());
+		DateFormat dateFormat = DateFormat.getDateInstance(DateFormat.FULL, local);
+		return dateFormat.format(date);
 	}
 	
 	public String getBillingAddressAtOrderPageByClassName(String className) {

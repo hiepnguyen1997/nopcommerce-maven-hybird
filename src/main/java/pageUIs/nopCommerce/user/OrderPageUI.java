@@ -5,6 +5,7 @@ public class OrderPageUI {
 	public static final String ORDER_BY_NUMBER_DISPLAY = "xpath=//strong[text()='Order Number: %s']";
 	public static final String ORDER_ID_BY_ORDER_NUMBER = "xpath=//strong[text()='Order #%s']";
 	public static final String ORDER_DATE_BY_DATE = "xpath=//li[@class='order-date' and text()='Order Date: %s']";
+	public static final String ORDER_DATE = "xpath=//li[@class='order-date']";
 	public static final String ORDER_STATUS_BY_STATUS = "xpath=//li[@class='order-status' and text()='Order Status: %s']";
 	public static final String ORDER_TOTAL_BY_SUB_TOTAL = "xpath=//li[@class='order-total']/strong[text()='%s']";
 	public static final String BILLING_ADDRESS_INFOMATION_BY_NAME = "XPATH=//div[@class='billing-info']//li[@class='%s']";

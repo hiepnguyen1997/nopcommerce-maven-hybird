@@ -148,11 +148,6 @@ public class NopCommerce_Register extends BaseTest {
 		ExtentTestManager.getTest().log(Status.INFO, "Step 8: Verify the message 'Your registration completed' displayed");
 		log.info("Step 8: Verify the message 'Your registration completed' displayed");
 		Assert.assertEquals(registerPage.getRegisterSuccessMessage(), "Your registration completed");
-		
-		ExtentTestManager.getTest().log(Status.INFO, "Step 9: Click on Register link");
-		log.info("Step 9: Click on Register link");
-		homePage = registerPage.clickToLogoutLink();
-
 	}
 
 	@Test

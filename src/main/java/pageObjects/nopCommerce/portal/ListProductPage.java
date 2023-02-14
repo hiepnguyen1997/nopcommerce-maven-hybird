@@ -27,7 +27,7 @@ public class ListProductPage extends BasePage {
 	public void selectItemInSortByDropdown(String textItem) {
 		waitForElementClickabled(driver, ListProductPageUI.SORT_BY_DROPDOWN);
 		selectItemInDefaultDropdown(driver, ListProductPageUI.SORT_BY_DROPDOWN, textItem);
-		sleepInSecond(3);
+		delay(3);
 	}
 
 	public boolean isProductNameSortAtoZ() {
@@ -99,7 +99,7 @@ public class ListProductPage extends BasePage {
 	public void selectItemInDisplayDropdown(String textItem) {
 		waitForElementClickabled(driver, ListProductPageUI.DISPLAY_DROPDOWN);
 		selectItemInDefaultDropdown(driver, ListProductPageUI.DISPLAY_DROPDOWN, textItem);
-		sleepInSecond(3);
+		delay(3);
 	}
 
 	public boolean isProductDisplayByNumber(int paigingNumber) {
@@ -119,7 +119,7 @@ public class ListProductPage extends BasePage {
 	public void clickOnTheNextIcon() {
 		waitForElementClickabled(driver, ListProductPageUI.NEXT_PAGE_ICON);
 		clickToElement(driver, ListProductPageUI.NEXT_PAGE_ICON);
-		sleepInSecond(2);
+		delay(2);
 	}
 
 	public boolean isPreviousIconDisplay() {
@@ -129,7 +129,7 @@ public class ListProductPage extends BasePage {
 	public void clickOnThePreviousIcon() {
 		waitForElementClickabled(driver, ListProductPageUI.PREVIOUS_PAGE_ICON);
 		clickToElement(driver, ListProductPageUI.PREVIOUS_PAGE_ICON);
-		sleepInSecond(2);
+		delay(2);
 	}
 
 	public boolean isPagingUnDisplay() {
@@ -155,7 +155,7 @@ public class ListProductPage extends BasePage {
 	public void closeNoitificationBarMessage() {
 		waitForElementVisible(driver, ListProductPageUI.CLOSE_ADD_COMPARE_LIST_MESSAGE);
 		clickToElement(driver, ListProductPageUI.CLOSE_ADD_COMPARE_LIST_MESSAGE);
-		sleepInSecond(2);
+		delay(2);
 	}
 
 }

@@ -21,6 +21,6 @@ public class UserChangePasswordPageObject extends SubMenuAtMyAccountPage{
 	public void closeBarNotification() {
 		waitForElementVisible(driver, ChangePasswordUI.CLOSE_BAR_NOTIFICATION);
 		clickToElement(driver, ChangePasswordUI.CLOSE_BAR_NOTIFICATION);
-		sleepInSecond(2);
+		delay(2);
 	}
 }
