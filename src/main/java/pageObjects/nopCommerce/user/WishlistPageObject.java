@@ -1,10 +1,10 @@
-package pageObjects.nopCommerce.portal;
+package pageObjects.nopCommerce.user;
 
 import org.openqa.selenium.WebDriver;
 
 import commons.BasePage;
 import commons.PageGeneratorManager;
-import pageUIs.nopCommerce.user.BasePageUINopCommerce;
+import pageUIs.nopCommerce.user.NopCommercePageUIUser;
 import pageUIs.nopCommerce.user.WishlistPageUI;
 
 public class WishlistPageObject extends BasePage{

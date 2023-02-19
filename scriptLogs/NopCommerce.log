@@ -23081,3 +23081,179 @@ The credentials provided are incorrect
 [2023-02-14 15:53:28,393] Step 12: Verify the last3products displayed
 [2023-02-14 15:53:28,846] OS name = windows 10
 [2023-02-14 15:53:28,846] Driver instance name = chromedriver: chrome on windows (f25752dc5a5cf3697704d6133ed1d13f)
+[2023-02-18 21:42:16,733] Pre-Conditions: Login as Admin with email :admin@yourstore.com and password: admin
+[2023-02-19 13:57:15,642] Pre-Conditions: Login as Admin with email :admin@yourstore.com and password: admin
+[2023-02-19 13:57:23,691] Step 01: Open Product page
+[2023-02-19 13:57:26,052] Step 02: Input to Go directly to product SKU with value: LE_IC_600
+[2023-02-19 13:57:26,304] Step 03: Click on Go button to go to product detail page
+[2023-02-19 13:57:30,859] Step 04: Verify the infomation of Lenovo IdeaCentre 600 All-in-One PC display
+[2023-02-19 15:52:53,763] Pre-Conditions: Login as Admin with email :admin@yourstore.com and password: admin
+[2023-02-19 15:53:00,649] 
+[2023-02-19 15:53:04,485] Step 02: Click on Add New button
+[2023-02-19 15:53:06,175] Step 04: Input to the all fields
+[2023-02-19 15:55:15,858] Pre-Conditions: Login as Admin with email :admin@yourstore.com and password: admin
+[2023-02-19 15:55:21,960] 
+[2023-02-19 15:55:25,614] Step 02: Click on Add New button
+[2023-02-19 15:55:36,318] Step 04: Input to the all fields
+[2023-02-19 16:02:14,501] Pre-Conditions: Login as Admin with email :admin@yourstore.com and password: admin
+[2023-02-19 16:02:20,862] 
+[2023-02-19 16:02:24,639] Step 02: Click on Add New button
+[2023-02-19 16:02:26,357] Step 04: Input to the all fields
+[2023-02-19 16:02:27,976] 
+[2023-02-19 16:02:29,662] 
+[2023-02-19 16:02:29,662] 
+[2023-02-19 16:02:29,663] 
+[2023-02-19 16:02:29,663] 
+[2023-02-19 16:02:29,663] 
+[2023-02-19 16:02:29,663] 
+[2023-02-19 16:02:29,664] 
+[2023-02-19 16:02:29,664] 
+[2023-02-19 16:02:29,664] 
+[2023-02-19 16:02:29,664] 
+[2023-02-19 16:02:29,665] 
+[2023-02-19 16:09:37,715] Pre-Conditions: Login as Admin with email :admin@yourstore.com and password: admin
+[2023-02-19 16:09:44,547] 
+[2023-02-19 16:09:48,497] Step 02: Click on Add New button
+[2023-02-19 16:09:50,431] Step 04: Input to the all fields
+[2023-02-19 16:09:51,913] 
+[2023-02-19 16:09:53,489] 
+[2023-02-19 16:16:38,329] Pre-Conditions: Login as Admin with email :admin@yourstore.com and password: admin
+[2023-02-19 16:16:43,908] 
+[2023-02-19 16:16:47,370] Step 02: Click on Add New button
+[2023-02-19 16:16:48,910] Step 04: Input to the all fields
+[2023-02-19 16:16:50,474] 
+[2023-02-19 16:16:52,179] 
+[2023-02-19 16:44:09,090] Pre-Conditions: Login as Admin with email :admin@yourstore.com and password: admin
+[2023-02-19 16:44:14,809] Step 01: Open Customer page
+[2023-02-19 16:44:18,332] Step 02: Click on Add New button
+[2023-02-19 16:44:19,844] Step 03: Input to the all fields
+[2023-02-19 16:44:21,426] Step 04: Click on Save and Continue Edit
+[2023-02-19 16:44:22,959] Step 05: Verify the message display
+[2023-02-19 17:01:39,042] Pre-Conditions: Login as Admin with email :admin@yourstore.com and password: admin
+[2023-02-19 17:01:44,730] Step 01: Open Customer page
+[2023-02-19 17:01:48,299] Step 02: Click on Add New button
+[2023-02-19 17:01:49,873] Step 03: Input to the all fields
+[2023-02-19 17:21:30,191] Pre-Conditions: Login as Admin with email :admin@yourstore.com and password: admin
+[2023-02-19 17:21:36,416] Step 01: Open Customer page
+[2023-02-19 17:21:39,911] Step 02: Click on Add New button
+[2023-02-19 17:21:41,643] Step 03: Input to the all fields
+[2023-02-19 17:21:57,113] Step 04: Click on Save and Continue Edit
+[2023-02-19 17:21:59,291] Step 05: Verify the message display
+[2023-02-19 17:26:17,637] Pre-Conditions: Login as Admin with email :admin@yourstore.com and password: admin
+[2023-02-19 17:26:24,022] Step 01: Open Customer page
+[2023-02-19 17:26:27,690] Step 02: Click on Add New button
+[2023-02-19 17:26:29,455] Step 03: Input to the all fields
+[2023-02-19 17:26:31,037] Step 04: Click on Save and Continue Edit
+[2023-02-19 17:26:32,621] Step 05: Verify the message display
+[2023-02-19 17:26:32,818] 
+[2023-02-19 17:26:32,819] 
+[2023-02-19 17:26:32,819] 
+[2023-02-19 17:26:32,819] 
+[2023-02-19 17:26:32,819] 
+[2023-02-19 17:26:32,819] 
+[2023-02-19 17:26:32,820] 
+[2023-02-19 17:26:32,820] 
+[2023-02-19 17:26:32,820] 
+[2023-02-19 17:26:32,820] 
+[2023-02-19 18:33:42,494] Pre-Conditions: Login as Admin with email :admin@yourstore.com and password: admin
+[2023-02-19 18:33:49,803] Step 01: Open Customer page
+[2023-02-19 18:33:54,294] Step 02: Click on Add New button
+[2023-02-19 18:33:55,999] Step 03: Input to the all fields
+[2023-02-19 18:33:57,525] Step 04: Click on Save and Continue Edit
+[2023-02-19 18:33:59,179] Step 05: Verify the message display
+[2023-02-19 18:33:59,351] 
+[2023-02-19 18:33:59,351] 
+[2023-02-19 18:33:59,351] 
+[2023-02-19 18:33:59,351] 
+[2023-02-19 18:33:59,351] 
+[2023-02-19 18:33:59,352] 
+[2023-02-19 18:33:59,352] 
+[2023-02-19 18:33:59,352] 
+[2023-02-19 18:33:59,352] 
+[2023-02-19 18:33:59,352] 
+[2023-02-19 19:01:34,128] Pre-Conditions: Login as Admin with email :admin@yourstore.com and password: admin
+[2023-02-19 19:01:45,348] Step 01: Open Customer page
+[2023-02-19 19:01:49,606] Step 02: Click on Add New button
+[2023-02-19 19:01:55,681] Step 03: Input to the all fields
+[2023-02-19 19:01:57,384] Step 04: Click on Save and Continue Edit
+[2023-02-19 19:01:59,152] Step 05: Verify the message display
+[2023-02-19 19:01:59,314] Step 06: Verify all information display correctly
+[2023-02-19 20:11:33,692] Pre-Conditions: Login as Admin with email :admin@yourstore.com and password: admin
+[2023-02-19 20:11:48,403] Step 01: Open Customer page
+[2023-02-19 20:11:51,345] Step 02: Click on Add New button
+[2023-02-19 20:12:14,434] Step 03: Input to the all fields
+[2023-02-19 20:12:15,968] Step 04: Click on Save and Continue Edit
+[2023-02-19 20:12:17,668] Step 05: Verify the message display
+[2023-02-19 20:12:17,825] Step 06: Verify all information display correctly
+[2023-02-19 20:15:16,348] Pre-Conditions: Login as Admin with email :admin@yourstore.com and password: admin
+[2023-02-19 20:15:34,387] Step 01: Open Customer page
+[2023-02-19 20:15:44,509] Step 02: Click on Add New button
+[2023-02-19 20:15:55,608] Step 03: Input to the all fields
+[2023-02-19 20:15:57,219] Step 04: Click on Save and Continue Edit
+[2023-02-19 20:16:00,993] Step 05: Verify the message display
+[2023-02-19 20:16:01,132] Step 06: Verify all information display correctly
+[2023-02-19 20:17:29,245] Pre-Conditions: Login as Admin with email :admin@yourstore.com and password: admin
+[2023-02-19 20:17:44,448] Step 01: Open Customer page
+[2023-02-19 20:17:51,396] Step 02: Click on Add New button
+[2023-02-19 20:18:03,783] Step 03: Input to the all fields
+[2023-02-19 20:18:05,337] Step 04: Click on Save and Continue Edit
+[2023-02-19 20:18:07,344] Step 05: Verify the message display
+[2023-02-19 20:18:07,489] Step 06: Verify all information display correctly
+[2023-02-19 20:19:09,006] Pre-Conditions: Login as Admin with email :admin@yourstore.com and password: admin
+[2023-02-19 20:19:30,714] Step 01: Open Customer page
+[2023-02-19 20:19:46,175] Step 02: Click on Add New button
+[2023-02-19 20:19:59,612] Step 03: Input to the all fields
+[2023-02-19 20:20:01,229] Step 04: Click on Save and Continue Edit
+[2023-02-19 20:20:03,466] Step 05: Verify the message display
+[2023-02-19 20:20:03,612] Step 06: Verify all information display correctly
+[2023-02-19 20:20:04,168] Step 07: Click on back to customer list
+[2023-02-19 20:20:06,261] 
+[2023-02-19 20:20:06,261] 
+[2023-02-19 20:20:06,261] 
+[2023-02-19 20:20:06,262] 
+[2023-02-19 20:20:06,262] 
+[2023-02-19 20:20:06,262] 
+[2023-02-19 20:20:06,262] 
+[2023-02-19 20:20:06,262] 
+[2023-02-19 20:35:24,744] Pre-Conditions: Login as Admin with email :admin@yourstore.com and password: admin
+[2023-02-19 20:35:48,825] Step 01: Open Customer page
+[2023-02-19 20:35:55,168] Step 02: Click on Add New button
+[2023-02-19 20:36:05,602] Step 03: Input to the all fields
+[2023-02-19 20:56:30,014] Pre-Conditions: Login as Admin with email :admin@yourstore.com and password: admin
+[2023-02-19 20:56:50,008] Step 01: Open Customer page
+[2023-02-19 21:00:03,101] Pre-Conditions: Login as Admin with email :admin@yourstore.com and password: admin
+[2023-02-19 21:00:25,140] Step 01: Open Customer page
+[2023-02-19 21:00:37,849] Step 02: Click on Add New button
+[2023-02-19 21:00:51,862] Step 03: Input to the all fields
+[2023-02-19 21:17:49,666] Pre-Conditions: Login as Admin with email :admin@yourstore.com and password: admin
+[2023-02-19 21:17:57,520] Step 01: Open Customer page
+[2023-02-19 21:18:02,508] Step 02: Click on Add New button
+[2023-02-19 21:18:05,250] Step 03: Input to the all fields
+[2023-02-19 21:18:07,186] Step 04: Click on Save and Continue Edit
+[2023-02-19 21:18:10,801] Step 05: Verify the message display
+[2023-02-19 21:18:10,990] Step 06: Verify all information display correctly
+[2023-02-19 21:18:11,450] Step 07: Click on back to customer list
+[2023-02-19 21:18:12,466] 
+[2023-02-19 21:18:12,467] 
+[2023-02-19 21:18:12,467] 
+[2023-02-19 21:18:12,467] 
+[2023-02-19 21:18:12,467] 
+[2023-02-19 21:18:12,468] 
+[2023-02-19 21:18:12,468] 
+[2023-02-19 21:18:12,468] 
+[2023-02-19 21:24:30,344] Pre-Conditions: Login as Admin with email :admin@yourstore.com and password: admin
+[2023-02-19 21:24:40,031] Step 01: Open Customer page
+[2023-02-19 21:24:50,867] Step 02: Click on Add New button
+[2023-02-19 21:25:04,234] Step 03: Input to the all fields
+[2023-02-19 21:25:06,464] Step 04: Click on Save and Continue Edit
+[2023-02-19 21:25:09,402] Step 05: Verify the message display
+[2023-02-19 21:25:09,623] Step 06: Verify all information display correctly
+[2023-02-19 21:25:10,127] Step 07: Click on back to customer list
+[2023-02-19 21:25:14,690] 
+[2023-02-19 21:25:14,691] 
+[2023-02-19 21:25:14,691] 
+[2023-02-19 21:25:14,691] 
+[2023-02-19 21:25:14,692] 
+[2023-02-19 21:25:14,692] 
+[2023-02-19 21:25:14,692] 
+[2023-02-19 21:25:14,693] 

@@ -2,26 +2,30 @@ package commons;
 
 import org.openqa.selenium.WebDriver;
 
+import pageObjects.nopCommerce.admin.AdminCustomerPageObject;
+import pageObjects.nopCommerce.admin.AdminDashboardPageObject;
 import pageObjects.nopCommerce.admin.AdminLoginPageObject;
-import pageObjects.nopCommerce.portal.CheckoutPageObject;
-import pageObjects.nopCommerce.portal.CompareListPageObject;
-import pageObjects.nopCommerce.portal.DesktopsPageObject;
-import pageObjects.nopCommerce.portal.NotebooksPageObject;
-import pageObjects.nopCommerce.portal.OrderPageObject;
-import pageObjects.nopCommerce.portal.ProductDetailPageObject;
-import pageObjects.nopCommerce.portal.ProductPreviewPageObject;
-import pageObjects.nopCommerce.portal.RecentlyViewProductPageObject;
-import pageObjects.nopCommerce.portal.ShoppingCardPageObject;
-import pageObjects.nopCommerce.portal.UserAddressPageObject;
-import pageObjects.nopCommerce.portal.UserChangePasswordPageObject;
-import pageObjects.nopCommerce.portal.UserCustomerInforPageObject;
-import pageObjects.nopCommerce.portal.UserHomePageObject;
-import pageObjects.nopCommerce.portal.UserLoginPageObject;
-import pageObjects.nopCommerce.portal.UserMyProductReviewPageObject;
-import pageObjects.nopCommerce.portal.UserRegisterPageObject;
-import pageObjects.nopCommerce.portal.UserSearchPageObject;
-import pageObjects.nopCommerce.portal.WishlistPageObject;
-import pageObjects.nopCommerce.portal.WishlistShareLinkPageObject;
+import pageObjects.nopCommerce.admin.AdminProductDetailPageObject;
+import pageObjects.nopCommerce.admin.AdminProductPageObject;
+import pageObjects.nopCommerce.user.CheckoutPageObject;
+import pageObjects.nopCommerce.user.CompareListPageObject;
+import pageObjects.nopCommerce.user.DesktopsPageObject;
+import pageObjects.nopCommerce.user.NotebooksPageObject;
+import pageObjects.nopCommerce.user.OrderPageObject;
+import pageObjects.nopCommerce.user.ProductDetailPageObject;
+import pageObjects.nopCommerce.user.ProductPreviewPageObject;
+import pageObjects.nopCommerce.user.RecentlyViewProductPageObject;
+import pageObjects.nopCommerce.user.ShoppingCardPageObject;
+import pageObjects.nopCommerce.user.UserAddressPageObject;
+import pageObjects.nopCommerce.user.UserChangePasswordPageObject;
+import pageObjects.nopCommerce.user.UserCustomerInforPageObject;
+import pageObjects.nopCommerce.user.UserHomePageObject;
+import pageObjects.nopCommerce.user.UserLoginPageObject;
+import pageObjects.nopCommerce.user.UserMyProductReviewPageObject;
+import pageObjects.nopCommerce.user.UserRegisterPageObject;
+import pageObjects.nopCommerce.user.UserSearchPageObject;
+import pageObjects.nopCommerce.user.WishlistPageObject;
+import pageObjects.nopCommerce.user.WishlistShareLinkPageObject;
 
 public class PageGeneratorManager {
 	
@@ -101,7 +105,24 @@ public class PageGeneratorManager {
 		return new OrderPageObject(driver);
 	}
 	
-	public static AdminLoginPageObject getLoginPageAdmin(WebDriver driver) {
+	public static AdminLoginPageObject getAdminLoginPage(WebDriver driver) {
 		return new AdminLoginPageObject(driver);
 	}
+	
+	public static final AdminDashboardPageObject getAdminDashboardPage(WebDriver driver) {
+		return new AdminDashboardPageObject(driver);
+	}
+	
+	public static final AdminProductPageObject getAdminProductPage(WebDriver driver) {
+		return new AdminProductPageObject(driver);
+	}
+	
+	public static final AdminProductDetailPageObject getAdminProductDetailPage(WebDriver driver) {
+		return new AdminProductDetailPageObject(driver);
+	}
+	
+	public static final AdminCustomerPageObject getAdminCustomerPage(WebDriver driver) {
+		return new AdminCustomerPageObject(driver);
+	}
+	
 }

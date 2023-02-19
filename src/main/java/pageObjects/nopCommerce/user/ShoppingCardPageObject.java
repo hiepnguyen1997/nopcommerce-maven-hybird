@@ -1,11 +1,11 @@
-package pageObjects.nopCommerce.portal;
+package pageObjects.nopCommerce.user;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
 import commons.BasePage;
 import commons.PageGeneratorManager;
-import pageUIs.nopCommerce.user.BasePageUINopCommerce;
+import pageUIs.nopCommerce.user.NopCommercePageUIUser;
 import pageUIs.nopCommerce.user.ShoppingCardPageUI;
 
 public class ShoppingCardPageObject extends BasePage{

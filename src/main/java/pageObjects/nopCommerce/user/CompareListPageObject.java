@@ -1,4 +1,4 @@
-package pageObjects.nopCommerce.portal;
+package pageObjects.nopCommerce.user;
 
 import org.openqa.selenium.WebDriver;
 

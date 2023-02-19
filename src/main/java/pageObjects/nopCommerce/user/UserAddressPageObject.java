@@ -1,10 +1,10 @@
-package pageObjects.nopCommerce.portal;
+package pageObjects.nopCommerce.user;
 
 import org.openqa.selenium.WebDriver;
 
 import commons.SubMenuAtMyAccountPage;
 import pageUIs.nopCommerce.user.AddressPageUI;
-import pageUIs.nopCommerce.user.BasePageUINopCommerce;
+import pageUIs.nopCommerce.user.NopCommercePageUIUser;
 
 public class UserAddressPageObject extends SubMenuAtMyAccountPage {
 	private WebDriver driver;
@@ -21,8 +21,8 @@ public class UserAddressPageObject extends SubMenuAtMyAccountPage {
 	
 	public String selectValueInStateDropdownList(String dropdownName) {
 		waitForElementInvisible(driver, AddressPageUI.LOADING_ICON_STATE_DROPDOWN);
-		waitForElementVisible(driver, BasePageUINopCommerce.DROPDOWN_LIST_BY_NAME, dropdownName);
-		return getSelectedItemDefaultDropdown(driver, BasePageUINopCommerce.DROPDOWN_LIST_BY_NAME, dropdownName);
+		waitForElementVisible(driver, NopCommercePageUIUser.DROPDOWN_LIST_BY_NAME, dropdownName);
+		return getSelectedItemDefaultDropdown(driver, NopCommercePageUIUser.DROPDOWN_LIST_BY_NAME, dropdownName);
 	}
 	
 	public boolean isTitleByFullNameDisplay(String fullName) {

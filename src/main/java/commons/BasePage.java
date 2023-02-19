@@ -21,11 +21,13 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import bsh.commands.dir;
-import pageObjects.nopCommerce.portal.ShoppingCardPageObject;
-import pageObjects.nopCommerce.portal.UserCustomerInforPageObject;
-import pageObjects.nopCommerce.portal.UserHomePageObject;
-import pageObjects.nopCommerce.portal.WishlistPageObject;
-import pageUIs.nopCommerce.user.BasePageUINopCommerce;
+import pageObjects.nopCommerce.admin.AdminLoginPageObject;
+import pageObjects.nopCommerce.user.ShoppingCardPageObject;
+import pageObjects.nopCommerce.user.UserCustomerInforPageObject;
+import pageObjects.nopCommerce.user.UserHomePageObject;
+import pageObjects.nopCommerce.user.WishlistPageObject;
+import pageUIs.nopCommerce.user.NopCommercePageUIUser;
+import pageUIs.nopCommerce.admin.NopCommercePageUIAdmin;
 import pageUIs.nopCommerce.user.DesktopsPageUI;
 import pageUIs.nopCommerce.user.HomePageUI;
 
@@ -468,6 +470,11 @@ public class BasePage {
 		WebDriverWait explicitWait = new WebDriverWait(driver, longTimeout);
 		explicitWait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(getByLocator(locatorType)));
 	}
+	
+	protected void waitForElementPresent(WebDriver driver, String locatorType) {
+		WebDriverWait explicitWait = new WebDriverWait(driver, longTimeout);
+		explicitWait.until(ExpectedConditions.presenceOfElementLocated(getByLocator(locatorType)));
+	}
 
 	protected void waitForAllElementsVisible(WebDriver driver, String locatorType, String... params) {
 		WebDriverWait explicitWait = new WebDriverWait(driver, longTimeout);
@@ -530,9 +537,9 @@ public class BasePage {
 	}
 
 	public UserHomePageObject clickOnLougoutLinkUserPage(WebDriver driver) {
-		waitForElementClickabled(driver, BasePageUINopCommerce.LOGOUT_LINK_USER);
-		waitForElementVisible(driver, BasePageUINopCommerce.LOGOUT_LINK_USER);
-		clickToElement(driver, BasePageUINopCommerce.LOGOUT_LINK_USER);
+		waitForElementClickabled(driver, NopCommercePageUIUser.LOGOUT_LINK_USER);
+		waitForElementVisible(driver, NopCommercePageUIUser.LOGOUT_LINK_USER);
+		clickToElement(driver, NopCommercePageUIUser.LOGOUT_LINK_USER);
 		return PageGeneratorManager.getUserHomePage(driver);
 	}
 
@@ -545,8 +552,8 @@ public class BasePage {
 	 * @param id
 	 */
 	public void inputToTextboxByID(WebDriver driver, String id, String value) {
-		waitForElementVisible(driver, BasePageUINopCommerce.TEXTBOX_BY_ID, id);
-		sendkeyToElement(driver, BasePageUINopCommerce.TEXTBOX_BY_ID, value, id);
+		waitForElementVisible(driver, NopCommercePageUIUser.TEXTBOX_BY_ID, id);
+		sendkeyToElement(driver, NopCommercePageUIUser.TEXTBOX_BY_ID, value, id);
 	}
 
 	/**
@@ -555,8 +562,8 @@ public class BasePage {
 	 * @param dropdown name
 	 */
 	public void selectValueInDropDownByName(WebDriver driver, String dropdownName, String value) {
-		waitForElementVisible(driver, BasePageUINopCommerce.DROPDOWN_LIST_BY_NAME, dropdownName);
-		selectItemInDefaultDropdown(driver, BasePageUINopCommerce.DROPDOWN_LIST_BY_NAME, value, dropdownName);
+		waitForElementVisible(driver, NopCommercePageUIUser.DROPDOWN_LIST_BY_NAME, dropdownName);
+		selectItemInDefaultDropdown(driver, NopCommercePageUIUser.DROPDOWN_LIST_BY_NAME, value, dropdownName);
 	}
 
 	/**
@@ -565,8 +572,8 @@ public class BasePage {
 	 * @param button name
 	 */
 	public void clickOnButtonByName(WebDriver driver, String buttonName) {
-		waitForElementClickabled(driver, BasePageUINopCommerce.BUTTON_BY_NAME, buttonName);
-		clickToElement(driver, BasePageUINopCommerce.BUTTON_BY_NAME, buttonName);
+		waitForElementClickabled(driver, NopCommercePageUIUser.BUTTON_BY_NAME, buttonName);
+		clickToElement(driver, NopCommercePageUIUser.BUTTON_BY_NAME, buttonName);
 	}
 
 	/**
@@ -575,8 +582,8 @@ public class BasePage {
 	 * @param id
 	 */
 	public String getTextInTextboxByID(WebDriver driver, String id, String attributeName) {
-		waitForElementVisible(driver, BasePageUINopCommerce.TEXTBOX_BY_ID, id);
-		return getElementAttribute(driver, BasePageUINopCommerce.TEXTBOX_BY_ID, attributeName, id);
+		waitForElementVisible(driver, NopCommercePageUIUser.TEXTBOX_BY_ID, id);
+		return getElementAttribute(driver, NopCommercePageUIUser.TEXTBOX_BY_ID, attributeName, id);
 	}
 
 	/**
@@ -585,8 +592,8 @@ public class BasePage {
 	 * @param dropdown name
 	 */
 	public String getSelectedValueInDefaultDropdownListByName(WebDriver driver, String dropdownName) {
-		waitForElementVisible(driver, BasePageUINopCommerce.DROPDOWN_LIST_BY_NAME, dropdownName);
-		return getSelectedItemDefaultDropdown(driver, BasePageUINopCommerce.DROPDOWN_LIST_BY_NAME, dropdownName);
+		waitForElementVisible(driver, NopCommercePageUIUser.DROPDOWN_LIST_BY_NAME, dropdownName);
+		return getSelectedItemDefaultDropdown(driver, NopCommercePageUIUser.DROPDOWN_LIST_BY_NAME, dropdownName);
 	}
 
 	/**
@@ -595,8 +602,8 @@ public class BasePage {
 	 * @param label name
 	 */
 	public void clickOnRadioButtonByLabelName(WebDriver driver, String labelName) {
-		waitForElementClickabled(driver, BasePageUINopCommerce.RADIO_BUTTON_BY_LABEL_NAME, labelName);
-		clickToElement(driver, BasePageUINopCommerce.RADIO_BUTTON_BY_LABEL_NAME, labelName);
+		waitForElementClickabled(driver, NopCommercePageUIUser.RADIO_BUTTON_BY_LABEL_NAME, labelName);
+		clickToElement(driver, NopCommercePageUIUser.RADIO_BUTTON_BY_LABEL_NAME, labelName);
 	}
 
 	/**
@@ -605,8 +612,8 @@ public class BasePage {
 	 * @param label name
 	 */
 	public boolean isRadioButtonByLabelNameSelected(WebDriver driver, String labelName) {
-		waitForElementVisible(driver, BasePageUINopCommerce.RADIO_BUTTON_BY_LABEL_NAME, labelName);
-		return isElementSelected(driver, BasePageUINopCommerce.RADIO_BUTTON_BY_LABEL_NAME, labelName);
+		waitForElementVisible(driver, NopCommercePageUIUser.RADIO_BUTTON_BY_LABEL_NAME, labelName);
+		return isElementSelected(driver, NopCommercePageUIUser.RADIO_BUTTON_BY_LABEL_NAME, labelName);
 	}
 
 	/**
@@ -634,31 +641,67 @@ public class BasePage {
 	}
 	
 	public WishlistPageObject clickOnWishlistLink(WebDriver driver) {
-		waitForElementVisible(driver, BasePageUINopCommerce.WISHLIST_LINK);
-		clickToElement(driver, BasePageUINopCommerce.WISHLIST_LINK);
+		waitForElementVisible(driver, NopCommercePageUIUser.WISHLIST_LINK);
+		clickToElement(driver, NopCommercePageUIUser.WISHLIST_LINK);
 		return PageGeneratorManager.getWishlistPage(driver);
 	}
 	
 	public ShoppingCardPageObject clickOnShoppingCartLink(WebDriver driver) {
-		waitForElementVisible(driver, BasePageUINopCommerce.SHOPPING_CARD_LINK);
-		clickToElement(driver, BasePageUINopCommerce.SHOPPING_CARD_LINK);
+		waitForElementVisible(driver, NopCommercePageUIUser.SHOPPING_CARD_LINK);
+		clickToElement(driver, NopCommercePageUIUser.SHOPPING_CARD_LINK);
 		return PageGeneratorManager.getShoppingCardPage(driver);
 	}
 	
 	public String getWislistQuantity(WebDriver driver) {
-		waitForElementVisible(driver, BasePageUINopCommerce.WISHLIST_QUANTITY);
-		return getElementText(driver, BasePageUINopCommerce.WISHLIST_QUANTITY);
+		waitForElementVisible(driver, NopCommercePageUIUser.WISHLIST_QUANTITY);
+		return getElementText(driver, NopCommercePageUIUser.WISHLIST_QUANTITY);
 	}
 	
 	public String getCountNumberOfShoppingCart(WebDriver driver) {
-		waitForElementVisible(driver, BasePageUINopCommerce.SHOPPING_CART_QUANTITY);
-		return getElementText(driver, BasePageUINopCommerce.SHOPPING_CART_QUANTITY);
+		waitForElementVisible(driver, NopCommercePageUIUser.SHOPPING_CART_QUANTITY);
+		return getElementText(driver, NopCommercePageUIUser.SHOPPING_CART_QUANTITY);
 	}
 	
 	public void clickOnAddToCartByProductName(WebDriver driver, String productName2) {
-		waitForElementClickabled(driver, BasePageUINopCommerce.ADD_TO_CART_BY_PRODUCT_NAME, productName2);
-		clickToElement(driver, BasePageUINopCommerce.ADD_TO_CART_BY_PRODUCT_NAME, productName2);
+		waitForElementClickabled(driver, NopCommercePageUIUser.ADD_TO_CART_BY_PRODUCT_NAME, productName2);
+		clickToElement(driver, NopCommercePageUIUser.ADD_TO_CART_BY_PRODUCT_NAME, productName2);
 		
+	}
+	
+	public AdminLoginPageObject clickOnLogoutButton(WebDriver driver) {
+		waitForElementVisible(driver, NopCommercePageUIAdmin.LOGOUT_BUTTON);
+		clickToElement(driver, NopCommercePageUIAdmin.LOGOUT_BUTTON);
+		return PageGeneratorManager.getAdminLoginPage(driver);
+	}
+	
+	public boolean isAdminLogoutButtonDisplay(WebDriver driver) {
+		waitForElementVisible(driver, NopCommercePageUIAdmin.LOGOUT_BUTTON);
+		return isElementDisplayed(driver, NopCommercePageUIAdmin.LOGOUT_BUTTON);
+	}
+	
+	public ListAdminMenuPageByPageName getListAdminMenu(WebDriver driver) {
+		return new ListAdminMenuPageByPageName(driver);
+	}
+	
+	public void inputToTextboxByNameAtAdminPage(WebDriver driver, String textboxName, String value) {
+		waitForElementVisible(driver, NopCommercePageUIAdmin.TEXTBOX_BY_NAME_AT_ADMIN_PAGE, textboxName);
+		sendkeyToElement(driver, NopCommercePageUIAdmin.TEXTBOX_BY_NAME_AT_ADMIN_PAGE, value, textboxName);
+	}
+	
+	public void selectValueInDropdownListAtAdminPage(WebDriver driver, String dropdownName, String value) {
+		waitForElementVisible(driver, NopCommercePageUIAdmin.DROPDOWN_LIST_BY_NAME_AT_ADMIN_PAGE, dropdownName);
+		selectItemInDefaultDropdown(driver, NopCommercePageUIAdmin.DROPDOWN_LIST_BY_NAME_AT_ADMIN_PAGE, value, dropdownName);
+	}
+	
+	public void clickOnCheckboxByLabelAtAdminPage(WebDriver driver, String labelName) {
+		waitForElementVisible(driver, NopCommercePageUIAdmin.RADIO_BUTTON_CHECKBOX_BY_LABEL, labelName);
+		waitForElementClickabled(driver, NopCommercePageUIAdmin.RADIO_BUTTON_CHECKBOX_BY_LABEL, labelName);
+		clickToElement(driver, NopCommercePageUIAdmin.RADIO_BUTTON_CHECKBOX_BY_LABEL, labelName);
+	}
+	
+	public String getAttributeValueAtTextboxByNameAtAdminPage(WebDriver driver, String textboxName, String attributeName) {
+		waitForElementVisible(driver, NopCommercePageUIAdmin.TEXTBOX_BY_NAME_AT_ADMIN_PAGE, textboxName);
+		return getElementAttribute(driver, NopCommercePageUIAdmin.TEXTBOX_BY_NAME_AT_ADMIN_PAGE, attributeName, textboxName);
 	}
 	
 	private long longTimeout = GlobalConstants.LONG_TIMEOUT;

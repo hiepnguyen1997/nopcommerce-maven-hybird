@@ -10,8 +10,8 @@ import org.testng.annotations.Parameters;
 import commons.BaseTest;
 import commons.PageGeneratorManager;
 import exception.BrowserNotSupport;
-import pageObjects.nopCommerce.portal.UserHomePageObject;
-import pageObjects.nopCommerce.portal.UserRegisterPageObject;
+import pageObjects.nopCommerce.user.UserHomePageObject;
+import pageObjects.nopCommerce.user.UserRegisterPageObject;
 import utilities.EnvironmentConfig;
 import utilities.FakeDataHelper;
 

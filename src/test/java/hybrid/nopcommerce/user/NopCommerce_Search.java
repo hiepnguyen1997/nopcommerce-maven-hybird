@@ -18,9 +18,9 @@ import commons.BaseTest;
 import commons.PageGeneratorManager;
 import exception.BrowserNotSupport;
 import hybrid.nopcommerce.commons.Register_Commons;
-import pageObjects.nopCommerce.portal.UserHomePageObject;
-import pageObjects.nopCommerce.portal.UserLoginPageObject;
-import pageObjects.nopCommerce.portal.UserSearchPageObject;
+import pageObjects.nopCommerce.user.UserHomePageObject;
+import pageObjects.nopCommerce.user.UserLoginPageObject;
+import pageObjects.nopCommerce.user.UserSearchPageObject;
 import reportConfig.ExtentTestManager;
 import utilities.EnvironmentConfig;
 

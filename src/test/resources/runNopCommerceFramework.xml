@@ -2,14 +2,17 @@
 <suite name="NopCommerce">
 
 	<listeners>
-		<!--<listener class-name="commons.MethodListener" />-->
-		<!-- <listener class-name="reportConfig.ExtentTestListener" />-->
+		<listener class-name="commons.MethodListener" />
+		<listener class-name="reportConfig.ExtentTestListener" />
 	</listeners>
-	<parameter name="environment" value="adminStaging" />
+	 <parameter name="environment" value="adminStaging" />
 	<test name="Run on Chorme" preserve-order="true">
 		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="hybrid.nopcommerce.admin.NopCommerce_Admin" />
+			<methods>
+				<include name="TC_07_Create_New_Customer" />
+			</methods>
 		</classes>
 	</test>
 </suite>

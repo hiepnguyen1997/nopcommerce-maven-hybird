@@ -2,8 +2,8 @@ package commons;
 
 import org.openqa.selenium.WebDriver;
 
-import pageObjects.nopCommerce.portal.UserSearchPageObject;
-import pageUIs.nopCommerce.user.BasePageUINopCommerce;
+import pageObjects.nopCommerce.user.UserSearchPageObject;
+import pageUIs.nopCommerce.user.NopCommercePageUIUser;
 import pageUIs.nopCommerce.user.FooterListPageUI;
 
 public class FooterListMenuPage extends BasePage {

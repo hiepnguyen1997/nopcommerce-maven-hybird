@@ -1,6 +1,6 @@
 package pageUIs.nopCommerce.user;
 
-public class BasePageUINopCommerce {
+public class NopCommercePageUIUser {
 	public static final String CUSTOMER_INFOR_LINK = "XPath=//div[@class='listbox']//a[text()='Customer info']";
 	public static final String ADDRESS_LINK = "XPath=//div[contains(@class,'account-navigation')]//a[text()='Addresses']";
 	public static final String CHANGE_PASSWORD_LINK = "XPath=//div[contains(@class,'account-navigation')]//a[text()='Change password']";
@@ -23,7 +23,7 @@ public class BasePageUINopCommerce {
 	public static final String TEXTBOX_BY_ID = "xpath=//input[@id='%s']";
 	public static final String DROPDOWN_LIST_BY_NAME = "xpath=//select[@name='%s']";
 	public static final String BUTTON_BY_NAME = "xpath=//button[text()='%s']";
-	public static final String RADIO_BUTTON_BY_LABEL_NAME = "xpath=//label[text()='%s']/preceding-sibling::input";
+	public static final String RADIO_BUTTON_BY_LABEL_NAME = "xpath=//label[normalize-space(text())='%s']/preceding-sibling::input";
 	public static final String TOP_MENU_BY_NAME = "xpath=//ul[@class='top-menu notmobile']//a[normalize-space(text())='%s']";
 	public static final String SUB_MENU_BY_NAME = "xpath=//ul[@class='top-menu notmobile']//ul[@class='sublist first-level']//a[normalize-space(text())='%s']";
 }

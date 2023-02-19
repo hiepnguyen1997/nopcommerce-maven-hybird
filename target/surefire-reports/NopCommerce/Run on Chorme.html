@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Run on Chorme</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Feb 04 14:13:52 ICT 2023</td>
+<td>Started on:</td><td>Sun Feb 19 13:56:59 ICT 2023</td>
 </tr>
-<tr><td>Total time:</td><td>82 seconds (82406 ms)</td>
+<tr><td>Total time:</td><td>31 seconds (31143 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,104 +67,32 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='hybrid.nopcommerce.user.NopCommerce_Order.TC_06_TC_Checkout_Order_Payment_Method?_By_Cheque()'><b>TC_06_TC_Checkout_Order_Payment_Method?_By_Cheque</b><br>Test class: hybrid.nopcommerce.user.NopCommerce_Order<br>Parameters: public void hybrid.nopcommerce.user.NopCommerce_Order.TC_06_TC_Checkout_Order_Payment_Method?_By_Cheque(java.lang.reflect.Method)<br/>
-<a href="#Output-1774400964" onClick='toggleBox("Output-1774400964", this, "Show output", "Hide output");'>Show output</a>
+<td title='hybrid.nopcommerce.admin.NopCommerce_Admin.TC_06_Go_Directly_To_Product_SKU()'><b>TC_06_Go_Directly_To_Product_SKU</b><br>Test class: hybrid.nopcommerce.admin.NopCommerce_Admin<br>Parameters: public void hybrid.nopcommerce.admin.NopCommerce_Admin.TC_06_Go_Directly_To_Product_SKU(java.lang.reflect.Method)<br/>
+<a href="#Output-419923787" onClick='toggleBox("Output-419923787", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1774400964" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1774400964">
-[2023-02-04 14:14:16,905] Step 01: Open Notebooks page
+<a href="#Output-419923787" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-419923787">
+[2023-02-19 13:57:23,691] Step 01: Open Product page
 <br><br/>
-[2023-02-04 14:14:20,514] Step 02: Click on Add to cart for product: Apple MacBook Pro 13-inch
+[2023-02-19 13:57:26,052] Step 02: Input to Go directly to product SKU with value: LE_IC_600
 <br><br/>
-[2023-02-04 14:14:22,530] Step 03: Click on Add to cart at product detail page
+[2023-02-19 13:57:26,304] Step 03: Click on Go button to go to product detail page
 <br><br/>
-[2023-02-04 14:14:22,705] Step 04: Verify the product has been add to shopping cart message display
-<br><br/>
-[2023-02-04 14:14:25,340] Step 05: Click on Shopping Cart link
-<br><br/>
-[2023-02-04 14:14:27,927] Step 06: Select the No option on Gift wrapping
-<br><br/>
-[2023-02-04 14:14:28,071] Step 07: Click on Estimate shipping button
-<br><br/>
-[2023-02-04 14:14:28,214] Step 08: Select Country in Ship to popup: Viet Nam
-<br><br/>
-[2023-02-04 14:14:28,638] Step 09: Select Province in Ship to popup: Other
-<br><br/>
-[2023-02-04 14:14:28,883] Step 10: Input to Zip/Postal Code textbox: 41753-3110
-<br><br/>
-[2023-02-04 14:14:31,160] Step 11: Click on Apply button
-<br><br/>
-[2023-02-04 14:14:31,355] Step 12: Check to I agree with condition checkbox
-<br><br/>
-[2023-02-04 14:14:32,030] Step 13: Click on Checkout button
-<br><br/>
-[2023-02-04 14:14:44,580] Step 14: Click on Edit button to modify Billing Adress
+[2023-02-19 13:57:30,859] Step 04: Verify the infomation of Lenovo IdeaCentre 600 All-in-One PC display
 <br><br/>
 </div>
 </td>
-<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (48b55e2d27f9fd30a84cfc5444fde929)] -&gt; xpath: //h2[text()=&apos;Billing address&apos;]/parent::div[@class=&apos;step-title&apos;]/following-sibling::div//button[text()=&apos;Edit&apos;]] (tried for 30 second(s) with 500 milliseconds interval)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;HOANGHIEP&apos;, ip: &apos;192.168.1.8&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ASUSPC~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61881}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 48b55e2d27f9fd30a84cfc5444fde929
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at commons.BasePage.waitForElementClickabled(BasePage.java:498)
-	at pageObjects.nopCommerce.portal.CheckoutPageObject.clickOnEditButtonOfBillingAdress(CheckoutPageObject.java:22)
-	at hybrid.nopcommerce.user.NopCommerce_Order.TC_06_TC_Checkout_Order_Payment_Method?_By_Cheque(NopCommerce_Order.java:627)
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1774400964", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1774400964'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (48b55e2d27f9fd30a84cfc5444fde929)] -&gt; xpath: //h2[text()=&apos;Billing address&apos;]/parent::div[@class=&apos;step-title&apos;]/following-sibling::div//button[text()=&apos;Edit&apos;]] (tried for 30 second(s) with 500 milliseconds interval)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;HOANGHIEP&apos;, ip: &apos;192.168.1.8&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ASUSPC~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61881}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 48b55e2d27f9fd30a84cfc5444fde929
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at commons.BasePage.waitForElementClickabled(BasePage.java:498)
-	at pageObjects.nopCommerce.portal.CheckoutPageObject.clickOnEditButtonOfBillingAdress(CheckoutPageObject.java:22)
-	at hybrid.nopcommerce.user.NopCommerce_Order.TC_06_TC_Checkout_Order_Payment_Method?_By_Cheque(NopCommerce_Order.java:627)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-</pre></div></td>
-<td>58</td>
-<td>hybrid.nopcommerce.user.NopCommerce_Order@194bcebf</td></tr>
+<td></td>
+<td>8</td>
+<td>hybrid.nopcommerce.admin.NopCommerce_Admin@57cf54e1</td></tr>
 </table><p>
 </body>
 </html>

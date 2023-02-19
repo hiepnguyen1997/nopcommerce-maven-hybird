@@ -16,8 +16,8 @@ import com.aventstack.extentreports.Status;
 import commons.BaseTest;
 import commons.PageGeneratorManager;
 import exception.BrowserNotSupport;
-import pageObjects.nopCommerce.portal.NotebooksPageObject;
-import pageObjects.nopCommerce.portal.UserHomePageObject;
+import pageObjects.nopCommerce.user.NotebooksPageObject;
+import pageObjects.nopCommerce.user.UserHomePageObject;
 import reportConfig.ExtentTestManager;
 import utilities.EnvironmentConfig;
 

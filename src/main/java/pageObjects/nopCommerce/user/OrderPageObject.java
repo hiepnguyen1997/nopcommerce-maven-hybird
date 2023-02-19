@@ -1,4 +1,4 @@
-package pageObjects.nopCommerce.portal;
+package pageObjects.nopCommerce.user;
 
 import java.text.DateFormat;
 import java.time.LocalDate;

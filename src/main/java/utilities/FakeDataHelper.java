@@ -1,5 +1,8 @@
 package utilities;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 import com.github.javafaker.Faker;
 
 public class FakeDataHelper {
@@ -12,6 +15,13 @@ public class FakeDataHelper {
 	
 	public String getFirstName() {
 		return fake.address().firstName();
+	}
+	
+	public String getBrithday() {
+		Date date = fake.date().birthday();
+		SimpleDateFormat DateFor = new SimpleDateFormat("MM/dd/yyyy");
+		String stringDate= DateFor.format(date);
+		return stringDate;
 	}
 	
 	public String getLastName() {

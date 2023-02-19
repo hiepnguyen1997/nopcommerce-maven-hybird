@@ -1,5 +1,17 @@
 package pageObjects.nopCommerce.admin;
 
-public class AdminDashboardPageObject {
+import org.openqa.selenium.WebDriver;
+
+import commons.ListAdminMenuPageByPageName;
+
+public class AdminDashboardPageObject extends ListAdminMenuPageByPageName{
+	
+	WebDriver driver;
+
+	public AdminDashboardPageObject(WebDriver driver) {
+		super(driver);
+		this.driver = driver;
+	}
+	
 
 }
