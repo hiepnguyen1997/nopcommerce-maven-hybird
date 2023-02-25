@@ -5,7 +5,6 @@ import java.lang.reflect.Method;
 import org.aeonbits.owner.ConfigFactory;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
@@ -55,6 +54,11 @@ public class NopCommerce_Admin extends BaseTest{
 		customerRole = "Guests";
 		
 		driver = getBrowserDriverMananment(browserName, environment.getWebURL());
+		System.out.println(email);
+		System.out.println(firstName);
+		System.out.println(lastName);
+		System.out.println(companyName);
+		System.out.println(dateOfBirth);
 		
 		loginPageAdmin = PageGeneratorManager.getAdminLoginPage(driver);
 		log.info("Pre-Conditions: Login as Admin with email :" + emailLoginAdmin +" and password: " + passwordLoginAdmin);
@@ -230,7 +234,7 @@ public class NopCommerce_Admin extends BaseTest{
 		customerPageAdmin.clickOnRadioButtonByLabelName(driver, "Male");
 		customerPageAdmin.inputToTextboxByNameAtAdminPage(driver, "Date of birth", dateOfBirth);
 		customerPageAdmin.inputToTextboxByNameAtAdminPage(driver, "Company name", companyName);
-		customerPageAdmin.selectValueInCustomerRoleDropdown(customerRole);
+		customerPageAdmin.selectValueInCustomerRoleDropdownCreate(customerRole);
 		customerPageAdmin.inputToAdminCommentTextrea(adminComment);
 		
 		ExtentTestManager.getTest().log(Status.INFO, "Step 04: Click on Save and Continue Edit");
@@ -246,7 +250,9 @@ public class NopCommerce_Admin extends BaseTest{
 		Assert.assertEquals(customerPageAdmin.getAttributeValueAtTextboxByNameAtAdminPage(driver, "Email", "value"), email);	
 		Assert.assertEquals(customerPageAdmin.getAttributeValueAtTextboxByNameAtAdminPage(driver, "First name", "value"), firstName);	
 		Assert.assertEquals(customerPageAdmin.getAttributeValueAtTextboxByNameAtAdminPage(driver, "Last name", "value"), lastName);	
-		Assert.assertTrue(dateOfBirth.contains(customerPageAdmin.getAttributeValueAtTextboxByNameAtAdminPage(driver, "Date of birth", "value")));	
+		String date = customerPageAdmin.getAttributeValueAtTextboxByNameAtAdminPage(driver, "Date of birth", "value");
+		String dateConvert = customerPageAdmin.getAndConvertFormatDateOfBirth(date);
+		Assert.assertEquals(dateOfBirth, dateConvert);	
 		Assert.assertEquals(customerPageAdmin.getAttributeValueAtTextboxByNameAtAdminPage(driver, "Company name", "value"), companyName);
 		Assert.assertTrue(customerPageAdmin.isCustomerRoleByNameDisplay(customerRole));
 		Assert.assertEquals(customerPageAdmin.getTextValueInAdminCommentTextArea(), adminComment);
@@ -256,18 +262,40 @@ public class NopCommerce_Admin extends BaseTest{
 		log.info("Step 07: Click on back to customer list");
 		customerPageAdmin.clickOnBackToCustomerList();
 		
+		ExtentTestManager.getTest().log(Status.INFO, "Step 08: Select value in Customer role: " + customerRole);
+		log.info("Step 08: Select value in Customer role: " + customerRole);
+		customerPageAdmin.selectValueInCustomerRoleDropdownSearch(customerRole);
+		
+		ExtentTestManager.getTest().log(Status.INFO, "Step 09: Click on Search button");
+		log.info("Step 09: Click on Search button");
+		customerPageAdmin.clickOnSearchCustomerButton();
+		Assert.assertTrue(customerPageAdmin.isCustomerInformationDisplayAtTable("Guest " + firstName + " " + lastName + " Guests " + companyName + " Edit"));
+		
+	}
+	
+	@Test
+	public void TC_08_Search_By_Email(Method method) {
+		ExtentTestManager.startTest(method.getName(), "TC 08: Search customer by ID");
 		ExtentTestManager.getTest().log(Status.INFO, "Step : ");
 		log.info("");
-		
-		
-		ExtentTestManager.getTest().log(Status.INFO, "Step : ");
-		log.info("");
-		
+		customerPageAdmin = (AdminCustomerPageObject) dashboardPageAdmin.getListAdminMenu(driver).openPageInMenuByPageName("Customers", "Customers");
 		
 		ExtentTestManager.getTest().log(Status.INFO, "Step : ");
 		log.info("");
+		customerPageAdmin.inputToTextboxByNameAtAdminPage(driver, "Email", email);
 		
+		ExtentTestManager.getTest().log(Status.INFO, "Step : ");
+		log.info("");
+		customerPageAdmin.selectValueInCustomerRoleDropdownSearch(customerRole);
 		
+		ExtentTestManager.getTest().log(Status.INFO, "Step : ");
+		log.info("");
+		customerPageAdmin.clickOnSearchCustomerButton();
+		
+		ExtentTestManager.getTest().log(Status.INFO, "Step : ");
+		log.info("");
+		Assert.assertEquals(customerPageAdmin.getNumberOfLineResult(), 1);
+	
 		ExtentTestManager.getTest().log(Status.INFO, "Step : ");
 		log.info("");
 		
@@ -290,6 +318,7 @@ public class NopCommerce_Admin extends BaseTest{
 		
 		
 	}
+	
 	
 //	@AfterClass(alwaysRun = true)
 //		public void afterClass() {

@@ -227,12 +227,15 @@ public class BasePage {
 	protected void selectItemInCustomDropdown(WebDriver driver, String openDropdownLocator, String childLocator, String expectedValue) {
 		WebDriverWait explicitWait = new WebDriverWait(driver, longTimeout);
 		JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
+		waitForElementVisible(driver, openDropdownLocator);
 		clickToElement(driver, openDropdownLocator);
+		explicitWait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(getByLocator(childLocator)));
 		List<WebElement> allItems = explicitWait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(getByLocator(childLocator)));
 		for (WebElement tempItem : allItems) {
 			String actualValue = tempItem.getText();
 			if (actualValue.equals(expectedValue)) {
 				jsExecutor.executeScript("arguments[0].scrollIntoView('true');", tempItem);
+				delay(2);
 				tempItem.click();
 				break;
 			}

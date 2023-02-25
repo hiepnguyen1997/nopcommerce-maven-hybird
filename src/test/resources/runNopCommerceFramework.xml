@@ -5,13 +5,14 @@
 		<listener class-name="commons.MethodListener" />
 		<listener class-name="reportConfig.ExtentTestListener" />
 	</listeners>
-	 <parameter name="environment" value="adminStaging" />
+	<parameter name="environment" value="adminStaging" />
 	<test name="Run on Chorme" preserve-order="true">
 		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="hybrid.nopcommerce.admin.NopCommerce_Admin" />
 			<methods>
 				<include name="TC_07_Create_New_Customer" />
+				<include name="TC_08_Search_By_Email" />
 			</methods>
 		</classes>
 	</test>
