@@ -276,46 +276,132 @@ public class NopCommerce_Admin extends BaseTest{
 	@Test
 	public void TC_08_Search_By_Email(Method method) {
 		ExtentTestManager.startTest(method.getName(), "TC 08: Search customer by ID");
-		ExtentTestManager.getTest().log(Status.INFO, "Step : ");
-		log.info("");
+		ExtentTestManager.getTest().log(Status.INFO, "Step 01: Open Customer page");
+		log.info("Step 01: Open Customer page");
 		customerPageAdmin = (AdminCustomerPageObject) dashboardPageAdmin.getListAdminMenu(driver).openPageInMenuByPageName("Customers", "Customers");
 		
-		ExtentTestManager.getTest().log(Status.INFO, "Step : ");
-		log.info("");
+		ExtentTestManager.getTest().log(Status.INFO, "Step 02: Input to email textbox");
+		log.info("Step 02: Input to email textbox");
 		customerPageAdmin.inputToTextboxByNameAtAdminPage(driver, "Email", email);
 		
-		ExtentTestManager.getTest().log(Status.INFO, "Step : ");
-		log.info("");
+		ExtentTestManager.getTest().log(Status.INFO, "Step 03: Select value in Customer Role dropdown");
+		log.info("Step 03: Select value in Customer Role dropdown");
 		customerPageAdmin.selectValueInCustomerRoleDropdownSearch(customerRole);
 		
-		ExtentTestManager.getTest().log(Status.INFO, "Step : ");
-		log.info("");
+		ExtentTestManager.getTest().log(Status.INFO, "Step 04: Click on Search");
+		log.info("Step 04: Click on Search");
 		customerPageAdmin.clickOnSearchCustomerButton();
 		
-		ExtentTestManager.getTest().log(Status.INFO, "Step : ");
-		log.info("");
+		ExtentTestManager.getTest().log(Status.INFO, "Step 05: Verify number result display");
+		log.info("Step 05: Verify number result display");
 		Assert.assertEquals(customerPageAdmin.getNumberOfLineResult(), 1);
 	
-		ExtentTestManager.getTest().log(Status.INFO, "Step : ");
-		log.info("");
+		ExtentTestManager.getTest().log(Status.INFO, "Step 06: Verify the information display");
+		log.info("Step 06: Verify the information display");
+		Assert.assertTrue(customerPageAdmin.isCustomerInformationDisplayAtTable("Guest " + firstName + " " + lastName + " Guests " + companyName + " Edit"));
 		
+	}
+	
+	@Test
+	public void TC_09_Search_Customer_With_First_Name_Last_Name(Method method) {
+		ExtentTestManager.startTest(method.getName(), "TC 09: Search Customer with first name and last name");
+		ExtentTestManager.getTest().log(Status.INFO, "Step 01: Open Customer page");
+		log.info("Step 01: Open Customer page");
+		customerPageAdmin = (AdminCustomerPageObject) dashboardPageAdmin.getListAdminMenu(driver).openPageInMenuByPageName("Customers", "Customers");
 		
-		ExtentTestManager.getTest().log(Status.INFO, "Step : ");
-		log.info("");
+		ExtentTestManager.getTest().log(Status.INFO, "Step 02: Input to First Name textbox");
+		log.info("Step 02: Input to email textbox");
+		customerPageAdmin.inputToTextboxByNameAtAdminPage(driver, "First name", firstName);
 		
+		ExtentTestManager.getTest().log(Status.INFO, "Step 03: Input to Last Name textbox");
+		log.info("Step 03: Input to email textbox");
+		customerPageAdmin.inputToTextboxByNameAtAdminPage(driver, "Last name", lastName);
 		
-		ExtentTestManager.getTest().log(Status.INFO, "Step : ");
-		log.info("");
+		ExtentTestManager.getTest().log(Status.INFO, "Step 04: Select value in Customer Role dropdown");
+		log.info("Step 04: Select value in Customer Role dropdown");
+		customerPageAdmin.selectValueInCustomerRoleDropdownSearch(customerRole);
 		
+		ExtentTestManager.getTest().log(Status.INFO, "Step 05: Click on Search");
+		log.info("Step 05: Click on Search");
+		customerPageAdmin.clickOnSearchCustomerButton();
 		
-		ExtentTestManager.getTest().log(Status.INFO, "Step : ");
-		log.info("");
+		ExtentTestManager.getTest().log(Status.INFO, "Step 06: Verify number result display");
+		log.info("Step 06: Verify number result display");
+		Assert.assertEquals(customerPageAdmin.getNumberOfLineResult(), 1);
+	
+		ExtentTestManager.getTest().log(Status.INFO, "Step 07: Verify the information display");
+		log.info("Step 07: Verify the information display");
+		Assert.assertTrue(customerPageAdmin.isCustomerInformationDisplayAtTable("Guest " + firstName + " " + lastName + " Guests " + companyName + " Edit"));
 		
+	}
+	
+	@Test
+	public void TC_10_Search_By_Company(Method method) {
+		ExtentTestManager.startTest(method.getName(), "TC 10: Search customer by company");
+		ExtentTestManager.getTest().log(Status.INFO, "Step 01: Open Customer page");
+		log.info("Step 01: Open Customer page");
+		customerPageAdmin = (AdminCustomerPageObject) dashboardPageAdmin.getListAdminMenu(driver).openPageInMenuByPageName("Customers", "Customers");
 		
-		ExtentTestManager.getTest().log(Status.INFO, "Step : ");
-		log.info("");
+		ExtentTestManager.getTest().log(Status.INFO, "Step 02: Input to company textbox");
+		log.info("Step 02: Input to email textbox");
+		customerPageAdmin.inputToTextboxByNameAtAdminPage(driver, "Company", companyName);
 		
+		ExtentTestManager.getTest().log(Status.INFO, "Step 03: Select value in Customer Role dropdown");
+		log.info("Step 03: Select value in Customer Role dropdown");
+		customerPageAdmin.selectValueInCustomerRoleDropdownSearch(customerRole);
 		
+		ExtentTestManager.getTest().log(Status.INFO, "Step 04: Click on Search");
+		log.info("Step 04: Click on Search");
+		customerPageAdmin.clickOnSearchCustomerButton();
+		
+		ExtentTestManager.getTest().log(Status.INFO, "Step 05: Verify number result display");
+		log.info("Step 05: Verify number result display");
+		Assert.assertEquals(customerPageAdmin.getNumberOfLineResult(), 1);
+	
+		ExtentTestManager.getTest().log(Status.INFO, "Step 06: Verify the information display");
+		log.info("Step 06: Verify the information display");
+		Assert.assertTrue(customerPageAdmin.isCustomerInformationDisplayAtTable("Guest " + firstName + " " + lastName + " Guests " + companyName + " Edit"));
+		
+	}
+	
+	@Test
+	public void TC_11_Search_With_Full_data(Method method) {
+		ExtentTestManager.startTest(method.getName(), "TC 11: Search customer by full data");
+		ExtentTestManager.getTest().log(Status.INFO, "Step 01: Open Customer page");
+		log.info("Step 01: Open Customer page");
+		customerPageAdmin = (AdminCustomerPageObject) dashboardPageAdmin.getListAdminMenu(driver).openPageInMenuByPageName("Customers", "Customers");
+		
+		ExtentTestManager.getTest().log(Status.INFO, "Step 02: Input to email textbox");
+		log.info("Step 02: Input to email textbox");
+		customerPageAdmin.inputToTextboxByNameAtAdminPage(driver, "Email", email);
+		
+		ExtentTestManager.getTest().log(Status.INFO, "Step 03: Input to First Name textbox");
+		log.info("Step 03: Input to email textbox");
+		customerPageAdmin.inputToTextboxByNameAtAdminPage(driver, "First name", firstName);
+		
+		ExtentTestManager.getTest().log(Status.INFO, "Step 04: Input to Last Name textbox");
+		log.info("Step 04: Input to email textbox");
+		customerPageAdmin.inputToTextboxByNameAtAdminPage(driver, "Last name", lastName);
+		
+		ExtentTestManager.getTest().log(Status.INFO, "Step 05: Input to company textbox");
+		log.info("Step 05: Input to email textbox");
+		customerPageAdmin.inputToTextboxByNameAtAdminPage(driver, "Company", companyName);
+		
+		ExtentTestManager.getTest().log(Status.INFO, "Step 06: Select value in Customer Role dropdown");
+		log.info("Step 06: Select value in Customer Role dropdown");
+		customerPageAdmin.selectValueInCustomerRoleDropdownSearch(customerRole);
+		
+		ExtentTestManager.getTest().log(Status.INFO, "Step 07: Click on Search");
+		log.info("Step 07: Click on Search");
+		customerPageAdmin.clickOnSearchCustomerButton();
+		
+		ExtentTestManager.getTest().log(Status.INFO, "Step 08: Verify number result display");
+		log.info("Step 08: Verify number result display");
+		Assert.assertEquals(customerPageAdmin.getNumberOfLineResult(), 1);
+	
+		ExtentTestManager.getTest().log(Status.INFO, "Step 09: Verify the information display");
+		log.info("Step 09: Verify the information display");
+		Assert.assertTrue(customerPageAdmin.isCustomerInformationDisplayAtTable("Guest " + firstName + " " + lastName + " Guests " + companyName + " Edit"));
 		
 	}
 	

@@ -13,6 +13,9 @@
 			<methods>
 				<include name="TC_07_Create_New_Customer" />
 				<include name="TC_08_Search_By_Email" />
+				<include name="TC_09_Search_Customer_With_First_Name_Last_Name" />
+				<include name="TC_10_Search_By_Company" />
+				<include name="TC_11_Search_With_Full_data" />
 			</methods>
 		</classes>
 	</test>

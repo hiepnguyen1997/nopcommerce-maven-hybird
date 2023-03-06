@@ -104,8 +104,6 @@ public class AdminCustomerPageObject extends ListAdminMenuPageByPageName{
 		}
 		System.out.println(customerInfo);
 		for (String value : allValue) {
-			System.out.println("===========");
-			System.out.println(value);
 			if (value.equals(customerInfo)){
 				return true;
 			}
