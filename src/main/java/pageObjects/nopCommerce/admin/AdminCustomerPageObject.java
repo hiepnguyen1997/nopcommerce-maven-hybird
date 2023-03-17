@@ -10,6 +10,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 import commons.ListAdminMenuPageByPageName;
+import commons.PageGeneratorManager;
 import pageUIs.nopCommerce.admin.AdminCustomerPageUI;
 
 public class AdminCustomerPageObject extends ListAdminMenuPageByPageName{
@@ -33,32 +34,22 @@ public class AdminCustomerPageObject extends ListAdminMenuPageByPageName{
 		clickToElement(driver, AdminCustomerPageUI.SAVE_AND_CONTINUE_BUTTON);
 	}
 
-	public String getNewCustomerCreatedMessage() {
-		waitForElementVisible(driver, AdminCustomerPageUI.NEW_CUSTOMER_CREATED_MESSAGE);
-		return getElementText(driver, AdminCustomerPageUI.NEW_CUSTOMER_CREATED_MESSAGE);
-	}
-
-	public void inputToAdminCommentTextrea(String textValue) {
-		waitForElementVisible(driver, AdminCustomerPageUI.ADMIN_COMMENT_TEXTAREA);
-		sendkeyToElement(driver, AdminCustomerPageUI.ADMIN_COMMENT_TEXTAREA, textValue);
-		
-	}
-	
-	public String getTextValueInAdminCommentTextArea() {
-		waitForElementVisible(driver, AdminCustomerPageUI.ADMIN_COMMENT_TEXTAREA);
-		return getElementText(driver, AdminCustomerPageUI.ADMIN_COMMENT_TEXTAREA);
-	}
-
 	public void clickOnBackToCustomerList() {
 		waitForElementVisible(driver, AdminCustomerPageUI.BACK_TO_CUSTOMER_LIST);
 		clickToElement(driver, AdminCustomerPageUI.BACK_TO_CUSTOMER_LIST);
-		
 	}
 	
 	public void selectValueInCustomerRoleDropdownCreate(String value) {
 		waitForElementVisible(driver, AdminCustomerPageUI.REMOVE_REGISTER_ROLE);
+		waitForElementClickabled(driver, AdminCustomerPageUI.REMOVE_REGISTER_ROLE);
 		clickToElement(driver, AdminCustomerPageUI.REMOVE_REGISTER_ROLE);
 		selectItemInCustomDropdown(driver, AdminCustomerPageUI.CUSTOMER_ROLE_DROPDOWN_LIST_CREATE, AdminCustomerPageUI.LIST_CUSTOMER_ROLE, value);
+	}
+	
+	public void removeCustomerRoleByName(String customerRole) {
+		waitForElementVisible(driver, AdminCustomerPageUI.REMOVE_CUSTOMER_ROLE_BY_NAME, customerRole);
+		waitForElementClickabled(driver, AdminCustomerPageUI.REMOVE_CUSTOMER_ROLE_BY_NAME, customerRole);
+		clickToElement(driver, AdminCustomerPageUI.REMOVE_CUSTOMER_ROLE_BY_NAME, customerRole);
 	}
 	
 	public boolean isCustomerRoleByNameDisplay(String roleName) {
@@ -76,6 +67,7 @@ public class AdminCustomerPageObject extends ListAdminMenuPageByPageName{
 
 	public void selectValueInCustomerRoleDropdownSearch(String value) {
 		waitForElementVisible(driver, AdminCustomerPageUI.REMOVE_REGISTER_ROLE);
+		waitForElementClickabled(driver, AdminCustomerPageUI.REMOVE_REGISTER_ROLE);
 		clickToElement(driver, AdminCustomerPageUI.REMOVE_REGISTER_ROLE);
 		selectItemInCustomDropdown(driver, AdminCustomerPageUI.CUSTOMER_ROLE_DROPDOWN_LIST_SEARCH, AdminCustomerPageUI.LIST_CUSTOMER_ROLE, value);
 	}
@@ -114,6 +106,13 @@ public class AdminCustomerPageObject extends ListAdminMenuPageByPageName{
 	public int getNumberOfLineResult() {
 		waitForAllElementPresent(driver, AdminCustomerPageUI.ALL_RESULT_AT_SEARCH_TABLE);
 		return getElementSize(driver, AdminCustomerPageUI.ALL_RESULT_AT_SEARCH_TABLE);
+	}
+	
+	public AdminEditCustomerPageObject clickOnEditCustomerButton() {
+		waitForElementVisible(driver, AdminCustomerPageUI.EDIT_BUTTON);
+		waitForElementClickabled(driver, AdminCustomerPageUI.EDIT_BUTTON);
+		clickToElement(driver, AdminCustomerPageUI.EDIT_BUTTON);
+		return PageGeneratorManager.getAdminEditCustomerPage(driver);
 	}
 
 }

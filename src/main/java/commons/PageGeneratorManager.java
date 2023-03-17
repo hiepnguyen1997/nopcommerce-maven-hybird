@@ -2,8 +2,10 @@ package commons;
 
 import org.openqa.selenium.WebDriver;
 
+import pageObjects.nopCommerce.admin.AdminAddNewAddressPageObject;
 import pageObjects.nopCommerce.admin.AdminCustomerPageObject;
 import pageObjects.nopCommerce.admin.AdminDashboardPageObject;
+import pageObjects.nopCommerce.admin.AdminEditCustomerPageObject;
 import pageObjects.nopCommerce.admin.AdminLoginPageObject;
 import pageObjects.nopCommerce.admin.AdminProductDetailPageObject;
 import pageObjects.nopCommerce.admin.AdminProductPageObject;
@@ -123,6 +125,14 @@ public class PageGeneratorManager {
 	
 	public static final AdminCustomerPageObject getAdminCustomerPage(WebDriver driver) {
 		return new AdminCustomerPageObject(driver);
+	}
+	
+	public static final AdminEditCustomerPageObject getAdminEditCustomerPage(WebDriver driver) {
+		return new AdminEditCustomerPageObject(driver);
+	}
+	
+	public static final AdminAddNewAddressPageObject getAdminAddNewAddressPage(WebDriver driver) {
+		return new AdminAddNewAddressPageObject(driver);
 	}
 	
 }

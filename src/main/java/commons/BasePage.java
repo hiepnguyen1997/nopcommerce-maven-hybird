@@ -20,16 +20,15 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import bsh.commands.dir;
 import pageObjects.nopCommerce.admin.AdminLoginPageObject;
 import pageObjects.nopCommerce.user.ShoppingCardPageObject;
 import pageObjects.nopCommerce.user.UserCustomerInforPageObject;
 import pageObjects.nopCommerce.user.UserHomePageObject;
 import pageObjects.nopCommerce.user.WishlistPageObject;
-import pageUIs.nopCommerce.user.NopCommercePageUIUser;
+import pageUIs.nopCommerce.admin.AdminCustomerPageUI;
 import pageUIs.nopCommerce.admin.NopCommercePageUIAdmin;
-import pageUIs.nopCommerce.user.DesktopsPageUI;
 import pageUIs.nopCommerce.user.HomePageUI;
+import pageUIs.nopCommerce.user.NopCommercePageUIUser;
 
 public class BasePage {
 
@@ -226,16 +225,15 @@ public class BasePage {
 
 	protected void selectItemInCustomDropdown(WebDriver driver, String openDropdownLocator, String childLocator, String expectedValue) {
 		WebDriverWait explicitWait = new WebDriverWait(driver, longTimeout);
-		JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
 		waitForElementVisible(driver, openDropdownLocator);
+		waitForElementClickabled(driver, openDropdownLocator);
 		clickToElement(driver, openDropdownLocator);
 		explicitWait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(getByLocator(childLocator)));
 		List<WebElement> allItems = explicitWait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(getByLocator(childLocator)));
 		for (WebElement tempItem : allItems) {
 			String actualValue = tempItem.getText();
 			if (actualValue.equals(expectedValue)) {
-				jsExecutor.executeScript("arguments[0].scrollIntoView('true');", tempItem);
-				delay(2);
+				delay(1);
 				tempItem.click();
 				break;
 			}
@@ -705,6 +703,22 @@ public class BasePage {
 	public String getAttributeValueAtTextboxByNameAtAdminPage(WebDriver driver, String textboxName, String attributeName) {
 		waitForElementVisible(driver, NopCommercePageUIAdmin.TEXTBOX_BY_NAME_AT_ADMIN_PAGE, textboxName);
 		return getElementAttribute(driver, NopCommercePageUIAdmin.TEXTBOX_BY_NAME_AT_ADMIN_PAGE, attributeName, textboxName);
+	}
+	
+	public String getNoitificationMessageAtAdminPage(WebDriver driver) {
+		waitForElementVisible(driver, NopCommercePageUIAdmin.GET_NOITIFICATION_MESSAGE);
+		return getElementText(driver, NopCommercePageUIAdmin.GET_NOITIFICATION_MESSAGE);
+	}
+	
+	public void inputToAdminCommentTextArea(WebDriver driver, String textValue) {
+		waitForElementVisible(driver, NopCommercePageUIAdmin.ADMIN_COMMENT_TEXTAREA);
+		sendkeyToElement(driver, NopCommercePageUIAdmin.ADMIN_COMMENT_TEXTAREA, textValue);
+		
+	}
+	
+	public String getTextValueInAdminCommentTextArea(WebDriver driver) {
+		waitForElementVisible(driver, NopCommercePageUIAdmin.ADMIN_COMMENT_TEXTAREA);
+		return getElementText(driver, NopCommercePageUIAdmin.ADMIN_COMMENT_TEXTAREA);
 	}
 	
 	private long longTimeout = GlobalConstants.LONG_TIMEOUT;

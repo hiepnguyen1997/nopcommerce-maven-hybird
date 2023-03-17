@@ -12,10 +12,8 @@
 			<class name="hybrid.nopcommerce.admin.NopCommerce_Admin" />
 			<methods>
 				<include name="TC_07_Create_New_Customer" />
-				<include name="TC_08_Search_By_Email" />
-				<include name="TC_09_Search_Customer_With_First_Name_Last_Name" />
-				<include name="TC_10_Search_By_Company" />
-				<include name="TC_11_Search_With_Full_data" />
+				<include name="TC_12_Edit_Customer" />
+				<include name="TC_13_Add_New_address_In_Customer_Detail" />
 			</methods>
 		</classes>
 	</test>

@@ -1,20 +1,43 @@
-[2023-02-25 17:03:33,460] Pre-Conditions: Login as Admin with email :admin@yourstore.com and password: admin
-[2023-02-25 17:03:38,026] Step 01: Open Customer page
-[2023-02-25 17:03:40,066] Step 02: Click on Add New button
-[2023-02-25 17:03:42,041] Step 03: Input to the all fields
-[2023-02-25 17:03:46,004] Step 04: Click on Save and Continue Edit
-[2023-02-25 17:03:50,542] Step 05: Verify the message display
-[2023-02-25 17:03:50,740] Step 06: Verify all information display correctly
-[2023-02-25 17:03:51,273] Step 07: Click on back to customer list
-[2023-02-25 17:03:52,604] Step 08: Select value in Customer role: Guests
-[2023-02-25 17:03:55,135] Step 09: Click on Search button
-[2023-02-25 17:03:56,388] 
-[2023-02-25 17:03:58,553] 
-[2023-02-25 17:03:58,789] 
-[2023-02-25 17:04:01,173] 
-[2023-02-25 17:04:01,921] 
-[2023-02-25 17:04:01,950] 
-[2023-02-25 17:04:01,950] 
-[2023-02-25 17:04:01,950] 
-[2023-02-25 17:04:01,951] 
-[2023-02-25 17:04:01,951] 
+[2023-03-17 15:18:35,214] Pre-Conditions: Login as Admin with email :admin@yourstore.com and password: admin
+[2023-03-17 15:18:41,111] Step 01: Open Customer page
+[2023-03-17 15:18:42,956] Step 02: Click on Add New button
+[2023-03-17 15:18:44,563] Step 03: Input to the all fields
+[2023-03-17 15:18:47,686] Step 04: Click on Save and Continue Edit
+[2023-03-17 15:18:49,366] Step 05: Verify the message display
+[2023-03-17 15:18:49,499] Step 06: Verify all information display correctly
+[2023-03-17 15:18:50,011] Step 07: Click on back to customer list
+[2023-03-17 15:18:51,041] Step 08: Select value in Customer role: Guests
+[2023-03-17 15:18:52,551] Step 09: Click on Search button
+[2023-03-17 15:18:53,727] Step 01: Open Customer page
+[2023-03-17 15:18:55,807] Step 02: Input to email textbox
+[2023-03-17 15:18:56,027] Step 03: Input to email textbox
+[2023-03-17 15:18:56,213] Step 04: Input to email textbox
+[2023-03-17 15:18:56,390] Step 05: Input to email textbox
+[2023-03-17 15:18:56,593] Step 06: Select value in Customer Role dropdown
+[2023-03-17 15:18:58,094] Step 07: Click on Search
+[2023-03-17 15:18:58,859] Step 08: Click on Edit button
+[2023-03-17 15:19:00,054] Step 09: Modify all fields
+[2023-03-17 15:19:01,587]  
+[2023-03-17 15:19:02,907] Step 11: Verify the message: The customer has been updated successfully.
+[2023-03-17 15:19:03,007] Step 12: Input to email textbox
+[2023-03-17 15:19:03,243] Step 13: Input to First Name textbox
+[2023-03-17 15:19:03,417] Step 14: Input to Last Name textbox
+[2023-03-17 15:19:03,594] Step 15: Input to company textbox
+[2023-03-17 15:19:03,803] Step 16: Select value in Customer Role dropdown
+[2023-03-17 15:19:05,304] Step 17: Click on Search
+[2023-03-17 15:19:06,041] Step 18: Verify number result display
+[2023-03-17 15:19:06,076] Step 19: Verify the information display
+[2023-03-17 15:19:06,127] Step 01: Open Customer page
+[2023-03-17 15:19:08,598] Step 02: Input to email textbox
+[2023-03-17 15:19:08,875] Step 03: Input to email textbox
+[2023-03-17 15:19:09,077] Step 04: Input to email textbox
+[2023-03-17 15:19:09,264] Step 05: Input to email textbox
+[2023-03-17 15:19:09,473] Step 06: Select value in Customer Role dropdown
+[2023-03-17 15:19:11,000] Step 07: Click on Search
+[2023-03-17 15:19:11,734] Step 08: Click on Edit button
+[2023-03-17 15:19:12,884] Step 09: Click on Add new address
+[2023-03-17 15:19:14,329] Step 10: Input to all field
+[2023-03-17 15:19:16,072] Step 11: Click on Save button
+[2023-03-17 15:19:17,358] Step 11: Click on Save button
+[2023-03-17 15:19:17,428] Step 13: Click on Back to customer detail button
+[2023-03-17 15:19:18,509] Step 14: Verify the address display correctly at address section

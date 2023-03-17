@@ -34,10 +34,10 @@ public class BaseTest {
 	private int longTime = 30;
 	private int shortTime = 5;
 
-	@BeforeSuite
-	public void initBeforeSuite() {
-		deleteAllFileInFolder();
-	}
+//	@BeforeSuite
+//	public void initBeforeSuite() {
+//		deleteAllFileInFolder();
+//	}
 
 	protected BaseTest() {
 		log = LogFactory.getLog(getClass());
